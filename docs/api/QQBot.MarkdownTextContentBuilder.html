@@ -1,0 +1,1404 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class MarkdownTextContentBuilder | QQBot.Net 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class MarkdownTextContentBuilder | QQBot.Net 文档 ">
+      
+      <meta name="description" content="表示一个用于创建  实例的构建器。">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/QQBot.Net/new/master/apiSpec/new?filename=QQBot_MarkdownTextContentBuilder.md&amp;value=---%0Auid%3A%20QQBot.MarkdownTextContentBuilder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="QQBot.Net 文档">
+            QQBot.Net 文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="QQBot.MarkdownTextContentBuilder">
+
+
+
+  <h1 id="QQBot_MarkdownTextContentBuilder" data-uid="QQBot.MarkdownTextContentBuilder" class="text-break">
+Class MarkdownTextContentBuilder  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="QQBot.html">QQBot</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>QQBot.Net.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>表示一个用于创建 <a class="xref" href="QQBot.MarkdownTextContent.html">MarkdownTextContent</a> 实例的构建器。</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class MarkdownTextContentBuilder : IMarkdownContentBuilder, IEquatable&lt;MarkdownTextContentBuilder&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">MarkdownTextContentBuilder</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="QQBot.IMarkdownContentBuilder.html">IMarkdownContentBuilder</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="QQBot.MarkdownTextContentBuilder.html">MarkdownTextContentBuilder</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder__ctor_" data-uid="QQBot.MarkdownTextContentBuilder.#ctor*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder__ctor" data-uid="QQBot.MarkdownTextContentBuilder.#ctor">
+  MarkdownTextContentBuilder()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>初始化一个 <a class="xref" href="QQBot.MarkdownTextContentBuilder.html">MarkdownTextContentBuilder</a> 类的新实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MarkdownTextContentBuilder()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_MarkdownTextContentBuilder__ctor_" data-uid="QQBot.MarkdownTextContentBuilder.#ctor*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder__ctor_System_String_" data-uid="QQBot.MarkdownTextContentBuilder.#ctor(System.String)">
+  MarkdownTextContentBuilder(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>初始化一个 <a class="xref" href="QQBot.MarkdownTextContentBuilder.html">MarkdownTextContentBuilder</a> 类的新实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MarkdownTextContentBuilder(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Markdown 文本内容。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_MarkdownTextContentBuilder__ctor_" data-uid="QQBot.MarkdownTextContentBuilder.#ctor*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder__ctor_System_Text_StringBuilder_" data-uid="QQBot.MarkdownTextContentBuilder.#ctor(System.Text.StringBuilder)">
+  MarkdownTextContentBuilder(StringBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>初始化一个 <a class="xref" href="QQBot.MarkdownTextContentBuilder.html">MarkdownTextContentBuilder</a> 类的新实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MarkdownTextContentBuilder(StringBuilder textBuilder)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>textBuilder</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a></dt>
+    <dd><p>用于构建 Markdown 文本内容的 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a> 实例。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_Text_" data-uid="QQBot.MarkdownTextContentBuilder.Text*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_Text" data-uid="QQBot.MarkdownTextContentBuilder.Text">
+  Text
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置 Markdown 文本内容。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Text { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_Append_" data-uid="QQBot.MarkdownTextContentBuilder.Append*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_Append_System_String_" data-uid="QQBot.MarkdownTextContentBuilder.Append(System.String)">
+  Append(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定的文本追加到当前构建器的文本内容中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Append(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_AppendBlockQuote_" data-uid="QQBot.MarkdownTextContentBuilder.AppendBlockQuote*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_AppendBlockQuote_System_String_" data-uid="QQBot.MarkdownTextContentBuilder.AppendBlockQuote(System.String)">
+  AppendBlockQuote(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L306"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定的文本格式化为块引用并追加到当前构建器的文本内容中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AppendBlockQuote(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要追加的文本。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="QQBot.Format.html#QQBot_Format_BlockQuote_System_String_">BlockQuote</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>)</div>
+    </dd>
+  </dl>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_AppendBold_" data-uid="QQBot.MarkdownTextContentBuilder.AppendBold*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_AppendBold_System_String_System_Boolean_" data-uid="QQBot.MarkdownTextContentBuilder.AppendBold(System.String,System.Boolean)">
+  AppendBold(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定的文本格式化为粗体并追加到当前构建器的文本内容中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AppendBold(string text, bool sanitize = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要追加的文本。</p>
+</dd>
+    <dt><code>sanitize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否要先对 <code class="paramref">text</code> 中与当前格式化操作有冲突的字符进行转义。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="QQBot.Format.html#QQBot_Format_Bold_System_String_System_Boolean_">Bold</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>)</div>
+    </dd>
+  </dl>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_AppendBoldItalics_" data-uid="QQBot.MarkdownTextContentBuilder.AppendBoldItalics*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_AppendBoldItalics_System_String_System_Boolean_" data-uid="QQBot.MarkdownTextContentBuilder.AppendBoldItalics(System.String,System.Boolean)">
+  AppendBoldItalics(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定的文本格式化为粗斜体并追加到当前构建器的文本内容中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AppendBoldItalics(string text, bool sanitize = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要追加的文本。</p>
+</dd>
+    <dt><code>sanitize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否要先对 <code class="paramref">text</code> 中与当前格式化操作有冲突的字符进行转义。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="QQBot.Format.html#QQBot_Format_BoldItalics_System_String_System_Boolean_">BoldItalics</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>)</div>
+    </dd>
+  </dl>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_AppendH1_" data-uid="QQBot.MarkdownTextContentBuilder.AppendH1*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_AppendH1_System_String_" data-uid="QQBot.MarkdownTextContentBuilder.AppendH1(System.String)">
+  AppendH1(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L200"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定的文本格式化为一级标题并追加到当前构建器的文本内容中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AppendH1(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要追加的文本。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="QQBot.Format.html#QQBot_Format_H1_System_String_">H1</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>)</div>
+    </dd>
+  </dl>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_AppendH2_" data-uid="QQBot.MarkdownTextContentBuilder.AppendH2*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_AppendH2_System_String_" data-uid="QQBot.MarkdownTextContentBuilder.AppendH2(System.String)">
+  AppendH2(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L211"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定的文本格式化为二级标题并追加到当前构建器的文本内容中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AppendH2(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要追加的文本。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="QQBot.Format.html#QQBot_Format_H2_System_String_">H2</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>)</div>
+    </dd>
+  </dl>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_AppendHorizontalRule_" data-uid="QQBot.MarkdownTextContentBuilder.AppendHorizontalRule*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_AppendHorizontalRule" data-uid="QQBot.MarkdownTextContentBuilder.AppendHorizontalRule">
+  AppendHorizontalRule()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L316"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将水平分割线追加到当前构建器的文本内容中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AppendHorizontalRule()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="QQBot.Format.html#QQBot_Format_HorizontalRule">HorizontalRule</a>()</div>
+    </dd>
+  </dl>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_AppendImage_" data-uid="QQBot.MarkdownTextContentBuilder.AppendImage*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_AppendImage_QQBot_FileAttachment_System_Nullable_System_Drawing_Size__" data-uid="QQBot.MarkdownTextContentBuilder.AppendImage(QQBot.FileAttachment,System.Nullable{System.Drawing.Size})">
+  AppendImage(FileAttachment, Size?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L271"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定的图片附件格式化为图片并追加到当前构建器的文本内容中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AppendImage(FileAttachment attachment, Size? size = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>attachment</code> <a class="xref" href="QQBot.FileAttachment.html">FileAttachment</a></dt>
+    <dd><p>图片的附件信息。</p>
+</dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.size">Size</a>?</dt>
+    <dd><p>图片的尺寸。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="QQBot.Format.html#QQBot_Format_Image_QQBot_FileAttachment_System_Nullable_System_Drawing_Size__">Image</a>(<a class="xref" href="QQBot.FileAttachment.html">FileAttachment</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.size">Size</a>?)</div>
+    </dd>
+  </dl>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_AppendImage_" data-uid="QQBot.MarkdownTextContentBuilder.AppendImage*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_AppendImage_System_String_" data-uid="QQBot.MarkdownTextContentBuilder.AppendImage(System.String)">
+  AppendImage(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定的图片 URL 格式化为图片并追加到当前构建器的文本内容中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AppendImage(string url)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>图片的 URL。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="QQBot.Format.html#QQBot_Format_Image_System_String_">Image</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>)</div>
+    </dd>
+  </dl>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_AppendImage_" data-uid="QQBot.MarkdownTextContentBuilder.AppendImage*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_AppendImage_System_String_System_String_System_Nullable_System_Drawing_Size__" data-uid="QQBot.MarkdownTextContentBuilder.AppendImage(System.String,System.String,System.Nullable{System.Drawing.Size})">
+  AppendImage(string, string, Size?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L246"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定的图片 URL 格式化为图片并追加到当前构建器的文本内容中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AppendImage(string url, string alternative, Size? size = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>图片的 URL。</p>
+</dd>
+    <dt><code>alternative</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>图片的替代文本。</p>
+</dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.size">Size</a>?</dt>
+    <dd><p>图片的尺寸。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="QQBot.Format.html#QQBot_Format_Image_System_String_System_String_System_Nullable_System_Drawing_Size__">Image</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.size">Size</a>?)</div>
+    </dd>
+  </dl>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_AppendImage_" data-uid="QQBot.MarkdownTextContentBuilder.AppendImage*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_AppendImage_System_Uri_" data-uid="QQBot.MarkdownTextContentBuilder.AppendImage(System.Uri)">
+  AppendImage(Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L233"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定的图片 URL 格式化为图片并追加到当前构建器的文本内容中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AppendImage(Uri url)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd><p>图片的 URL。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="QQBot.Format.html#QQBot_Format_Image_System_Uri_">Image</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>)</div>
+    </dd>
+  </dl>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_AppendImage_" data-uid="QQBot.MarkdownTextContentBuilder.AppendImage*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_AppendImage_System_Uri_System_String_System_Nullable_System_Drawing_Size__" data-uid="QQBot.MarkdownTextContentBuilder.AppendImage(System.Uri,System.String,System.Nullable{System.Drawing.Size})">
+  AppendImage(Uri, string, Size?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L259"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定的图片 URL 格式化为图片并追加到当前构建器的文本内容中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AppendImage(Uri url, string alternative, Size? size = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd><p>图片的 URL。</p>
+</dd>
+    <dt><code>alternative</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>图片的替代文本。</p>
+</dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.size">Size</a>?</dt>
+    <dd><p>图片的尺寸。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="QQBot.Format.html#QQBot_Format_Image_System_Uri_System_String_System_Nullable_System_Drawing_Size__">Image</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.drawing.size">Size</a>?)</div>
+    </dd>
+  </dl>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_AppendItalics_" data-uid="QQBot.MarkdownTextContentBuilder.AppendItalics*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_AppendItalics_System_String_System_Boolean_" data-uid="QQBot.MarkdownTextContentBuilder.AppendItalics(System.String,System.Boolean)">
+  AppendItalics(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定的文本格式化为斜体并追加到当前构建器的文本内容中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AppendItalics(string text, bool sanitize = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要追加的文本。</p>
+</dd>
+    <dt><code>sanitize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否要先对 <code class="paramref">text</code> 中与当前格式化操作有冲突的字符进行转义。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="QQBot.Format.html#QQBot_Format_Italics_System_String_System_Boolean_">Italics</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>)</div>
+    </dd>
+  </dl>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_AppendNewLine_" data-uid="QQBot.MarkdownTextContentBuilder.AppendNewLine*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_AppendNewLine_System_Int32_" data-uid="QQBot.MarkdownTextContentBuilder.AppendNewLine(System.Int32)">
+  AppendNewLine(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L327"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定数量的换行符追加到当前构建器的文本内容中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AppendNewLine(int count = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>count</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>要追加的换行数量。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="QQBot.Format.html#QQBot_Format_NewLine_System_Int32_">NewLine</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>)</div>
+    </dd>
+  </dl>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_AppendOrderedList_" data-uid="QQBot.MarkdownTextContentBuilder.AppendOrderedList*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_AppendOrderedList_System_Collections_Generic_IEnumerable_System_String__System_Int32_" data-uid="QQBot.MarkdownTextContentBuilder.AppendOrderedList(System.Collections.Generic.IEnumerable{System.String},System.Int32)">
+  AppendOrderedList(IEnumerable&lt;string&gt;, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L283"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定的有序列表格式化为 Markdown 列表并追加到当前构建器的文本内容中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AppendOrderedList(IEnumerable&lt;string&gt; items, int indentLevel = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>items</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>要追加的列表项。</p>
+</dd>
+    <dt><code>indentLevel</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>列表项的缩进级别。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="QQBot.Format.html#QQBot_Format_OrderedList_System_Collections_Generic_IEnumerable_System_String__System_Int32_">OrderedList</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>)</div>
+    </dd>
+  </dl>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_AppendStrikethrough_" data-uid="QQBot.MarkdownTextContentBuilder.AppendStrikethrough*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_AppendStrikethrough_System_String_System_Boolean_" data-uid="QQBot.MarkdownTextContentBuilder.AppendStrikethrough(System.String,System.Boolean)">
+  AppendStrikethrough(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定的文本格式化为删除线并追加到当前构建器的文本内容中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AppendStrikethrough(string text, bool sanitize = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要追加的文本。</p>
+</dd>
+    <dt><code>sanitize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否要先对 <code class="paramref">text</code> 中与当前格式化操作有冲突的字符进行转义。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="QQBot.Format.html#QQBot_Format_Strikethrough_System_String_System_Boolean_">Strikethrough</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>)</div>
+    </dd>
+  </dl>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_AppendUnorderedList_" data-uid="QQBot.MarkdownTextContentBuilder.AppendUnorderedList*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_AppendUnorderedList_System_Collections_Generic_IEnumerable_System_String__System_Int32_" data-uid="QQBot.MarkdownTextContentBuilder.AppendUnorderedList(System.Collections.Generic.IEnumerable{System.String},System.Int32)">
+  AppendUnorderedList(IEnumerable&lt;string&gt;, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L295"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定的无序列表格式化为 Markdown 列表并追加到当前构建器的文本内容中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AppendUnorderedList(IEnumerable&lt;string&gt; items, int indentLevel = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>items</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>要追加的列表项。</p>
+</dd>
+    <dt><code>indentLevel</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>列表项的缩进级别。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="QQBot.Format.html#QQBot_Format_UnorderedList_System_Collections_Generic_IEnumerable_System_String__System_Int32_">UnorderedList</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>)</div>
+    </dd>
+  </dl>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_AppendUrl_" data-uid="QQBot.MarkdownTextContentBuilder.AppendUrl*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_AppendUrl_System_String_System_Boolean_" data-uid="QQBot.MarkdownTextContentBuilder.AppendUrl(System.String,System.Boolean)">
+  AppendUrl(string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定的 URL 格式化为链接并追加到当前构建器的文本内容中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AppendUrl(string url, bool sanitize = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要链接到的 URL。</p>
+</dd>
+    <dt><code>sanitize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否要先对 <code class="paramref">url</code> 中与当前格式化操作有冲突的字符进行转义。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="QQBot.Format.html#QQBot_Format_Url_System_String_System_Boolean_">Url</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>)</div>
+    </dd>
+  </dl>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_AppendUrl_" data-uid="QQBot.MarkdownTextContentBuilder.AppendUrl*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_AppendUrl_System_String_System_String_System_Boolean_" data-uid="QQBot.MarkdownTextContentBuilder.AppendUrl(System.String,System.String,System.Boolean)">
+  AppendUrl(string, string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定的 URL 格式化为链接并追加到当前构建器的文本内容中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AppendUrl(string url, string text, bool sanitize = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要链接到的 URL。</p>
+</dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要显示的文本。</p>
+</dd>
+    <dt><code>sanitize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否要先对 <code class="paramref">text</code> 与 <code class="paramref">url</code> 中与当前格式化操作有冲突的字符进行转义。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="QQBot.Format.html#QQBot_Format_Url_System_String_System_String_System_Boolean_">Url</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>)</div>
+    </dd>
+  </dl>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_AppendUrl_" data-uid="QQBot.MarkdownTextContentBuilder.AppendUrl*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_AppendUrl_System_Uri_System_Boolean_" data-uid="QQBot.MarkdownTextContentBuilder.AppendUrl(System.Uri,System.Boolean)">
+  AppendUrl(Uri, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定的 URL 格式化为链接并追加到当前构建器的文本内容中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AppendUrl(Uri url, bool sanitize = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd><p>要链接到的 URL。</p>
+</dd>
+    <dt><code>sanitize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否要先对 <code class="paramref">url</code> 中与当前格式化操作有冲突的字符进行转义。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="QQBot.Format.html#QQBot_Format_Url_System_Uri_System_Boolean_">Url</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>)</div>
+    </dd>
+  </dl>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_AppendUrl_" data-uid="QQBot.MarkdownTextContentBuilder.AppendUrl*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_AppendUrl_System_Uri_System_String_System_Boolean_" data-uid="QQBot.MarkdownTextContentBuilder.AppendUrl(System.Uri,System.String,System.Boolean)">
+  AppendUrl(Uri, string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定的 URL 格式化为链接并追加到当前构建器的文本内容中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AppendUrl(Uri url, string text, bool sanitize = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd><p>要链接到的 URL。</p>
+</dd>
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要显示的文本。</p>
+</dd>
+    <dt><code>sanitize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否要先对 <code class="paramref">text</code> 与 <code class="paramref">url</code> 中与当前格式化操作有冲突的字符进行转义。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="QQBot.Format.html#QQBot_Format_Url_System_Uri_System_String_System_Boolean_">Url</a>(<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>)</div>
+    </dd>
+  </dl>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_Build_" data-uid="QQBot.MarkdownTextContentBuilder.Build*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_Build" data-uid="QQBot.MarkdownTextContentBuilder.Build">
+  Build()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将当前构建器构建为一个 <a class="xref" href="QQBot.IMarkdownContent.html">IMarkdownContent</a> 实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MarkdownTextContent Build()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.MarkdownTextContent.html">MarkdownTextContent</a></dt>
+    <dd><p><a class="xref" href="QQBot.IMarkdownContent.html">IMarkdownContent</a> 实例。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_Equals_" data-uid="QQBot.MarkdownTextContentBuilder.Equals*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_Equals_QQBot_MarkdownTextContentBuilder_" data-uid="QQBot.MarkdownTextContentBuilder.Equals(QQBot.MarkdownTextContentBuilder)">
+  Equals(MarkdownTextContentBuilder?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Indicates whether the current object is equal to another object of the same type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(MarkdownTextContentBuilder? other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="QQBot.MarkdownTextContentBuilder.html">MarkdownTextContentBuilder</a></dt>
+    <dd><p>An object to compare with this object.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_Equals_" data-uid="QQBot.MarkdownTextContentBuilder.Equals*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_Equals_System_Object_" data-uid="QQBot.MarkdownTextContentBuilder.Equals(System.Object)">
+  Equals(object?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L334"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the specified object is equal to the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object? obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The object to compare with the current object.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_GetHashCode_" data-uid="QQBot.MarkdownTextContentBuilder.GetHashCode*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_GetHashCode" data-uid="QQBot.MarkdownTextContentBuilder.GetHashCode">
+  GetHashCode()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L353"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serves as the default hash function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>A hash code for the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_op_Equality_" data-uid="QQBot.MarkdownTextContentBuilder.op_Equality*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_op_Equality_QQBot_MarkdownTextContentBuilder_QQBot_MarkdownTextContentBuilder_" data-uid="QQBot.MarkdownTextContentBuilder.op_Equality(QQBot.MarkdownTextContentBuilder,QQBot.MarkdownTextContentBuilder)">
+  operator ==(MarkdownTextContentBuilder?, MarkdownTextContentBuilder?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L342"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>确定两个 <a class="xref" href="QQBot.MarkdownTextContentBuilder.html">MarkdownTextContentBuilder</a> 实例是否相等。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(MarkdownTextContentBuilder? left, MarkdownTextContentBuilder? right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="QQBot.MarkdownTextContentBuilder.html">MarkdownTextContentBuilder</a></dt>
+    <dd><p>要比较的第一个实例。</p>
+</dd>
+    <dt><code>right</code> <a class="xref" href="QQBot.MarkdownTextContentBuilder.html">MarkdownTextContentBuilder</a></dt>
+    <dd><p>要比较的第二个实例。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果两个实例相等，则为 <code>true</code>；否则为 <code>false</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_MarkdownTextContentBuilder_op_Inequality_" data-uid="QQBot.MarkdownTextContentBuilder.op_Inequality*"></a>
+
+  <h3 id="QQBot_MarkdownTextContentBuilder_op_Inequality_QQBot_MarkdownTextContentBuilder_QQBot_MarkdownTextContentBuilder_" data-uid="QQBot.MarkdownTextContentBuilder.op_Inequality(QQBot.MarkdownTextContentBuilder,QQBot.MarkdownTextContentBuilder)">
+  operator !=(MarkdownTextContentBuilder?, MarkdownTextContentBuilder?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L350"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>确定两个 <a class="xref" href="QQBot.MarkdownTextContentBuilder.html">MarkdownTextContentBuilder</a> 实例是否不相等。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(MarkdownTextContentBuilder? left, MarkdownTextContentBuilder? right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="QQBot.MarkdownTextContentBuilder.html">MarkdownTextContentBuilder</a></dt>
+    <dd><p>要比较的第一个实例。</p>
+</dd>
+    <dt><code>right</code> <a class="xref" href="QQBot.MarkdownTextContentBuilder.html">MarkdownTextContentBuilder</a></dt>
+    <dd><p>要比较的第二个实例。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果两个实例不相等，则为 <code>true</code>；否则为 <code>false</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Markdown/MarkdownTextContentBuilder.cs/#L10" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          QQBot.Net (c) 2024
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

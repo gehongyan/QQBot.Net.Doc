@@ -1,0 +1,516 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class BaseSocketClient | QQBot.Net 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class BaseSocketClient | QQBot.Net 文档 ">
+      
+      <meta name="description" content="表示一个基于网关的客户端的抽象基类。">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/QQBot.Net/new/master/apiSpec/new?filename=QQBot_WebSocket_BaseSocketClient.md&amp;value=---%0Auid%3A%20QQBot.WebSocket.BaseSocketClient%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="QQBot.Net 文档">
+            QQBot.Net 文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="QQBot.WebSocket.BaseSocketClient">
+
+
+
+  <h1 id="QQBot_WebSocket_BaseSocketClient" data-uid="QQBot.WebSocket.BaseSocketClient" class="text-break">
+Class BaseSocketClient  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L3"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="QQBot.html">QQBot</a>.<a class="xref" href="QQBot.WebSocket.html">WebSocket</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>QQBot.Net.WebSocket.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>表示一个基于网关的客户端的抽象基类。</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class BaseSocketClient : BaseQQBotClient, IQQBotClient, IDisposable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="QQBot.Rest.BaseQQBotClient.html">BaseQQBotClient</a></div>
+      <div><span class="xref">BaseSocketClient</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="QQBot.IQQBotClient.html">IQQBotClient</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="QQBot.WebSocket.QQBotShardedClient.html">QQBotShardedClient</a></div>
+      <div><a class="xref" href="QQBot.WebSocket.QQBotSocketClient.html">QQBotSocketClient</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="QQBot.Rest.BaseQQBotClient.html#QQBot_Rest_BaseQQBotClient_Log">BaseQQBotClient.Log</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.Rest.BaseQQBotClient.html#QQBot_Rest_BaseQQBotClient_LoggedIn">BaseQQBotClient.LoggedIn</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.Rest.BaseQQBotClient.html#QQBot_Rest_BaseQQBotClient_LoggedOut">BaseQQBotClient.LoggedOut</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.Rest.BaseQQBotClient.html#QQBot_Rest_BaseQQBotClient_SentRequest">BaseQQBotClient.SentRequest</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.Rest.BaseQQBotClient.html#QQBot_Rest_BaseQQBotClient_LoginState">BaseQQBotClient.LoginState</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.Rest.BaseQQBotClient.html#QQBot_Rest_BaseQQBotClient_TokenType">BaseQQBotClient.TokenType</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.Rest.BaseQQBotClient.html#QQBot_Rest_BaseQQBotClient_Dispose">BaseQQBotClient.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.Rest.BaseQQBotClient.html#QQBot_Rest_BaseQQBotClient_LoginAsync_System_Int32_QQBot_TokenType_System_String_System_Boolean_">BaseQQBotClient.LoginAsync(int, TokenType, string, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.Rest.BaseQQBotClient.html#QQBot_Rest_BaseQQBotClient_LogoutAsync">BaseQQBotClient.LogoutAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.Rest.BaseQQBotClient.html#QQBot_Rest_BaseQQBotClient_ConnectionState">BaseQQBotClient.ConnectionState</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.Rest.BaseQQBotClient.html#QQBot_Rest_BaseQQBotClient_GetBotGatewayAsync_QQBot_RequestOptions_">BaseQQBotClient.GetBotGatewayAsync(RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_BaseConfig" data-uid="QQBot.WebSocket.BaseSocketClient.BaseConfig">
+  BaseConfig
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此客户端使用的配置。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly QQBotSocketConfig BaseConfig</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.WebSocket.QQBotSocketConfig.html">QQBotSocketConfig</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="QQBot_WebSocket_BaseSocketClient_CurrentUser_" data-uid="QQBot.WebSocket.BaseSocketClient.CurrentUser*"></a>
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_CurrentUser" data-uid="QQBot.WebSocket.BaseSocketClient.CurrentUser">
+  CurrentUser
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取登录到此客户端的当前用户；如果未登录，则为 <code>null</code>。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual SocketSelfUser? CurrentUser { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.WebSocket.SocketSelfUser.html">SocketSelfUser</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_BaseSocketClient_Latency_" data-uid="QQBot.WebSocket.BaseSocketClient.Latency*"></a>
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_Latency" data-uid="QQBot.WebSocket.BaseSocketClient.Latency">
+  Latency
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取到网关服务器的往返延迟估计值（以毫秒为单位）。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract int Latency { get; protected set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_Latency_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>此往返估计值源于心跳包的延迟，不代表诸如发送消息等操作的真实延迟。</p>
+</div>
+
+
+
+
+  <a id="QQBot_WebSocket_BaseSocketClient_Rest_" data-uid="QQBot.WebSocket.BaseSocketClient.Rest*"></a>
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_Rest" data-uid="QQBot.WebSocket.BaseSocketClient.Rest">
+  Rest
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取一个与此客户端共享状态的仅限于 REST 的客户端。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract QQBotSocketRestClient Rest { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.WebSocket.QQBotSocketRestClient.html">QQBotSocketRestClient</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="QQBot_WebSocket_BaseSocketClient_GetGuild_" data-uid="QQBot.WebSocket.BaseSocketClient.GetGuild*"></a>
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_GetGuild_System_UInt64_" data-uid="QQBot.WebSocket.BaseSocketClient.GetGuild(System.UInt64)">
+  GetGuild(ulong)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取一个频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract SocketGuild? GetGuild(ulong id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要获取的频道的 ID。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.WebSocket.SocketGuild.html">SocketGuild</a></dt>
+    <dd><p>与指定的 <code class="paramref">id</code> 关联的频道；如果未找到，则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_BaseSocketClient_StartAsync_" data-uid="QQBot.WebSocket.BaseSocketClient.StartAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_StartAsync" data-uid="QQBot.WebSocket.BaseSocketClient.StartAsync">
+  StartAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>启动客户端与 QQ 之间的连接。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task StartAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步启动操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_StartAsync_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>当前方法会初始化客户端与 QQ 之间的连接。 <br><div class="IMPORTANT"><h5>important</h5><p>
+此方法会在调用后立即返回，因为它会在另一个线程上初始化连接。</p>
+</div>
+</div>
+
+
+
+
+  <a id="QQBot_WebSocket_BaseSocketClient_StopAsync_" data-uid="QQBot.WebSocket.BaseSocketClient.StopAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_StopAsync" data-uid="QQBot.WebSocket.BaseSocketClient.StopAsync">
+  StopAsync()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>停止客户端与 QQ 之间的连接。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract Task StopAsync()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步停止操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_MessageReceived" data-uid="QQBot.WebSocket.BaseSocketClient.MessageReceived">
+  MessageReceived
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当接收到新消息时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketUserMessage, Task&gt; MessageReceived</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketUserMessage.html">SocketUserMessage</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_MessageReceived_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li><a class="xref" href="QQBot.WebSocket.SocketMessage.html">SocketMessage</a> 参数是新接收到的消息。 </li></ol>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L3" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          QQBot.Net (c) 2024
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

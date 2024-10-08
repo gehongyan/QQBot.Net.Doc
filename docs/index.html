@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>首页 | QQBot.Net 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="首页 | QQBot.Net 文档 ">
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/QQBot.Net/blob/master/docs/index.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="landing" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="QQBot.Net 文档">
+            QQBot.Net 文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Root.Landing">
+<h1 id="qqbotnet">QQBot.Net</h1>
+
+<p><a href="https://github.com/gehongyan/QQBot.Net"><img src="https://img.shields.io/github/actions/workflow/status/gehongyan/QQBot.Net/push.yml?branch=master" alt="GitHub Workflow Status"></a>
+<a href="https://github.com/gehongyan/QQBot.Net"><img src="https://img.shields.io/github/languages/top/gehongyan/QQBot.Net" alt="GitHub Top Language"></a>
+<a href="https://www.nuget.org/packages/QQBot.Net"><img src="https://img.shields.io/nuget/v/QQBot.Net" alt="Nuget Version"></a>
+<a href="https://www.nuget.org/packages/QQBot.Net"><img src="https://img.shields.io/nuget/dt/QQBot.Net.Core?color=%230099ff" alt="Nuget"></a>
+<a href="https://github.com/gehongyan/QQBot.Net/blob/master/LICENSE"><img src="https://img.shields.io/github/license/gehongyan/QQBot.Net" alt="License"></a>
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fgehongyan%2FQQBot.Net?ref=badge_shield"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fgehongyan%2FQQBot.Net.svg?type=shield" alt="FOSSA Status"></a>
+<a href="https://chat.xiaoheihe.cn/iugh82ns">
+<img class="docbadge" src="https://imgQQBot.max-c.com/oa/2023/03/21/47912df9f48f030c784dd6115b91274b.png" alt="Chat on QQBot">
+</a></p>
+<p>本文档是 QQBot.Net 的官方文档，包含了 QQBot.Net 的使用指南、API 文档以及其他相关信息。文档的源码托管在 <a href="https://github.com/gehongyan/QQBot.Net">GitHub</a> 上，欢迎您为文档做出贡献。</p>
+<h2 id="什么是-qqbotnet">什么是 QQBot.Net？</h2>
+<p>QQBot.Net 是一个对 QQ 机器人 API <a href="https://bot.q.qq.com/wiki/develop/api/">v1</a> 及 <a href="https://bot.q.qq.com/wiki/develop/api-v2/">v2</a> 进行功能封装的类库，以 C# 编写，编译所采用的目标框架包括</p>
+<ul>
+<li><a href="https://dotnet.microsoft.com/download/dotnet/8.0">.NET 8.0</a></li>
+<li><a href="https://dotnet.microsoft.com/download/dotnet/6.0">.NET 6.0</a></li>
+</ul>
+<div class="TIP">
+<h5>Tip</h5>
+<p>除 .NET 8.0 外的其他目标框架未经完全测试。</p>
+</div>
+<h2 id="我应该从哪里开始">我应该从哪里开始？</h2>
+<p>如果您是初次使用 QQBot.Net，请参考 <a href="guides/introduction/intro.html">用户指南</a>。</p>
+<p>如果您想浏览完整的 QQBot.Net API，请参考 <a href="api/index.html">API 文档</a>。</p>
+<h2 id="寻求帮助">寻求帮助？</h2>
+<p>如果您在开发中遇到无法解决的问题，请访问我们的 [QQ 机器人 QQBot.Net 社区] 寻求帮助。</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/gehongyan/QQBot.Net/blob/master/docs/index.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          QQBot.Net (c) 2024
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

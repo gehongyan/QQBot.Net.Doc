@@ -1,0 +1,780 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class EmbedBuilder | QQBot.Net 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class EmbedBuilder | QQBot.Net 文档 ">
+      
+      <meta name="description" content="表示一个用于构建  的构建器类。">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/QQBot.Net/new/master/apiSpec/new?filename=QQBot_EmbedBuilder.md&amp;value=---%0Auid%3A%20QQBot.EmbedBuilder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="QQBot.Net 文档">
+            QQBot.Net 文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="QQBot.EmbedBuilder">
+
+
+
+  <h1 id="QQBot_EmbedBuilder" data-uid="QQBot.EmbedBuilder" class="text-break">
+Class EmbedBuilder  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Embed/EmbedBuilder.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="QQBot.html">QQBot</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>QQBot.Net.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>表示一个用于构建 <a class="xref" href="QQBot.Embed.html">Embed</a> 的构建器类。</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class EmbedBuilder : IEquatable&lt;EmbedBuilder&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">EmbedBuilder</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="QQBot_EmbedBuilder_Fields_" data-uid="QQBot.EmbedBuilder.Fields*"></a>
+
+  <h3 id="QQBot_EmbedBuilder_Fields" data-uid="QQBot.EmbedBuilder.Fields">
+  Fields
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Embed/EmbedBuilder.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置要为嵌入式消息设置的字段。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;EmbedFieldBuilder&gt; Fields { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="QQBot.EmbedFieldBuilder.html">EmbedFieldBuilder</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_EmbedBuilder_Prompt_" data-uid="QQBot.EmbedBuilder.Prompt*"></a>
+
+  <h3 id="QQBot_EmbedBuilder_Prompt" data-uid="QQBot.EmbedBuilder.Prompt">
+  Prompt
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Embed/EmbedBuilder.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置要为嵌入式消息设置的弹窗内容。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Prompt { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_EmbedBuilder_ThumbnailUrl_" data-uid="QQBot.EmbedBuilder.ThumbnailUrl*"></a>
+
+  <h3 id="QQBot_EmbedBuilder_ThumbnailUrl" data-uid="QQBot.EmbedBuilder.ThumbnailUrl">
+  ThumbnailUrl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Embed/EmbedBuilder.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置要为嵌入式消息设置的缩略图 URL。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? ThumbnailUrl { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_EmbedBuilder_Title_" data-uid="QQBot.EmbedBuilder.Title*"></a>
+
+  <h3 id="QQBot_EmbedBuilder_Title" data-uid="QQBot.EmbedBuilder.Title">
+  Title
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Embed/EmbedBuilder.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置要为嵌入式消息设置的标题。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Title { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="QQBot_EmbedBuilder_AddField_" data-uid="QQBot.EmbedBuilder.AddField*"></a>
+
+  <h3 id="QQBot_EmbedBuilder_AddField_QQBot_EmbedFieldBuilder_" data-uid="QQBot.EmbedBuilder.AddField(QQBot.EmbedFieldBuilder)">
+  AddField(EmbedFieldBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Embed/EmbedBuilder.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加一个字段到 <a class="xref" href="QQBot.Embed.html">Embed</a>。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EmbedBuilder AddField(EmbedFieldBuilder field)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>field</code> <a class="xref" href="QQBot.EmbedFieldBuilder.html">EmbedFieldBuilder</a></dt>
+    <dd><p>要添加的字段。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a></dt>
+    <dd><p>当前构建器。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_EmbedBuilder_AddField_" data-uid="QQBot.EmbedBuilder.AddField*"></a>
+
+  <h3 id="QQBot_EmbedBuilder_AddField_System_Action_QQBot_EmbedFieldBuilder__" data-uid="QQBot.EmbedBuilder.AddField(System.Action{QQBot.EmbedFieldBuilder})">
+  AddField(Action&lt;EmbedFieldBuilder&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Embed/EmbedBuilder.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加一个字段到 <a class="xref" href="QQBot.Embed.html">Embed</a>。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EmbedBuilder AddField(Action&lt;EmbedFieldBuilder&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.EmbedFieldBuilder.html">EmbedFieldBuilder</a>&gt;</dt>
+    <dd><p>一个委托，用于配置字段构建器。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a></dt>
+    <dd><p>当前构建器。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_EmbedBuilder_AddField_" data-uid="QQBot.EmbedBuilder.AddField*"></a>
+
+  <h3 id="QQBot_EmbedBuilder_AddField_System_String_" data-uid="QQBot.EmbedBuilder.AddField(System.String)">
+  AddField(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Embed/EmbedBuilder.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加一个字段到 <a class="xref" href="QQBot.Embed.html">Embed</a>。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EmbedBuilder AddField(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>字段的名称。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a></dt>
+    <dd><p>当前构建器。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_EmbedBuilder_Build_" data-uid="QQBot.EmbedBuilder.Build*"></a>
+
+  <h3 id="QQBot_EmbedBuilder_Build" data-uid="QQBot.EmbedBuilder.Build">
+  Build()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Embed/EmbedBuilder.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将此构建器构建为 <a class="xref" href="QQBot.Embed.html">Embed</a> 实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Embed Build()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.Embed.html">Embed</a></dt>
+    <dd><p>构建的嵌入式消息。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_EmbedBuilder_Equals_" data-uid="QQBot.EmbedBuilder.Equals*"></a>
+
+  <h3 id="QQBot_EmbedBuilder_Equals_QQBot_EmbedBuilder_" data-uid="QQBot.EmbedBuilder.Equals(QQBot.EmbedBuilder)">
+  Equals(EmbedBuilder?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Embed/EmbedBuilder.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the specified <a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a> is equal to the current <a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(EmbedBuilder? embedBuilder)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>embedBuilder</code> <a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a></dt>
+    <dd><p>The <a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a> to compare with the current <a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_EmbedBuilder_Equals_" data-uid="QQBot.EmbedBuilder.Equals*"></a>
+
+  <h3 id="QQBot_EmbedBuilder_Equals_System_Object_" data-uid="QQBot.EmbedBuilder.Equals(System.Object)">
+  Equals(object?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Embed/EmbedBuilder.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the specified object is equal to the current <a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object? obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The object to compare with the current <a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a></p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_EmbedBuilder_Equals_System_Object__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>If the object passes is an <a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a>, <a class="xref" href="QQBot.EmbedBuilder.html#QQBot_EmbedBuilder_Equals_QQBot_EmbedBuilder_">Equals(EmbedBuilder?)</a> will be called to compare the 2 instances</p>
+</div>
+
+
+
+
+  <a id="QQBot_EmbedBuilder_GetHashCode_" data-uid="QQBot.EmbedBuilder.GetHashCode*"></a>
+
+  <h3 id="QQBot_EmbedBuilder_GetHashCode" data-uid="QQBot.EmbedBuilder.GetHashCode">
+  GetHashCode()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Embed/EmbedBuilder.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serves as the default hash function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>A hash code for the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_EmbedBuilder_WithPrompt_" data-uid="QQBot.EmbedBuilder.WithPrompt*"></a>
+
+  <h3 id="QQBot_EmbedBuilder_WithPrompt_System_String_" data-uid="QQBot.EmbedBuilder.WithPrompt(System.String)">
+  WithPrompt(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Embed/EmbedBuilder.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置嵌入式消息的弹窗内容。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EmbedBuilder WithPrompt(string prompt)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>prompt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要设置的弹窗内容。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a></dt>
+    <dd><p>当前构建器。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_EmbedBuilder_WithThumbnailUrl_" data-uid="QQBot.EmbedBuilder.WithThumbnailUrl*"></a>
+
+  <h3 id="QQBot_EmbedBuilder_WithThumbnailUrl_System_String_" data-uid="QQBot.EmbedBuilder.WithThumbnailUrl(System.String)">
+  WithThumbnailUrl(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Embed/EmbedBuilder.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置嵌入式消息的缩略图 URL。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EmbedBuilder WithThumbnailUrl(string thumbnailUrl)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>thumbnailUrl</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要设置的缩略图 URL。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a></dt>
+    <dd><p>当前构建器。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_EmbedBuilder_WithTitle_" data-uid="QQBot.EmbedBuilder.WithTitle*"></a>
+
+  <h3 id="QQBot_EmbedBuilder_WithTitle_System_String_" data-uid="QQBot.EmbedBuilder.WithTitle(System.String)">
+  WithTitle(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Embed/EmbedBuilder.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置嵌入式消息的标题。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EmbedBuilder WithTitle(string title)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要设置的标题。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a></dt>
+    <dd><p>当前构建器。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="QQBot_EmbedBuilder_op_Equality_" data-uid="QQBot.EmbedBuilder.op_Equality*"></a>
+
+  <h3 id="QQBot_EmbedBuilder_op_Equality_QQBot_EmbedBuilder_QQBot_EmbedBuilder_" data-uid="QQBot.EmbedBuilder.op_Equality(QQBot.EmbedBuilder,QQBot.EmbedBuilder)">
+  operator ==(EmbedBuilder?, EmbedBuilder?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Embed/EmbedBuilder.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>比较两个 <a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a> 是否相等。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(EmbedBuilder? left, EmbedBuilder? right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a></dt>
+    <dd><p>要比较的第一个 <a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a>。</p>
+</dd>
+    <dt><code>right</code> <a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a></dt>
+    <dd><p>要比较的第二个 <a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a>。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果两个 <a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a> 相等，则为 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a>；否则为 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_EmbedBuilder_op_Inequality_" data-uid="QQBot.EmbedBuilder.op_Inequality*"></a>
+
+  <h3 id="QQBot_EmbedBuilder_op_Inequality_QQBot_EmbedBuilder_QQBot_EmbedBuilder_" data-uid="QQBot.EmbedBuilder.op_Inequality(QQBot.EmbedBuilder,QQBot.EmbedBuilder)">
+  operator !=(EmbedBuilder?, EmbedBuilder?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Embed/EmbedBuilder.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>比较两个 <a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a> 是否不相等。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(EmbedBuilder? left, EmbedBuilder? right)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>left</code> <a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a></dt>
+    <dd><p>要比较的第一个 <a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a>。</p>
+</dd>
+    <dt><code>right</code> <a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a></dt>
+    <dd><p>要比较的第二个 <a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a>。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>如果两个 <a class="xref" href="QQBot.EmbedBuilder.html">EmbedBuilder</a> 不相等，则为 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a>；否则为 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Embed/EmbedBuilder.cs/#L6" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          QQBot.Net (c) 2024
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

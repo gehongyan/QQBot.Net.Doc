@@ -1,0 +1,1777 @@
+{
+  "sitemap": {
+    "baseUrl": "https://www.qqbotnet.dev/"
+  },
+  "source_base_path": "/home/runner/work/QQBot.Net/QQBot.Net/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.AccessEnvironment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.AccessEnvironment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.AlphaColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.AlphaColor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.AnnouncementType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.AnnouncementType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Ark.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Ark.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.ArkBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.ArkBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.ArkMultiDictionaryParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.ArkMultiDictionaryParameter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.ArkMultiDictionaryParameterBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.ArkMultiDictionaryParameterBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.ArkSingleParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.ArkSingleParameter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.ArkSingleParameterBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.ArkSingleParameterBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.AsyncEnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.AsyncEnumerableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.AttachmentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.AttachmentType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.AudioStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.AudioStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.BotGateway.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.BotGateway.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Cacheable-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Cacheable-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Cacheable-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Cacheable-4.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.ChannelApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.ChannelApplication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.ChannelExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.ChannelExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.ChannelPermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.ChannelPermission.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.ChannelPermissions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.ChannelPermissions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.ChannelPrivateType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.ChannelPrivateType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.ChannelSubType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.ChannelSubType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.ChannelType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.ChannelType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Color.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Color.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.ConnectionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.ConnectionState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.CreateAttachmentMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.CreateAttachmentMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Direction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Direction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Embed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Embed.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.EmbedBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.EmbedBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.EmbedField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.EmbedField.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.EmbedFieldBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.EmbedFieldBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.EmbedThumbnail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.EmbedThumbnail.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.EmojiType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.EmojiType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.FileAttachment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.FileAttachment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Format.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Format.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.GatewayIntents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.GatewayIntents.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.GuildPermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.GuildPermission.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.GuildPermissions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.GuildPermissions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IApplicationChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IApplicationChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IArk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IArk.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IArkParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IArkParameter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IArkParameterBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IArkParameterBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IAttachment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IAttachment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.ICategoryChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.ICategoryChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IDMChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IDMChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IEmbed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IEmbed.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IEntity-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IEntity-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IForumChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IForumChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IGroupChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IGroupChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IGuild.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IGuild.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IGuildChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IGuildChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IGuildMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IGuildMember.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IGuildUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IGuildUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.ILiveStreamChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.ILiveStreamChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IMarkdownContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IMarkdownContent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IMarkdownContentBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IMarkdownContentBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IMentionable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IMentionable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IMessageChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IMessageChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.INestedChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.INestedChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IPrivateChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IPrivateChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IQQBotClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IQQBotClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IRateLimitInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IRateLimitInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IRole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.ISelfUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.ISelfUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.ITextChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.ITextChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IUpdateable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IUpdateable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IUserChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IUserChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IUserMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IUserMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IVoiceChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IVoiceChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.KeyboardActionAnchor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.KeyboardActionAnchor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.KeyboardActionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.KeyboardActionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.KeyboardButtonStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.KeyboardButtonStyle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.KeyboardPermissionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.KeyboardPermissionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.LogMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.LogMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.LogSeverity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.LogSeverity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.LoginState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.LoginState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.MarkdownTemplateContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.MarkdownTemplateContent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.MarkdownTemplateContentBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.MarkdownTemplateContentBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.MarkdownTextContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.MarkdownTextContent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.MarkdownTextContentBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.MarkdownTextContentBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.MediaFileInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.MediaFileInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.MentionUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.MentionUtils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.MessageExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.MessageExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.MessageReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.MessageReference.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.MessageSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.MessageSource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.MessageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.MessageType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.BucketId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.BucketId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.HttpException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.HttpException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.IRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.IRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.Queue.BaseMessageQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.Queue.BaseMessageQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.Queue.IMessageQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.Queue.IMessageQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.Queue.MessageQueueProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.Queue.MessageQueueProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.Queue.SynchronousImmediate.SynchronousImmediateMessageQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.Queue.SynchronousImmediate.SynchronousImmediateMessageQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.Queue.SynchronousImmediate.SynchronousImmediateMessageQueueProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.Queue.SynchronousImmediate.SynchronousImmediateMessageQueueProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.Queue.SynchronousImmediate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.Queue.SynchronousImmediate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.Queue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.Queue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.RateLimitInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.RateLimitInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.RateLimitedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.RateLimitedException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.Rest.DefaultRestClientProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.Rest.DefaultRestClientProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.Rest.IRestClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.Rest.IRestClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.Rest.RestClientProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.Rest.RestClientProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.Rest.RestResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.Rest.RestResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.Rest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.Rest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.WebSocketClosedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.WebSocketClosedException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.WebSockets.DefaultWebSocketProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.WebSockets.DefaultWebSocketProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.WebSockets.IWebSocketClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.WebSockets.IWebSocketClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.WebSockets.WebSocketProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.WebSockets.WebSocketProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.WebSockets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.WebSockets.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.PermValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.PermValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.QQBotConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.QQBotConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.QQBotError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.QQBotError.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.QQBotErrorCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.QQBotErrorCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.QQBotJsonError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.QQBotJsonError.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.RemindType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.RemindType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.RequestOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.RequestOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Rest.Attachment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Rest.Attachment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Rest.BaseQQBotClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Rest.BaseQQBotClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Rest.QQBotRestClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Rest.QQBotRestClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Rest.QQBotRestConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Rest.QQBotRestConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Rest.RestEntity-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Rest.RestEntity-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Rest.RestGuildUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Rest.RestGuildUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Rest.RestSelfUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Rest.RestSelfUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Rest.RestUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Rest.RestUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Rest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Rest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.RetryMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.RetryMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.RoleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.RoleType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.SessionStartLimit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.SessionStartLimit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.SpeakPermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.SpeakPermission.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.TokenType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.TokenType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.TokenUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.TokenUtils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.BaseSocketClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.BaseSocketClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.GatewayReconnectException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.GatewayReconnectException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.ISocketMessageChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.ISocketMessageChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.ISocketPrivateChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.ISocketPrivateChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.QQBotShardedClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.QQBotShardedClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.QQBotSocketClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.QQBotSocketClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.QQBotSocketConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.QQBotSocketConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.QQBotSocketRestClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.QQBotSocketRestClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketApplicationChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketApplicationChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketCategoryChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketCategoryChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketDMChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketDMChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketEntity-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketEntity-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketForumChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketForumChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketGroupChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketGroupChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketGuild.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketGuild.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketGuildChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketGuildChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketGuildMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketGuildMember.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketGuildUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketGuildUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketLiveStreamChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketLiveStreamChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketSelfUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketSelfUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketTextChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketTextChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketUser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketUserChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketUserChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketUserMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketUserMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketVoiceChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketVoiceChannel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.StartupCacheFetchMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.StartupCacheFetchMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelog/changelog.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/changelog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "changelog/toc.json"
+        },
+        ".html": {
+          "relative_path": "changelog/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "demos/demos-community.md",
+      "output": {
+        ".html": {
+          "relative_path": "demos/demos-community.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "demos/demos.md",
+      "output": {
+        ".html": {
+          "relative_path": "demos/demos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "demos/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "demos/toc.json"
+        },
+        ".html": {
+          "relative_path": "demos/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/introduction/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/introduction/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "guides/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "guides/toc.json"
+        },
+        ".html": {
+          "relative_path": "guides/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
