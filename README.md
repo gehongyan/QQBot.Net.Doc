@@ -2,4 +2,4 @@
 
 This repository hosts the static files for https://qqbotnet.dev/
 
-See [HeyBox.Net](https://github.com/gehongyan/QQBot.Net)
+See [QQBot.Net](https://github.com/gehongyan/QQBot.Net)
