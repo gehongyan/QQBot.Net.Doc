@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class KeyboardButtonRowBuilder | QQBot.Net 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class KeyboardButtonRowBuilder | QQBot.Net 文档 ">
+      
+      <meta name="description" content="表示一个自定义键盘内的按钮行构建器。">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/QQBot.Net/new/master/apiSpec/new?filename=QQBot_KeyboardButtonRowBuilder.md&amp;value=---%0Auid%3A%20QQBot.KeyboardButtonRowBuilder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="QQBot.Net 文档">
+            QQBot.Net 文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="QQBot.KeyboardButtonRowBuilder">
+
+
+
+  <h1 id="QQBot_KeyboardButtonRowBuilder" data-uid="QQBot.KeyboardButtonRowBuilder" class="text-break">
+Class KeyboardButtonRowBuilder  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Keyboard/KeyboardButtonRowBuilder.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="QQBot.html">QQBot</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>QQBot.Net.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>表示一个自定义键盘内的按钮行构建器。</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class KeyboardButtonRowBuilder</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">KeyboardButtonRowBuilder</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="QQBot_KeyboardButtonRowBuilder__ctor_" data-uid="QQBot.KeyboardButtonRowBuilder.#ctor*"></a>
+
+  <h3 id="QQBot_KeyboardButtonRowBuilder__ctor" data-uid="QQBot.KeyboardButtonRowBuilder.#ctor">
+  KeyboardButtonRowBuilder()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Keyboard/KeyboardButtonRowBuilder.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>初始化一个 <a class="xref" href="QQBot.KeyboardButtonRowBuilder.html">KeyboardButtonRowBuilder</a> 类的新实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KeyboardButtonRowBuilder()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_KeyboardButtonRowBuilder__ctor_" data-uid="QQBot.KeyboardButtonRowBuilder.#ctor*"></a>
+
+  <h3 id="QQBot_KeyboardButtonRowBuilder__ctor_System_Collections_Generic_IEnumerable_QQBot_KeyboardButtonBuilder__" data-uid="QQBot.KeyboardButtonRowBuilder.#ctor(System.Collections.Generic.IEnumerable{QQBot.KeyboardButtonBuilder})">
+  KeyboardButtonRowBuilder(IEnumerable&lt;KeyboardButtonBuilder&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Keyboard/KeyboardButtonRowBuilder.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>初始化一个 <a class="xref" href="QQBot.KeyboardButtonRowBuilder.html">KeyboardButtonRowBuilder</a> 类的新实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KeyboardButtonRowBuilder(IEnumerable&lt;KeyboardButtonBuilder&gt; buttons)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>buttons</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="QQBot.KeyboardButtonBuilder.html">KeyboardButtonBuilder</a>&gt;</dt>
+    <dd><p>此行内的按钮。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="QQBot_KeyboardButtonRowBuilder_MaxChildCount" data-uid="QQBot.KeyboardButtonRowBuilder.MaxChildCount">
+  MaxChildCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Keyboard/KeyboardButtonRowBuilder.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此行内的按钮的最大数量。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MaxChildCount = 5</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="QQBot_KeyboardButtonRowBuilder_Buttons_" data-uid="QQBot.KeyboardButtonRowBuilder.Buttons*"></a>
+
+  <h3 id="QQBot_KeyboardButtonRowBuilder_Buttons" data-uid="QQBot.KeyboardButtonRowBuilder.Buttons">
+  Buttons
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Keyboard/KeyboardButtonRowBuilder.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置此行内的按钮。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;KeyboardButtonBuilder&gt; Buttons { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="QQBot.KeyboardButtonBuilder.html">KeyboardButtonBuilder</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="QQBot_KeyboardButtonRowBuilder_AddButton_" data-uid="QQBot.KeyboardButtonRowBuilder.AddButton*"></a>
+
+  <h3 id="QQBot_KeyboardButtonRowBuilder_AddButton_QQBot_KeyboardButtonBuilder_" data-uid="QQBot.KeyboardButtonRowBuilder.AddButton(QQBot.KeyboardButtonBuilder)">
+  AddButton(KeyboardButtonBuilder)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Keyboard/KeyboardButtonRowBuilder.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在当前行的末尾添加一个按钮。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KeyboardButtonRowBuilder AddButton(KeyboardButtonBuilder button)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>button</code> <a class="xref" href="QQBot.KeyboardButtonBuilder.html">KeyboardButtonBuilder</a></dt>
+    <dd><p>要添加的按钮。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.KeyboardButtonRowBuilder.html">KeyboardButtonRowBuilder</a></dt>
+    <dd><p>当前构建器。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>按钮数量达到了 <a class="xref" href="QQBot.KeyboardButtonRowBuilder.html#QQBot_KeyboardButtonRowBuilder_MaxChildCount">MaxChildCount</a> 时引发。</p>
+</dd>
+  </dl>
+
+
+
+  <a id="QQBot_KeyboardButtonRowBuilder_AddButton_" data-uid="QQBot.KeyboardButtonRowBuilder.AddButton*"></a>
+
+  <h3 id="QQBot_KeyboardButtonRowBuilder_AddButton_System_Action_QQBot_KeyboardButtonBuilder__" data-uid="QQBot.KeyboardButtonRowBuilder.AddButton(System.Action{QQBot.KeyboardButtonBuilder})">
+  AddButton(Action&lt;KeyboardButtonBuilder&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Keyboard/KeyboardButtonRowBuilder.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在当前行的末尾添加一个按钮。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KeyboardButtonRowBuilder AddButton(Action&lt;KeyboardButtonBuilder&gt; action)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>action</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.KeyboardButtonBuilder.html">KeyboardButtonBuilder</a>&gt;</dt>
+    <dd><p>一个委托，用于配置按钮构建器。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.KeyboardButtonRowBuilder.html">KeyboardButtonRowBuilder</a></dt>
+    <dd><p>当前构建器。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_KeyboardButtonRowBuilder_AddButton_" data-uid="QQBot.KeyboardButtonRowBuilder.AddButton*"></a>
+
+  <h3 id="QQBot_KeyboardButtonRowBuilder_AddButton_System_String_System_String_System_String_System_Nullable_QQBot_ButtonStyle__System_Nullable_QQBot_ButtonAction__System_Nullable_QQBot_ButtonPermission__System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_UInt32__System_String_System_Nullable_System_Boolean__System_Nullable_System_Boolean__System_Nullable_QQBot_ButtonActionAnchor__System_String_" data-uid="QQBot.KeyboardButtonRowBuilder.AddButton(System.String,System.String,System.String,System.Nullable{QQBot.ButtonStyle},System.Nullable{QQBot.ButtonAction},System.Nullable{QQBot.ButtonPermission},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.UInt32},System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{QQBot.ButtonActionAnchor},System.String)">
+  AddButton(string?, string?, string?, ButtonStyle?, ButtonAction?, ButtonPermission?, IEnumerable&lt;string&gt;?, IEnumerable&lt;uint&gt;?, string?, bool?, bool?, ButtonActionAnchor?, string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Keyboard/KeyboardButtonRowBuilder.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在当前行的末尾添加一个按钮。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KeyboardButtonRowBuilder AddButton(string? id = null, string? label = null, string? labelVisited = null, ButtonStyle? style = null, ButtonAction? action = null, ButtonPermission? permission = null, IEnumerable&lt;string&gt;? allowedUserIds = null, IEnumerable&lt;uint&gt;? allowedRoleIds = null, string? data = null, bool? isCommandReply = null, bool? isCommandAutoSend = null, ButtonActionAnchor? actionAnchor = null, string? unsupportedVersionTip = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>此按钮的 ID。</p>
+</dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>按钮上的文本。</p>
+</dd>
+    <dt><code>labelVisited</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>按钮被点击后现实的文本。</p>
+</dd>
+    <dt><code>style</code> <a class="xref" href="QQBot.ButtonStyle.html">ButtonStyle</a>?</dt>
+    <dd><p>此按钮的样式。</p>
+</dd>
+    <dt><code>action</code> <a class="xref" href="QQBot.ButtonAction.html">ButtonAction</a>?</dt>
+    <dd><p>此按钮的动作类型。</p>
+</dd>
+    <dt><code>permission</code> <a class="xref" href="QQBot.ButtonPermission.html">ButtonPermission</a>?</dt>
+    <dd><p>此按钮的权限。</p>
+</dd>
+    <dt><code>allowedUserIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>拥有操作此按钮的权限的所有用户的 ID。</p>
+</dd>
+    <dt><code>allowedRoleIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;</dt>
+    <dd><p>拥有操作此按钮的权限的所有角色的 ID。</p>
+</dd>
+    <dt><code>data</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>按钮的数据。</p>
+</dd>
+    <dt><code>isCommandReply</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd><p>此指令钮是否带引用回复。</p>
+</dd>
+    <dt><code>isCommandAutoSend</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd><p>此指令钮是否自动发送。</p>
+</dd>
+    <dt><code>actionAnchor</code> <a class="xref" href="QQBot.ButtonActionAnchor.html">ButtonActionAnchor</a>?</dt>
+    <dd><p>此指定按钮的特殊操作。</p>
+</dd>
+    <dt><code>unsupportedVersionTip</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>客户端不支持此按钮时弹出的提示信息。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.KeyboardButtonRowBuilder.html">KeyboardButtonRowBuilder</a></dt>
+    <dd><p>当前构建器。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>按钮数量达到了 <a class="xref" href="QQBot.KeyboardButtonRowBuilder.html#QQBot_KeyboardButtonRowBuilder_MaxChildCount">MaxChildCount</a> 时引发。</p>
+</dd>
+  </dl>
+
+
+
+  <a id="QQBot_KeyboardButtonRowBuilder_Build_" data-uid="QQBot.KeyboardButtonRowBuilder.Build*"></a>
+
+  <h3 id="QQBot_KeyboardButtonRowBuilder_Build" data-uid="QQBot.KeyboardButtonRowBuilder.Build">
+  Build()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Keyboard/KeyboardButtonRowBuilder.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将此构建器构建为 <a class="xref" href="QQBot.KeyboardButtonRow.html">KeyboardButtonRow</a> 实例。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KeyboardButtonRow Build()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.KeyboardButtonRow.html">KeyboardButtonRow</a></dt>
+    <dd><p>构建的按钮行。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_KeyboardButtonRowBuilder_WithButton_" data-uid="QQBot.KeyboardButtonRowBuilder.WithButton*"></a>
+
+  <h3 id="QQBot_KeyboardButtonRowBuilder_WithButton_System_Collections_Generic_List_QQBot_KeyboardButtonBuilder__" data-uid="QQBot.KeyboardButtonRowBuilder.WithButton(System.Collections.Generic.List{QQBot.KeyboardButtonBuilder})">
+  WithButton(List&lt;KeyboardButtonBuilder&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Keyboard/KeyboardButtonRowBuilder.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置此行内的按钮。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KeyboardButtonRowBuilder WithButton(List&lt;KeyboardButtonBuilder&gt; buttons)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>buttons</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="QQBot.KeyboardButtonBuilder.html">KeyboardButtonBuilder</a>&gt;</dt>
+    <dd><p>要设置的按钮。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.KeyboardButtonRowBuilder.html">KeyboardButtonRowBuilder</a></dt>
+    <dd><p>当前构建器。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/Keyboard/KeyboardButtonRowBuilder.cs/#L8" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          QQBot.Net (c) 2024
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

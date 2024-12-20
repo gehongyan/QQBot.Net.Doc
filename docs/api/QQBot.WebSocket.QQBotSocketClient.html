@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -205,7 +205,7 @@ Class QQBotSocketClient  <a class="header-action link-secondary" title="View sou
 
   <h3 id="QQBot_WebSocket_QQBotSocketClient__ctor" data-uid="QQBot.WebSocket.QQBotSocketClient.#ctor">
   QQBotSocketClient()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L81"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>初始化一个 <a class="xref" href="QQBot.WebSocket.QQBotSocketClient.html">QQBotSocketClient</a> 类的新实例。</p>
@@ -232,7 +232,7 @@ Class QQBotSocketClient  <a class="header-action link-secondary" title="View sou
 
   <h3 id="QQBot_WebSocket_QQBotSocketClient__ctor_QQBot_WebSocket_QQBotSocketConfig_" data-uid="QQBot.WebSocket.QQBotSocketClient.#ctor(QQBot.WebSocket.QQBotSocketConfig)">
   QQBotSocketClient(QQBotSocketConfig)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>初始化一个 <a class="xref" href="QQBot.WebSocket.QQBotSocketClient.html">QQBotSocketClient</a> 类的新实例。</p>
@@ -269,7 +269,7 @@ Class QQBotSocketClient  <a class="header-action link-secondary" title="View sou
 
   <h3 id="QQBot_WebSocket_QQBotSocketClient_ConnectionState" data-uid="QQBot.WebSocket.QQBotSocketClient.ConnectionState">
   ConnectionState
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取当前连接的状态。</p>
@@ -297,14 +297,46 @@ Class QQBotSocketClient  <a class="header-action link-secondary" title="View sou
 
 
 
+  <a id="QQBot_WebSocket_QQBotSocketClient_Guilds_" data-uid="QQBot.WebSocket.QQBotSocketClient.Guilds*"></a>
+
+  <h3 id="QQBot_WebSocket_QQBotSocketClient_Guilds" data-uid="QQBot.WebSocket.QQBotSocketClient.Guilds">
+  Guilds
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前用户所在的所有频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IReadOnlyCollection&lt;SocketGuild&gt; Guilds { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketGuild.html">SocketGuild</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="QQBot_WebSocket_QQBotSocketClient_Latency_" data-uid="QQBot.WebSocket.QQBotSocketClient.Latency*"></a>
 
   <h3 id="QQBot_WebSocket_QQBotSocketClient_Latency" data-uid="QQBot.WebSocket.QQBotSocketClient.Latency">
   Latency
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取到网关服务器的往返延迟估计值（以毫秒为单位）。</p>
+  <div class="markdown level1 summary"><p>获取到网关频道的往返延迟估计值（以毫秒为单位）。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -336,7 +368,7 @@ Class QQBotSocketClient  <a class="header-action link-secondary" title="View sou
 
   <h3 id="QQBot_WebSocket_QQBotSocketClient_Rest" data-uid="QQBot.WebSocket.QQBotSocketClient.Rest">
   Rest
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个与此客户端共享状态的仅限于 REST 的客户端。</p>
@@ -368,7 +400,7 @@ Class QQBotSocketClient  <a class="header-action link-secondary" title="View sou
 
   <h3 id="QQBot_WebSocket_QQBotSocketClient_ShardId" data-uid="QQBot.WebSocket.QQBotSocketClient.ShardId">
   ShardId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L48"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此客户端的分片 ID。</p>
@@ -400,11 +432,53 @@ Class QQBotSocketClient  <a class="header-action link-secondary" title="View sou
 </h2>
 
 
+  <a id="QQBot_WebSocket_QQBotSocketClient_DownloadUsersAsync_" data-uid="QQBot.WebSocket.QQBotSocketClient.DownloadUsersAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_QQBotSocketClient_DownloadUsersAsync_System_Collections_Generic_IEnumerable_QQBot_WebSocket_SocketGuild__QQBot_RequestOptions_" data-uid="QQBot.WebSocket.QQBotSocketClient.DownloadUsersAsync(System.Collections.Generic.IEnumerable{QQBot.WebSocket.SocketGuild},QQBot.RequestOptions)">
+  DownloadUsersAsync(IEnumerable&lt;SocketGuild&gt;?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L299"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>下载全部或指定频道的用户到缓存中。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Task DownloadUsersAsync(IEnumerable&lt;SocketGuild&gt;? guilds = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>guilds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketGuild.html">SocketGuild</a>&gt;</dt>
+    <dd><p>要下载用户的频道。如果为 <code>null</code>，则下载所有可用的频道。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步下载操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="QQBot_WebSocket_QQBotSocketClient_GetGuild_" data-uid="QQBot.WebSocket.QQBotSocketClient.GetGuild*"></a>
 
   <h3 id="QQBot_WebSocket_QQBotSocketClient_GetGuild_System_UInt64_" data-uid="QQBot.WebSocket.QQBotSocketClient.GetGuild(System.UInt64)">
   GetGuild(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L264"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L260"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个频道。</p>
@@ -439,14 +513,135 @@ Class QQBotSocketClient  <a class="header-action link-secondary" title="View sou
 
 
 
+  <a id="QQBot_WebSocket_QQBotSocketClient_GetGuildUser_" data-uid="QQBot.WebSocket.QQBotSocketClient.GetGuildUser*"></a>
+
+  <h3 id="QQBot_WebSocket_QQBotSocketClient_GetGuildUser_System_String_" data-uid="QQBot.WebSocket.QQBotSocketClient.GetGuildUser(System.String)">
+  GetGuildUser(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L381"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取频道上下文中的用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override SocketGuildUser? GetGuildUser(string id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要获取的用户的 ID。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.WebSocket.SocketGuildUser.html">SocketGuildUser</a></dt>
+    <dd><p>与指定的 <code class="paramref">id</code> 关联的用户；如果未找到，则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_QQBotSocketClient_GetGuildUser_" data-uid="QQBot.WebSocket.QQBotSocketClient.GetGuildUser*"></a>
+
+  <h3 id="QQBot_WebSocket_QQBotSocketClient_GetGuildUser_System_UInt64_" data-uid="QQBot.WebSocket.QQBotSocketClient.GetGuildUser(System.UInt64)">
+  GetGuildUser(ulong)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L384"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取频道上下文中的用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SocketGuildUser? GetGuildUser(ulong id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要获取的用户的 ID。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.WebSocket.SocketGuildUser.html">SocketGuildUser</a></dt>
+    <dd><p>与指定的 <code class="paramref">id</code> 关联的用户；如果未找到，则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_QQBotSocketClient_GetUser_" data-uid="QQBot.WebSocket.QQBotSocketClient.GetUser*"></a>
+
+  <h3 id="QQBot_WebSocket_QQBotSocketClient_GetUser_System_String_" data-uid="QQBot.WebSocket.QQBotSocketClient.GetUser(System.String)">
+  GetUser(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L378"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override SocketUser? GetUser(string id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要获取的用户的 ID。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.WebSocket.SocketUser.html">SocketUser</a></dt>
+    <dd><p>与指定的 <code class="paramref">id</code> 关联的用户；如果未找到，则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_QQBotSocketClient_GetUser_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>此方法可能返回 <code>null</code>，因为此方法仅会返回网关缓存中存在的用户，如果在当前 Bot
+登录会话中，要获取的用户未引发过任何事件，那么该用户实体则不会存在于缓存中。</p>
+</div>
+
+
+
+
   <a id="QQBot_WebSocket_QQBotSocketClient_GetUserChannel_" data-uid="QQBot.WebSocket.QQBotSocketClient.GetUserChannel*"></a>
 
   <h3 id="QQBot_WebSocket_QQBotSocketClient_GetUserChannel_System_Guid_" data-uid="QQBot.WebSocket.QQBotSocketClient.GetUserChannel(System.Guid)">
   GetUserChannel(Guid)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L271"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L267"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取一个用户单聊频道。</p>
+  <div class="markdown level1 summary"><p>获取一个用户单聊子频道。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -457,14 +652,14 @@ Class QQBotSocketClient  <a class="header-action link-secondary" title="View sou
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
-    <dd><p>参与到单聊频道中另一位用户的用户 ID。</p>
+    <dd><p>参与到单聊子频道中另一位用户的用户 ID。</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="QQBot.WebSocket.SocketUserChannel.html">SocketUserChannel</a></dt>
-    <dd><p>如果找到了指定用户的单聊频道，则返回该单聊频道；否则返回 <code>null</code>。</p>
+    <dd><p>如果找到了指定用户的单聊子频道，则返回该单聊子频道；否则返回 <code>null</code>。</p>
 </dd>
   </dl>
 
@@ -482,7 +677,7 @@ Class QQBotSocketClient  <a class="header-action link-secondary" title="View sou
 
   <h3 id="QQBot_WebSocket_QQBotSocketClient_StartAsync" data-uid="QQBot.WebSocket.QQBotSocketClient.StartAsync">
   StartAsync()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L573"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L596"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>启动客户端与 QQ 之间的连接。</p>
@@ -520,7 +715,7 @@ Class QQBotSocketClient  <a class="header-action link-secondary" title="View sou
 
   <h3 id="QQBot_WebSocket_QQBotSocketClient_StopAsync" data-uid="QQBot.WebSocket.QQBotSocketClient.StopAsync">
   StopAsync()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L580"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.cs/#L603"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>停止客户端与 QQ 之间的连接。</p>
@@ -621,7 +816,7 @@ Class QQBotSocketClient  <a class="header-action link-secondary" title="View sou
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.Events.cs/#L77"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>当服务器状态变更为可用时引发。</p>
+  <div class="markdown level1 summary"><p>当频道状态变更为可用时引发。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -643,11 +838,11 @@ Class QQBotSocketClient  <a class="header-action link-secondary" title="View sou
 
 
   <h4 class="section" id="QQBot_WebSocket_QQBotSocketClient_GuildAvailable_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>服务器状态变更为可用，表示此服务器实体已完整缓存基础数据，并与网关同步。 <br>
-缓存基础数据包括服务器基本信息、频道、角色、频道权限重写、当前用户在服务器内的昵称。
+  <div class="markdown level1 remarks"><p>频道状态变更为可用，表示此频道实体已完整缓存基础数据，并与网关同步。 <br>
+缓存基础数据包括频道基本信息、子频道、角色、子频道权限重写、当前用户在频道内的昵称。
 <br>
 事件参数：</p>
-<ol><li><a class="xref" href="QQBot.WebSocket.SocketGuild.html">SocketGuild</a> 参数是服务器状态变更为可用的服务器。 </li></ol>
+<ol><li><a class="xref" href="QQBot.WebSocket.SocketGuild.html">SocketGuild</a> 参数是频道状态变更为可用的频道。 </li></ol>
 </div>
 
 
@@ -659,7 +854,7 @@ Class QQBotSocketClient  <a class="header-action link-secondary" title="View sou
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketClient.Events.cs/#L96"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>当服务器状态变更为不可用时引发。</p>
+  <div class="markdown level1 summary"><p>当频道状态变更为不可用时引发。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -681,10 +876,10 @@ Class QQBotSocketClient  <a class="header-action link-secondary" title="View sou
 
 
   <h4 class="section" id="QQBot_WebSocket_QQBotSocketClient_GuildUnavailable_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>服务器状态变更为不可用，表示此服务器实体丢失与网关的同步，所缓存的数据不可靠，这通常发生在服务器被删除、当前用户离开服务器、网关连接断开等情况。
+  <div class="markdown level1 remarks"><p>频道状态变更为不可用，表示此频道实体丢失与网关的同步，所缓存的数据不可靠，这通常发生在频道被删除、当前用户离开频道、网关连接断开等情况。
 <br>
 事件参数：</p>
-<ol><li><a class="xref" href="QQBot.WebSocket.SocketGuild.html">SocketGuild</a> 参数是服务器状态变更为不可用的服务器。 </li></ol>
+<ol><li><a class="xref" href="QQBot.WebSocket.SocketGuild.html">SocketGuild</a> 参数是频道状态变更为不可用的频道。 </li></ol>
 </div>
 
 

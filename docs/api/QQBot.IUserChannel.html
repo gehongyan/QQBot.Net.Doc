@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Interface IUserChannel | QQBot.Net 文档 ">
       
-      <meta name="description" content="表示一个用户单聊频道。">
+      <meta name="description" content="表示一个用户单聊子频道。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -97,7 +97,7 @@ Interface IUserChannel  <a class="header-action link-secondary" title="View sour
   <dl><dt>Assembly</dt><dd>QQBot.Net.Core.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>表示一个用户单聊频道。</p>
+  <div class="markdown summary"><p>表示一个用户单聊子频道。</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -115,10 +115,16 @@ Interface IUserChannel  <a class="header-action link-secondary" title="View sour
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="QQBot.IMessageChannel.html#QQBot_IMessageChannel_SendMessageAsync_System_String_QQBot_IMarkdownContent_System_Nullable_QQBot_FileAttachment__QQBot_Embed_QQBot_Ark_QQBot_MessageReference_QQBot_IUserMessage_QQBot_RequestOptions_">IMessageChannel.SendMessageAsync(string, IMarkdownContent, FileAttachment?, Embed, Ark, MessageReference, IUserMessage, RequestOptions)</a>
+      <a class="xref" href="QQBot.IMessageChannel.html#QQBot_IMessageChannel_SendMessageAsync_System_String_QQBot_IMarkdown_System_Nullable_QQBot_FileAttachment__QQBot_Embed_QQBot_Ark_QQBot_IKeyboard_QQBot_MessageReference_QQBot_IUserMessage_QQBot_RequestOptions_">IMessageChannel.SendMessageAsync(string, IMarkdown, FileAttachment?, Embed, Ark, IKeyboard, MessageReference, IUserMessage, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IMessageChannel.html#QQBot_IMessageChannel_GetMessageAsync_System_String_QQBot_CacheMode_QQBot_RequestOptions_">IMessageChannel.GetMessageAsync(string, CacheMode, RequestOptions)</a>
     </div>
     <div>
       <a class="xref" href="QQBot.IPrivateChannel.html#QQBot_IPrivateChannel_Recipients">IPrivateChannel.Recipients</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IChannel.html#QQBot_IChannel_GetUserAsync_System_String_QQBot_CacheMode_QQBot_RequestOptions_">IChannel.GetUserAsync(string, CacheMode, RequestOptions)</a>
     </div>
   </dd></dl>
 
@@ -148,7 +154,7 @@ Interface IUserChannel  <a class="header-action link-secondary" title="View sour
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IUserChannel.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取此用户单聊频道的唯一标识符。</p>
+  <div class="markdown level1 summary"><p>获取此用户单聊子频道的唯一标识符。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 

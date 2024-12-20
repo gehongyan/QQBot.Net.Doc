@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Interface IRole | QQBot.Net 文档 ">
       
-      <meta name="description" content="表示一个频道身份组。">
+      <meta name="description" content="表示一个子频道身份组。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -97,12 +97,12 @@ Interface IRole  <a class="header-action link-secondary" title="View source" hre
   <dl><dt>Assembly</dt><dd>QQBot.Net.Core.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>表示一个频道身份组。</p>
+  <div class="markdown summary"><p>表示一个子频道身份组。</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IRole : IEntity&lt;uint&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IRole : IEntity&lt;uint&gt;, IDeletable</code></pre>
   </div>
 
 
@@ -116,6 +116,9 @@ Interface IRole  <a class="header-action link-secondary" title="View source" hre
     <dd>
     <div>
       <a class="xref" href="QQBot.IEntity-1.html#QQBot_IEntity_1_Id">IEntity&lt;uint&gt;.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IDeletable.html#QQBot_IDeletable_DeleteAsync_QQBot_RequestOptions_">IDeletable.DeleteAsync(RequestOptions)</a>
     </div>
   </dd></dl>
 
@@ -132,7 +135,7 @@ Interface IRole  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="QQBot_IRole_Color" data-uid="QQBot.IRole.Color">
   Color
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Roles/IRole.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Roles/IRole.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此身份组的颜色。</p>
@@ -160,11 +163,43 @@ Interface IRole  <a class="header-action link-secondary" title="View source" hre
 
 
 
+  <a id="QQBot_IRole_Guild_" data-uid="QQBot.IRole.Guild*"></a>
+
+  <h3 id="QQBot_IRole_Guild" data-uid="QQBot.IRole.Guild">
+  Guild
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Roles/IRole.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取拥有此角色的频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IGuild Guild { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.IGuild.html">IGuild</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="QQBot_IRole_IsHoisted_" data-uid="QQBot.IRole.IsHoisted*"></a>
 
   <h3 id="QQBot_IRole_IsHoisted" data-uid="QQBot.IRole.IsHoisted">
   IsHoisted
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Roles/IRole.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Roles/IRole.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取拥有此身份组的用户是否在用户列表中与普通在线成员分开显示。</p>
@@ -196,7 +231,7 @@ Interface IRole  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="QQBot_IRole_MaxMembers" data-uid="QQBot.IRole.MaxMembers">
   MaxMembers
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Roles/IRole.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Roles/IRole.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取可以拥有此身份组的最大用户数量。</p>
@@ -228,7 +263,7 @@ Interface IRole  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="QQBot_IRole_MemberCount" data-uid="QQBot.IRole.MemberCount">
   MemberCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Roles/IRole.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Roles/IRole.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取拥有此身分组的用户数量。</p>
@@ -260,7 +295,7 @@ Interface IRole  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="QQBot_IRole_Name" data-uid="QQBot.IRole.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Roles/IRole.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Roles/IRole.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此身份组的名称。</p>
@@ -292,7 +327,7 @@ Interface IRole  <a class="header-action link-secondary" title="View source" hre
 
   <h3 id="QQBot_IRole_Type" data-uid="QQBot.IRole.Type">
   Type
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Roles/IRole.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Roles/IRole.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此身份组的类型。</p>
@@ -316,6 +351,97 @@ Interface IRole  <a class="header-action link-secondary" title="View source" hre
 
 
 
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="QQBot_IRole_GetUsersAsync_" data-uid="QQBot.IRole.GetUsersAsync*"></a>
+
+  <h3 id="QQBot_IRole_GetUsersAsync_QQBot_CacheMode_QQBot_RequestOptions_" data-uid="QQBot.IRole.GetUsersAsync(QQBot.CacheMode,QQBot.RequestOptions)">
+  GetUsersAsync(CacheMode, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Roles/IRole.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取拥有此身份组的所有用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IAsyncEnumerable&lt;IReadOnlyCollection&lt;IGuildMember&gt;&gt; GetUsersAsync(CacheMode mode = CacheMode.AllowDownload, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mode</code> <a class="xref" href="QQBot.CacheMode.html">CacheMode</a></dt>
+    <dd><p>指示当前方法是否应该仅从缓存中获取结果，还是可以通过 API 请求获取数据。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iasyncenumerable-1">IAsyncEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="QQBot.IGuildMember.html">IGuildMember</a>&gt;&gt;</dt>
+    <dd><p>一个表示异步操作的可枚举集合，结果包含所有拥有此身份组的用户。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IRole_ModifyAsync_" data-uid="QQBot.IRole.ModifyAsync*"></a>
+
+  <h3 id="QQBot_IRole_ModifyAsync_System_Action_QQBot_RoleProperties__QQBot_RequestOptions_" data-uid="QQBot.IRole.ModifyAsync(System.Action{QQBot.RoleProperties},QQBot.RequestOptions)">
+  ModifyAsync(Action&lt;RoleProperties&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Roles/IRole.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>修改此角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task ModifyAsync(Action&lt;RoleProperties&gt; func, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.RoleProperties.html">RoleProperties</a>&gt;</dt>
+    <dd><p>一个包含修改角色属性的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步修改操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_IRole_ModifyAsync_System_Action_QQBot_RoleProperties__QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>此方法使用指定的属性修改当前角色信息。要查看可用的属性，请参考 <a class="xref" href="QQBot.RoleProperties.html">RoleProperties</a>。</p>
+</div>
 
 
 

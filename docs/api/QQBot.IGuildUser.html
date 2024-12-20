@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Interface IGuildUser | QQBot.Net 文档 ">
       
-      <meta name="description" content="表示一个通用的频道内用户。">
+      <meta name="description" content="表示一个通用的频道上下文中的用户。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -97,7 +97,7 @@ Interface IGuildUser  <a class="header-action link-secondary" title="View source
   <dl><dt>Assembly</dt><dd>QQBot.Net.Core.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>表示一个通用的频道内用户。</p>
+  <div class="markdown summary"><p>表示一个通用的频道上下文中的用户。</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -115,6 +115,9 @@ Interface IGuildUser  <a class="header-action link-secondary" title="View source
     <dt>Inherited Members</dt>
     <dd>
     <div>
+      <a class="xref" href="QQBot.IUser.html#QQBot_IUser_Avatar">IUser.Avatar</a>
+    </div>
+    <div>
       <a class="xref" href="QQBot.IMentionable.html#QQBot_IMentionable_Mention">IMentionable.Mention</a>
     </div>
   </dd></dl>
@@ -126,38 +129,6 @@ Interface IGuildUser  <a class="header-action link-secondary" title="View source
 
   <h2 class="section" id="properties">Properties
 </h2>
-
-
-  <a id="QQBot_IGuildUser_Avatar_" data-uid="QQBot.IGuildUser.Avatar*"></a>
-
-  <h3 id="QQBot_IGuildUser_Avatar" data-uid="QQBot.IGuildUser.Avatar">
-  Avatar
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildUser.cs/#L21"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>获取此用户的头像图像的 URL。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">string? Avatar { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
 
 
   <a id="QQBot_IGuildUser_Id_" data-uid="QQBot.IGuildUser.Id*"></a>
@@ -196,7 +167,7 @@ Interface IGuildUser  <a class="header-action link-secondary" title="View source
 
   <h3 id="QQBot_IGuildUser_IsBot" data-uid="QQBot.IGuildUser.IsBot">
   IsBot
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildUser.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildUser.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此用户是否为 Bot。</p>
@@ -228,7 +199,7 @@ Interface IGuildUser  <a class="header-action link-secondary" title="View source
 
   <h3 id="QQBot_IGuildUser_UnionOpenId" data-uid="QQBot.IGuildUser.UnionOpenId">
   UnionOpenId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildUser.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildUser.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此用户特殊关联应用的 openid。</p>
@@ -263,7 +234,7 @@ Interface IGuildUser  <a class="header-action link-secondary" title="View source
 
   <h3 id="QQBot_IGuildUser_UnionUserAccount" data-uid="QQBot.IGuildUser.UnionUserAccount">
   UnionUserAccount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildUser.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildUser.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此用户机器人关联的互联应用的用户信息。</p>

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -102,7 +102,7 @@ Interface IVoiceChannel  <a class="header-action link-secondary" title="View sou
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IVoiceChannel : INestedChannel, IGuildChannel, IChannel, IEntity&lt;string&gt;, IUpdateable, IEntity&lt;ulong&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IVoiceChannel : INestedChannel, IGuildChannel, IChannel, IEntity&lt;string&gt;, IUpdateable, IDeletable, IEntity&lt;ulong&gt;</code></pre>
   </div>
 
 
@@ -127,6 +127,18 @@ Interface IVoiceChannel  <a class="header-action link-secondary" title="View sou
       <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_Permission">INestedChannel.Permission</a>
     </div>
     <div>
+      <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_GetPermissionsAsync_QQBot_IGuildMember_QQBot_RequestOptions_">INestedChannel.GetPermissionsAsync(IGuildMember, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_GetPermissionsAsync_QQBot_IRole_QQBot_RequestOptions_">INestedChannel.GetPermissionsAsync(IRole, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_ModifyPermissionsAsync_QQBot_IGuildMember_QQBot_OverwritePermissions_QQBot_RequestOptions_">INestedChannel.ModifyPermissionsAsync(IGuildMember, OverwritePermissions, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_ModifyPermissionsAsync_QQBot_IRole_QQBot_OverwritePermissions_QQBot_RequestOptions_">INestedChannel.ModifyPermissionsAsync(IRole, OverwritePermissions, RequestOptions)</a>
+    </div>
+    <div>
       <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_Id">IGuildChannel.Id</a>
     </div>
     <div>
@@ -148,7 +160,19 @@ Interface IVoiceChannel  <a class="header-action link-secondary" title="View sou
       <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_CreatorId">IGuildChannel.CreatorId</a>
     </div>
     <div>
+      <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_ModifyAsync_System_Action_QQBot_ModifyGuildChannelProperties__QQBot_RequestOptions_">IGuildChannel.ModifyAsync(Action&lt;ModifyGuildChannelProperties&gt;, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_GetUserAsync_System_UInt64_QQBot_CacheMode_QQBot_RequestOptions_">IGuildChannel.GetUserAsync(ulong, CacheMode, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IChannel.html#QQBot_IChannel_GetUserAsync_System_String_QQBot_CacheMode_QQBot_RequestOptions_">IChannel.GetUserAsync(string, CacheMode, RequestOptions)</a>
+    </div>
+    <div>
       <a class="xref" href="QQBot.IUpdateable.html#QQBot_IUpdateable_UpdateAsync_QQBot_RequestOptions_">IUpdateable.UpdateAsync(RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IDeletable.html#QQBot_IDeletable_DeleteAsync_QQBot_RequestOptions_">IDeletable.DeleteAsync(RequestOptions)</a>
     </div>
   </dd></dl>
 
@@ -159,6 +183,376 @@ Interface IVoiceChannel  <a class="header-action link-secondary" title="View sou
       <a class="xref" href="QQBot.ChannelExtensions.html#QQBot_ChannelExtensions_GetChannelType_QQBot_IChannel_">ChannelExtensions.GetChannelType(IChannel)</a>
   </div>
   </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="QQBot_IVoiceChannel_CountOnlineUsersAsync_" data-uid="QQBot.IVoiceChannel.CountOnlineUsersAsync*"></a>
+
+  <h3 id="QQBot_IVoiceChannel_CountOnlineUsersAsync_QQBot_RequestOptions_" data-uid="QQBot.IVoiceChannel.CountOnlineUsersAsync(QQBot.RequestOptions)">
+  CountOnlineUsersAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IVoiceChannel.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此子频道内在线用户的数量。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;int&gt; CountOnlineUsersAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果包含此子频道内在线用户的数量；如果无法获取，则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IVoiceChannel_JoinAsync_" data-uid="QQBot.IVoiceChannel.JoinAsync*"></a>
+
+  <h3 id="QQBot_IVoiceChannel_JoinAsync_QQBot_RequestOptions_" data-uid="QQBot.IVoiceChannel.JoinAsync(QQBot.RequestOptions)">
+  JoinAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IVoiceChannel.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>语音连接到此子频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task JoinAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IVoiceChannel_LeaveAsync_" data-uid="QQBot.IVoiceChannel.LeaveAsync*"></a>
+
+  <h3 id="QQBot_IVoiceChannel_LeaveAsync_QQBot_RequestOptions_" data-uid="QQBot.IVoiceChannel.LeaveAsync(QQBot.RequestOptions)">
+  LeaveAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IVoiceChannel.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>语音断开连接。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task LeaveAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IVoiceChannel_ModifyAsync_" data-uid="QQBot.IVoiceChannel.ModifyAsync*"></a>
+
+  <h3 id="QQBot_IVoiceChannel_ModifyAsync_System_Action_QQBot_ModifyVoiceChannelProperties__QQBot_RequestOptions_" data-uid="QQBot.IVoiceChannel.ModifyAsync(System.Action{QQBot.ModifyVoiceChannelProperties},QQBot.RequestOptions)">
+  ModifyAsync(Action&lt;ModifyVoiceChannelProperties&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IVoiceChannel.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>修改此频道有关语音聊天能力的属性。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task ModifyAsync(Action&lt;ModifyVoiceChannelProperties&gt; func, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.ModifyVoiceChannelProperties.html">ModifyVoiceChannelProperties</a>&gt;</dt>
+    <dd><p>一个包含修改频道有关语音聊天能力的属性的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步修改操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IVoiceChannel_PauseAsync_" data-uid="QQBot.IVoiceChannel.PauseAsync*"></a>
+
+  <h3 id="QQBot_IVoiceChannel_PauseAsync_QQBot_RequestOptions_" data-uid="QQBot.IVoiceChannel.PauseAsync(QQBot.RequestOptions)">
+  PauseAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IVoiceChannel.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>暂停当前播放的音频。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task PauseAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IVoiceChannel_PlayAsync_" data-uid="QQBot.IVoiceChannel.PlayAsync*"></a>
+
+  <h3 id="QQBot_IVoiceChannel_PlayAsync_System_String_System_String_QQBot_RequestOptions_" data-uid="QQBot.IVoiceChannel.PlayAsync(System.String,System.String,QQBot.RequestOptions)">
+  PlayAsync(string, string, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IVoiceChannel.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>开始播放指定 URL 的音频。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task PlayAsync(string url, string displayText, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要播放的音频的 URL。</p>
+</dd>
+    <dt><code>displayText</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>状态文本。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IVoiceChannel_PlayAsync_" data-uid="QQBot.IVoiceChannel.PlayAsync*"></a>
+
+  <h3 id="QQBot_IVoiceChannel_PlayAsync_System_Uri_System_String_QQBot_RequestOptions_" data-uid="QQBot.IVoiceChannel.PlayAsync(System.Uri,System.String,QQBot.RequestOptions)">
+  PlayAsync(Uri, string, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IVoiceChannel.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>开始播放指定 URL 的音频。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task PlayAsync(Uri url, string displayText, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
+    <dd><p>要播放的音频的 URL。</p>
+</dd>
+    <dt><code>displayText</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>状态文本。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IVoiceChannel_ResumeAsync_" data-uid="QQBot.IVoiceChannel.ResumeAsync*"></a>
+
+  <h3 id="QQBot_IVoiceChannel_ResumeAsync_QQBot_RequestOptions_" data-uid="QQBot.IVoiceChannel.ResumeAsync(QQBot.RequestOptions)">
+  ResumeAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IVoiceChannel.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>暂停当前播放的音频。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task ResumeAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IVoiceChannel_StopAsync_" data-uid="QQBot.IVoiceChannel.StopAsync*"></a>
+
+  <h3 id="QQBot_IVoiceChannel_StopAsync_QQBot_RequestOptions_" data-uid="QQBot.IVoiceChannel.StopAsync(QQBot.RequestOptions)">
+  StopAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IVoiceChannel.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>停止当前播放的音频。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task StopAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
 
 
 

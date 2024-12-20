@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -122,7 +122,7 @@ public enum RetryMode</code></pre>
     <dd><p>如果请求失败，将立即引发异常。</p>
 </dd>
     <dt id="QQBot_RetryMode_AlwaysRetry"><code>AlwaysRetry = RetryTimeouts | RetryRatelimit | Retry502</code></dt>
-    <dd><p>总是重试失败的请求，直到超时、取消令牌被触发或服务器响应非 502 错误。</p>
+    <dd><p>总是重试失败的请求，直到超时、取消令牌被触发或频道响应非 502 错误。</p>
 </dd>
     <dt id="QQBot_RetryMode_Retry502"><code>Retry502 = 8</code></dt>
     <dd><p>如果请求因 HTTP 状态码 502 而失败，则重试。</p>

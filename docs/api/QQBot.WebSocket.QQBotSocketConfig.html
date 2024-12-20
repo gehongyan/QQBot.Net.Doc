@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -191,10 +191,10 @@ Class QQBotSocketConfig  <a class="header-action link-secondary" title="View sou
 
 
   <h2 id="QQBot_WebSocket_QQBotSocketConfig_examples">Examples</h2>
-  <p>以下代码启用了消息缓存，并配置客户端在服务器可用时始终下载用户。</p>
+  <p>以下代码启用了消息缓存，并配置客户端在频道可用时始终下载所有可用数据，这包括了频道列表、角色列表、频道用户列表。</p>
 <pre><code class="lang-cs">var config = new QQBotSocketConfig
 {
-    AlwaysDownloadUsers = true,
+    StartupCacheFetchData = StartupCacheFetchData.All,
     MessageCacheSize = 100
 };
 var client = new QQBotSocketClient(config);</code></pre>
@@ -213,7 +213,7 @@ var client = new QQBotSocketClient(config);</code></pre>
 
   <h3 id="QQBot_WebSocket_QQBotSocketConfig__ctor" data-uid="QQBot.WebSocket.QQBotSocketConfig.#ctor">
   QQBotSocketConfig()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketConfig.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketConfig.cs/#L148"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>初始化一个 <a class="xref" href="QQBot.WebSocket.QQBotSocketConfig.html">QQBotSocketConfig</a> 类的新实例。</p>
@@ -306,38 +306,6 @@ var client = new QQBotSocketClient(config);</code></pre>
 </h2>
 
 
-  <a id="QQBot_WebSocket_QQBotSocketConfig_AlwaysDownloadUsers_" data-uid="QQBot.WebSocket.QQBotSocketConfig.AlwaysDownloadUsers*"></a>
-
-  <h3 id="QQBot_WebSocket_QQBotSocketConfig_AlwaysDownloadUsers" data-uid="QQBot.WebSocket.QQBotSocketConfig.AlwaysDownloadUsers">
-  AlwaysDownloadUsers
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketConfig.cs/#L120"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>获取或设置是否在服务器可用时始终下载所有用户。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool AlwaysDownloadUsers { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="QQBot_WebSocket_QQBotSocketConfig_ConnectionTimeout_" data-uid="QQBot.WebSocket.QQBotSocketConfig.ConnectionTimeout*"></a>
 
   <h3 id="QQBot_WebSocket_QQBotSocketConfig_ConnectionTimeout" data-uid="QQBot.WebSocket.QQBotSocketConfig.ConnectionTimeout">
@@ -406,7 +374,7 @@ var client = new QQBotSocketClient(config);</code></pre>
 
   <h3 id="QQBot_WebSocket_QQBotSocketConfig_GatewayIntents" data-uid="QQBot.WebSocket.QQBotSocketConfig.GatewayIntents">
   GatewayIntents
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketConfig.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketConfig.cs/#L133"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置网关意图以限制从 QQ Bot 网关下发的事件。默认值为 <a class="xref" href="QQBot.GatewayIntents.html#QQBot_GatewayIntents_AllPublicDomain">AllPublicDomain</a>。</p>
@@ -513,7 +481,7 @@ It is only used when using a <a class="xref" href="QQBot.WebSocket.QQBotShardedC
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketConfig.cs/#L89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取或设置被视为加入大量服务器的阈值数量。</p>
+  <div class="markdown level1 summary"><p>获取或设置被视为加入大量频道的阈值数量。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -548,10 +516,10 @@ It is only used when using a <a class="xref" href="QQBot.WebSocket.QQBotShardedC
 
   <h3 id="QQBot_WebSocket_QQBotSocketConfig_LogGatewayIntentWarnings" data-uid="QQBot.WebSocket.QQBotSocketConfig.LogGatewayIntentWarnings">
   LogGatewayIntentWarnings
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketConfig.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketConfig.cs/#L138"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取或设置是否记录与服务器意图和事件相关的警告。</p>
+  <div class="markdown level1 summary"><p>获取或设置是否记录与频道意图和事件相关的警告。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -583,7 +551,7 @@ It is only used when using a <a class="xref" href="QQBot.WebSocket.QQBotShardedC
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketConfig.cs/#L94"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取或设置应在缓存中保留的每个频道的消息数量。将此属性设置为零将完全禁用消息缓存。</p>
+  <div class="markdown level1 summary"><p>获取或设置应在缓存中保留的每个子频道的消息数量。将此属性设置为零将完全禁用消息缓存。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -612,7 +580,7 @@ It is only used when using a <a class="xref" href="QQBot.WebSocket.QQBotShardedC
 
   <h3 id="QQBot_WebSocket_QQBotSocketConfig_MessageQueueProvider" data-uid="QQBot.WebSocket.QQBotSocketConfig.MessageQueueProvider">
   MessageQueueProvider
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketConfig.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketConfig.cs/#L123"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置用于创建消息队列的委托。</p>
@@ -679,7 +647,7 @@ It is only used when using a <a class="xref" href="QQBot.WebSocket.QQBotShardedC
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketConfig.cs/#L83"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取或设置被视为加入少量服务器的阈值数量。</p>
+  <div class="markdown level1 summary"><p>获取或设置被视为加入少量频道的阈值数量。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -708,6 +676,43 @@ It is only used when using a <a class="xref" href="QQBot.WebSocket.QQBotShardedC
     <div><a class="xref" href="QQBot.WebSocket.StartupCacheFetchMode.html#QQBot_WebSocket_StartupCacheFetchMode_Auto">Auto</a></div>
     </dd>
   </dl>
+
+
+  <a id="QQBot_WebSocket_QQBotSocketConfig_StartupCacheFetchData_" data-uid="QQBot.WebSocket.QQBotSocketConfig.StartupCacheFetchData*"></a>
+
+  <h3 id="QQBot_WebSocket_QQBotSocketConfig_StartupCacheFetchData" data-uid="QQBot.WebSocket.QQBotSocketConfig.StartupCacheFetchData">
+  StartupCacheFetchData
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketConfig.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置在启动时缓存获取的数据。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StartupCacheFetchData StartupCacheFetchData { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.WebSocket.StartupCacheFetchData.html">StartupCacheFetchData</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_QQBotSocketConfig_StartupCacheFetchData_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>此属性用于指定客户端在启动时应该获取的数据。默认情况下，客户端将获取公域机器人可以获取的所有数据，即
+<a class="xref" href="QQBot.WebSocket.StartupCacheFetchData.html#QQBot_WebSocket_StartupCacheFetchData_AllPublicDomain">AllPublicDomain</a>，如私域机器人需在启动时获取所有可用数据，请将此属性设置为
+<a class="xref" href="QQBot.WebSocket.StartupCacheFetchData.html#QQBot_WebSocket_StartupCacheFetchData_All">All</a>。</p>
+</div>
+
+
 
 
   <a id="QQBot_WebSocket_QQBotSocketConfig_StartupCacheFetchMode_" data-uid="QQBot.WebSocket.QQBotSocketConfig.StartupCacheFetchMode*"></a>
@@ -740,7 +745,7 @@ It is only used when using a <a class="xref" href="QQBot.WebSocket.QQBotShardedC
 
   <h4 class="section" id="QQBot_WebSocket_QQBotSocketConfig_StartupCacheFetchMode_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>此属性用于指定客户端在启动时如何缓存基础数据，并影响 <a class="xref" href="QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_Ready">Ready</a> 事件的引发时机。 <br>
-缓存基础数据包括服务器基本信息、频道、角色、频道权限重写、当前用户在服务器内的昵称。</p>
+缓存基础数据包括频道基本信息、子频道、角色、子频道权限重写、当前用户在频道内的昵称。</p>
 </div>
 
 
@@ -750,7 +755,7 @@ It is only used when using a <a class="xref" href="QQBot.WebSocket.QQBotShardedC
 
   <h3 id="QQBot_WebSocket_QQBotSocketConfig_SuppressUnknownDispatchWarnings" data-uid="QQBot.WebSocket.QQBotSocketConfig.SuppressUnknownDispatchWarnings">
   SuppressUnknownDispatchWarnings
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketConfig.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/QQBotSocketConfig.cs/#L143"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取或设置是否应记录未知的网关事件消息。</p>

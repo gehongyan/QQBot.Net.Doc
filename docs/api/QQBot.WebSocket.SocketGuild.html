@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class SocketGuild | QQBot.Net 文档 ">
       
-      <meta name="description" content="表示一个基于网关的频道。">
+      <meta name="description" content="表示一个基于网关的子频道。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="QQBot_WebSocket_SocketGuild" data-uid="QQBot.WebSocket.SocketGuild" class="text-break">
-Class SocketGuild  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L10"><i class="bi bi-code-slash"></i></a>
+Class SocketGuild  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,7 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
   <dl><dt>Assembly</dt><dd>QQBot.Net.WebSocket.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>表示一个基于网关的频道。</p>
+  <div class="markdown summary"><p>表示一个基于网关的子频道。</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -151,9 +151,6 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
-    </div>
   </dd></dl>
 
 
@@ -165,14 +162,46 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
 </h2>
 
 
+  <a id="QQBot_WebSocket_SocketGuild_ApplicationChannels_" data-uid="QQBot.WebSocket.SocketGuild.ApplicationChannels*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_ApplicationChannels" data-uid="QQBot.WebSocket.SocketGuild.ApplicationChannels">
+  ApplicationChannels
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此频道中所有应用程序子频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;SocketApplicationChannel&gt; ApplicationChannels { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketApplicationChannel.html">SocketApplicationChannel</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="QQBot_WebSocket_SocketGuild_CategoryChannels_" data-uid="QQBot.WebSocket.SocketGuild.CategoryChannels*"></a>
 
   <h3 id="QQBot_WebSocket_SocketGuild_CategoryChannels" data-uid="QQBot.WebSocket.SocketGuild.CategoryChannels">
   CategoryChannels
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L113"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取此服务器中的所有分组频道。</p>
+  <div class="markdown level1 summary"><p>获取此频道中的所有分组子频道。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -201,10 +230,10 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="QQBot_WebSocket_SocketGuild_Channels" data-uid="QQBot.WebSocket.SocketGuild.Channels">
   Channels
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L118"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取此服务器的所有频道。</p>
+  <div class="markdown level1 summary"><p>获取此频道的所有子频道。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -233,7 +262,7 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="QQBot_WebSocket_SocketGuild_CurrentUser" data-uid="QQBot.WebSocket.SocketGuild.CurrentUser">
   CurrentUser
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L123"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取当前登录的用户。</p>
@@ -265,10 +294,10 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="QQBot_WebSocket_SocketGuild_Description" data-uid="QQBot.WebSocket.SocketGuild.Description">
   Description
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取此频道的描述。</p>
+  <div class="markdown level1 summary"><p>获取此子频道的描述。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -297,10 +326,10 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="QQBot_WebSocket_SocketGuild_DownloadedMemberCount" data-uid="QQBot.WebSocket.SocketGuild.DownloadedMemberCount">
   DownloadedMemberCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L57"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取此服务器内已缓存的成员数量。</p>
+  <div class="markdown level1 summary"><p>获取此频道内已缓存的成员数量。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -325,14 +354,114 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
 
 
 
+  <a id="QQBot_WebSocket_SocketGuild_EveryoneRole_" data-uid="QQBot.WebSocket.SocketGuild.EveryoneRole*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_EveryoneRole" data-uid="QQBot.WebSocket.SocketGuild.EveryoneRole">
+  EveryoneRole
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此频道中的 <code>@全体成员</code> 全体成员角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SocketRole EveryoneRole { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.WebSocket.SocketRole.html">SocketRole</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_ForumChannels_" data-uid="QQBot.WebSocket.SocketGuild.ForumChannels*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_ForumChannels" data-uid="QQBot.WebSocket.SocketGuild.ForumChannels">
+  ForumChannels
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此频道中所有论坛子频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;SocketForumChannel&gt; ForumChannels { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketForumChannel.html">SocketForumChannel</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_HasAllMembers_" data-uid="QQBot.WebSocket.SocketGuild.HasAllMembers*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_HasAllMembers" data-uid="QQBot.WebSocket.SocketGuild.HasAllMembers">
+  HasAllMembers
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取是否已下载此频道的所有成员至缓存。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAllMembers { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_SocketGuild_HasAllMembers_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>当调用 <a class="xref" href="QQBot.WebSocket.SocketGuild.html#QQBot_WebSocket_SocketGuild_DownloadUsersAsync_QQBot_RequestOptions_">DownloadUsersAsync(RequestOptions?)</a>
+方法并成功下载所有成员时，此属性将会被设置为 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a>。</p>
+</div>
+
+
+
+
   <a id="QQBot_WebSocket_SocketGuild_IsAvailable_" data-uid="QQBot.WebSocket.SocketGuild.IsAvailable*"></a>
 
   <h3 id="QQBot_WebSocket_SocketGuild_IsAvailable" data-uid="QQBot.WebSocket.SocketGuild.IsAvailable">
   IsAvailable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>确定此服务器实体是否已准备就绪以供用户代码访问。</p>
+  <div class="markdown level1 summary"><p>确定此频道实体是否已准备就绪以供用户代码访问。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -357,8 +486,8 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
   <div class="markdown level1 remarks"><div class="NOTE"><h5>note</h5><p>
         此属性仅对基于网关连接的客户端有意义。
     </p></div>
-    此属性为 <code>true</code> 表示，此服务器实体已完整缓存基础数据，并与网关同步。 <br>
-    缓存基础数据包括服务器基本信息、频道、角色、频道权限重写、当前用户在服务器内的昵称。
+    此属性为 <code>true</code> 表示，此频道实体已完整缓存基础数据，并与网关同步。 <br>
+    缓存基础数据包括频道基本信息、子频道、角色、子频道权限重写、当前用户在频道内的昵称。
 </div>
 
 
@@ -368,10 +497,10 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="QQBot_WebSocket_SocketGuild_IsConnected" data-uid="QQBot.WebSocket.SocketGuild.IsConnected">
   IsConnected
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L65"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取此服务器是否已连接至网关。</p>
+  <div class="markdown level1 summary"><p>获取此频道是否已连接至网关。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -400,10 +529,10 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="QQBot_WebSocket_SocketGuild_IsOwner" data-uid="QQBot.WebSocket.SocketGuild.IsOwner">
   IsOwner
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取当前用户是否是此频道的创建者。</p>
+  <div class="markdown level1 summary"><p>获取当前用户是否是此子频道的创建者。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -432,10 +561,10 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="QQBot_WebSocket_SocketGuild_JoinedAt" data-uid="QQBot.WebSocket.SocketGuild.JoinedAt">
   JoinedAt
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取当前用户加入此频道的时间。</p>
+  <div class="markdown level1 summary"><p>获取当前用户加入此子频道的时间。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -460,11 +589,43 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
 
 
 
+  <a id="QQBot_WebSocket_SocketGuild_LiveStreamChannels_" data-uid="QQBot.WebSocket.SocketGuild.LiveStreamChannels*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_LiveStreamChannels" data-uid="QQBot.WebSocket.SocketGuild.LiveStreamChannels">
+  LiveStreamChannels
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此频道中所有直播子频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;SocketLiveStreamChannel&gt; LiveStreamChannels { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketLiveStreamChannel.html">SocketLiveStreamChannel</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="QQBot_WebSocket_SocketGuild_MaxMembers_" data-uid="QQBot.WebSocket.SocketGuild.MaxMembers*"></a>
 
   <h3 id="QQBot_WebSocket_SocketGuild_MaxMembers" data-uid="QQBot.WebSocket.SocketGuild.MaxMembers">
   MaxMembers
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L33"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取可以加入到此频道的最大成员数量。</p>
@@ -492,14 +653,46 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
 
 
 
+  <a id="QQBot_WebSocket_SocketGuild_MaxRoles_" data-uid="QQBot.WebSocket.SocketGuild.MaxRoles*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_MaxRoles" data-uid="QQBot.WebSocket.SocketGuild.MaxRoles">
+  MaxRoles
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此频道内可以同时拥有的角色的最大数量。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int MaxRoles { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="QQBot_WebSocket_SocketGuild_MemberCount_" data-uid="QQBot.WebSocket.SocketGuild.MemberCount*"></a>
 
   <h3 id="QQBot_WebSocket_SocketGuild_MemberCount" data-uid="QQBot.WebSocket.SocketGuild.MemberCount">
   MemberCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取此频道的成员数量。</p>
+  <div class="markdown level1 summary"><p>获取此子频道的成员数量。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -528,10 +721,10 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="QQBot_WebSocket_SocketGuild_Name" data-uid="QQBot.WebSocket.SocketGuild.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取此频道的名称。</p>
+  <div class="markdown level1 summary"><p>获取此子频道的名称。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -560,10 +753,10 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="QQBot_WebSocket_SocketGuild_OwnerId" data-uid="QQBot.WebSocket.SocketGuild.OwnerId">
   OwnerId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取此频道创建者用户的 ID。</p>
+  <div class="markdown level1 summary"><p>获取此子频道创建者用户的 ID。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -588,14 +781,78 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
 
 
 
+  <a id="QQBot_WebSocket_SocketGuild_Roles_" data-uid="QQBot.WebSocket.SocketGuild.Roles*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_Roles" data-uid="QQBot.WebSocket.SocketGuild.Roles">
+  Roles
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此频道的所有角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;SocketRole&gt; Roles { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketRole.html">SocketRole</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_ScheduleChannels_" data-uid="QQBot.WebSocket.SocketGuild.ScheduleChannels*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_ScheduleChannels" data-uid="QQBot.WebSocket.SocketGuild.ScheduleChannels">
+  ScheduleChannels
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此频道中所有日程子频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;SocketScheduleChannel&gt; ScheduleChannels { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketScheduleChannel.html">SocketScheduleChannel</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="QQBot_WebSocket_SocketGuild_TextChannels_" data-uid="QQBot.WebSocket.SocketGuild.TextChannels*"></a>
 
   <h3 id="QQBot_WebSocket_SocketGuild_TextChannels" data-uid="QQBot.WebSocket.SocketGuild.TextChannels">
   TextChannels
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L83"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取此服务器中所有具有文字聊天能力的频道。</p>
+  <div class="markdown level1 summary"><p>获取此频道中所有具有文字聊天能力的子频道。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -617,9 +874,41 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
 
 
   <h4 class="section" id="QQBot_WebSocket_SocketGuild_TextChannels_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>语音频道也是一种文字频道，此属性本意用于获取所有具有文字聊天能力的频道，通过此方法获取到的文字频道列表中也包含了语音频道。
-如需获取频道的实际类型，请参考 <a class="xref" href="QQBot.ChannelExtensions.html#QQBot_ChannelExtensions_GetChannelType_QQBot_IChannel_">GetChannelType(IChannel)</a>。</p>
+  <div class="markdown level1 remarks"><p>语音子频道也是一种文字子频道，此属性本意用于获取所有具有文字聊天能力的子频道，通过此方法获取到的文字子频道列表中也包含了语音子频道。
+如需获取子频道的实际类型，请参考 <a class="xref" href="QQBot.ChannelExtensions.html#QQBot_ChannelExtensions_GetChannelType_QQBot_IChannel_">GetChannelType(IChannel)</a>。</p>
 </div>
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_Users_" data-uid="QQBot.WebSocket.SocketGuild.Users*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_Users" data-uid="QQBot.WebSocket.SocketGuild.Users">
+  Users
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此频道的所有成员。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;SocketGuildMember&gt; Users { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketGuildMember.html">SocketGuildMember</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
 
 
 
@@ -628,10 +917,10 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="QQBot_WebSocket_SocketGuild_VoiceChannels" data-uid="QQBot.WebSocket.SocketGuild.VoiceChannels">
   VoiceChannels
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L88"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取此服务器中所有具有语音聊天能力的频道。</p>
+  <div class="markdown level1 summary"><p>获取此频道中所有具有语音聊天能力的子频道。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -660,14 +949,530 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
 </h2>
 
 
+  <a id="QQBot_WebSocket_SocketGuild_CreateApplicationChannelAsync_" data-uid="QQBot.WebSocket.SocketGuild.CreateApplicationChannelAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_CreateApplicationChannelAsync_System_String_System_Action_QQBot_CreateApplicationChannelProperties__QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.CreateApplicationChannelAsync(System.String,System.Action{QQBot.CreateApplicationChannelProperties},QQBot.RequestOptions)">
+  CreateApplicationChannelAsync(string, Action&lt;CreateApplicationChannelProperties&gt;?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L363"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在此服务器内创建一个新的应用子频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RestApplicationChannel&gt; CreateApplicationChannelAsync(string name, Action&lt;CreateApplicationChannelProperties&gt;? func = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>频道的名称。</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.CreateApplicationChannelProperties.html">CreateApplicationChannelProperties</a>&gt;</dt>
+    <dd><p>一个包含要应用到新创建频道的配置的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.Rest.RestApplicationChannel.html">RestApplicationChannel</a>&gt;</dt>
+    <dd><p>一个表示异步创建操作的任务。任务的结果包含新创建的应用频道。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_CreateCategoryChannelAsync_" data-uid="QQBot.WebSocket.SocketGuild.CreateCategoryChannelAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_CreateCategoryChannelAsync_System_String_System_Action_QQBot_CreateCategoryChannelProperties__QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.CreateCategoryChannelAsync(System.String,System.Action{QQBot.CreateCategoryChannelProperties},QQBot.RequestOptions)">
+  CreateCategoryChannelAsync(string, Action&lt;CreateCategoryChannelProperties&gt;?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L378"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在此服务器内创建一个新的分组子频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RestCategoryChannel&gt; CreateCategoryChannelAsync(string name, Action&lt;CreateCategoryChannelProperties&gt;? func = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>频道的名称。</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.CreateCategoryChannelProperties.html">CreateCategoryChannelProperties</a>&gt;</dt>
+    <dd><p>一个包含要应用到新创建频道的配置的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.Rest.RestCategoryChannel.html">RestCategoryChannel</a>&gt;</dt>
+    <dd><p>一个表示异步创建操作的任务。任务的结果包含新创建的分组频道。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_CreateForumChannelAsync_" data-uid="QQBot.WebSocket.SocketGuild.CreateForumChannelAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_CreateForumChannelAsync_System_String_System_Action_QQBot_CreateForumChannelProperties__QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.CreateForumChannelAsync(System.String,System.Action{QQBot.CreateForumChannelProperties},QQBot.RequestOptions)">
+  CreateForumChannelAsync(string, Action&lt;CreateForumChannelProperties&gt;?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L368"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在此服务器内创建一个新的论坛子频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RestForumChannel&gt; CreateForumChannelAsync(string name, Action&lt;CreateForumChannelProperties&gt;? func = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>频道的名称。</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.CreateForumChannelProperties.html">CreateForumChannelProperties</a>&gt;</dt>
+    <dd><p>一个包含要应用到新创建频道的配置的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.Rest.RestForumChannel.html">RestForumChannel</a>&gt;</dt>
+    <dd><p>一个表示异步创建操作的任务。任务的结果包含新创建的论坛频道。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_CreateLiveStreamChannelAsync_" data-uid="QQBot.WebSocket.SocketGuild.CreateLiveStreamChannelAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_CreateLiveStreamChannelAsync_System_String_System_Action_QQBot_CreateLiveStreamChannelProperties__QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.CreateLiveStreamChannelAsync(System.String,System.Action{QQBot.CreateLiveStreamChannelProperties},QQBot.RequestOptions)">
+  CreateLiveStreamChannelAsync(string, Action&lt;CreateLiveStreamChannelProperties&gt;?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L358"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在此服务器内创建一个新的直播子频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RestLiveStreamChannel&gt; CreateLiveStreamChannelAsync(string name, Action&lt;CreateLiveStreamChannelProperties&gt;? func = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>频道的名称。</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.CreateLiveStreamChannelProperties.html">CreateLiveStreamChannelProperties</a>&gt;</dt>
+    <dd><p>一个包含要应用到新创建频道的配置的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.Rest.RestLiveStreamChannel.html">RestLiveStreamChannel</a>&gt;</dt>
+    <dd><p>一个表示异步创建操作的任务。任务的结果包含新创建的直播频道。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_CreateRoleAsync_" data-uid="QQBot.WebSocket.SocketGuild.CreateRoleAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_CreateRoleAsync_System_Action_QQBot_RoleProperties__QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.CreateRoleAsync(System.Action{QQBot.RoleProperties},QQBot.RequestOptions)">
+  CreateRoleAsync(Action&lt;RoleProperties&gt;?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L228"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在此服务器内创建一个新的角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RestRole&gt; CreateRoleAsync(Action&lt;RoleProperties&gt;? func = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.RoleProperties.html">RoleProperties</a>&gt;</dt>
+    <dd><p>一个包含要应用到新创建角色的配置的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.Rest.RestRole.html">RestRole</a>&gt;</dt>
+    <dd><p>一个表示异步创建操作的任务。任务的结果包含新创建的角色。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_CreateScheduleChannelAsync_" data-uid="QQBot.WebSocket.SocketGuild.CreateScheduleChannelAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_CreateScheduleChannelAsync_System_String_System_Action_QQBot_CreateScheduleChannelProperties__QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.CreateScheduleChannelAsync(System.String,System.Action{QQBot.CreateScheduleChannelProperties},QQBot.RequestOptions)">
+  CreateScheduleChannelAsync(string, Action&lt;CreateScheduleChannelProperties&gt;?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L373"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在此服务器内创建一个新的日程子频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RestScheduleChannel&gt; CreateScheduleChannelAsync(string name, Action&lt;CreateScheduleChannelProperties&gt;? func = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>频道的名称。</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.CreateScheduleChannelProperties.html">CreateScheduleChannelProperties</a>&gt;</dt>
+    <dd><p>一个包含要应用到新创建频道的配置的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.Rest.RestScheduleChannel.html">RestScheduleChannel</a>&gt;</dt>
+    <dd><p>一个表示异步创建操作的任务。任务的结果包含新创建的日程频道。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_CreateTextChannelAsync_" data-uid="QQBot.WebSocket.SocketGuild.CreateTextChannelAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_CreateTextChannelAsync_System_String_System_Action_QQBot_CreateTextChannelProperties__QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.CreateTextChannelAsync(System.String,System.Action{QQBot.CreateTextChannelProperties},QQBot.RequestOptions)">
+  CreateTextChannelAsync(string, Action&lt;CreateTextChannelProperties&gt;?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L348"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在此服务器内创建一个新的文字子频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RestTextChannel&gt; CreateTextChannelAsync(string name, Action&lt;CreateTextChannelProperties&gt;? func = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>频道的名称。</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.CreateTextChannelProperties.html">CreateTextChannelProperties</a>&gt;</dt>
+    <dd><p>一个包含要应用到新创建频道的配置的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.Rest.RestTextChannel.html">RestTextChannel</a>&gt;</dt>
+    <dd><p>一个表示异步创建操作的任务。任务的结果包含新创建的文字频道。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_CreateVoiceChannelAsync_" data-uid="QQBot.WebSocket.SocketGuild.CreateVoiceChannelAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_CreateVoiceChannelAsync_System_String_System_Action_QQBot_CreateVoiceChannelProperties__QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.CreateVoiceChannelAsync(System.String,System.Action{QQBot.CreateVoiceChannelProperties},QQBot.RequestOptions)">
+  CreateVoiceChannelAsync(string, Action&lt;CreateVoiceChannelProperties&gt;?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L353"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在此服务器内创建一个新的语音子频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RestVoiceChannel&gt; CreateVoiceChannelAsync(string name, Action&lt;CreateVoiceChannelProperties&gt;? func = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>频道的名称。</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.CreateVoiceChannelProperties.html">CreateVoiceChannelProperties</a>&gt;</dt>
+    <dd><p>一个包含要应用到新创建频道的配置的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.Rest.RestVoiceChannel.html">RestVoiceChannel</a>&gt;</dt>
+    <dd><p>一个表示异步创建操作的任务。任务的结果包含新创建的语音频道。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_DownloadUsersAsync_" data-uid="QQBot.WebSocket.SocketGuild.DownloadUsersAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_DownloadUsersAsync_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.DownloadUsersAsync(QQBot.RequestOptions)">
+  DownloadUsersAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L281"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>下载此频道内的所有用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DownloadUsersAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步下载操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_SocketGuild_DownloadUsersAsync_QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>此方法会下载所有加入到此频道内的用户，并缓存它们。</p>
+</div>
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_GetApplicationChannel_" data-uid="QQBot.WebSocket.SocketGuild.GetApplicationChannel*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_GetApplicationChannel_System_UInt64_" data-uid="QQBot.WebSocket.SocketGuild.GetApplicationChannel(System.UInt64)">
+  GetApplicationChannel(ulong)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L324"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此子频道中的应用程序子频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SocketApplicationChannel? GetApplicationChannel(ulong id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要获取的子频道的 ID。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.WebSocket.SocketApplicationChannel.html">SocketApplicationChannel</a></dt>
+    <dd><p>与指定的 <code class="paramref">id</code> 关联的应用程序子频道；如果未找到，则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_GetApplicationPermissionsAsync_" data-uid="QQBot.WebSocket.SocketGuild.GetApplicationPermissionsAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_GetApplicationPermissionsAsync_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.GetApplicationPermissionsAsync(QQBot.RequestOptions)">
+  GetApplicationPermissionsAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L387"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前用户在此子频道内的可用权限。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyCollection&lt;ApplicationPermission&gt;&gt; GetApplicationPermissionsAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="QQBot.ApplicationPermission.html">ApplicationPermission</a>&gt;&gt;</dt>
+    <dd><p>当前用户在此子频道内的可用权限。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_GetCategoryChannel_" data-uid="QQBot.WebSocket.SocketGuild.GetCategoryChannel*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_GetCategoryChannel_System_UInt64_" data-uid="QQBot.WebSocket.SocketGuild.GetCategoryChannel(System.UInt64)">
+  GetCategoryChannel(ulong)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L345"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此子频道中的分组子频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SocketCategoryChannel? GetCategoryChannel(ulong id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要获取的子频道的 ID。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.WebSocket.SocketCategoryChannel.html">SocketCategoryChannel</a></dt>
+    <dd><p>与指定的 <code class="paramref">id</code> 关联的分组子频道；如果未找到，则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="QQBot_WebSocket_SocketGuild_GetChannel_" data-uid="QQBot.WebSocket.SocketGuild.GetChannel*"></a>
 
   <h3 id="QQBot_WebSocket_SocketGuild_GetChannel_System_UInt64_" data-uid="QQBot.WebSocket.SocketGuild.GetChannel(System.UInt64)">
   GetChannel(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L296"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取此服务器内的频道。</p>
+  <div class="markdown level1 summary"><p>获取此频道内的子频道。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -678,14 +1483,290 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd><p>要获取的频道的 ID。</p>
+    <dd><p>要获取的子频道的 ID。</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="QQBot.WebSocket.SocketGuildChannel.html">SocketGuildChannel</a></dt>
-    <dd><p>与指定的 <code class="paramref">id</code> 关联的频道；如果未找到，则返回 <code>null</code>。</p>
+    <dd><p>与指定的 <code class="paramref">id</code> 关联的子频道；如果未找到，则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_GetForumChannel_" data-uid="QQBot.WebSocket.SocketGuild.GetForumChannel*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_GetForumChannel_System_UInt64_" data-uid="QQBot.WebSocket.SocketGuild.GetForumChannel(System.UInt64)">
+  GetForumChannel(ulong)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L331"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此子频道中的论坛子频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SocketForumChannel? GetForumChannel(ulong id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要获取的子频道的 ID。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.WebSocket.SocketForumChannel.html">SocketForumChannel</a></dt>
+    <dd><p>与指定的 <code class="paramref">id</code> 关联的论坛子频道；如果未找到，则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_GetLiveStreamChannel_" data-uid="QQBot.WebSocket.SocketGuild.GetLiveStreamChannel*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_GetLiveStreamChannel_System_UInt64_" data-uid="QQBot.WebSocket.SocketGuild.GetLiveStreamChannel(System.UInt64)">
+  GetLiveStreamChannel(ulong)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L317"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此子频道中的直播子频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SocketLiveStreamChannel? GetLiveStreamChannel(ulong id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要获取的子频道的 ID。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.WebSocket.SocketLiveStreamChannel.html">SocketLiveStreamChannel</a></dt>
+    <dd><p>与指定的 <code class="paramref">id</code> 关联的直播子频道；如果未找到，则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_GetMessageSettingAsync_" data-uid="QQBot.WebSocket.SocketGuild.GetMessageSettingAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_GetMessageSettingAsync_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.GetMessageSettingAsync(QQBot.RequestOptions)">
+  GetMessageSettingAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L415"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此频道的消息设置。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MessageSetting&gt; GetMessageSettingAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.MessageSetting.html">MessageSetting</a>&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果包含此频道的消息设置。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_GetRole_" data-uid="QQBot.WebSocket.SocketGuild.GetRole*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_GetRole_System_UInt32_" data-uid="QQBot.WebSocket.SocketGuild.GetRole(System.UInt32)">
+  GetRole(uint)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此频道内的角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SocketRole? GetRole(uint id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>要获取的角色的 ID。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.WebSocket.SocketRole.html">SocketRole</a></dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果包含与指定的 <code class="paramref">id</code> 关联的角色；如果未找到，则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_GetRoleAsync_" data-uid="QQBot.WebSocket.SocketGuild.GetRoleAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_GetRoleAsync_System_UInt32_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.GetRoleAsync(System.UInt32,QQBot.RequestOptions)">
+  GetRoleAsync(uint, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L224"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此频道的角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RestRole?&gt; GetRoleAsync(uint id, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>要获取的角色的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.Rest.RestRole.html">RestRole</a>&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果包含此频道的所有角色。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_GetRolesAsync_" data-uid="QQBot.WebSocket.SocketGuild.GetRolesAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_GetRolesAsync_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.GetRolesAsync(QQBot.RequestOptions)">
+  GetRolesAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L215"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此频道的所有角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyCollection&lt;RestRole&gt;&gt; GetRolesAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="QQBot.Rest.RestRole.html">RestRole</a>&gt;&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果包含此频道的所有角色。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_GetScheduleChannel_" data-uid="QQBot.WebSocket.SocketGuild.GetScheduleChannel*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_GetScheduleChannel_System_UInt64_" data-uid="QQBot.WebSocket.SocketGuild.GetScheduleChannel(System.UInt64)">
+  GetScheduleChannel(ulong)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L338"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此子频道中的日程子频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SocketScheduleChannel? GetScheduleChannel(ulong id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要获取的子频道的 ID。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.WebSocket.SocketScheduleChannel.html">SocketScheduleChannel</a></dt>
+    <dd><p>与指定的 <code class="paramref">id</code> 关联的日程子频道；如果未找到，则返回 <code>null</code>。</p>
 </dd>
   </dl>
 
@@ -703,10 +1784,10 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="QQBot_WebSocket_SocketGuild_GetTextChannel_System_UInt64_" data-uid="QQBot.WebSocket.SocketGuild.GetTextChannel(System.UInt64)">
   GetTextChannel(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L303"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取此频道中所有具有文字聊天能力的子频道。</p>
+  <div class="markdown level1 summary"><p>获取此子频道中具有文字聊天能力的子频道。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -724,7 +1805,7 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="QQBot.WebSocket.SocketTextChannel.html">SocketTextChannel</a></dt>
-    <dd><p>与指定的 <code class="paramref">id</code> 关联的子频道；如果未找到，则返回 <code>null</code>。</p>
+    <dd><p>与指定的 <code class="paramref">id</code> 关联的具有文字聊天能力的子频道；如果未找到，则返回 <code>null</code>。</p>
 </dd>
   </dl>
 
@@ -742,7 +1823,7 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="QQBot_WebSocket_SocketGuild_GetUser_System_UInt64_" data-uid="QQBot.WebSocket.SocketGuild.GetUser(System.UInt64)">
   GetUser(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L243"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此频道内的用户。</p>
@@ -774,8 +1855,1270 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
 
 
   <h4 class="section" id="QQBot_WebSocket_SocketGuild_GetUser_System_UInt64__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>此方法可能返回 <code>null</code>，因为在大型频道中，用户列表的缓存可能不完整。</p>
+  <div class="markdown level1 remarks"><p>此方法可能返回 <code>null</code>，因为在大型子频道中，用户列表的缓存可能不完整。</p>
 </div>
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_GetUserAsync_" data-uid="QQBot.WebSocket.SocketGuild.GetUserAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_GetUserAsync_System_UInt64_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.GetUserAsync(System.UInt64,QQBot.RequestOptions)">
+  GetUserAsync(ulong, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L265"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此频道内的用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RestGuildMember&gt; GetUserAsync(ulong id, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要获取的用户的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.Rest.RestGuildMember.html">RestGuildMember</a>&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果包含与指定的 <code class="paramref">id</code> 关联的用户；如果未找到，则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_GetUsersAsync_" data-uid="QQBot.WebSocket.SocketGuild.GetUsersAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_GetUsersAsync_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.GetUsersAsync(QQBot.RequestOptions)">
+  GetUsersAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L273"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此频道内的所有用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncEnumerable&lt;IReadOnlyCollection&lt;IGuildMember&gt;&gt; GetUsersAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iasyncenumerable-1">IAsyncEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="QQBot.IGuildMember.html">IGuildMember</a>&gt;&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果包含此频道内的所有用户。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_GetVoiceChannel_" data-uid="QQBot.WebSocket.SocketGuild.GetVoiceChannel*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_GetVoiceChannel_System_UInt64_" data-uid="QQBot.WebSocket.SocketGuild.GetVoiceChannel(System.UInt64)">
+  GetVoiceChannel(ulong)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L310"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此子频道中具有语音聊天能力的子频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SocketVoiceChannel? GetVoiceChannel(ulong id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要获取的子频道的 ID。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.WebSocket.SocketVoiceChannel.html">SocketVoiceChannel</a></dt>
+    <dd><p>与指定的 <code class="paramref">id</code> 关联的具有语音聊天能力的子频道；如果未找到，则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_MuteEveryoneAsync_" data-uid="QQBot.WebSocket.SocketGuild.MuteEveryoneAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_MuteEveryoneAsync_System_DateTimeOffset_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.MuteEveryoneAsync(System.DateTimeOffset,QQBot.RequestOptions)">
+  MuteEveryoneAsync(DateTimeOffset, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L423"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>禁言全体成员。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task MuteEveryoneAsync(DateTimeOffset until, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>until</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a></dt>
+    <dd><p>禁言的结束时间。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_MuteEveryoneAsync_" data-uid="QQBot.WebSocket.SocketGuild.MuteEveryoneAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_MuteEveryoneAsync_System_TimeSpan_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.MuteEveryoneAsync(System.TimeSpan,QQBot.RequestOptions)">
+  MuteEveryoneAsync(TimeSpan, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L419"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>禁言全体成员。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task MuteEveryoneAsync(TimeSpan duration, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd><p>禁言的时长。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_MuteMemberAsync_" data-uid="QQBot.WebSocket.SocketGuild.MuteMemberAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_MuteMemberAsync_QQBot_IGuildMember_System_DateTimeOffset_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.MuteMemberAsync(QQBot.IGuildMember,System.DateTimeOffset,QQBot.RequestOptions)">
+  MuteMemberAsync(IGuildMember, DateTimeOffset, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L439"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>禁言指定用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task MuteMemberAsync(IGuildMember user, DateTimeOffset until, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="QQBot.IGuildMember.html">IGuildMember</a></dt>
+    <dd><p>要禁言的用户。</p>
+</dd>
+    <dt><code>until</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a></dt>
+    <dd><p>禁言的结束时间。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_MuteMemberAsync_" data-uid="QQBot.WebSocket.SocketGuild.MuteMemberAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_MuteMemberAsync_QQBot_IGuildMember_System_TimeSpan_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.MuteMemberAsync(QQBot.IGuildMember,System.TimeSpan,QQBot.RequestOptions)">
+  MuteMemberAsync(IGuildMember, TimeSpan, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L431"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>禁言指定用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task MuteMemberAsync(IGuildMember user, TimeSpan duration, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="QQBot.IGuildMember.html">IGuildMember</a></dt>
+    <dd><p>要禁言的用户。</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd><p>禁言的时长。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_MuteMemberAsync_" data-uid="QQBot.WebSocket.SocketGuild.MuteMemberAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_MuteMemberAsync_System_UInt64_System_DateTimeOffset_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.MuteMemberAsync(System.UInt64,System.DateTimeOffset,QQBot.RequestOptions)">
+  MuteMemberAsync(ulong, DateTimeOffset, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L443"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>禁言指定用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task MuteMemberAsync(ulong userId, DateTimeOffset until, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要禁言的用户的 ID。</p>
+</dd>
+    <dt><code>until</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a></dt>
+    <dd><p>禁言的结束时间。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_MuteMemberAsync_" data-uid="QQBot.WebSocket.SocketGuild.MuteMemberAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_MuteMemberAsync_System_UInt64_System_TimeSpan_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.MuteMemberAsync(System.UInt64,System.TimeSpan,QQBot.RequestOptions)">
+  MuteMemberAsync(ulong, TimeSpan, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L435"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>禁言指定用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task MuteMemberAsync(ulong userId, TimeSpan duration, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要禁言的用户的 ID。</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd><p>禁言的时长。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_MuteMembersAsync_" data-uid="QQBot.WebSocket.SocketGuild.MuteMembersAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_MuteMembersAsync_System_Collections_Generic_IEnumerable_QQBot_IGuildMember__System_DateTimeOffset_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.MuteMembersAsync(System.Collections.Generic.IEnumerable{QQBot.IGuildMember},System.DateTimeOffset,QQBot.RequestOptions)">
+  MuteMembersAsync(IEnumerable&lt;IGuildMember&gt;, DateTimeOffset, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L463"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>批量禁言用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task MuteMembersAsync(IEnumerable&lt;IGuildMember&gt; users, DateTimeOffset until, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>users</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="QQBot.IGuildMember.html">IGuildMember</a>&gt;</dt>
+    <dd><p>所有要禁言的用户。</p>
+</dd>
+    <dt><code>until</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a></dt>
+    <dd><p>禁言的结束时间。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_MuteMembersAsync_" data-uid="QQBot.WebSocket.SocketGuild.MuteMembersAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_MuteMembersAsync_System_Collections_Generic_IEnumerable_QQBot_IGuildMember__System_TimeSpan_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.MuteMembersAsync(System.Collections.Generic.IEnumerable{QQBot.IGuildMember},System.TimeSpan,QQBot.RequestOptions)">
+  MuteMembersAsync(IEnumerable&lt;IGuildMember&gt;, TimeSpan, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L455"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>批量禁言用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task MuteMembersAsync(IEnumerable&lt;IGuildMember&gt; users, TimeSpan duration, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>users</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="QQBot.IGuildMember.html">IGuildMember</a>&gt;</dt>
+    <dd><p>所有要禁言的用户。</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd><p>禁言的时长。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_MuteMembersAsync_" data-uid="QQBot.WebSocket.SocketGuild.MuteMembersAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_MuteMembersAsync_System_Collections_Generic_IEnumerable_System_UInt64__System_DateTimeOffset_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.MuteMembersAsync(System.Collections.Generic.IEnumerable{System.UInt64},System.DateTimeOffset,QQBot.RequestOptions)">
+  MuteMembersAsync(IEnumerable&lt;ulong&gt;, DateTimeOffset, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L467"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>批量禁言用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task MuteMembersAsync(IEnumerable&lt;ulong&gt; userIds, DateTimeOffset until, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</dt>
+    <dd><p>所有要禁言的用户的 ID。</p>
+</dd>
+    <dt><code>until</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a></dt>
+    <dd><p>禁言的结束时间。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_MuteMembersAsync_" data-uid="QQBot.WebSocket.SocketGuild.MuteMembersAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_MuteMembersAsync_System_Collections_Generic_IEnumerable_System_UInt64__System_TimeSpan_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.MuteMembersAsync(System.Collections.Generic.IEnumerable{System.UInt64},System.TimeSpan,QQBot.RequestOptions)">
+  MuteMembersAsync(IEnumerable&lt;ulong&gt;, TimeSpan, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L459"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>批量禁言用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task MuteMembersAsync(IEnumerable&lt;ulong&gt; userIds, TimeSpan duration, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</dt>
+    <dd><p>所有要禁言的用户的 ID。</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd><p>禁言的时长。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_PublishAnnouncementAsync_" data-uid="QQBot.WebSocket.SocketGuild.PublishAnnouncementAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_PublishAnnouncementAsync_QQBot_IUserMessage_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.PublishAnnouncementAsync(QQBot.IUserMessage,QQBot.RequestOptions)">
+  PublishAnnouncementAsync(IUserMessage, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L487"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>发布消息类型的频道公告。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task PublishAnnouncementAsync(IUserMessage message, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="QQBot.IUserMessage.html">IUserMessage</a></dt>
+    <dd><p>要发布为公告的消息。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_PublishAnnouncementAsync_" data-uid="QQBot.WebSocket.SocketGuild.PublishAnnouncementAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_PublishAnnouncementAsync_System_UInt64_System_String_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.PublishAnnouncementAsync(System.UInt64,System.String,QQBot.RequestOptions)">
+  PublishAnnouncementAsync(ulong, string, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L483"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>发布消息类型的频道公告。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task PublishAnnouncementAsync(ulong channelId, string messageId, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要发布为公告的消息所在的频道的 ID。</p>
+</dd>
+    <dt><code>messageId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要发布为公告的消息的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_RecommendChannelsAsync_" data-uid="QQBot.WebSocket.SocketGuild.RecommendChannelsAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_RecommendChannelsAsync_System_Collections_Generic_IEnumerable_QQBot_ChannelRecommendation__QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.RecommendChannelsAsync(System.Collections.Generic.IEnumerable{QQBot.ChannelRecommendation},QQBot.RequestOptions)">
+  RecommendChannelsAsync(IEnumerable&lt;ChannelRecommendation&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L503"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>发布子频道推荐类型的公告。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task RecommendChannelsAsync(IEnumerable&lt;ChannelRecommendation&gt; recommendations, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>recommendations</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="QQBot.ChannelRecommendation.html">ChannelRecommendation</a>&gt;</dt>
+    <dd><p>所有要推荐的子频道及推荐于。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_SocketGuild_RecommendChannelsAsync_System_Collections_Generic_IEnumerable_QQBot_ChannelRecommendation__QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>同频道内最多同时推荐 3 个子频道。</p>
+</div>
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_RemoveAllChannelRecommendationsAsync_" data-uid="QQBot.WebSocket.SocketGuild.RemoveAllChannelRecommendationsAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_RemoveAllChannelRecommendationsAsync_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.RemoveAllChannelRecommendationsAsync(QQBot.RequestOptions)">
+  RemoveAllChannelRecommendationsAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L507"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>移除所有子频道推荐。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task RemoveAllChannelRecommendationsAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_RequestApplicationPermissionAsync_" data-uid="QQBot.WebSocket.SocketGuild.RequestApplicationPermissionAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_RequestApplicationPermissionAsync_QQBot_ITextChannel_System_String_QQBot_ApplicationPermission_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.RequestApplicationPermissionAsync(QQBot.ITextChannel,System.String,QQBot.ApplicationPermission,QQBot.RequestOptions)">
+  RequestApplicationPermissionAsync(ITextChannel, string, ApplicationPermission, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L396"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>请求应用程序权限。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task RequestApplicationPermissionAsync(ITextChannel channel, string title, ApplicationPermission permission, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channel</code> <a class="xref" href="QQBot.ITextChannel.html">ITextChannel</a></dt>
+    <dd><p>要发送请求的频道。</p>
+</dd>
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>接口权限链接中的接口权限描述信息。</p>
+</dd>
+    <dt><code>permission</code> <a class="xref" href="QQBot.ApplicationPermission.html">ApplicationPermission</a></dt>
+    <dd><p>要请求的权限。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_RequestApplicationPermissionAsync_" data-uid="QQBot.WebSocket.SocketGuild.RequestApplicationPermissionAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_RequestApplicationPermissionAsync_QQBot_ITextChannel_System_String_System_String_System_Net_Http_HttpMethod_System_String_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.RequestApplicationPermissionAsync(QQBot.ITextChannel,System.String,System.String,System.Net.Http.HttpMethod,System.String,QQBot.RequestOptions)">
+  RequestApplicationPermissionAsync(ITextChannel, string, string, HttpMethod, string, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L406"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>请求应用程序权限。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task RequestApplicationPermissionAsync(ITextChannel channel, string title, string description, HttpMethod method, string path, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channel</code> <a class="xref" href="QQBot.ITextChannel.html">ITextChannel</a></dt>
+    <dd><p>要发送请求的频道。</p>
+</dd>
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>接口权限链接中的接口权限描述信息。</p>
+</dd>
+    <dt><code>description</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>接口权限链接中的机器人可使用功能的描述信息。</p>
+</dd>
+    <dt><code>method</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod">HttpMethod</a></dt>
+    <dd><p>要请求的权限的请求方法。</p>
+</dd>
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要请求的权限的路径。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_RequestApplicationPermissionAsync_" data-uid="QQBot.WebSocket.SocketGuild.RequestApplicationPermissionAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_RequestApplicationPermissionAsync_System_UInt64_System_String_QQBot_ApplicationPermission_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.RequestApplicationPermissionAsync(System.UInt64,System.String,QQBot.ApplicationPermission,QQBot.RequestOptions)">
+  RequestApplicationPermissionAsync(ulong, string, ApplicationPermission, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L391"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>请求应用程序权限。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task RequestApplicationPermissionAsync(ulong channelId, string title, ApplicationPermission permission, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要发送请求的频道的 ID。</p>
+</dd>
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>接口权限链接中的接口权限描述信息。</p>
+</dd>
+    <dt><code>permission</code> <a class="xref" href="QQBot.ApplicationPermission.html">ApplicationPermission</a></dt>
+    <dd><p>要请求的权限。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_RequestApplicationPermissionAsync_" data-uid="QQBot.WebSocket.SocketGuild.RequestApplicationPermissionAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_RequestApplicationPermissionAsync_System_UInt64_System_String_System_String_System_Net_Http_HttpMethod_System_String_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.RequestApplicationPermissionAsync(System.UInt64,System.String,System.String,System.Net.Http.HttpMethod,System.String,QQBot.RequestOptions)">
+  RequestApplicationPermissionAsync(ulong, string, string, HttpMethod, string, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L401"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>请求应用程序权限。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task RequestApplicationPermissionAsync(ulong channelId, string title, string description, HttpMethod method, string path, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要发送请求的频道的 ID。</p>
+</dd>
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>接口权限链接中的接口权限描述信息。</p>
+</dd>
+    <dt><code>description</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>接口权限链接中的机器人可使用功能的描述信息。</p>
+</dd>
+    <dt><code>method</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod">HttpMethod</a></dt>
+    <dd><p>要请求的权限的请求方法。</p>
+</dd>
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要请求的权限的路径。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_RevokeAnnouncementAsync_" data-uid="QQBot.WebSocket.SocketGuild.RevokeAnnouncementAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_RevokeAnnouncementAsync_QQBot_IUserMessage_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.RevokeAnnouncementAsync(QQBot.IUserMessage,QQBot.RequestOptions)">
+  RevokeAnnouncementAsync(IUserMessage, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L499"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>撤销频道公告。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task RevokeAnnouncementAsync(IUserMessage message, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="QQBot.IUserMessage.html">IUserMessage</a></dt>
+    <dd><p>要撤销的公告的消息。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_RevokeAnnouncementAsync_" data-uid="QQBot.WebSocket.SocketGuild.RevokeAnnouncementAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_RevokeAnnouncementAsync_System_String_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.RevokeAnnouncementAsync(System.String,QQBot.RequestOptions)">
+  RevokeAnnouncementAsync(string, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L495"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>撤销频道公告。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task RevokeAnnouncementAsync(string messageId, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>messageId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要撤销的公告的消息的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_ToString_" data-uid="QQBot.WebSocket.SocketGuild.ToString*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_ToString" data-uid="QQBot.WebSocket.SocketGuild.ToString">
+  ToString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L191"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此子频道的名称。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_UnmuteEveryoneAsync_" data-uid="QQBot.WebSocket.SocketGuild.UnmuteEveryoneAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_UnmuteEveryoneAsync_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.UnmuteEveryoneAsync(QQBot.RequestOptions)">
+  UnmuteEveryoneAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L427"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>禁言全体成员。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task UnmuteEveryoneAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_UnmuteMemberAsync_" data-uid="QQBot.WebSocket.SocketGuild.UnmuteMemberAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_UnmuteMemberAsync_QQBot_IGuildMember_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.UnmuteMemberAsync(QQBot.IGuildMember,QQBot.RequestOptions)">
+  UnmuteMemberAsync(IGuildMember, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L447"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>取消禁言用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task UnmuteMemberAsync(IGuildMember user, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="QQBot.IGuildMember.html">IGuildMember</a></dt>
+    <dd><p>要取消禁言的用户。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_UnmuteMemberAsync_" data-uid="QQBot.WebSocket.SocketGuild.UnmuteMemberAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_UnmuteMemberAsync_System_UInt64_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.UnmuteMemberAsync(System.UInt64,QQBot.RequestOptions)">
+  UnmuteMemberAsync(ulong, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L451"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>取消禁言用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task UnmuteMemberAsync(ulong userId, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要取消禁言的用户的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_UnmuteMembersAsync_" data-uid="QQBot.WebSocket.SocketGuild.UnmuteMembersAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_UnmuteMembersAsync_System_Collections_Generic_IEnumerable_QQBot_IGuildMember__QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.UnmuteMembersAsync(System.Collections.Generic.IEnumerable{QQBot.IGuildMember},QQBot.RequestOptions)">
+  UnmuteMembersAsync(IEnumerable&lt;IGuildMember&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L471"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>批量取消禁言用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task UnmuteMembersAsync(IEnumerable&lt;IGuildMember&gt; users, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>users</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="QQBot.IGuildMember.html">IGuildMember</a>&gt;</dt>
+    <dd><p>所有要取消禁言的用户。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketGuild_UnmuteMembersAsync_" data-uid="QQBot.WebSocket.SocketGuild.UnmuteMembersAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuild_UnmuteMembersAsync_System_Collections_Generic_IEnumerable_System_UInt64__QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.UnmuteMembersAsync(System.Collections.Generic.IEnumerable{System.UInt64},QQBot.RequestOptions)">
+  UnmuteMembersAsync(IEnumerable&lt;ulong&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L475"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>批量取消禁言用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task UnmuteMembersAsync(IEnumerable&lt;ulong&gt; userIds, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</dt>
+    <dd><p>所有要取消禁言的用户的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
 
 
 
@@ -784,7 +3127,7 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="QQBot_WebSocket_SocketGuild_UpdateAsync_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketGuild.UpdateAsync(QQBot.RequestOptions)">
   UpdateAsync(RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L188"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>通过 REST API 获取此实体对象的最新状态，并替换当前对象的属性。</p>
@@ -828,7 +3171,7 @@ Class SocketGuild  <a class="header-action link-secondary" title="View source" h
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Guilds/SocketGuild.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
 

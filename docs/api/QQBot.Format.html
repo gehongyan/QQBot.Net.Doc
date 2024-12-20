@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="QQBot_Format" data-uid="QQBot.Format" class="text-break">
-Class Format  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L10"><i class="bi bi-code-slash"></i></a>
+Class Format  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -157,7 +157,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="QQBot_Format_BlockQuote_System_String_" data-uid="QQBot.Format.BlockQuote(System.String)">
   BlockQuote(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L186"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个 Markdown 格式的块引用。</p>
@@ -196,7 +196,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="QQBot_Format_Bold_System_String_System_Boolean_" data-uid="QQBot.Format.Bold(System.String,System.Boolean)">
   Bold(string?, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>返回一个使用粗体格式的 Markdown 格式化字符串。</p>
@@ -241,7 +241,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="QQBot_Format_BoldItalics_System_String_System_Boolean_" data-uid="QQBot.Format.BoldItalics(System.String,System.Boolean)">
   BoldItalics(string?, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>返回一个使用粗斜体格式的 Markdown 格式化字符串。</p>
@@ -282,11 +282,228 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
 
 
+  <a id="QQBot_Format_Command_" data-uid="QQBot.Format.Command*"></a>
+
+  <h3 id="QQBot_Format_Command_System_String_" data-uid="QQBot.Format.Command(System.String)">
+  Command(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L228"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取一个格式化的命令。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Command(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>用户点击后直接发送的文本。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>获取格式化后的命令。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_Format_Command_" data-uid="QQBot.Format.Command*"></a>
+
+  <h3 id="QQBot_Format_Command_System_String_System_String_System_Boolean_" data-uid="QQBot.Format.Command(System.String,System.String,System.Boolean)">
+  Command(string, string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L237"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取一个格式化的命令。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Command(string text, string displayText, bool reference)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>用户点击后直接发送的文本。</p>
+</dd>
+    <dt><code>displayText</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>用户在消息内看到的文本。</p>
+</dd>
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>插入输入框时是否带消息原文回复引用。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>获取格式化后的命令。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_Format_Emote_" data-uid="QQBot.Format.Emote*"></a>
+
+  <h3 id="QQBot_Format_Emote_QQBot_Emotes_System_" data-uid="QQBot.Format.Emote(QQBot.Emotes.System)">
+  Emote(System)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L245"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取一个格式化的表情符号。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Emote(Emotes.System emote)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>emote</code> <a class="xref" href="QQBot.Emotes.html">Emotes</a>.<a class="xref" href="QQBot.Emotes.System.html">System</a></dt>
+    <dd><p>表情符号。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>获取格式化后的表情符号。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_Format_Emote_" data-uid="QQBot.Format.Emote*"></a>
+
+  <h3 id="QQBot_Format_Emote_System_Int32_" data-uid="QQBot.Format.Emote(System.Int32)">
+  Emote(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取一个格式化的表情符号。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Emote(int emoteId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>emoteId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>表情符号 ID。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>获取格式化后的表情符号。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_Format_Escape_" data-uid="QQBot.Format.Escape*"></a>
+
+  <h3 id="QQBot_Format_Escape_System_String_" data-uid="QQBot.Format.Escape(System.String)">
+  Escape(string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L297"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>转义字符串，将原始文本中的内嵌格式转义为转义字符。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string? Escape(string? text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要转义的文本。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>转义后的文本。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_Format_Escape_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>此方法会将文本中的 <code>&amp;</code>、<code>&lt;</code> 和 <code>&gt;</code> 字符分别转义为 <code>&amp;amp;</code>、<code>&amp;lt;</code> 和 <code>&amp;gt;</code>。
+此操作会保留网关或 API 返回的文本内容在用户侧的显示形式。 <br>
+例如，用户发送用户提及 <code>@someone</code>，网关下传 <code>&lt;@!4937680016579989979&gt;</code>，经过此方法转义的结果为
+<code>&amp;lt;@!4937680016579989979&amp;gt;</code>，发送给用户后，用户将看到 <code>&lt;@!4937680016579989979&gt;</code>。 <br>
+例如，用户发送 <code>&lt;@!4937680016579989979&gt;</code>，网关下传
+<code>&amp;lt;@!4937680016579989979&amp;gt;</code>，经过此方法转义的结果为
+<code>&amp;amp;lt;@!4937680016579989979&amp;amp;gt;</code>，发送给用户后，用户将看到
+<code>&amp;lt;@!4937680016579989979&amp;gt;</code>。</p>
+</div>
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="QQBot.Format.html#QQBot_Format_Sanitize_System_String_System_String___">Sanitize(string?, params string[])</a></div>
+    </dd>
+  </dl>
+
+
   <a id="QQBot_Format_H1_" data-uid="QQBot.Format.H1*"></a>
 
   <h3 id="QQBot_Format_H1_System_String_" data-uid="QQBot.Format.H1(System.String)">
   H1(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L111"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>返回格式化为 Markdown 一级标题的字符串。</p>
@@ -325,7 +542,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="QQBot_Format_H2_System_String_" data-uid="QQBot.Format.H2(System.String)">
   H2(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L118"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>返回格式化为 Markdown 二级标题的字符串。</p>
@@ -364,7 +581,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="QQBot_Format_HorizontalRule" data-uid="QQBot.Format.HorizontalRule">
   HorizontalRule()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L200"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L208"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个 Markdown 格式的水平分割线。</p>
@@ -397,7 +614,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="QQBot_Format_Image_QQBot_FileAttachment_System_Nullable_System_Drawing_Size__" data-uid="QQBot.Format.Image(QQBot.FileAttachment,System.Nullable{System.Drawing.Size})">
   Image(FileAttachment, Size?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L150"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个 Markdown 格式的图片。</p>
@@ -439,7 +656,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="QQBot_Format_Image_System_String_" data-uid="QQBot.Format.Image(System.String)">
   Image(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L125"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个 Markdown 格式的图片。</p>
@@ -478,7 +695,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="QQBot_Format_Image_System_String_System_String_System_Nullable_System_Drawing_Size__" data-uid="QQBot.Format.Image(System.String,System.String,System.Nullable{System.Drawing.Size})">
   Image(string, string, Size?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L134"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个 Markdown 格式的图片。</p>
@@ -523,7 +740,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="QQBot_Format_Image_System_Uri_" data-uid="QQBot.Format.Image(System.Uri)">
   Image(Uri)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L138"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个 Markdown 格式的图片。</p>
@@ -561,7 +778,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="QQBot_Format_Image_System_Uri_System_String_System_Nullable_System_Drawing_Size__" data-uid="QQBot.Format.Image(System.Uri,System.String,System.Nullable{System.Drawing.Size})">
   Image(Uri, string, Size?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L141"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个 Markdown 格式的图片。</p>
@@ -605,7 +822,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="QQBot_Format_Italics_System_String_System_Boolean_" data-uid="QQBot.Format.Italics(System.String,System.Boolean)">
   Italics(string?, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>返回一个使用斜体格式的 Markdown 格式化字符串。</p>
@@ -650,7 +867,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="QQBot_Format_NewLine_System_Int32_" data-uid="QQBot.Format.NewLine(System.Int32)">
   NewLine(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L215"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取一个 Markdown 格式的多行换行符。</p>
@@ -689,7 +906,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="QQBot_Format_OrderedList_System_Collections_Generic_IEnumerable_System_String__System_Int32_" data-uid="QQBot.Format.OrderedList(System.Collections.Generic.IEnumerable{System.String},System.Int32)">
   OrderedList(IEnumerable&lt;string&gt;, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L167"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取有序列表的 Markdown 格式化字符串。</p>
@@ -731,7 +948,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="QQBot_Format_Sanitize_System_String_System_String___" data-uid="QQBot.Format.Sanitize(System.String,System.String[])">
   Sanitize(string?, params string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L225"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L272"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>转义字符串，安全地转义任何 Markdown 序列。</p>
@@ -739,7 +956,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string? Sanitize(this string? text, params string[] sensitiveCharacters)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string? Sanitize(string? text, params string[] sensitiveCharacters)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -766,17 +983,30 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
 
   <h4 class="section" id="QQBot_Format_Sanitize_System_String_System_String____remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>如果未指定要转移的字符，则将使用默认的转义字符列表。默认的待转义字符包括：<br><code>&lt;/code&gt;、<code>*</code>、<code>~</code>、<code>`</code>、<code>:</code>、<code>-</code>、<code>]</code>、<code>)</code>、<code>&gt;</code>、<code>#</code>。</code></p>
+  <div class="markdown level1 remarks"><p>如果未指定要转移的字符，则将使用默认的转义字符列表。默认的待转义字符包括：<br><code>&lt;/code&gt;、<code>*</code>、<code>~</code>、<code>`</code>、<code>:</code>、<code>-</code>、<code>]</code>、<code>)</code>、<code>&gt;</code>、<code>#</code>。
+此方法会在每个待转义字符前添加一个零宽空格字符（U+200B）。此操作会使内嵌格式提及失效。 <br>
+例如，用户发送用户提及 <code>@someone</code>，网关下传 <code>&lt;@!4937680016579989979&gt;</code>，经过此方法转义的结果为
+<code>&lt;@!4937680016579989979\u200B&gt;</code>，发送给用户后，用户将看到 <code>&lt;@!4937680016579989979&gt;</code>。 <br>
+例如，用户发送 <code>&lt;@!4937680016579989979&gt;</code>，网关下传
+<code>&amp;lt;@!4937680016579989979&amp;gt;</code>，经过此方法转义的结果为
+<code>&amp;lt;@!4937680016579989979&amp;\u200Bgt;</code>，发送给用户后，用户将看到
+<code>&lt;@!4937680016579989979&gt;</code>。</code></p>
 </div>
 
 
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><a class="xref" href="QQBot.Format.html#QQBot_Format_Escape_System_String_">Escape(string?)</a></div>
+    </dd>
+  </dl>
 
 
   <a id="QQBot_Format_Strikethrough_" data-uid="QQBot.Format.Strikethrough*"></a>
 
   <h3 id="QQBot_Format_Strikethrough_System_String_System_Boolean_" data-uid="QQBot.Format.Strikethrough(System.String,System.Boolean)">
   Strikethrough(string?, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L71"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>返回一个使用删除线格式的 Markdown 格式化字符串。</p>
@@ -817,11 +1047,57 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
 
 
+  <a id="QQBot_Format_Unescape_" data-uid="QQBot.Format.Unescape*"></a>
+
+  <h3 id="QQBot_Format_Unescape_System_String_" data-uid="QQBot.Format.Unescape(System.String)">
+  Unescape(string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L315"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>反转义字符串，将转义的内嵌格式还原为原始文本。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string? Unescape(string? text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要反转义的文本。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>反转义后的文本。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_Format_Unescape_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>此方法会将文本中的 <code>&amp;amp;</code>、<code>&amp;lt;</code> 和 <code>&amp;gt;</code> 字符分别反转义为
+<code>&amp;</code>、<code>&lt;</code> 和 <code>&gt;</code>。此操作可以使用户发送的内嵌格式生效为实际的提及。 <br>
+例如，用户发送 <code>&lt;@!4937680016579989979&gt;</code>，网关下传
+<code>&amp;lt;@!4937680016579989979&amp;gt;</code>，经过此方法反转义的结果为
+<code>&lt;@!4937680016579989979&gt;</code>，发送给用户后，用户将看到 <code>@someone</code>。</p>
+</div>
+
+
+
+
   <a id="QQBot_Format_UnorderedList_" data-uid="QQBot.Format.UnorderedList*"></a>
 
   <h3 id="QQBot_Format_UnorderedList_System_Collections_Generic_IEnumerable_System_String__System_Int32_" data-uid="QQBot.Format.UnorderedList(System.Collections.Generic.IEnumerable{System.String},System.Int32)">
   UnorderedList(IEnumerable&lt;string&gt;, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L177"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取无序列表的 Markdown 格式化字符串。</p>
@@ -863,7 +1139,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="QQBot_Format_Url_System_String_System_Boolean_" data-uid="QQBot.Format.Url(System.String,System.Boolean)">
   Url(string, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>返回格式化为 Markdown 链接的字符串。</p>
@@ -909,7 +1185,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="QQBot_Format_Url_System_String_System_String_System_Boolean_" data-uid="QQBot.Format.Url(System.String,System.String,System.Boolean)">
   Url(string, string, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L100"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>返回格式化为 Markdown 链接的字符串。</p>
@@ -958,7 +1234,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="QQBot_Format_Url_System_Uri_System_Boolean_" data-uid="QQBot.Format.Url(System.Uri,System.Boolean)">
   Url(Uri, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L87"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>返回格式化为 Markdown 链接的字符串。</p>
@@ -1004,7 +1280,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
   <h3 id="QQBot_Format_Url_System_Uri_System_String_System_Boolean_" data-uid="QQBot.Format.Url(System.Uri,System.String,System.Boolean)">
   Url(Uri, string, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L104"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>返回格式化为 Markdown 链接的字符串。</p>
@@ -1053,7 +1329,7 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Format.cs/#L11" class="edit-link">Edit this page</a>
         </div>
 
 

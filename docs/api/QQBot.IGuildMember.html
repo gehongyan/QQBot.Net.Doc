@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Interface IGuildMember | QQBot.Net 文档 ">
       
-      <meta name="description" content="表示一个频道内用户">
+      <meta name="description" content="表示一个子频道内用户">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -97,7 +97,7 @@ Interface IGuildMember  <a class="header-action link-secondary" title="View sour
   <dl><dt>Assembly</dt><dd>QQBot.Net.Core.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>表示一个频道内用户</p>
+  <div class="markdown summary"><p>表示一个子频道内用户</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -121,9 +121,6 @@ Interface IGuildMember  <a class="header-action link-secondary" title="View sour
       <a class="xref" href="QQBot.IGuildUser.html#QQBot_IGuildUser_Username">IGuildUser.Username</a>
     </div>
     <div>
-      <a class="xref" href="QQBot.IGuildUser.html#QQBot_IGuildUser_Avatar">IGuildUser.Avatar</a>
-    </div>
-    <div>
       <a class="xref" href="QQBot.IGuildUser.html#QQBot_IGuildUser_IsBot">IGuildUser.IsBot</a>
     </div>
     <div>
@@ -131,6 +128,9 @@ Interface IGuildMember  <a class="header-action link-secondary" title="View sour
     </div>
     <div>
       <a class="xref" href="QQBot.IGuildUser.html#QQBot_IGuildUser_UnionUserAccount">IGuildUser.UnionUserAccount</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IUser.html#QQBot_IUser_Avatar">IUser.Avatar</a>
     </div>
     <div>
       <a class="xref" href="QQBot.IMentionable.html#QQBot_IMentionable_Mention">IMentionable.Mention</a>
@@ -146,14 +146,78 @@ Interface IGuildMember  <a class="header-action link-secondary" title="View sour
 </h2>
 
 
+  <a id="QQBot_IGuildMember_Guild_" data-uid="QQBot.IGuildMember.Guild*"></a>
+
+  <h3 id="QQBot_IGuildMember_Guild" data-uid="QQBot.IGuildMember.Guild">
+  Guild
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildMember.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此频道用户所属的频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IGuild Guild { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.IGuild.html">IGuild</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_IGuildMember_GuildId_" data-uid="QQBot.IGuildMember.GuildId*"></a>
+
+  <h3 id="QQBot_IGuildMember_GuildId" data-uid="QQBot.IGuildMember.GuildId">
+  GuildId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildMember.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此用户所属频道的 ID。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ulong GuildId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="QQBot_IGuildMember_JoinedAt_" data-uid="QQBot.IGuildMember.JoinedAt*"></a>
 
   <h3 id="QQBot_IGuildMember_JoinedAt" data-uid="QQBot.IGuildMember.JoinedAt">
   JoinedAt
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildMember.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildMember.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取此用户加入该频道的时间。</p>
+  <div class="markdown level1 summary"><p>获取此用户加入该子频道的时间。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -182,7 +246,7 @@ Interface IGuildMember  <a class="header-action link-secondary" title="View sour
 
   <h3 id="QQBot_IGuildMember_Nickname" data-uid="QQBot.IGuildMember.Nickname">
   Nickname
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildMember.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildMember.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此用户的昵称。</p>
@@ -214,10 +278,10 @@ Interface IGuildMember  <a class="header-action link-secondary" title="View sour
 
   <h3 id="QQBot_IGuildMember_RoleIds" data-uid="QQBot.IGuildMember.RoleIds">
   RoleIds
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildMember.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildMember.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取此用户在该频道内拥有的所有身份组的 ID。</p>
+  <div class="markdown level1 summary"><p>获取此用户在该子频道内拥有的所有身份组的 ID。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -234,6 +298,392 @@ Interface IGuildMember  <a class="header-action link-secondary" title="View sour
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;</dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="QQBot_IGuildMember_AddRoleAsync_" data-uid="QQBot.IGuildMember.AddRoleAsync*"></a>
+
+  <h3 id="QQBot_IGuildMember_AddRoleAsync_QQBot_IRole_QQBot_RequestOptions_" data-uid="QQBot.IGuildMember.AddRoleAsync(QQBot.IRole,QQBot.RequestOptions)">
+  AddRoleAsync(IRole, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildMember.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在该服务器内授予此用户指定的角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task AddRoleAsync(IRole role, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>role</code> <a class="xref" href="QQBot.IRole.html">IRole</a></dt>
+    <dd><p>要在该服务器内为此用户授予的角色。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步授予操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IGuildMember_AddRoleAsync_" data-uid="QQBot.IGuildMember.AddRoleAsync*"></a>
+
+  <h3 id="QQBot_IGuildMember_AddRoleAsync_System_UInt32_QQBot_RequestOptions_" data-uid="QQBot.IGuildMember.AddRoleAsync(System.UInt32,QQBot.RequestOptions)">
+  AddRoleAsync(uint, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildMember.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在该服务器内授予此用户指定的角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task AddRoleAsync(uint roleId, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>roleId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>要在该服务器内为此用户授予的角色的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步授予操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IGuildMember_AddRolesAsync_" data-uid="QQBot.IGuildMember.AddRolesAsync*"></a>
+
+  <h3 id="QQBot_IGuildMember_AddRolesAsync_System_Collections_Generic_IEnumerable_QQBot_IRole__QQBot_RequestOptions_" data-uid="QQBot.IGuildMember.AddRolesAsync(System.Collections.Generic.IEnumerable{QQBot.IRole},QQBot.RequestOptions)">
+  AddRolesAsync(IEnumerable&lt;IRole&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildMember.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在该服务器内授予此用户指定的一些角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task AddRolesAsync(IEnumerable&lt;IRole&gt; roles, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>roles</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="QQBot.IRole.html">IRole</a>&gt;</dt>
+    <dd><p>要在该服务器内为此用户授予的所有角色。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步授予操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IGuildMember_AddRolesAsync_" data-uid="QQBot.IGuildMember.AddRolesAsync*"></a>
+
+  <h3 id="QQBot_IGuildMember_AddRolesAsync_System_Collections_Generic_IEnumerable_System_UInt32__QQBot_RequestOptions_" data-uid="QQBot.IGuildMember.AddRolesAsync(System.Collections.Generic.IEnumerable{System.UInt32},QQBot.RequestOptions)">
+  AddRolesAsync(IEnumerable&lt;uint&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildMember.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在该服务器内授予此用户指定的一些角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task AddRolesAsync(IEnumerable&lt;uint&gt; roleIds, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>roleIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;</dt>
+    <dd><p>要在该服务器内为此用户授予的所有角色的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步授予操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IGuildMember_KickAsync_" data-uid="QQBot.IGuildMember.KickAsync*"></a>
+
+  <h3 id="QQBot_IGuildMember_KickAsync_System_Boolean_System_Int32_QQBot_RequestOptions_" data-uid="QQBot.IGuildMember.KickAsync(System.Boolean,System.Int32,QQBot.RequestOptions)">
+  KickAsync(bool, int, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildMember.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将此用户从此子频道中踢出。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task KickAsync(bool addBlacklist = false, int pruneDays = 0, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>addBlacklist</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否在踢出成员的同时将其加入黑名单。</p>
+</dd>
+    <dt><code>pruneDays</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>撤回指定时间范围内的消息，支持的值有：</p>
+<table><thead><tr><th class="term"> 值 </th><th class="description"> 释义 </th></tr></thead><tbody><tr><td class="term"><code>0</code></td><td class="description"> 不撤回任何消息。 </td></tr><tr><td class="term"><code>3</code>、<code>7</code>、<code>15</code>、<code>30</code></td><td class="description"> 撤回指定天数之前至当前的所有消息。 </td></tr><tr><td class="term"><code>-1</code></td><td class="description"> 撤回全部消息。 </td></tr></tbody></table>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步踢出操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IGuildMember_RemoveRoleAsync_" data-uid="QQBot.IGuildMember.RemoveRoleAsync*"></a>
+
+  <h3 id="QQBot_IGuildMember_RemoveRoleAsync_QQBot_IRole_QQBot_RequestOptions_" data-uid="QQBot.IGuildMember.RemoveRoleAsync(QQBot.IRole,QQBot.RequestOptions)">
+  RemoveRoleAsync(IRole, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildMember.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在该服务器内撤销此用户指定的角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task RemoveRoleAsync(IRole role, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>role</code> <a class="xref" href="QQBot.IRole.html">IRole</a></dt>
+    <dd><p>要在该服务器内为此用户撤销的角色。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步撤销操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IGuildMember_RemoveRoleAsync_" data-uid="QQBot.IGuildMember.RemoveRoleAsync*"></a>
+
+  <h3 id="QQBot_IGuildMember_RemoveRoleAsync_System_UInt32_QQBot_RequestOptions_" data-uid="QQBot.IGuildMember.RemoveRoleAsync(System.UInt32,QQBot.RequestOptions)">
+  RemoveRoleAsync(uint, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildMember.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在该服务器内撤销此用户指定的角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task RemoveRoleAsync(uint roleId, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>roleId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>要在该服务器内为此用户撤销的角色的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步撤销操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IGuildMember_RemoveRolesAsync_" data-uid="QQBot.IGuildMember.RemoveRolesAsync*"></a>
+
+  <h3 id="QQBot_IGuildMember_RemoveRolesAsync_System_Collections_Generic_IEnumerable_QQBot_IRole__QQBot_RequestOptions_" data-uid="QQBot.IGuildMember.RemoveRolesAsync(System.Collections.Generic.IEnumerable{QQBot.IRole},QQBot.RequestOptions)">
+  RemoveRolesAsync(IEnumerable&lt;IRole&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildMember.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在该服务器内撤销此用户指定的一些角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task RemoveRolesAsync(IEnumerable&lt;IRole&gt; roles, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>roles</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="QQBot.IRole.html">IRole</a>&gt;</dt>
+    <dd><p>要在该服务器内为此用户撤销的所有角色。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步撤销操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IGuildMember_RemoveRolesAsync_" data-uid="QQBot.IGuildMember.RemoveRolesAsync*"></a>
+
+  <h3 id="QQBot_IGuildMember_RemoveRolesAsync_System_Collections_Generic_IEnumerable_System_UInt32__QQBot_RequestOptions_" data-uid="QQBot.IGuildMember.RemoveRolesAsync(System.Collections.Generic.IEnumerable{System.UInt32},QQBot.RequestOptions)">
+  RemoveRolesAsync(IEnumerable&lt;uint&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Users/IGuildMember.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>在该服务器内撤销此用户指定的一些角色。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task RemoveRolesAsync(IEnumerable&lt;uint&gt; roleIds, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>roleIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>&gt;</dt>
+    <dd><p>要在该服务器内为此用户撤销的所有角色的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步撤销操作的任务。</p>
+</dd>
+  </dl>
+
+
+
 
 
 

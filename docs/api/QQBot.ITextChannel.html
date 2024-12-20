@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -102,7 +102,7 @@ Interface ITextChannel  <a class="header-action link-secondary" title="View sour
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ITextChannel : IMessageChannel, INestedChannel, IGuildChannel, IChannel, IEntity&lt;string&gt;, IUpdateable, IEntity&lt;ulong&gt;, IMentionable</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ITextChannel : IMessageChannel, INestedChannel, IGuildChannel, IChannel, IEntity&lt;string&gt;, IUpdateable, IDeletable, IEntity&lt;ulong&gt;, IMentionable</code></pre>
   </div>
 
 
@@ -115,7 +115,10 @@ Interface ITextChannel  <a class="header-action link-secondary" title="View sour
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="QQBot.IMessageChannel.html#QQBot_IMessageChannel_SendMessageAsync_System_String_QQBot_IMarkdownContent_System_Nullable_QQBot_FileAttachment__QQBot_Embed_QQBot_Ark_QQBot_MessageReference_QQBot_IUserMessage_QQBot_RequestOptions_">IMessageChannel.SendMessageAsync(string, IMarkdownContent, FileAttachment?, Embed, Ark, MessageReference, IUserMessage, RequestOptions)</a>
+      <a class="xref" href="QQBot.IMessageChannel.html#QQBot_IMessageChannel_SendMessageAsync_System_String_QQBot_IMarkdown_System_Nullable_QQBot_FileAttachment__QQBot_Embed_QQBot_Ark_QQBot_IKeyboard_QQBot_MessageReference_QQBot_IUserMessage_QQBot_RequestOptions_">IMessageChannel.SendMessageAsync(string, IMarkdown, FileAttachment?, Embed, Ark, IKeyboard, MessageReference, IUserMessage, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IMessageChannel.html#QQBot_IMessageChannel_GetMessageAsync_System_String_QQBot_CacheMode_QQBot_RequestOptions_">IMessageChannel.GetMessageAsync(string, CacheMode, RequestOptions)</a>
     </div>
     <div>
       <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_CategoryId">INestedChannel.CategoryId</a>
@@ -128,6 +131,18 @@ Interface ITextChannel  <a class="header-action link-secondary" title="View sour
     </div>
     <div>
       <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_Permission">INestedChannel.Permission</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_GetPermissionsAsync_QQBot_IGuildMember_QQBot_RequestOptions_">INestedChannel.GetPermissionsAsync(IGuildMember, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_GetPermissionsAsync_QQBot_IRole_QQBot_RequestOptions_">INestedChannel.GetPermissionsAsync(IRole, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_ModifyPermissionsAsync_QQBot_IGuildMember_QQBot_OverwritePermissions_QQBot_RequestOptions_">INestedChannel.ModifyPermissionsAsync(IGuildMember, OverwritePermissions, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_ModifyPermissionsAsync_QQBot_IRole_QQBot_OverwritePermissions_QQBot_RequestOptions_">INestedChannel.ModifyPermissionsAsync(IRole, OverwritePermissions, RequestOptions)</a>
     </div>
     <div>
       <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_Id">IGuildChannel.Id</a>
@@ -151,7 +166,19 @@ Interface ITextChannel  <a class="header-action link-secondary" title="View sour
       <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_CreatorId">IGuildChannel.CreatorId</a>
     </div>
     <div>
+      <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_ModifyAsync_System_Action_QQBot_ModifyGuildChannelProperties__QQBot_RequestOptions_">IGuildChannel.ModifyAsync(Action&lt;ModifyGuildChannelProperties&gt;, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_GetUserAsync_System_UInt64_QQBot_CacheMode_QQBot_RequestOptions_">IGuildChannel.GetUserAsync(ulong, CacheMode, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IChannel.html#QQBot_IChannel_GetUserAsync_System_String_QQBot_CacheMode_QQBot_RequestOptions_">IChannel.GetUserAsync(string, CacheMode, RequestOptions)</a>
+    </div>
+    <div>
       <a class="xref" href="QQBot.IUpdateable.html#QQBot_IUpdateable_UpdateAsync_QQBot_RequestOptions_">IUpdateable.UpdateAsync(RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IDeletable.html#QQBot_IDeletable_DeleteAsync_QQBot_RequestOptions_">IDeletable.DeleteAsync(RequestOptions)</a>
     </div>
     <div>
       <a class="xref" href="QQBot.IMentionable.html#QQBot_IMentionable_Mention">IMentionable.Mention</a>
@@ -198,6 +225,355 @@ Interface ITextChannel  <a class="header-action link-secondary" title="View sour
     <dt><a class="xref" href="QQBot.ChannelSubType.html">ChannelSubType</a>?</dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="QQBot_ITextChannel_GetPinnedMessagesAsync_" data-uid="QQBot.ITextChannel.GetPinnedMessagesAsync*"></a>
+
+  <h3 id="QQBot_ITextChannel_GetPinnedMessagesAsync_QQBot_RequestOptions_" data-uid="QQBot.ITextChannel.GetPinnedMessagesAsync(QQBot.RequestOptions)">
+  GetPinnedMessagesAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/ITextChannel.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此频道的所有置顶消息的 ID。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IReadOnlyCollection&lt;ulong&gt;&gt; GetPinnedMessagesAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;&gt;</dt>
+    <dd><p>一个表示异步操作的任务，其结果为此频道的所有置顶消息的 ID 的只读集合。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_ITextChannel_ModifyAsync_" data-uid="QQBot.ITextChannel.ModifyAsync*"></a>
+
+  <h3 id="QQBot_ITextChannel_ModifyAsync_System_Action_QQBot_ModifyTextChannelProperties__QQBot_RequestOptions_" data-uid="QQBot.ITextChannel.ModifyAsync(System.Action{QQBot.ModifyTextChannelProperties},QQBot.RequestOptions)">
+  ModifyAsync(Action&lt;ModifyTextChannelProperties&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/ITextChannel.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>修改此频道有关文字聊天能力的属性。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task ModifyAsync(Action&lt;ModifyTextChannelProperties&gt; func, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.ModifyTextChannelProperties.html">ModifyTextChannelProperties</a>&gt;</dt>
+    <dd><p>一个包含修改频道有关文字聊天能力的属性的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步修改操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_ITextChannel_PinMessageAsync_" data-uid="QQBot.ITextChannel.PinMessageAsync*"></a>
+
+  <h3 id="QQBot_ITextChannel_PinMessageAsync_QQBot_IUserMessage_QQBot_RequestOptions_" data-uid="QQBot.ITextChannel.PinMessageAsync(QQBot.IUserMessage,QQBot.RequestOptions)">
+  PinMessageAsync(IUserMessage, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/ITextChannel.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>置顶消息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task PinMessageAsync(IUserMessage message, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="QQBot.IUserMessage.html">IUserMessage</a></dt>
+    <dd><p>要置顶的消息。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_ITextChannel_PinMessageAsync_" data-uid="QQBot.ITextChannel.PinMessageAsync*"></a>
+
+  <h3 id="QQBot_ITextChannel_PinMessageAsync_System_String_QQBot_RequestOptions_" data-uid="QQBot.ITextChannel.PinMessageAsync(System.String,QQBot.RequestOptions)">
+  PinMessageAsync(string, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/ITextChannel.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>置顶消息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task PinMessageAsync(string messageId, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>messageId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要置顶的消息的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_ITextChannel_RequestApplicationPermissionAsync_" data-uid="QQBot.ITextChannel.RequestApplicationPermissionAsync*"></a>
+
+  <h3 id="QQBot_ITextChannel_RequestApplicationPermissionAsync_System_String_QQBot_ApplicationPermission_QQBot_RequestOptions_" data-uid="QQBot.ITextChannel.RequestApplicationPermissionAsync(System.String,QQBot.ApplicationPermission,QQBot.RequestOptions)">
+  RequestApplicationPermissionAsync(string, ApplicationPermission, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/ITextChannel.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>请求应用程序权限。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task RequestApplicationPermissionAsync(string title, ApplicationPermission permission, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>接口权限链接中的接口权限描述信息。</p>
+</dd>
+    <dt><code>permission</code> <a class="xref" href="QQBot.ApplicationPermission.html">ApplicationPermission</a></dt>
+    <dd><p>要请求的权限。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_ITextChannel_RequestApplicationPermissionAsync_" data-uid="QQBot.ITextChannel.RequestApplicationPermissionAsync*"></a>
+
+  <h3 id="QQBot_ITextChannel_RequestApplicationPermissionAsync_System_String_System_String_System_Net_Http_HttpMethod_System_String_QQBot_RequestOptions_" data-uid="QQBot.ITextChannel.RequestApplicationPermissionAsync(System.String,System.String,System.Net.Http.HttpMethod,System.String,QQBot.RequestOptions)">
+  RequestApplicationPermissionAsync(string, string, HttpMethod, string, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/ITextChannel.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>请求应用程序权限。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task RequestApplicationPermissionAsync(string title, string description, HttpMethod method, string path, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>接口权限链接中的接口权限描述信息。</p>
+</dd>
+    <dt><code>description</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>接口权限链接中的机器人可使用功能的描述信息。</p>
+</dd>
+    <dt><code>method</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod">HttpMethod</a></dt>
+    <dd><p>要请求的权限的请求方法。</p>
+</dd>
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要请求的权限的路径。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_ITextChannel_UnpinMessageAsync_" data-uid="QQBot.ITextChannel.UnpinMessageAsync*"></a>
+
+  <h3 id="QQBot_ITextChannel_UnpinMessageAsync_QQBot_IUserMessage_QQBot_RequestOptions_" data-uid="QQBot.ITextChannel.UnpinMessageAsync(QQBot.IUserMessage,QQBot.RequestOptions)">
+  UnpinMessageAsync(IUserMessage, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/ITextChannel.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>取消置顶消息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task UnpinMessageAsync(IUserMessage message, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="QQBot.IUserMessage.html">IUserMessage</a></dt>
+    <dd><p>要取消置顶的消息。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_ITextChannel_UnpinMessageAsync_" data-uid="QQBot.ITextChannel.UnpinMessageAsync*"></a>
+
+  <h3 id="QQBot_ITextChannel_UnpinMessageAsync_System_String_QQBot_RequestOptions_" data-uid="QQBot.ITextChannel.UnpinMessageAsync(System.String,QQBot.RequestOptions)">
+  UnpinMessageAsync(string, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/ITextChannel.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>取消置顶消息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task UnpinMessageAsync(string messageId, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>messageId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要取消置顶的消息的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
 
 
 

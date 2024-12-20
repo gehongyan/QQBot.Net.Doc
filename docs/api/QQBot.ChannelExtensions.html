@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class ChannelExtensions | QQBot.Net 文档 ">
       
-      <meta name="description" content="提供用于各种频道实体的扩展方法。">
+      <meta name="description" content="提供用于各种子频道实体的扩展方法。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -97,7 +97,7 @@ Class ChannelExtensions  <a class="header-action link-secondary" title="View sou
   <dl><dt>Assembly</dt><dd>QQBot.Net.Core.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>提供用于各种频道实体的扩展方法。</p>
+  <div class="markdown summary"><p>提供用于各种子频道实体的扩展方法。</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -160,7 +160,7 @@ Class ChannelExtensions  <a class="header-action link-secondary" title="View sou
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Extensions/ChannelExtensions.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>尝试基于频道所实现的接口类型获取频道的实际类型。</p>
+  <div class="markdown level1 summary"><p>尝试基于子频道所实现的接口类型获取子频道的实际类型。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -171,14 +171,14 @@ Class ChannelExtensions  <a class="header-action link-secondary" title="View sou
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>channel</code> <a class="xref" href="QQBot.IChannel.html">IChannel</a></dt>
-    <dd><p>要获取其类型的频道。</p>
+    <dd><p>要获取其类型的子频道。</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="QQBot.ChannelType.html">ChannelType</a>?</dt>
-    <dd><p>如果此频道的实际类型已知，则返回其类型；否则，返回 <code>null</code>。</p>
+    <dd><p>如果此子频道的实际类型已知，则返回其类型；否则，返回 <code>null</code>。</p>
 </dd>
   </dl>
 

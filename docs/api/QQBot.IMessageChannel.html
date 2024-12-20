@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Interface IMessageChannel | QQBot.Net 文档 ">
       
-      <meta name="description" content="表示一个消息频道，可以发送和接收消息。">
+      <meta name="description" content="表示一个消息子频道，可以发送和接收消息。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -97,7 +97,7 @@ Interface IMessageChannel  <a class="header-action link-secondary" title="View s
   <dl><dt>Assembly</dt><dd>QQBot.Net.Core.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>表示一个消息频道，可以发送和接收消息。</p>
+  <div class="markdown summary"><p>表示一个消息子频道，可以发送和接收消息。</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -114,6 +114,9 @@ Interface IMessageChannel  <a class="header-action link-secondary" title="View s
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="QQBot.IChannel.html#QQBot_IChannel_GetUserAsync_System_String_QQBot_CacheMode_QQBot_RequestOptions_">IChannel.GetUserAsync(string, CacheMode, RequestOptions)</a>
+    </div>
     <div>
       <a class="xref" href="QQBot.IEntity-1.html#QQBot_IEntity_1_Id">IEntity&lt;string&gt;.Id</a>
     </div>
@@ -135,19 +138,64 @@ Interface IMessageChannel  <a class="header-action link-secondary" title="View s
 </h2>
 
 
-  <a id="QQBot_IMessageChannel_SendMessageAsync_" data-uid="QQBot.IMessageChannel.SendMessageAsync*"></a>
+  <a id="QQBot_IMessageChannel_GetMessageAsync_" data-uid="QQBot.IMessageChannel.GetMessageAsync*"></a>
 
-  <h3 id="QQBot_IMessageChannel_SendMessageAsync_System_String_QQBot_IMarkdownContent_System_Nullable_QQBot_FileAttachment__QQBot_Embed_QQBot_Ark_QQBot_MessageReference_QQBot_IUserMessage_QQBot_RequestOptions_" data-uid="QQBot.IMessageChannel.SendMessageAsync(System.String,QQBot.IMarkdownContent,System.Nullable{QQBot.FileAttachment},QQBot.Embed,QQBot.Ark,QQBot.MessageReference,QQBot.IUserMessage,QQBot.RequestOptions)">
-  SendMessageAsync(string?, IMarkdownContent?, FileAttachment?, Embed?, Ark?, MessageReference?, IUserMessage?, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IMessageChannel.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <h3 id="QQBot_IMessageChannel_GetMessageAsync_System_String_QQBot_CacheMode_QQBot_RequestOptions_" data-uid="QQBot.IMessageChannel.GetMessageAsync(System.String,QQBot.CacheMode,QQBot.RequestOptions)">
+  GetMessageAsync(string, CacheMode, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IMessageChannel.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>向此频道发送消息。</p>
+  <div class="markdown level1 summary"><p>从此消息子频道获取一条消息。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;Cacheable&lt;IUserMessage, string&gt;&gt; SendMessageAsync(string? content = null, IMarkdownContent? markdown = null, FileAttachment? attachment = null, Embed? embed = null, Ark? ark = null, MessageReference? messageReference = null, IUserMessage? passiveSource = null, RequestOptions? options = null)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;IMessage?&gt; GetMessageAsync(string id, CacheMode mode = CacheMode.AllowDownload, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>消息的 ID。</p>
+</dd>
+    <dt><code>mode</code> <a class="xref" href="QQBot.CacheMode.html">CacheMode</a></dt>
+    <dd><p>指示当前方法是否应该仅从缓存中获取结果，还是可以通过 API 请求获取数据。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.IMessage.html">IMessage</a>&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务。任务结果包含检索到的消息；如果未找到具有指定 ID 的消息，则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IMessageChannel_SendMessageAsync_" data-uid="QQBot.IMessageChannel.SendMessageAsync*"></a>
+
+  <h3 id="QQBot_IMessageChannel_SendMessageAsync_System_String_QQBot_IMarkdown_System_Nullable_QQBot_FileAttachment__QQBot_Embed_QQBot_Ark_QQBot_IKeyboard_QQBot_MessageReference_QQBot_IUserMessage_QQBot_RequestOptions_" data-uid="QQBot.IMessageChannel.SendMessageAsync(System.String,QQBot.IMarkdown,System.Nullable{QQBot.FileAttachment},QQBot.Embed,QQBot.Ark,QQBot.IKeyboard,QQBot.MessageReference,QQBot.IUserMessage,QQBot.RequestOptions)">
+  SendMessageAsync(string?, IMarkdown?, FileAttachment?, Embed?, Ark?, IKeyboard?, MessageReference?, IUserMessage?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IMessageChannel.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>向此子频道发送消息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IUserMessage&gt; SendMessageAsync(string? content = null, IMarkdown? markdown = null, FileAttachment? attachment = null, Embed? embed = null, Ark? ark = null, IKeyboard? keyboard = null, MessageReference? messageReference = null, IUserMessage? passiveSource = null, RequestOptions? options = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -155,7 +203,7 @@ Interface IMessageChannel  <a class="header-action link-secondary" title="View s
     <dt><code>content</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>要发送的消息内容。</p>
 </dd>
-    <dt><code>markdown</code> <a class="xref" href="QQBot.IMarkdownContent.html">IMarkdownContent</a></dt>
+    <dt><code>markdown</code> <a class="xref" href="QQBot.IMarkdown.html">IMarkdown</a></dt>
     <dd><p>要发送的 Markdown 消息内容。</p>
 </dd>
     <dt><code>attachment</code> <a class="xref" href="QQBot.FileAttachment.html">FileAttachment</a>?</dt>
@@ -166,6 +214,9 @@ Interface IMessageChannel  <a class="header-action link-secondary" title="View s
 </dd>
     <dt><code>ark</code> <a class="xref" href="QQBot.Ark.html">Ark</a></dt>
     <dd><p>要发送的模板消息内容。</p>
+</dd>
+    <dt><code>keyboard</code> <a class="xref" href="QQBot.IKeyboard.html">IKeyboard</a></dt>
+    <dd><p>要发送的按钮。</p>
 </dd>
     <dt><code>messageReference</code> <a class="xref" href="QQBot.MessageReference.html">MessageReference</a></dt>
     <dd><p>消息引用，用于回复消息。</p>
@@ -180,7 +231,7 @@ Interface IMessageChannel  <a class="header-action link-secondary" title="View s
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="QQBot.IUserMessage.html">IUserMessage</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.IUserMessage.html">IUserMessage</a>&gt;</dt>
     <dd><p>一个表示异步发送操作的任务。任务的结果包含所发送消息的可延迟加载的消息对象。</p>
 </dd>
   </dl>

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="QQBot_MentionUtils" data-uid="QQBot.MentionUtils" class="text-break">
-Class MentionUtils  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Utils/MentionUtils.cs/#L6"><i class="bi bi-code-slash"></i></a>
+Class MentionUtils  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Utils/MentionUtils.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -149,6 +149,43 @@ Class MentionUtils  <a class="header-action link-secondary" title="View source" 
 
 
 
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="QQBot_MentionUtils_MentionEveryone_" data-uid="QQBot.MentionUtils.MentionEveryone*"></a>
+
+  <h3 id="QQBot_MentionUtils_MentionEveryone" data-uid="QQBot.MentionUtils.MentionEveryone">
+  MentionEveryone
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Utils/MentionUtils.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>返回提及全体成员的 Markdown 格式化全体成员提及字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string MentionEveryone { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>格式化为 Markdown 的全体成员提及字符串。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -157,10 +194,10 @@ Class MentionUtils  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="QQBot_MentionUtils_MentionChannel_QQBot_ITextChannel_" data-uid="QQBot.MentionUtils.MentionChannel(QQBot.ITextChannel)">
   MentionChannel(ITextChannel)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Utils/MentionUtils.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Utils/MentionUtils.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>返回频道的 Markdown 格式化频道提及字符串。</p>
+  <div class="markdown level1 summary"><p>返回子频道的 Markdown 格式化子频道提及字符串。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -171,14 +208,14 @@ Class MentionUtils  <a class="header-action link-secondary" title="View source" 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>channel</code> <a class="xref" href="QQBot.ITextChannel.html">ITextChannel</a></dt>
-    <dd><p>频道。</p>
+    <dd><p>子频道。</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>格式化为 Markdown 的频道提及字符串。</p>
+    <dd><p>格式化为 Markdown 的子频道提及字符串。</p>
 </dd>
   </dl>
 
@@ -196,10 +233,10 @@ Class MentionUtils  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="QQBot_MentionUtils_MentionChannel_System_UInt64_" data-uid="QQBot.MentionUtils.MentionChannel(System.UInt64)">
   MentionChannel(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Utils/MentionUtils.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Utils/MentionUtils.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>返回频道的 Markdown 格式化频道提及字符串。</p>
+  <div class="markdown level1 summary"><p>返回子频道的 Markdown 格式化子频道提及字符串。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -210,14 +247,14 @@ Class MentionUtils  <a class="header-action link-secondary" title="View source" 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd><p>频道 ID。</p>
+    <dd><p>子频道 ID。</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>格式化为 Markdown 的频道提及字符串。</p>
+    <dd><p>格式化为 Markdown 的子频道提及字符串。</p>
 </dd>
   </dl>
 
@@ -235,7 +272,7 @@ Class MentionUtils  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="QQBot_MentionUtils_MentionUser_QQBot_IUser_" data-uid="QQBot.MentionUtils.MentionUser(QQBot.IUser)">
   MentionUser(IUser)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Utils/MentionUtils.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Utils/MentionUtils.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>返回用户的 Markdown 格式化用户提及字符串。</p>
@@ -274,7 +311,7 @@ Class MentionUtils  <a class="header-action link-secondary" title="View source" 
 
   <h3 id="QQBot_MentionUtils_MentionUser_System_String_" data-uid="QQBot.MentionUtils.MentionUser(System.String)">
   MentionUser(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Utils/MentionUtils.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Utils/MentionUtils.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>返回用户的 Markdown 格式化用户提及字符串。</p>
@@ -309,11 +346,184 @@ Class MentionUtils  <a class="header-action link-secondary" title="View source" 
 
 
 
+  <a id="QQBot_MentionUtils_ParseChannel_" data-uid="QQBot.MentionUtils.ParseChannel*"></a>
+
+  <h3 id="QQBot_MentionUtils_ParseChannel_System_String_" data-uid="QQBot.MentionUtils.ParseChannel(System.String)">
+  ParseChannel(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Utils/MentionUtils.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>解析提供的子频道提及字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ulong ParseChannel(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要解析的子频道提及字符串。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>解析出的子频道 ID。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>当提供的字符串不是有效的提及格式时引发。</p>
+</dd>
+  </dl>
+
+
+
+  <a id="QQBot_MentionUtils_ParseUser_" data-uid="QQBot.MentionUtils.ParseUser*"></a>
+
+  <h3 id="QQBot_MentionUtils_ParseUser_System_String_" data-uid="QQBot.MentionUtils.ParseUser(System.String)">
+  ParseUser(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Utils/MentionUtils.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>解析提供的用户提及字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ulong ParseUser(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要解析的用户提及字符串。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>当提供的字符串不是有效的提及格式时引发。</p>
+</dd>
+  </dl>
+
+
+
+  <a id="QQBot_MentionUtils_TryParseChannel_" data-uid="QQBot.MentionUtils.TryParseChannel*"></a>
+
+  <h3 id="QQBot_MentionUtils_TryParseChannel_System_String_System_UInt64__" data-uid="QQBot.MentionUtils.TryParseChannel(System.String,System.UInt64@)">
+  TryParseChannel(string, out ulong)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Utils/MentionUtils.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>尝试解析提供的子频道提及字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryParseChannel(string text, out ulong channelId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要解析的子频道提及字符串。</p>
+</dd>
+    <dt><code>channelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>解析出的子频道 ID。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否成功解析。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_MentionUtils_TryParseUser_" data-uid="QQBot.MentionUtils.TryParseUser*"></a>
+
+  <h3 id="QQBot_MentionUtils_TryParseUser_System_String_System_UInt64__" data-uid="QQBot.MentionUtils.TryParseUser(System.String,System.UInt64@)">
+  TryParseUser(string, out ulong)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Utils/MentionUtils.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>尝试解析提供的用户提及字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryParseUser(string text, out ulong userId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要解析的用户提及字符串。</p>
+</dd>
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>解析出的用户 ID。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否成功解析。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Utils/MentionUtils.cs/#L6" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Utils/MentionUtils.cs/#L9" class="edit-link">Edit this page</a>
         </div>
 
 

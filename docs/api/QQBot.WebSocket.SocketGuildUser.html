@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class SocketGuildUser | QQBot.Net 文档 ">
       
-      <meta name="description" content="表示一个基于网关的频道用户。">
+      <meta name="description" content="表示一个基于网关的频道上下文中的用户。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -97,12 +97,12 @@ Class SocketGuildUser  <a class="header-action link-secondary" title="View sourc
   <dl><dt>Assembly</dt><dd>QQBot.Net.WebSocket.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>表示一个基于网关的频道用户。</p>
+  <div class="markdown summary"><p>表示一个基于网关的频道上下文中的用户。</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class SocketGuildUser : SocketUser, IGuildUser, IUser, IEntity&lt;string&gt;, IMentionable, IEntity&lt;ulong&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class SocketGuildUser : SocketUser, IGuildUser, IUser, IEntity&lt;string&gt;, IMentionable, IEntity&lt;ulong&gt;</code></pre>
   </div>
 
 
@@ -161,9 +161,6 @@ Class SocketGuildUser  <a class="header-action link-secondary" title="View sourc
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
-    </div>
   </dd></dl>
 
 
@@ -179,7 +176,7 @@ Class SocketGuildUser  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_WebSocket_SocketGuildUser_Avatar" data-uid="QQBot.WebSocket.SocketGuildUser.Avatar">
   Avatar
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Users/SocketGuildUser.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Users/SocketGuildUser.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此用户的头像图像的 URL。</p>
@@ -187,7 +184,7 @@ Class SocketGuildUser  <a class="header-action link-secondary" title="View sourc
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract string? Avatar { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override string? Avatar { get; }</code></pre>
   </div>
 
 
@@ -211,7 +208,7 @@ Class SocketGuildUser  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_WebSocket_SocketGuildUser_Id" data-uid="QQBot.WebSocket.SocketGuildUser.Id">
   Id
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Users/SocketGuildUser.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Users/SocketGuildUser.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此用户的唯一标识符。</p>
@@ -243,7 +240,7 @@ Class SocketGuildUser  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_WebSocket_SocketGuildUser_IsBot" data-uid="QQBot.WebSocket.SocketGuildUser.IsBot">
   IsBot
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Users/SocketGuildUser.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Users/SocketGuildUser.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此用户是否为 Bot。</p>
@@ -251,7 +248,7 @@ Class SocketGuildUser  <a class="header-action link-secondary" title="View sourc
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract bool? IsBot { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool? IsBot { get; }</code></pre>
   </div>
 
 
@@ -275,7 +272,7 @@ Class SocketGuildUser  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_WebSocket_SocketGuildUser_UnionOpenId" data-uid="QQBot.WebSocket.SocketGuildUser.UnionOpenId">
   UnionOpenId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Users/SocketGuildUser.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Users/SocketGuildUser.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此用户特殊关联应用的 openid。</p>
@@ -283,7 +280,7 @@ Class SocketGuildUser  <a class="header-action link-secondary" title="View sourc
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract string? UnionOpenId { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? UnionOpenId { get; }</code></pre>
   </div>
 
 
@@ -310,7 +307,7 @@ Class SocketGuildUser  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_WebSocket_SocketGuildUser_UnionUserAccount" data-uid="QQBot.WebSocket.SocketGuildUser.UnionUserAccount">
   UnionUserAccount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Users/SocketGuildUser.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Users/SocketGuildUser.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此用户机器人关联的互联应用的用户信息。</p>
@@ -318,7 +315,7 @@ Class SocketGuildUser  <a class="header-action link-secondary" title="View sourc
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract string? UnionUserAccount { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? UnionUserAccount { get; }</code></pre>
   </div>
 
 
@@ -345,7 +342,7 @@ Class SocketGuildUser  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_WebSocket_SocketGuildUser_Username" data-uid="QQBot.WebSocket.SocketGuildUser.Username">
   Username
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Users/SocketGuildUser.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Users/SocketGuildUser.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此用户的用户名。</p>
@@ -353,7 +350,7 @@ Class SocketGuildUser  <a class="header-action link-secondary" title="View sourc
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract string Username { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Username { get; }</code></pre>
   </div>
 
 
@@ -365,6 +362,42 @@ Class SocketGuildUser  <a class="header-action link-secondary" title="View sourc
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="QQBot_WebSocket_SocketGuildUser_ToString_" data-uid="QQBot.WebSocket.SocketGuildUser.ToString*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketGuildUser_ToString" data-uid="QQBot.WebSocket.SocketGuildUser.ToString">
+  ToString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Users/SocketGuildUser.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此用户的用户名。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
 
 
 

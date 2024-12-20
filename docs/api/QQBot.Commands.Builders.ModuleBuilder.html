@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ModuleBuilder | QQBot.Net 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ModuleBuilder | QQBot.Net 文档 ">
+      
+      <meta name="description" content="表示一个模块构建器。">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/QQBot.Net/new/master/apiSpec/new?filename=QQBot_Commands_Builders_ModuleBuilder.md&amp;value=---%0Auid%3A%20QQBot.Commands.Builders.ModuleBuilder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="QQBot.Net 文档">
+            QQBot.Net 文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="QQBot.Commands.Builders.ModuleBuilder">
+
+
+
+  <h1 id="QQBot_Commands_Builders_ModuleBuilder" data-uid="QQBot.Commands.Builders.ModuleBuilder" class="text-break">
+Class ModuleBuilder  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Commands/Builders/ModuleBuilder.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="QQBot.html">QQBot</a>.<a class="xref" href="QQBot.Commands.html">Commands</a>.<a class="xref" href="QQBot.Commands.Builders.html">Builders</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>QQBot.Net.Commands.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>表示一个模块构建器。</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ModuleBuilder</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ModuleBuilder</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="QQBot_Commands_Builders_ModuleBuilder_Aliases_" data-uid="QQBot.Commands.Builders.ModuleBuilder.Aliases*"></a>
+
+  <h3 id="QQBot_Commands_Builders_ModuleBuilder_Aliases" data-uid="QQBot.Commands.Builders.ModuleBuilder.Aliases">
+  Aliases
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Commands/Builders/ModuleBuilder.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此模块的别名。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;string?&gt; Aliases { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_Commands_Builders_ModuleBuilder_Attributes_" data-uid="QQBot.Commands.Builders.ModuleBuilder.Attributes*"></a>
+
+  <h3 id="QQBot_Commands_Builders_ModuleBuilder_Attributes" data-uid="QQBot.Commands.Builders.ModuleBuilder.Attributes">
+  Attributes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Commands/Builders/ModuleBuilder.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此模块的特性。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;Attribute&gt; Attributes { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute">Attribute</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_Commands_Builders_ModuleBuilder_Commands_" data-uid="QQBot.Commands.Builders.ModuleBuilder.Commands*"></a>
+
+  <h3 id="QQBot_Commands_Builders_ModuleBuilder_Commands" data-uid="QQBot.Commands.Builders.ModuleBuilder.Commands">
+  Commands
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Commands/Builders/ModuleBuilder.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此模块的别名。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;CommandBuilder&gt; Commands { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="QQBot.Commands.Builders.CommandBuilder.html">CommandBuilder</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_Commands_Builders_ModuleBuilder_Group_" data-uid="QQBot.Commands.Builders.ModuleBuilder.Group*"></a>
+
+  <h3 id="QQBot_Commands_Builders_ModuleBuilder_Group" data-uid="QQBot.Commands.Builders.ModuleBuilder.Group">
+  Group
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Commands/Builders/ModuleBuilder.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置此模块的分组。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Group { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_Commands_Builders_ModuleBuilder_Modules_" data-uid="QQBot.Commands.Builders.ModuleBuilder.Modules*"></a>
+
+  <h3 id="QQBot_Commands_Builders_ModuleBuilder_Modules" data-uid="QQBot.Commands.Builders.ModuleBuilder.Modules">
+  Modules
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Commands/Builders/ModuleBuilder.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此模块的子模块。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;ModuleBuilder&gt; Modules { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="QQBot.Commands.Builders.ModuleBuilder.html">ModuleBuilder</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_Commands_Builders_ModuleBuilder_Name_" data-uid="QQBot.Commands.Builders.ModuleBuilder.Name*"></a>
+
+  <h3 id="QQBot_Commands_Builders_ModuleBuilder_Name" data-uid="QQBot.Commands.Builders.ModuleBuilder.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Commands/Builders/ModuleBuilder.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置此模块的基本名称。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Name { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_Commands_Builders_ModuleBuilder_Parent_" data-uid="QQBot.Commands.Builders.ModuleBuilder.Parent*"></a>
+
+  <h3 id="QQBot_Commands_Builders_ModuleBuilder_Parent" data-uid="QQBot.Commands.Builders.ModuleBuilder.Parent">
+  Parent
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Commands/Builders/ModuleBuilder.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此模块构建器所属的父模块构建器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleBuilder? Parent { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.Commands.Builders.ModuleBuilder.html">ModuleBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_Commands_Builders_ModuleBuilder_Preconditions_" data-uid="QQBot.Commands.Builders.ModuleBuilder.Preconditions*"></a>
+
+  <h3 id="QQBot_Commands_Builders_ModuleBuilder_Preconditions" data-uid="QQBot.Commands.Builders.ModuleBuilder.Preconditions">
+  Preconditions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Commands/Builders/ModuleBuilder.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此模块的先决条件。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;PreconditionAttribute&gt; Preconditions { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1">IReadOnlyList</a>&lt;<a class="xref" href="QQBot.Commands.PreconditionAttribute.html">PreconditionAttribute</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_Commands_Builders_ModuleBuilder_Remarks_" data-uid="QQBot.Commands.Builders.ModuleBuilder.Remarks*"></a>
+
+  <h3 id="QQBot_Commands_Builders_ModuleBuilder_Remarks" data-uid="QQBot.Commands.Builders.ModuleBuilder.Remarks">
+  Remarks
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Commands/Builders/ModuleBuilder.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置此模块的备注。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Remarks { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_Commands_Builders_ModuleBuilder_Service_" data-uid="QQBot.Commands.Builders.ModuleBuilder.Service*"></a>
+
+  <h3 id="QQBot_Commands_Builders_ModuleBuilder_Service" data-uid="QQBot.Commands.Builders.ModuleBuilder.Service">
+  Service
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Commands/Builders/ModuleBuilder.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此模块构建器所属的命令服务。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CommandService Service { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.Commands.CommandService.html">CommandService</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_Commands_Builders_ModuleBuilder_Summary_" data-uid="QQBot.Commands.Builders.ModuleBuilder.Summary*"></a>
+
+  <h3 id="QQBot_Commands_Builders_ModuleBuilder_Summary" data-uid="QQBot.Commands.Builders.ModuleBuilder.Summary">
+  Summary
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Commands/Builders/ModuleBuilder.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取或设置此模块的摘要。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Summary { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="QQBot_Commands_Builders_ModuleBuilder_AddAliases_" data-uid="QQBot.Commands.Builders.ModuleBuilder.AddAliases*"></a>
+
+  <h3 id="QQBot_Commands_Builders_ModuleBuilder_AddAliases_System_String___" data-uid="QQBot.Commands.Builders.ModuleBuilder.AddAliases(System.String[])">
+  AddAliases(params string?[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Commands/Builders/ModuleBuilder.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加别名到此模块。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleBuilder AddAliases(params string?[] aliases)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>aliases</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>要添加到此模块的别名数组。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.Commands.Builders.ModuleBuilder.html">ModuleBuilder</a></dt>
+    <dd><p>此模块构建器。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_Commands_Builders_ModuleBuilder_AddAttributes_" data-uid="QQBot.Commands.Builders.ModuleBuilder.AddAttributes*"></a>
+
+  <h3 id="QQBot_Commands_Builders_ModuleBuilder_AddAttributes_System_Attribute___" data-uid="QQBot.Commands.Builders.ModuleBuilder.AddAttributes(System.Attribute[])">
+  AddAttributes(params Attribute[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Commands/Builders/ModuleBuilder.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加特性到此模块。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleBuilder AddAttributes(params Attribute[] attributes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>attributes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute">Attribute</a>[]</dt>
+    <dd><p>要添加到此模块的特性数组。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.Commands.Builders.ModuleBuilder.html">ModuleBuilder</a></dt>
+    <dd><p>此模块构建器。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_Commands_Builders_ModuleBuilder_AddCommand_" data-uid="QQBot.Commands.Builders.ModuleBuilder.AddCommand*"></a>
+
+  <h3 id="QQBot_Commands_Builders_ModuleBuilder_AddCommand_System_String_System_Func_QQBot_Commands_ICommandContext_System_Object___System_IServiceProvider_QQBot_Commands_CommandInfo_System_Threading_Tasks_Task__System_Action_QQBot_Commands_Builders_CommandBuilder__" data-uid="QQBot.Commands.Builders.ModuleBuilder.AddCommand(System.String,System.Func{QQBot.Commands.ICommandContext,System.Object[],System.IServiceProvider,QQBot.Commands.CommandInfo,System.Threading.Tasks.Task},System.Action{QQBot.Commands.Builders.CommandBuilder})">
+  AddCommand(string, Func&lt;ICommandContext, object?[], IServiceProvider, CommandInfo, Task&gt;, Action&lt;CommandBuilder&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Commands/Builders/ModuleBuilder.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加命令到此模块。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleBuilder AddCommand(string primaryAlias, Func&lt;ICommandContext, object?[], IServiceProvider, CommandInfo, Task&gt; callback, Action&lt;CommandBuilder&gt; createFunc)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>primaryAlias</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>此命令的首要别名。</p>
+</dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-5">Func</a>&lt;<a class="xref" href="QQBot.Commands.ICommandContext.html">ICommandContext</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[], <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a>, <a class="xref" href="QQBot.Commands.CommandInfo.html">CommandInfo</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd><p>当执行此命令时调用的回调。</p>
+</dd>
+    <dt><code>createFunc</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.Commands.Builders.CommandBuilder.html">CommandBuilder</a>&gt;</dt>
+    <dd><p>一个创建命令构建器的委托。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.Commands.Builders.ModuleBuilder.html">ModuleBuilder</a></dt>
+    <dd><p>此模块构建器。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_Commands_Builders_ModuleBuilder_AddModule_" data-uid="QQBot.Commands.Builders.ModuleBuilder.AddModule*"></a>
+
+  <h3 id="QQBot_Commands_Builders_ModuleBuilder_AddModule_System_String_System_Action_QQBot_Commands_Builders_ModuleBuilder__" data-uid="QQBot.Commands.Builders.ModuleBuilder.AddModule(System.String,System.Action{QQBot.Commands.Builders.ModuleBuilder})">
+  AddModule(string, Action&lt;ModuleBuilder&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Commands/Builders/ModuleBuilder.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加子模块到此模块。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleBuilder AddModule(string primaryAlias, Action&lt;ModuleBuilder&gt; createFunc)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>primaryAlias</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>此模块的首要别名。</p>
+</dd>
+    <dt><code>createFunc</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.Commands.Builders.ModuleBuilder.html">ModuleBuilder</a>&gt;</dt>
+    <dd><p>一个创建模块构建器的委托。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.Commands.Builders.ModuleBuilder.html">ModuleBuilder</a></dt>
+    <dd><p>此模块构建器。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_Commands_Builders_ModuleBuilder_AddPrecondition_" data-uid="QQBot.Commands.Builders.ModuleBuilder.AddPrecondition*"></a>
+
+  <h3 id="QQBot_Commands_Builders_ModuleBuilder_AddPrecondition_QQBot_Commands_PreconditionAttribute_" data-uid="QQBot.Commands.Builders.ModuleBuilder.AddPrecondition(QQBot.Commands.PreconditionAttribute)">
+  AddPrecondition(PreconditionAttribute)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Commands/Builders/ModuleBuilder.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>添加先决条件到此模块。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleBuilder AddPrecondition(PreconditionAttribute precondition)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>precondition</code> <a class="xref" href="QQBot.Commands.PreconditionAttribute.html">PreconditionAttribute</a></dt>
+    <dd><p>要添加到此模块的先决条件。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.Commands.Builders.ModuleBuilder.html">ModuleBuilder</a></dt>
+    <dd><p>此模块构建器。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_Commands_Builders_ModuleBuilder_Build_" data-uid="QQBot.Commands.Builders.ModuleBuilder.Build*"></a>
+
+  <h3 id="QQBot_Commands_Builders_ModuleBuilder_Build_QQBot_Commands_CommandService_System_IServiceProvider_" data-uid="QQBot.Commands.Builders.ModuleBuilder.Build(QQBot.Commands.CommandService,System.IServiceProvider)">
+  Build(CommandService, IServiceProvider)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Commands/Builders/ModuleBuilder.cs/#L268"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>构建此模块构建器为模块。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleInfo Build(CommandService service, IServiceProvider services)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>service</code> <a class="xref" href="QQBot.Commands.CommandService.html">CommandService</a></dt>
+    <dd><p>此模块构建器所属的命令服务。</p>
+</dd>
+    <dt><code>services</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a></dt>
+    <dd><p>此模块构建器所属的服务提供程序。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.Commands.ModuleInfo.html">ModuleInfo</a></dt>
+    <dd><p>构建的模块。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_Commands_Builders_ModuleBuilder_WithName_" data-uid="QQBot.Commands.Builders.ModuleBuilder.WithName*"></a>
+
+  <h3 id="QQBot_Commands_Builders_ModuleBuilder_WithName_System_String_" data-uid="QQBot.Commands.Builders.ModuleBuilder.WithName(System.String)">
+  WithName(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Commands/Builders/ModuleBuilder.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置此模块的名基本称。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleBuilder WithName(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>此模块的基本名称。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.Commands.Builders.ModuleBuilder.html">ModuleBuilder</a></dt>
+    <dd><p>此模块构建器。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_Commands_Builders_ModuleBuilder_WithRemarks_" data-uid="QQBot.Commands.Builders.ModuleBuilder.WithRemarks*"></a>
+
+  <h3 id="QQBot_Commands_Builders_ModuleBuilder_WithRemarks_System_String_" data-uid="QQBot.Commands.Builders.ModuleBuilder.WithRemarks(System.String)">
+  WithRemarks(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Commands/Builders/ModuleBuilder.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置此模块的备注。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleBuilder WithRemarks(string remarks)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>remarks</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>此模块的备注。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.Commands.Builders.ModuleBuilder.html">ModuleBuilder</a></dt>
+    <dd><p>此模块构建器。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_Commands_Builders_ModuleBuilder_WithSummary_" data-uid="QQBot.Commands.Builders.ModuleBuilder.WithSummary*"></a>
+
+  <h3 id="QQBot_Commands_Builders_ModuleBuilder_WithSummary_System_String_" data-uid="QQBot.Commands.Builders.ModuleBuilder.WithSummary(System.String)">
+  WithSummary(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Commands/Builders/ModuleBuilder.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>设置此模块的摘要。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ModuleBuilder WithSummary(string summary)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>summary</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>此模块的摘要。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.Commands.Builders.ModuleBuilder.html">ModuleBuilder</a></dt>
+    <dd><p>此模块构建器。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Commands/Builders/ModuleBuilder.cs/#L8" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          QQBot.Net (c) 2024
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

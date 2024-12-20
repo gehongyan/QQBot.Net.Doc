@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -199,7 +199,7 @@ Interface IMessage  <a class="header-action link-secondary" title="View source" 
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/IMessage.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取消息的来源频道。</p>
+  <div class="markdown level1 summary"><p>获取消息的来源子频道。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -352,6 +352,38 @@ Interface IMessage  <a class="header-action link-secondary" title="View source" 
 
 
 
+  <a id="QQBot_IMessage_Tags_" data-uid="QQBot.IMessage.Tags*"></a>
+
+  <h3 id="QQBot_IMessage_Tags" data-uid="QQBot.IMessage.Tags">
+  Tags
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/IMessage.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此消息中解析出的所有标签。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IReadOnlyCollection&lt;ITag&gt; Tags { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="QQBot.ITag.html">ITag</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="QQBot_IMessage_Timestamp_" data-uid="QQBot.IMessage.Timestamp*"></a>
 
   <h3 id="QQBot_IMessage_Timestamp" data-uid="QQBot.IMessage.Timestamp">
@@ -376,6 +408,136 @@ Interface IMessage  <a class="header-action link-secondary" title="View source" 
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a></dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="QQBot_IMessage_AddReactionAsync_" data-uid="QQBot.IMessage.AddReactionAsync*"></a>
+
+  <h3 id="QQBot_IMessage_AddReactionAsync_QQBot_IEmote_QQBot_RequestOptions_" data-uid="QQBot.IMessage.AddReactionAsync(QQBot.IEmote,QQBot.RequestOptions)">
+  AddReactionAsync(IEmote, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/IMessage.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>向此消息添加一个回应。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task AddReactionAsync(IEmote emote, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>emote</code> <a class="xref" href="QQBot.IEmote.html">IEmote</a></dt>
+    <dd><p>要用于向此消息添加回应的表情符号。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示添加添加异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IMessage_GetReactionUsersAsync_" data-uid="QQBot.IMessage.GetReactionUsersAsync*"></a>
+
+  <h3 id="QQBot_IMessage_GetReactionUsersAsync_QQBot_IEmote_QQBot_RequestOptions_" data-uid="QQBot.IMessage.GetReactionUsersAsync(QQBot.IEmote,QQBot.RequestOptions)">
+  GetReactionUsersAsync(IEmote, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/IMessage.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获此消息指定表情符号的所有回应用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IAsyncEnumerable&lt;IReadOnlyCollection&lt;IGuildUser&gt;&gt; GetReactionUsersAsync(IEmote emote, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>emote</code> <a class="xref" href="QQBot.IEmote.html">IEmote</a></dt>
+    <dd><p>要获取回应用户的表情符号。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iasyncenumerable-1">IAsyncEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="QQBot.IGuildUser.html">IGuildUser</a>&gt;&gt;</dt>
+    <dd><p>一个表示异步操作的可枚举集合，结果包含了所有回应用户的集合。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IMessage_RemoveReactionAsync_" data-uid="QQBot.IMessage.RemoveReactionAsync*"></a>
+
+  <h3 id="QQBot_IMessage_RemoveReactionAsync_QQBot_IEmote_QQBot_RequestOptions_" data-uid="QQBot.IMessage.RemoveReactionAsync(QQBot.IEmote,QQBot.RequestOptions)">
+  RemoveReactionAsync(IEmote, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Messages/IMessage.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>从此消息中移除一个当前用户的回应。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task RemoveReactionAsync(IEmote emote, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>emote</code> <a class="xref" href="QQBot.IEmote.html">IEmote</a></dt>
+    <dd><p>要从此消息移除的回应的表情符号。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步移除操作的任务。</p>
+</dd>
+  </dl>
+
+
+
 
 
 

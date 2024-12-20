@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Enum ChannelPermission | QQBot.Net 文档 ">
       
-      <meta name="description" content="表示可以为角色或用户设置的频道级别的权限。">
+      <meta name="description" content="表示可以为角色或用户设置的子频道级别的权限。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -98,7 +98,7 @@ Enum ChannelPermission  <a class="header-action link-secondary" title="View sour
   <dl><dt>Assembly</dt><dd>QQBot.Net.Core.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>表示可以为角色或用户设置的频道级别的权限。</p>
+  <div class="markdown summary"><p>表示可以为角色或用户设置的子频道级别的权限。</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -118,59 +118,17 @@ public enum ChannelPermission : uint</code></pre>
   <h2 id="fields">Fields
 </h2>
   <dl class="parameters">
-    <dt id="QQBot_ChannelPermission_AddReactions"><code>AddReactions = 262144</code></dt>
-    <dd><p>添加回应。</p>
+    <dt id="QQBot_ChannelPermission_ManageChannels"><code>ManageChannels = 2</code></dt>
+    <dd><p>可管理子频道。</p>
 </dd>
-    <dt id="QQBot_ChannelPermission_AttachFiles"><code>AttachFiles = 16384</code></dt>
-    <dd><p>上传文件。</p>
+    <dt id="QQBot_ChannelPermission_SendMessages"><code>SendMessages = 4</code></dt>
+    <dd><p>可发言子频道。</p>
 </dd>
-    <dt id="QQBot_ChannelPermission_Connect"><code>Connect = 32768</code></dt>
-    <dd><p>语音连接。</p>
+    <dt id="QQBot_ChannelPermission_Stream"><code>Stream = 8</code></dt>
+    <dd><p>可直播子频道。</p>
 </dd>
-    <dt id="QQBot_ChannelPermission_CreateInvites"><code>CreateInvites = 8</code></dt>
-    <dd><p>创建邀请。</p>
-</dd>
-    <dt id="QQBot_ChannelPermission_DeafenMembers"><code>DeafenMembers = 16777216</code></dt>
-    <dd><p>服务器静音。</p>
-</dd>
-    <dt id="QQBot_ChannelPermission_ManageChannels"><code>ManageChannels = 32</code></dt>
-    <dd><p>频道管理。</p>
-</dd>
-    <dt id="QQBot_ChannelPermission_ManageMessages"><code>ManageMessages = 8192</code></dt>
-    <dd><p>消息管理。</p>
-</dd>
-    <dt id="QQBot_ChannelPermission_ManageRoles"><code>ManageRoles = 1024</code></dt>
-    <dd><p>管理角色权限。</p>
-</dd>
-    <dt id="QQBot_ChannelPermission_ManageVoice"><code>ManageVoice = 65536</code></dt>
-    <dd><p>语音管理。</p>
-</dd>
-    <dt id="QQBot_ChannelPermission_MentionEveryone"><code>MentionEveryone = 131072</code></dt>
-    <dd><p>提及全体成员、在线成员和所有角色。</p>
-</dd>
-    <dt id="QQBot_ChannelPermission_MuteMembers"><code>MuteMembers = 33554432</code></dt>
-    <dd><p>服务器闭麦。</p>
-</dd>
-    <dt id="QQBot_ChannelPermission_PassiveConnect"><code>PassiveConnect = 1048576</code></dt>
-    <dd><p>被动连接语音频道。</p>
-</dd>
-    <dt id="QQBot_ChannelPermission_PlaySoundtrack"><code>PlaySoundtrack = 134217728</code></dt>
-    <dd><p>共享计算机音频。</p>
-</dd>
-    <dt id="QQBot_ChannelPermission_SendMessages"><code>SendMessages = 4096</code></dt>
-    <dd><p>发送文字消息。</p>
-</dd>
-    <dt id="QQBot_ChannelPermission_ShareScreen"><code>ShareScreen = 268435456</code></dt>
-    <dd><p>屏幕分享。</p>
-</dd>
-    <dt id="QQBot_ChannelPermission_Speak"><code>Speak = 8388608</code></dt>
-    <dd><p>发言。</p>
-</dd>
-    <dt id="QQBot_ChannelPermission_UseVoiceActivity"><code>UseVoiceActivity = 4194304</code></dt>
-    <dd><p>使用自由麦。</p>
-</dd>
-    <dt id="QQBot_ChannelPermission_ViewChannel"><code>ViewChannel = 2048</code></dt>
-    <dd><p>查看文字与语音频道。</p>
+    <dt id="QQBot_ChannelPermission_ViewChannel"><code>ViewChannel = 1</code></dt>
+    <dd><p>可查看子频道。</p>
 </dd>
   </dl>
 

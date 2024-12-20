@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="QQBot_Rest_QQBotRestClient" data-uid="QQBot.Rest.QQBotRestClient" class="text-break">
-Class QQBotRestClient  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Rest/QQBotRestClient.cs/#L10"><i class="bi bi-code-slash"></i></a>
+Class QQBotRestClient  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Rest/QQBotRestClient.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -204,7 +204,7 @@ Class QQBotRestClient  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_Rest_QQBotRestClient__ctor" data-uid="QQBot.Rest.QQBotRestClient.#ctor">
   QQBotRestClient()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Rest/QQBotRestClient.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Rest/QQBotRestClient.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>使用默认配置初始化一个 <a class="xref" href="QQBot.Rest.QQBotRestClient.html">QQBotRestClient</a> 类的新实例。</p>
@@ -231,7 +231,7 @@ Class QQBotRestClient  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_Rest_QQBotRestClient__ctor_QQBot_Rest_QQBotRestConfig_" data-uid="QQBot.Rest.QQBotRestClient.#ctor(QQBot.Rest.QQBotRestConfig)">
   QQBotRestClient(QQBotRestConfig)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Rest/QQBotRestClient.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Rest/QQBotRestClient.cs/#L41"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>使用指定的配置初始化一个 <a class="xref" href="QQBot.Rest.QQBotRestClient.html">QQBotRestClient</a> 类的新实例。</p>
@@ -268,7 +268,7 @@ Class QQBotRestClient  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_Rest_QQBotRestClient_CurrentUser" data-uid="QQBot.Rest.QQBotRestClient.CurrentUser">
   CurrentUser
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Rest/QQBotRestClient.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Rest/QQBotRestClient.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取登录到此客户端的当前用户；如果未登录，则为 <code>null</code>。</p>
@@ -296,11 +296,135 @@ Class QQBotRestClient  <a class="header-action link-secondary" title="View sourc
 
 
 
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="QQBot_Rest_QQBotRestClient_GetCurrentUserAsync_" data-uid="QQBot.Rest.QQBotRestClient.GetCurrentUserAsync*"></a>
+
+  <h3 id="QQBot_Rest_QQBotRestClient_GetCurrentUserAsync_QQBot_RequestOptions_" data-uid="QQBot.Rest.QQBotRestClient.GetCurrentUserAsync(QQBot.RequestOptions)">
+  GetCurrentUserAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Rest/QQBotRestClient.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前登录用户的信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RestSelfUser&gt; GetCurrentUserAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.Rest.RestSelfUser.html">RestSelfUser</a>&gt;</dt>
+    <dd><p>一个表示异步操作的任务，其结果包含当前登录用户的信息。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_Rest_QQBotRestClient_GetGuildAsync_" data-uid="QQBot.Rest.QQBotRestClient.GetGuildAsync*"></a>
+
+  <h3 id="QQBot_Rest_QQBotRestClient_GetGuildAsync_System_UInt64_QQBot_RequestOptions_" data-uid="QQBot.Rest.QQBotRestClient.GetGuildAsync(System.UInt64,QQBot.RequestOptions)">
+  GetGuildAsync(ulong, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Rest/QQBotRestClient.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取具有指定 ID 的频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RestGuild&gt; GetGuildAsync(ulong id, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要获取的频道的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.Rest.RestGuild.html">RestGuild</a>&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务，其结果包含与指定的 <code class="paramref">id</code> 关联的频道；如果未找到，则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_Rest_QQBotRestClient_GetGuildsAsync_" data-uid="QQBot.Rest.QQBotRestClient.GetGuildsAsync*"></a>
+
+  <h3 id="QQBot_Rest_QQBotRestClient_GetGuildsAsync_QQBot_RequestOptions_" data-uid="QQBot.Rest.QQBotRestClient.GetGuildsAsync(QQBot.RequestOptions)">
+  GetGuildsAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Rest/QQBotRestClient.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前用户所在的所有频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyCollection&lt;RestGuild&gt;&gt; GetGuildsAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="QQBot.Rest.RestGuild.html">RestGuild</a>&gt;&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务，其结果包含当前用户所在的所有频道。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Rest/QQBotRestClient.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Rest/QQBotRestClient.cs/#L12" class="edit-link">Edit this page</a>
         </div>
 
 

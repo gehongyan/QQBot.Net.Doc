@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -155,17 +155,17 @@ Class MessageExtensions  <a class="header-action link-secondary" title="View sou
 
   <a id="QQBot_MessageExtensions_ReplyAsync_" data-uid="QQBot.MessageExtensions.ReplyAsync*"></a>
 
-  <h3 id="QQBot_MessageExtensions_ReplyAsync_QQBot_IUserMessage_System_String_QQBot_IMarkdownContent_System_Nullable_QQBot_FileAttachment__QQBot_Embed_QQBot_Ark_QQBot_MessageReference_QQBot_RequestOptions_" data-uid="QQBot.MessageExtensions.ReplyAsync(QQBot.IUserMessage,System.String,QQBot.IMarkdownContent,System.Nullable{QQBot.FileAttachment},QQBot.Embed,QQBot.Ark,QQBot.MessageReference,QQBot.RequestOptions)">
-  ReplyAsync(IUserMessage, string?, IMarkdownContent?, FileAttachment?, Embed?, Ark?, MessageReference?, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Extensions/MessageExtensions.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <h3 id="QQBot_MessageExtensions_ReplyAsync_QQBot_IUserMessage_System_String_QQBot_IMarkdown_System_Nullable_QQBot_FileAttachment__QQBot_Embed_QQBot_Ark_QQBot_IKeyboard_QQBot_MessageReference_QQBot_RequestOptions_" data-uid="QQBot.MessageExtensions.ReplyAsync(QQBot.IUserMessage,System.String,QQBot.IMarkdown,System.Nullable{QQBot.FileAttachment},QQBot.Embed,QQBot.Ark,QQBot.IKeyboard,QQBot.MessageReference,QQBot.RequestOptions)">
+  ReplyAsync(IUserMessage, string?, IMarkdown?, FileAttachment?, Embed?, Ark?, IKeyboard?, MessageReference?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Extensions/MessageExtensions.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>向消息所属的频道回复文字消息。</p>
+  <div class="markdown level1 summary"><p>向消息所属的子频道回复消息。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task&lt;Cacheable&lt;IUserMessage, string&gt;&gt; ReplyAsync(this IUserMessage message, string? content = null, IMarkdownContent? markdown = null, FileAttachment? attachment = null, Embed? embed = null, Ark? ark = null, MessageReference? messageReference = null, RequestOptions? options = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Task&lt;IUserMessage&gt; ReplyAsync(this IUserMessage message, string? content = null, IMarkdown? markdown = null, FileAttachment? attachment = null, Embed? embed = null, Ark? ark = null, IKeyboard? keyboard = null, MessageReference? messageReference = null, RequestOptions? options = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -176,7 +176,7 @@ Class MessageExtensions  <a class="header-action link-secondary" title="View sou
     <dt><code>content</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>要发送的消息内容。</p>
 </dd>
-    <dt><code>markdown</code> <a class="xref" href="QQBot.IMarkdownContent.html">IMarkdownContent</a></dt>
+    <dt><code>markdown</code> <a class="xref" href="QQBot.IMarkdown.html">IMarkdown</a></dt>
     <dd><p>要回复的 Markdown 消息内容。</p>
 </dd>
     <dt><code>attachment</code> <a class="xref" href="QQBot.FileAttachment.html">FileAttachment</a>?</dt>
@@ -188,6 +188,9 @@ Class MessageExtensions  <a class="header-action link-secondary" title="View sou
     <dt><code>ark</code> <a class="xref" href="QQBot.Ark.html">Ark</a></dt>
     <dd><p>要发送的模板消息内容。</p>
 </dd>
+    <dt><code>keyboard</code> <a class="xref" href="QQBot.IKeyboard.html">IKeyboard</a></dt>
+    <dd><p>要发送的按钮。</p>
+</dd>
     <dt><code>messageReference</code> <a class="xref" href="QQBot.MessageReference.html">MessageReference</a></dt>
     <dd><p>消息引用，用于回复消息。</p>
 </dd>
@@ -198,7 +201,7 @@ Class MessageExtensions  <a class="header-action link-secondary" title="View sou
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="QQBot.IUserMessage.html">IUserMessage</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.IUserMessage.html">IUserMessage</a>&gt;</dt>
     <dd><p>一个表示异步发送操作的任务。任务的结果包含所发送消息的可延迟加载的消息对象。</p>
 </dd>
   </dl>

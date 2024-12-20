@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Interface INestedChannel | QQBot.Net 文档 ">
       
-      <meta name="description" content="表示一个通用的嵌套子频道，即可以嵌套在分组频道中的服务器子频道。">
+      <meta name="description" content="表示一个通用的嵌套子频道，即可以嵌套在分组子频道中的频道子频道。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -97,12 +97,12 @@ Interface INestedChannel  <a class="header-action link-secondary" title="View so
   <dl><dt>Assembly</dt><dd>QQBot.Net.Core.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>表示一个通用的嵌套子频道，即可以嵌套在分组频道中的服务器子频道。</p>
+  <div class="markdown summary"><p>表示一个通用的嵌套子频道，即可以嵌套在分组子频道中的频道子频道。</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface INestedChannel : IGuildChannel, IChannel, IEntity&lt;string&gt;, IUpdateable, IEntity&lt;ulong&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public interface INestedChannel : IGuildChannel, IChannel, IEntity&lt;string&gt;, IUpdateable, IDeletable, IEntity&lt;ulong&gt;</code></pre>
   </div>
 
 
@@ -136,7 +136,19 @@ Interface INestedChannel  <a class="header-action link-secondary" title="View so
       <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_CreatorId">IGuildChannel.CreatorId</a>
     </div>
     <div>
+      <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_ModifyAsync_System_Action_QQBot_ModifyGuildChannelProperties__QQBot_RequestOptions_">IGuildChannel.ModifyAsync(Action&lt;ModifyGuildChannelProperties&gt;, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_GetUserAsync_System_UInt64_QQBot_CacheMode_QQBot_RequestOptions_">IGuildChannel.GetUserAsync(ulong, CacheMode, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IChannel.html#QQBot_IChannel_GetUserAsync_System_String_QQBot_CacheMode_QQBot_RequestOptions_">IChannel.GetUserAsync(string, CacheMode, RequestOptions)</a>
+    </div>
+    <div>
       <a class="xref" href="QQBot.IUpdateable.html#QQBot_IUpdateable_UpdateAsync_QQBot_RequestOptions_">IUpdateable.UpdateAsync(RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IDeletable.html#QQBot_IDeletable_DeleteAsync_QQBot_RequestOptions_">IDeletable.DeleteAsync(RequestOptions)</a>
     </div>
   </dd></dl>
 
@@ -163,7 +175,7 @@ Interface INestedChannel  <a class="header-action link-secondary" title="View so
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/INestedChannel.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取此嵌套频道在子频道列表中所属的分组频道的 ID。</p>
+  <div class="markdown level1 summary"><p>获取此嵌套子频道在子频道列表中所属的分组子频道的 ID。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -185,7 +197,7 @@ Interface INestedChannel  <a class="header-action link-secondary" title="View so
 
 
   <h4 class="section" id="QQBot_INestedChannel_CategoryId_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>如果当前频道不属于任何分组频道，则会返回 <code>null</code>。</p>
+  <div class="markdown level1 remarks"><p>如果当前子频道不属于任何分组子频道，则会返回 <code>null</code>。</p>
 </div>
 
 
@@ -198,7 +210,7 @@ Interface INestedChannel  <a class="header-action link-secondary" title="View so
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/INestedChannel.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取当前用户在此频道的权限。</p>
+  <div class="markdown level1 summary"><p>获取当前用户在此子频道的权限。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -235,7 +247,7 @@ Interface INestedChannel  <a class="header-action link-secondary" title="View so
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">ChannelPrivateType? PrivateType { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">PrivateType? PrivateType { get; }</code></pre>
   </div>
 
 
@@ -244,7 +256,7 @@ Interface INestedChannel  <a class="header-action link-secondary" title="View so
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="QQBot.ChannelPrivateType.html">ChannelPrivateType</a>?</dt>
+    <dt><a class="xref" href="QQBot.PrivateType.html">PrivateType</a>?</dt>
     <dd></dd>
   </dl>
 
@@ -279,6 +291,184 @@ Interface INestedChannel  <a class="header-action link-secondary" title="View so
     <dt><a class="xref" href="QQBot.SpeakPermission.html">SpeakPermission</a>?</dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="QQBot_INestedChannel_GetPermissionsAsync_" data-uid="QQBot.INestedChannel.GetPermissionsAsync*"></a>
+
+  <h3 id="QQBot_INestedChannel_GetPermissionsAsync_QQBot_IGuildMember_QQBot_RequestOptions_" data-uid="QQBot.INestedChannel.GetPermissionsAsync(QQBot.IGuildMember,QQBot.RequestOptions)">
+  GetPermissionsAsync(IGuildMember, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/INestedChannel.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取指定用户在此子频道的权限。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ChannelPermissions&gt; GetPermissionsAsync(IGuildMember user, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="QQBot.IGuildMember.html">IGuildMember</a></dt>
+    <dd><p>要获取权限的用户。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.ChannelPermissions.html">ChannelPermissions</a>&gt;</dt>
+    <dd><p>用户在此子频道的权限。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_INestedChannel_GetPermissionsAsync_" data-uid="QQBot.INestedChannel.GetPermissionsAsync*"></a>
+
+  <h3 id="QQBot_INestedChannel_GetPermissionsAsync_QQBot_IRole_QQBot_RequestOptions_" data-uid="QQBot.INestedChannel.GetPermissionsAsync(QQBot.IRole,QQBot.RequestOptions)">
+  GetPermissionsAsync(IRole, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/INestedChannel.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取指定角色在此子频道的权限。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;ChannelPermissions&gt; GetPermissionsAsync(IRole role, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>role</code> <a class="xref" href="QQBot.IRole.html">IRole</a></dt>
+    <dd><p>要获取权限的角色。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.ChannelPermissions.html">ChannelPermissions</a>&gt;</dt>
+    <dd><p>角色在此子频道的权限。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_INestedChannel_ModifyPermissionsAsync_" data-uid="QQBot.INestedChannel.ModifyPermissionsAsync*"></a>
+
+  <h3 id="QQBot_INestedChannel_ModifyPermissionsAsync_QQBot_IGuildMember_QQBot_OverwritePermissions_QQBot_RequestOptions_" data-uid="QQBot.INestedChannel.ModifyPermissionsAsync(QQBot.IGuildMember,QQBot.OverwritePermissions,QQBot.RequestOptions)">
+  ModifyPermissionsAsync(IGuildMember, OverwritePermissions, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/INestedChannel.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>修改指定用户在此子频道的权限。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task ModifyPermissionsAsync(IGuildMember user, OverwritePermissions permissions, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>user</code> <a class="xref" href="QQBot.IGuildMember.html">IGuildMember</a></dt>
+    <dd><p>要修改权限的用户。</p>
+</dd>
+    <dt><code>permissions</code> <a class="xref" href="QQBot.OverwritePermissions.html">OverwritePermissions</a></dt>
+    <dd><p>要修改的权限。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步修改用户权限操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_INestedChannel_ModifyPermissionsAsync_" data-uid="QQBot.INestedChannel.ModifyPermissionsAsync*"></a>
+
+  <h3 id="QQBot_INestedChannel_ModifyPermissionsAsync_QQBot_IRole_QQBot_OverwritePermissions_QQBot_RequestOptions_" data-uid="QQBot.INestedChannel.ModifyPermissionsAsync(QQBot.IRole,QQBot.OverwritePermissions,QQBot.RequestOptions)">
+  ModifyPermissionsAsync(IRole, OverwritePermissions, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/INestedChannel.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>修改指定用户在此子频道的权限。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task ModifyPermissionsAsync(IRole role, OverwritePermissions permissions, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>role</code> <a class="xref" href="QQBot.IRole.html">IRole</a></dt>
+    <dd><p>要修改权限的角色。</p>
+</dd>
+    <dt><code>permissions</code> <a class="xref" href="QQBot.OverwritePermissions.html">OverwritePermissions</a></dt>
+    <dd><p>要修改的权限。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步修改用户权限操作的任务。</p>
+</dd>
+  </dl>
+
+
+
 
 
 

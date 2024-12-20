@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -102,7 +102,7 @@ Interface IForumChannel  <a class="header-action link-secondary" title="View sou
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IForumChannel : INestedChannel, IGuildChannel, IChannel, IEntity&lt;string&gt;, IUpdateable, IEntity&lt;ulong&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IForumChannel : INestedChannel, IGuildChannel, IChannel, IEntity&lt;string&gt;, IUpdateable, IDeletable, IEntity&lt;ulong&gt;</code></pre>
   </div>
 
 
@@ -127,6 +127,18 @@ Interface IForumChannel  <a class="header-action link-secondary" title="View sou
       <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_Permission">INestedChannel.Permission</a>
     </div>
     <div>
+      <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_GetPermissionsAsync_QQBot_IGuildMember_QQBot_RequestOptions_">INestedChannel.GetPermissionsAsync(IGuildMember, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_GetPermissionsAsync_QQBot_IRole_QQBot_RequestOptions_">INestedChannel.GetPermissionsAsync(IRole, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_ModifyPermissionsAsync_QQBot_IGuildMember_QQBot_OverwritePermissions_QQBot_RequestOptions_">INestedChannel.ModifyPermissionsAsync(IGuildMember, OverwritePermissions, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_ModifyPermissionsAsync_QQBot_IRole_QQBot_OverwritePermissions_QQBot_RequestOptions_">INestedChannel.ModifyPermissionsAsync(IRole, OverwritePermissions, RequestOptions)</a>
+    </div>
+    <div>
       <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_Id">IGuildChannel.Id</a>
     </div>
     <div>
@@ -148,7 +160,19 @@ Interface IForumChannel  <a class="header-action link-secondary" title="View sou
       <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_CreatorId">IGuildChannel.CreatorId</a>
     </div>
     <div>
+      <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_ModifyAsync_System_Action_QQBot_ModifyGuildChannelProperties__QQBot_RequestOptions_">IGuildChannel.ModifyAsync(Action&lt;ModifyGuildChannelProperties&gt;, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_GetUserAsync_System_UInt64_QQBot_CacheMode_QQBot_RequestOptions_">IGuildChannel.GetUserAsync(ulong, CacheMode, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IChannel.html#QQBot_IChannel_GetUserAsync_System_String_QQBot_CacheMode_QQBot_RequestOptions_">IChannel.GetUserAsync(string, CacheMode, RequestOptions)</a>
+    </div>
+    <div>
       <a class="xref" href="QQBot.IUpdateable.html#QQBot_IUpdateable_UpdateAsync_QQBot_RequestOptions_">IUpdateable.UpdateAsync(RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IDeletable.html#QQBot_IDeletable_DeleteAsync_QQBot_RequestOptions_">IDeletable.DeleteAsync(RequestOptions)</a>
     </div>
   </dd></dl>
 
@@ -159,6 +183,226 @@ Interface IForumChannel  <a class="header-action link-secondary" title="View sou
       <a class="xref" href="QQBot.ChannelExtensions.html#QQBot_ChannelExtensions_GetChannelType_QQBot_IChannel_">ChannelExtensions.GetChannelType(IChannel)</a>
   </div>
   </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="QQBot_IForumChannel_CreateThreadAsync_" data-uid="QQBot.IForumChannel.CreateThreadAsync*"></a>
+
+  <h3 id="QQBot_IForumChannel_CreateThreadAsync_System_String_QQBot_RichTextBuilder_QQBot_RequestOptions_" data-uid="QQBot.IForumChannel.CreateThreadAsync(System.String,QQBot.RichTextBuilder,QQBot.RequestOptions)">
+  CreateThreadAsync(string, RichTextBuilder, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IForumChannel.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>创建一个新的主题。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task CreateThreadAsync(string title, RichTextBuilder content, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>主题的标题。</p>
+</dd>
+    <dt><code>content</code> <a class="xref" href="QQBot.RichTextBuilder.html">RichTextBuilder</a></dt>
+    <dd><p>主题的内容。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步创建操作的任务。任务的结果包含新创建的主题。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IForumChannel_CreateThreadAsync_" data-uid="QQBot.IForumChannel.CreateThreadAsync*"></a>
+
+  <h3 id="QQBot_IForumChannel_CreateThreadAsync_System_String_QQBot_ThreadTextType_System_String_QQBot_RequestOptions_" data-uid="QQBot.IForumChannel.CreateThreadAsync(System.String,QQBot.ThreadTextType,System.String,QQBot.RequestOptions)">
+  CreateThreadAsync(string, ThreadTextType, string, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IForumChannel.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>创建一个新的主题。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task CreateThreadAsync(string title, ThreadTextType textType, string content, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>主题的标题。</p>
+</dd>
+    <dt><code>textType</code> <a class="xref" href="QQBot.ThreadTextType.html">ThreadTextType</a></dt>
+    <dd><p>主题的内容类型。</p>
+</dd>
+    <dt><code>content</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>主题的内容。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步创建操作的任务。任务的结果包含新创建的主题。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IForumChannel_GetThreadAsync_" data-uid="QQBot.IForumChannel.GetThreadAsync*"></a>
+
+  <h3 id="QQBot_IForumChannel_GetThreadAsync_System_String_QQBot_RequestOptions_" data-uid="QQBot.IForumChannel.GetThreadAsync(System.String,QQBot.RequestOptions)">
+  GetThreadAsync(string, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IForumChannel.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此论坛子频道的主题。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IThread&gt; GetThreadAsync(string id, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要获取的主题的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.IThread.html">IThread</a>&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果包含此论坛子频道的所有主题。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IForumChannel_GetThreadsAsync_" data-uid="QQBot.IForumChannel.GetThreadsAsync*"></a>
+
+  <h3 id="QQBot_IForumChannel_GetThreadsAsync_QQBot_RequestOptions_" data-uid="QQBot.IForumChannel.GetThreadsAsync(QQBot.RequestOptions)">
+  GetThreadsAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IForumChannel.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此论坛子频道的所有主题。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IReadOnlyCollection&lt;IThread&gt;&gt; GetThreadsAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="QQBot.IThread.html">IThread</a>&gt;&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果包含此论坛子频道的所有主题。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IForumChannel_ModifyAsync_" data-uid="QQBot.IForumChannel.ModifyAsync*"></a>
+
+  <h3 id="QQBot_IForumChannel_ModifyAsync_System_Action_QQBot_ModifyForumChannelProperties__QQBot_RequestOptions_" data-uid="QQBot.IForumChannel.ModifyAsync(System.Action{QQBot.ModifyForumChannelProperties},QQBot.RequestOptions)">
+  ModifyAsync(Action&lt;ModifyForumChannelProperties&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IForumChannel.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>修改此论坛子频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task ModifyAsync(Action&lt;ModifyForumChannelProperties&gt; func, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.ModifyForumChannelProperties.html">ModifyForumChannelProperties</a>&gt;</dt>
+    <dd><p>一个包含修改论坛子频道属性的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示论坛子频道属性修改操作的异步任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
 
 
 

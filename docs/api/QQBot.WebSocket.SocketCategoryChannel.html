@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class SocketCategoryChannel | QQBot.Net 文档 ">
       
-      <meta name="description" content="表示一个基于网关的分组频道。">
+      <meta name="description" content="表示一个基于网关的分组子频道。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -89,7 +89,7 @@
 
 
   <h1 id="QQBot_WebSocket_SocketCategoryChannel" data-uid="QQBot.WebSocket.SocketCategoryChannel" class="text-break">
-Class SocketCategoryChannel  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Channels/SocketCategoryChannel.cs/#L9"><i class="bi bi-code-slash"></i></a>
+Class SocketCategoryChannel  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Channels/SocketCategoryChannel.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,12 @@ Class SocketCategoryChannel  <a class="header-action link-secondary" title="View
   <dl><dt>Assembly</dt><dd>QQBot.Net.WebSocket.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>表示一个基于网关的分组频道。</p>
+  <div class="markdown summary"><p>表示一个基于网关的分组子频道。</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SocketCategoryChannel : SocketGuildChannel, ICategoryChannel, IGuildChannel, IChannel, IEntity&lt;string&gt;, IUpdateable, IEntity&lt;ulong&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class SocketCategoryChannel : SocketGuildChannel, ICategoryChannel, IGuildChannel, IChannel, IEntity&lt;string&gt;, IUpdateable, IDeletable, IEntity&lt;ulong&gt;</code></pre>
   </div>
 
 
@@ -127,6 +127,7 @@ Class SocketCategoryChannel  <a class="header-action link-secondary" title="View
       <div><a class="xref" href="QQBot.IChannel.html">IChannel</a></div>
       <div><a class="xref" href="QQBot.IEntity-1.html">IEntity</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</div>
       <div><a class="xref" href="QQBot.IUpdateable.html">IUpdateable</a></div>
+      <div><a class="xref" href="QQBot.IDeletable.html">IDeletable</a></div>
       <div><a class="xref" href="QQBot.IEntity-1.html">IEntity</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</div>
     </dd>
   </dl>
@@ -157,7 +158,22 @@ Class SocketCategoryChannel  <a class="header-action link-secondary" title="View
       <a class="xref" href="QQBot.WebSocket.SocketGuildChannel.html#QQBot_WebSocket_SocketGuildChannel_UpdateAsync_QQBot_RequestOptions_">SocketGuildChannel.UpdateAsync(RequestOptions)</a>
     </div>
     <div>
+      <a class="xref" href="QQBot.WebSocket.SocketGuildChannel.html#QQBot_WebSocket_SocketGuildChannel_ModifyAsync_System_Action_QQBot_ModifyGuildChannelProperties__QQBot_RequestOptions_">SocketGuildChannel.ModifyAsync(Action&lt;ModifyGuildChannelProperties&gt;, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.WebSocket.SocketGuildChannel.html#QQBot_WebSocket_SocketGuildChannel_DeleteAsync_QQBot_RequestOptions_">SocketGuildChannel.DeleteAsync(RequestOptions)</a>
+    </div>
+    <div>
       <a class="xref" href="QQBot.WebSocket.SocketGuildChannel.html#QQBot_WebSocket_SocketGuildChannel_ToString">SocketGuildChannel.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.WebSocket.SocketGuildChannel.html#QQBot_WebSocket_SocketGuildChannel_GetUser_System_UInt64_">SocketGuildChannel.GetUser(ulong)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.WebSocket.SocketGuildChannel.html#QQBot_WebSocket_SocketGuildChannel_GetUserInternal_System_String_">SocketGuildChannel.GetUserInternal(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.WebSocket.SocketChannel.html#QQBot_WebSocket_SocketChannel_GetUser_System_String_">SocketChannel.GetUser(string)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -191,11 +207,57 @@ Class SocketCategoryChannel  <a class="header-action link-secondary" title="View
 
 
 
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="QQBot_WebSocket_SocketCategoryChannel_ModifyAsync_" data-uid="QQBot.WebSocket.SocketCategoryChannel.ModifyAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketCategoryChannel_ModifyAsync_System_Action_QQBot_ModifyCategoryChannelProperties__QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketCategoryChannel.ModifyAsync(System.Action{QQBot.ModifyCategoryChannelProperties},QQBot.RequestOptions)">
+  ModifyAsync(Action&lt;ModifyCategoryChannelProperties&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Channels/SocketCategoryChannel.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>修改此分组子频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ModifyAsync(Action&lt;ModifyCategoryChannelProperties&gt; func, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.ModifyCategoryChannelProperties.html">ModifyCategoryChannelProperties</a>&gt;</dt>
+    <dd><p>一个包含修改分组子频道属性的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示分组子频道属性修改操作的异步任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Channels/SocketCategoryChannel.cs/#L9" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Channels/SocketCategoryChannel.cs/#L10" class="edit-link">Edit this page</a>
         </div>
 
 

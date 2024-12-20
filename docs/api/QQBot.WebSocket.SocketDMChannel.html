@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class SocketDMChannel | QQBot.Net 文档 ">
       
-      <meta name="description" content="表示一个基于网关的子频道用户私聊频道。">
+      <meta name="description" content="表示一个基于网关的子频道用户私聊子频道。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -97,12 +97,12 @@ Class SocketDMChannel  <a class="header-action link-secondary" title="View sourc
   <dl><dt>Assembly</dt><dd>QQBot.Net.WebSocket.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>表示一个基于网关的子频道用户私聊频道。</p>
+  <div class="markdown summary"><p>表示一个基于网关的子频道用户私聊子频道。</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SocketDMChannel : SocketChannel, IDMChannel, ISocketPrivateChannel, IPrivateChannel, ISocketMessageChannel, IMessageChannel, IChannel, IEntity&lt;string&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class SocketDMChannel : SocketChannel, IDMChannel, IEntity&lt;ulong&gt;, ISocketPrivateChannel, IPrivateChannel, ISocketMessageChannel, IMessageChannel, IChannel, IEntity&lt;string&gt;</code></pre>
   </div>
 
 
@@ -122,6 +122,7 @@ Class SocketDMChannel  <a class="header-action link-secondary" title="View sourc
     <dt>Implements</dt>
     <dd>
       <div><a class="xref" href="QQBot.IDMChannel.html">IDMChannel</a></div>
+      <div><a class="xref" href="QQBot.IEntity-1.html">IEntity</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</div>
       <div><a class="xref" href="QQBot.WebSocket.ISocketPrivateChannel.html">ISocketPrivateChannel</a></div>
       <div><a class="xref" href="QQBot.IPrivateChannel.html">IPrivateChannel</a></div>
       <div><a class="xref" href="QQBot.WebSocket.ISocketMessageChannel.html">ISocketMessageChannel</a></div>
@@ -135,6 +136,9 @@ Class SocketDMChannel  <a class="header-action link-secondary" title="View sourc
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="QQBot.WebSocket.SocketChannel.html#QQBot_WebSocket_SocketChannel_GetUser_System_String_">SocketChannel.GetUser(string)</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -181,7 +185,7 @@ Class SocketDMChannel  <a class="header-action link-secondary" title="View sourc
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Channels/SocketDMChannel.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取此频道缓存的所有消息。</p>
+  <div class="markdown level1 summary"><p>获取此子频道缓存的所有消息。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -221,7 +225,7 @@ Class SocketDMChannel  <a class="header-action link-secondary" title="View sourc
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Channels/SocketDMChannel.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取此子频道内用户私聊频道的唯一标识符。</p>
+  <div class="markdown level1 summary"><p>获取此子频道内用户私聊子频道的唯一标识符。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -253,12 +257,12 @@ Class SocketDMChannel  <a class="header-action link-secondary" title="View sourc
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Channels/SocketDMChannel.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>获取参与到此私聊频道的另外一位用户。</p>
+  <div class="markdown level1 summary"><p>获取参与到此私聊子频道的另外一位用户。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SocketUser Recipient { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public SocketGuildUser Recipient { get; }</code></pre>
   </div>
 
 
@@ -267,7 +271,7 @@ Class SocketDMChannel  <a class="header-action link-secondary" title="View sourc
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="QQBot.WebSocket.SocketUser.html">SocketUser</a></dt>
+    <dt><a class="xref" href="QQBot.WebSocket.SocketGuildUser.html">SocketGuildUser</a></dt>
     <dd></dd>
   </dl>
 
@@ -282,19 +286,97 @@ Class SocketDMChannel  <a class="header-action link-secondary" title="View sourc
 </h2>
 
 
-  <a id="QQBot_WebSocket_SocketDMChannel_SendMessageAsync_" data-uid="QQBot.WebSocket.SocketDMChannel.SendMessageAsync*"></a>
+  <a id="QQBot_WebSocket_SocketDMChannel_GetUser_" data-uid="QQBot.WebSocket.SocketDMChannel.GetUser*"></a>
 
-  <h3 id="QQBot_WebSocket_SocketDMChannel_SendMessageAsync_System_String_QQBot_IMarkdownContent_System_Nullable_QQBot_FileAttachment__QQBot_Embed_QQBot_Ark_QQBot_MessageReference_QQBot_IUserMessage_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketDMChannel.SendMessageAsync(System.String,QQBot.IMarkdownContent,System.Nullable{QQBot.FileAttachment},QQBot.Embed,QQBot.Ark,QQBot.MessageReference,QQBot.IUserMessage,QQBot.RequestOptions)">
-  SendMessageAsync(string?, IMarkdownContent?, FileAttachment?, Embed?, Ark?, MessageReference?, IUserMessage?, RequestOptions?)
+  <h3 id="QQBot_WebSocket_SocketDMChannel_GetUser_System_UInt64_" data-uid="QQBot.WebSocket.SocketDMChannel.GetUser(System.UInt64)">
+  GetUser(ulong)
   <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Channels/SocketDMChannel.cs/#L71"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>向此频道发送消息。</p>
+  <div class="markdown level1 summary"><p>获取此频道中的一个用户。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;Cacheable&lt;IUserMessage, string&gt;&gt; SendMessageAsync(string? content = null, IMarkdownContent? markdown = null, FileAttachment? attachment = null, Embed? embed = null, Ark? ark = null, MessageReference? messageReference = null, IUserMessage? passiveSource = null, RequestOptions? options = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public SocketUser? GetUser(ulong id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要获取的用户的 ID。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.WebSocket.SocketUser.html">SocketUser</a></dt>
+    <dd><p>如果找到了具有指定 ID 的用户，则返回该用户；否则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketDMChannel_GetUserInternal_" data-uid="QQBot.WebSocket.SocketDMChannel.GetUserInternal*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketDMChannel_GetUserInternal_System_String_" data-uid="QQBot.WebSocket.SocketDMChannel.GetUserInternal(System.String)">
+  GetUserInternal(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Channels/SocketDMChannel.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此频道中的一个用户。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override SocketUser? GetUserInternal(string id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要获取的用户的 ID。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.WebSocket.SocketUser.html">SocketUser</a></dt>
+    <dd><p>如果找到了具有指定 ID 的用户，则返回该用户；否则返回 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_WebSocket_SocketDMChannel_SendMessageAsync_" data-uid="QQBot.WebSocket.SocketDMChannel.SendMessageAsync*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketDMChannel_SendMessageAsync_System_String_QQBot_IMarkdown_System_Nullable_QQBot_FileAttachment__QQBot_Embed_QQBot_Ark_QQBot_MessageReference_QQBot_IUserMessage_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketDMChannel.SendMessageAsync(System.String,QQBot.IMarkdown,System.Nullable{QQBot.FileAttachment},QQBot.Embed,QQBot.Ark,QQBot.MessageReference,QQBot.IUserMessage,QQBot.RequestOptions)">
+  SendMessageAsync(string?, IMarkdown?, FileAttachment?, Embed?, Ark?, MessageReference?, IUserMessage?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/Entities/Channels/SocketDMChannel.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>向此子频道发送消息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IUserMessage&gt; SendMessageAsync(string? content = null, IMarkdown? markdown = null, FileAttachment? attachment = null, Embed? embed = null, Ark? ark = null, MessageReference? messageReference = null, IUserMessage? passiveSource = null, RequestOptions? options = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -302,7 +384,7 @@ Class SocketDMChannel  <a class="header-action link-secondary" title="View sourc
     <dt><code>content</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>要发送的消息内容。</p>
 </dd>
-    <dt><code>markdown</code> <a class="xref" href="QQBot.IMarkdownContent.html">IMarkdownContent</a></dt>
+    <dt><code>markdown</code> <a class="xref" href="QQBot.IMarkdown.html">IMarkdown</a></dt>
     <dd><p>要发送的 Markdown 消息内容。</p>
 </dd>
     <dt><code>attachment</code> <a class="xref" href="QQBot.FileAttachment.html">FileAttachment</a>?</dt>
@@ -327,7 +409,7 @@ Class SocketDMChannel  <a class="header-action link-secondary" title="View sourc
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="QQBot.IUserMessage.html">IUserMessage</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.IUserMessage.html">IUserMessage</a>&gt;</dt>
     <dd><p>一个表示异步发送操作的任务。任务的结果包含所发送消息的可延迟加载的消息对象。</p>
 </dd>
   </dl>

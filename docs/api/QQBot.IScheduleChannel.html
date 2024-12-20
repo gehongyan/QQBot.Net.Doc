@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IScheduleChannel | QQBot.Net 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IScheduleChannel | QQBot.Net 文档 ">
+      
+      <meta name="description" content="表示一个日程子频道。">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/QQBot.Net/new/master/apiSpec/new?filename=QQBot_IScheduleChannel.md&amp;value=---%0Auid%3A%20QQBot.IScheduleChannel%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="QQBot.Net 文档">
+            QQBot.Net 文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="QQBot.IScheduleChannel">
+
+
+
+  <h1 id="QQBot_IScheduleChannel" data-uid="QQBot.IScheduleChannel" class="text-break">
+Interface IScheduleChannel  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IScheduleChannel.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="QQBot.html">QQBot</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>QQBot.Net.Core.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>表示一个日程子频道。</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IScheduleChannel : INestedChannel, IGuildChannel, IChannel, IEntity&lt;string&gt;, IUpdateable, IDeletable, IEntity&lt;ulong&gt;</code></pre>
+  </div>
+
+
+
+
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_CategoryId">INestedChannel.CategoryId</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_PrivateType">INestedChannel.PrivateType</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_SpeakPermission">INestedChannel.SpeakPermission</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_Permission">INestedChannel.Permission</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_GetPermissionsAsync_QQBot_IGuildMember_QQBot_RequestOptions_">INestedChannel.GetPermissionsAsync(IGuildMember, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_GetPermissionsAsync_QQBot_IRole_QQBot_RequestOptions_">INestedChannel.GetPermissionsAsync(IRole, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_ModifyPermissionsAsync_QQBot_IGuildMember_QQBot_OverwritePermissions_QQBot_RequestOptions_">INestedChannel.ModifyPermissionsAsync(IGuildMember, OverwritePermissions, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.INestedChannel.html#QQBot_INestedChannel_ModifyPermissionsAsync_QQBot_IRole_QQBot_OverwritePermissions_QQBot_RequestOptions_">INestedChannel.ModifyPermissionsAsync(IRole, OverwritePermissions, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_Id">IGuildChannel.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_Guild">IGuildChannel.Guild</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_Name">IGuildChannel.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_GuildId">IGuildChannel.GuildId</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_Type">IGuildChannel.Type</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_Position">IGuildChannel.Position</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_CreatorId">IGuildChannel.CreatorId</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_ModifyAsync_System_Action_QQBot_ModifyGuildChannelProperties__QQBot_RequestOptions_">IGuildChannel.ModifyAsync(Action&lt;ModifyGuildChannelProperties&gt;, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IGuildChannel.html#QQBot_IGuildChannel_GetUserAsync_System_UInt64_QQBot_CacheMode_QQBot_RequestOptions_">IGuildChannel.GetUserAsync(ulong, CacheMode, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IChannel.html#QQBot_IChannel_GetUserAsync_System_String_QQBot_CacheMode_QQBot_RequestOptions_">IChannel.GetUserAsync(string, CacheMode, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IUpdateable.html#QQBot_IUpdateable_UpdateAsync_QQBot_RequestOptions_">IUpdateable.UpdateAsync(RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IDeletable.html#QQBot_IDeletable_DeleteAsync_QQBot_RequestOptions_">IDeletable.DeleteAsync(RequestOptions)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="QQBot.ChannelExtensions.html#QQBot_ChannelExtensions_GetChannelType_QQBot_IChannel_">ChannelExtensions.GetChannelType(IChannel)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="QQBot_IScheduleChannel_CreateScheduleAsync_" data-uid="QQBot.IScheduleChannel.CreateScheduleAsync*"></a>
+
+  <h3 id="QQBot_IScheduleChannel_CreateScheduleAsync_System_String_System_DateTimeOffset_System_DateTimeOffset_System_String_QQBot_IGuildChannel_QQBot_RemindType_QQBot_RequestOptions_" data-uid="QQBot.IScheduleChannel.CreateScheduleAsync(System.String,System.DateTimeOffset,System.DateTimeOffset,System.String,QQBot.IGuildChannel,QQBot.RemindType,QQBot.RequestOptions)">
+  CreateScheduleAsync(string, DateTimeOffset, DateTimeOffset, string?, IGuildChannel?, RemindType, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IScheduleChannel.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>创建一个新的日程</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IGuildSchedule&gt; CreateScheduleAsync(string name, DateTimeOffset startTime, DateTimeOffset endTime, string? description = null, IGuildChannel? jumpChannel = null, RemindType remindType = RemindType.None, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>日程名称。</p>
+</dd>
+    <dt><code>startTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a></dt>
+    <dd><p>日程开始时间。</p>
+</dd>
+    <dt><code>endTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a></dt>
+    <dd><p>日程结束时间。</p>
+</dd>
+    <dt><code>description</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>日程描述。</p>
+</dd>
+    <dt><code>jumpChannel</code> <a class="xref" href="QQBot.IGuildChannel.html">IGuildChannel</a></dt>
+    <dd><p>日程开始时要跳转到的子频道。</p>
+</dd>
+    <dt><code>remindType</code> <a class="xref" href="QQBot.RemindType.html">RemindType</a></dt>
+    <dd><p>日程提醒类型。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.IGuildSchedule.html">IGuildSchedule</a>&gt;</dt>
+    <dd><p>一个表示异步操作的任务，其结果为新创建的日程。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IScheduleChannel_GetScheduleAsync_" data-uid="QQBot.IScheduleChannel.GetScheduleAsync*"></a>
+
+  <h3 id="QQBot_IScheduleChannel_GetScheduleAsync_System_UInt64_QQBot_RequestOptions_" data-uid="QQBot.IScheduleChannel.GetScheduleAsync(System.UInt64,QQBot.RequestOptions)">
+  GetScheduleAsync(ulong, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IScheduleChannel.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此日程子频道的指定日程。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IGuildSchedule&gt; GetScheduleAsync(ulong id, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>要获取的日程的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.IGuildSchedule.html">IGuildSchedule</a>&gt;</dt>
+    <dd><p>一个表示异步操作的任务，其结果为此日程子频道的指定日程。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IScheduleChannel_GetSchedulesAsync_" data-uid="QQBot.IScheduleChannel.GetSchedulesAsync*"></a>
+
+  <h3 id="QQBot_IScheduleChannel_GetSchedulesAsync_System_Nullable_System_DateTimeOffset__QQBot_RequestOptions_" data-uid="QQBot.IScheduleChannel.GetSchedulesAsync(System.Nullable{System.DateTimeOffset},QQBot.RequestOptions)">
+  GetSchedulesAsync(DateTimeOffset?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IScheduleChannel.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此日程子频道的所有当日日程。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IReadOnlyCollection&lt;IGuildSchedule&gt;&gt; GetSchedulesAsync(DateTimeOffset? since = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>since</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd><p>当不为 <code>null</code> 时，将获取结束时间在此参数表示的时间之后的日程列表；当为 <code>null</code> 时，将获取当天的所有列表。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="QQBot.IGuildSchedule.html">IGuildSchedule</a>&gt;&gt;</dt>
+    <dd><p>一个表示异步操作的任务，其结果为此日程子频道的所有当日日程的只读集合。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IScheduleChannel_ModifyAsync_" data-uid="QQBot.IScheduleChannel.ModifyAsync*"></a>
+
+  <h3 id="QQBot_IScheduleChannel_ModifyAsync_System_Action_QQBot_ModifyScheduleChannelProperties__QQBot_RequestOptions_" data-uid="QQBot.IScheduleChannel.ModifyAsync(System.Action{QQBot.ModifyScheduleChannelProperties},QQBot.RequestOptions)">
+  ModifyAsync(Action&lt;ModifyScheduleChannelProperties&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IScheduleChannel.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>修改此日程子频道。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task ModifyAsync(Action&lt;ModifyScheduleChannelProperties&gt; func, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.ModifyScheduleChannelProperties.html">ModifyScheduleChannelProperties</a>&gt;</dt>
+    <dd><p>一个包含修改日程子频道属性的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示日程子频道属性修改操作的异步任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Channels/IScheduleChannel.cs/#L6" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          QQBot.Net (c) 2024
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
