@@ -261,10 +261,11 @@ public Task GetTimeAsync([OverrideTypeReader(typeof(FriendlyTimeSpanTypeReader))
   <h2 id="QQBot_Commands_OverrideTypeReaderAttribute_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><p>此特性允许在解析命令参数时为指定的参数指定特定的
 <a class="xref" href="QQBot.Commands.TypeReader.html">TypeReader</a>，可用于在不影响其他命令的情况下使用特定的命令解析器。
-<br><div class="WARNING"><h5>warning</h5><p>
-标记此特性的类型解析器类型必须继承自 <a class="xref" href="QQBot.Commands.TypeReader.html">TypeReader</a>，否则将引发
-<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a> 异常。</p>
-</div>
+<br></p>
+<div class="WARNING"><h5>warning</h5><p>
+    标记此特性的类型解析器类型必须继承自 <a class="xref" href="QQBot.Commands.TypeReader.html">TypeReader</a>，否则将引发
+    <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a> 异常。
+</p></div>
 </div>
 
 

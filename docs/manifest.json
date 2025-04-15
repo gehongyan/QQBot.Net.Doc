@@ -21,7 +21,11 @@
           "relative_path": "api/QQBot.AccessEnvironment.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.AccessEnvironment",
+      "Summary": "<p sourcefile=\"api/QQBot.AccessEnvironment.yml\" sourcestartlinenumber=\"1\">表示接入 QQ API 的环境。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -31,7 +35,11 @@
           "relative_path": "api/QQBot.AlphaColor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.AlphaColor",
+      "Summary": "<p sourcefile=\"api/QQBot.AlphaColor.yml\" sourcestartlinenumber=\"1\">表示 QQBot 中使用的带有不透明度通道的颜色。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -41,7 +49,11 @@
           "relative_path": "api/QQBot.AnnouncementType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.AnnouncementType",
+      "Summary": "<p sourcefile=\"api/QQBot.AnnouncementType.yml\" sourcestartlinenumber=\"1\">表示公告类型。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -51,7 +63,11 @@
           "relative_path": "api/QQBot.ApplicationPermission.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ApplicationPermission",
+      "Summary": "<p sourcefile=\"api/QQBot.ApplicationPermission.yml\" sourcestartlinenumber=\"1\">表示一个应用程序接口权限。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -61,7 +77,11 @@
           "relative_path": "api/QQBot.Ark.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Ark",
+      "Summary": "<p sourcefile=\"api/QQBot.Ark.yml\" sourcestartlinenumber=\"1\">表示一个模板。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -71,7 +91,11 @@
           "relative_path": "api/QQBot.ArkBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ArkBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.ArkBuilder.yml\" sourcestartlinenumber=\"1\">表示一个模板构建器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -81,7 +105,11 @@
           "relative_path": "api/QQBot.ArkMultiDictionaryParameter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ArkMultiDictionaryParameter",
+      "Summary": "<p sourcefile=\"api/QQBot.ArkMultiDictionaryParameter.yml\" sourcestartlinenumber=\"1\">表示模板中的一个多字典列表参数。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -91,7 +119,11 @@
           "relative_path": "api/QQBot.ArkMultiDictionaryParameterBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ArkMultiDictionaryParameterBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.ArkMultiDictionaryParameterBuilder.yml\" sourcestartlinenumber=\"1\">用于构建 <xref href=\"QQBot.ArkMultiDictionaryParameter\" data-throw-if-not-resolved=\"false\"></xref> 的构建器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -101,7 +133,11 @@
           "relative_path": "api/QQBot.ArkSingleParameter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ArkSingleParameter",
+      "Summary": "<p sourcefile=\"api/QQBot.ArkSingleParameter.yml\" sourcestartlinenumber=\"1\">表示模板中的一个单值参数。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -111,7 +147,11 @@
           "relative_path": "api/QQBot.ArkSingleParameterBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ArkSingleParameterBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.ArkSingleParameterBuilder.yml\" sourcestartlinenumber=\"1\">用于构建 <xref href=\"QQBot.ArkSingleParameter\" data-throw-if-not-resolved=\"false\"></xref> 的构建器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -121,7 +161,11 @@
           "relative_path": "api/QQBot.AsyncEnumerableExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.AsyncEnumerableExtensions",
+      "Summary": "<p sourcefile=\"api/QQBot.AsyncEnumerableExtensions.yml\" sourcestartlinenumber=\"1\">提供用于展开其异步可枚举成员是嵌套的 <xref href=\"System.Collections.Generic.IEnumerable%601\" data-throw-if-not-resolved=\"false\"></xref> 可枚举对象的\n<xref href=\"System.Collections.Generic.IAsyncEnumerable%601\" data-throw-if-not-resolved=\"false\"></xref> 的扩展方法。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -131,7 +175,11 @@
           "relative_path": "api/QQBot.AttachmentType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.AttachmentType",
+      "Summary": "<p sourcefile=\"api/QQBot.AttachmentType.yml\" sourcestartlinenumber=\"1\">表示附件的类型。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -141,7 +189,11 @@
           "relative_path": "api/QQBot.BotGateway.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.BotGateway",
+      "Summary": "<p sourcefile=\"api/QQBot.BotGateway.yml\" sourcestartlinenumber=\"1\">Stores the gateway information related to the current bot.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -151,7 +203,11 @@
           "relative_path": "api/QQBot.ButtonAction.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ButtonAction",
+      "Summary": "<p sourcefile=\"api/QQBot.ButtonAction.yml\" sourcestartlinenumber=\"1\">表示键盘按钮的动作类型。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -161,7 +217,11 @@
           "relative_path": "api/QQBot.ButtonActionAnchor.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ButtonActionAnchor",
+      "Summary": "<p sourcefile=\"api/QQBot.ButtonActionAnchor.yml\" sourcestartlinenumber=\"1\">表示键盘按钮的特殊操作。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -171,7 +231,11 @@
           "relative_path": "api/QQBot.ButtonPermission.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ButtonPermission",
+      "Summary": "<p sourcefile=\"api/QQBot.ButtonPermission.yml\" sourcestartlinenumber=\"1\">表示键盘按钮的权限类型。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -181,7 +245,11 @@
           "relative_path": "api/QQBot.ButtonStyle.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ButtonStyle",
+      "Summary": "<p sourcefile=\"api/QQBot.ButtonStyle.yml\" sourcestartlinenumber=\"1\">表示键盘按钮的样式。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -191,7 +259,11 @@
           "relative_path": "api/QQBot.CacheMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.CacheMode",
+      "Summary": "<p sourcefile=\"api/QQBot.CacheMode.yml\" sourcestartlinenumber=\"1\">表示应该使用的缓存模式。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -201,7 +273,11 @@
           "relative_path": "api/QQBot.Cacheable-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Cacheable<TEntity, TId>",
+      "Summary": "<p sourcefile=\"api/QQBot.Cacheable-2.yml\" sourcestartlinenumber=\"1\">表示一个可延迟加载的缓存实体。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -211,7 +287,11 @@
           "relative_path": "api/QQBot.Cacheable-4.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Cacheable<TCachedEntity, TDownloadableEntity, TRelationship, TId>",
+      "Summary": "<p sourcefile=\"api/QQBot.Cacheable-4.yml\" sourcestartlinenumber=\"1\">表示一个可延迟加载的缓存实体。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -221,7 +301,11 @@
           "relative_path": "api/QQBot.ChannelApplication.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ChannelApplication",
+      "Summary": "<p sourcefile=\"api/QQBot.ChannelApplication.yml\" sourcestartlinenumber=\"1\">表示一个应用子频道的应用类型。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -231,7 +315,11 @@
           "relative_path": "api/QQBot.ChannelExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ChannelExtensions",
+      "Summary": "<p sourcefile=\"api/QQBot.ChannelExtensions.yml\" sourcestartlinenumber=\"1\">提供用于各种子频道实体的扩展方法。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -241,7 +329,11 @@
           "relative_path": "api/QQBot.ChannelPermission.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ChannelPermission",
+      "Summary": "<p sourcefile=\"api/QQBot.ChannelPermission.yml\" sourcestartlinenumber=\"1\">表示可以为角色或用户设置的子频道级别的权限。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -251,7 +343,11 @@
           "relative_path": "api/QQBot.ChannelPermissions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ChannelPermissions",
+      "Summary": "<p sourcefile=\"api/QQBot.ChannelPermissions.yml\" sourcestartlinenumber=\"1\">表示一个子频道的权限集。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -261,7 +357,11 @@
           "relative_path": "api/QQBot.ChannelRecommendation.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ChannelRecommendation",
+      "Summary": "<p sourcefile=\"api/QQBot.ChannelRecommendation.yml\" sourcestartlinenumber=\"1\">表示一个频道推荐。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -271,7 +371,11 @@
           "relative_path": "api/QQBot.ChannelSubType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ChannelSubType",
+      "Summary": "<p sourcefile=\"api/QQBot.ChannelSubType.yml\" sourcestartlinenumber=\"1\">表示文字子频道的二级分类。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -281,7 +385,11 @@
           "relative_path": "api/QQBot.ChannelType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ChannelType",
+      "Summary": "<p sourcefile=\"api/QQBot.ChannelType.yml\" sourcestartlinenumber=\"1\">表示子频道类型。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -291,7 +399,11 @@
           "relative_path": "api/QQBot.Color.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Color",
+      "Summary": "<p sourcefile=\"api/QQBot.Color.yml\" sourcestartlinenumber=\"1\">表示 QQBot 中使用的颜色。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -301,7 +413,11 @@
           "relative_path": "api/QQBot.Commands.AliasAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.AliasAttribute",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.AliasAttribute.yml\" sourcestartlinenumber=\"1\">为命令指定别名。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -311,7 +427,11 @@
           "relative_path": "api/QQBot.Commands.Builders.CommandBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.Builders.CommandBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.Builders.CommandBuilder.yml\" sourcestartlinenumber=\"1\">表示一个命令构建器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -321,7 +441,11 @@
           "relative_path": "api/QQBot.Commands.Builders.ModuleBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.Builders.ModuleBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.Builders.ModuleBuilder.yml\" sourcestartlinenumber=\"1\">表示一个模块构建器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -331,7 +455,11 @@
           "relative_path": "api/QQBot.Commands.Builders.ParameterBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.Builders.ParameterBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.Builders.ParameterBuilder.yml\" sourcestartlinenumber=\"1\">表示一个参数构建器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -341,7 +469,11 @@
           "relative_path": "api/QQBot.Commands.Builders.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.Builders",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -351,7 +483,11 @@
           "relative_path": "api/QQBot.Commands.CommandAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.CommandAttribute",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.CommandAttribute.yml\" sourcestartlinenumber=\"1\">为命令标记执行信息。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -361,7 +497,11 @@
           "relative_path": "api/QQBot.Commands.CommandContext.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.CommandContext",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.CommandContext.yml\" sourcestartlinenumber=\"1\">Supports all classes in the .NET class hierarchy and provides low-level services to derived classes. This is the ultimate base class of all .NET classes; it is the root of the type hierarchy.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -371,7 +511,11 @@
           "relative_path": "api/QQBot.Commands.CommandError.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.CommandError",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.CommandError.yml\" sourcestartlinenumber=\"1\">表示命令执行的错误。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -381,7 +525,11 @@
           "relative_path": "api/QQBot.Commands.CommandException.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.CommandException",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.CommandException.yml\" sourcestartlinenumber=\"1\">表示一个命令执行过程中发生的异常。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -391,7 +539,11 @@
           "relative_path": "api/QQBot.Commands.CommandInfo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.CommandInfo",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.CommandInfo.yml\" sourcestartlinenumber=\"1\">表示一个命令的信息。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -401,7 +553,11 @@
           "relative_path": "api/QQBot.Commands.CommandMatch.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.CommandMatch",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.CommandMatch.yml\" sourcestartlinenumber=\"1\">表示一个匹配的命令。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -411,7 +567,11 @@
           "relative_path": "api/QQBot.Commands.CommandService.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.CommandService",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.CommandService.yml\" sourcestartlinenumber=\"1\">表示一个基于文本的命令服务。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -421,7 +581,11 @@
           "relative_path": "api/QQBot.Commands.CommandServiceConfig.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.CommandServiceConfig",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.CommandServiceConfig.yml\" sourcestartlinenumber=\"1\">表示一个用于 <xref href=\"QQBot.Commands.CommandService\" data-throw-if-not-resolved=\"false\"></xref> 的配置类。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -431,7 +595,11 @@
           "relative_path": "api/QQBot.Commands.CommandServiceExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.CommandServiceExtensions",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.CommandServiceExtensions.yml\" sourcestartlinenumber=\"1\">提供用于 <xref href=\"QQBot.Commands.CommandService\" data-throw-if-not-resolved=\"false\"></xref> 的扩展方法。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -441,7 +609,11 @@
           "relative_path": "api/QQBot.Commands.ContextType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.ContextType",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.ContextType.yml\" sourcestartlinenumber=\"1\">表示一个运行命令支持的上下文类型。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -451,7 +623,11 @@
           "relative_path": "api/QQBot.Commands.DontAutoLoadAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.DontAutoLoadAttribute",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.DontAutoLoadAttribute.yml\" sourcestartlinenumber=\"1\">标记指定的模块不应被自动加载。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -461,7 +637,11 @@
           "relative_path": "api/QQBot.Commands.DontInjectAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.DontInjectAttribute",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.DontInjectAttribute.yml\" sourcestartlinenumber=\"1\">标记指定的成员不应被注入到其父模块。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -471,7 +651,11 @@
           "relative_path": "api/QQBot.Commands.ExecuteResult.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.ExecuteResult",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.ExecuteResult.yml\" sourcestartlinenumber=\"1\">表示一个命令的整体执行结果的信息。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -481,7 +665,11 @@
           "relative_path": "api/QQBot.Commands.GroupAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.GroupAttribute",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.GroupAttribute.yml\" sourcestartlinenumber=\"1\">标记模块为命令组。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -491,7 +679,11 @@
           "relative_path": "api/QQBot.Commands.ICommandContext.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.ICommandContext",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.ICommandContext.yml\" sourcestartlinenumber=\"1\">表示命令的上下文。这可能包括客户端、公会、子频道、用户和消息。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -501,7 +693,11 @@
           "relative_path": "api/QQBot.Commands.IEnumerableExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.IEnumerableExtensions",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.IEnumerableExtensions.yml\" sourcestartlinenumber=\"1\">提供用于 <xref href=\"System.Collections.Generic.IEnumerable%601\" data-throw-if-not-resolved=\"false\"></xref> 的扩展方法。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -511,7 +707,11 @@
           "relative_path": "api/QQBot.Commands.IModuleBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.IModuleBase",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.IModuleBase.yml\" sourcestartlinenumber=\"1\">表示一个通用的模块基类。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -521,7 +721,11 @@
           "relative_path": "api/QQBot.Commands.IResult.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.IResult",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.IResult.yml\" sourcestartlinenumber=\"1\">表示一个有关命令的结果的信息。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -531,7 +735,11 @@
           "relative_path": "api/QQBot.Commands.MatchResult.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.MatchResult",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.MatchResult.yml\" sourcestartlinenumber=\"1\">表示一个命令的匹配结果。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -541,7 +749,11 @@
           "relative_path": "api/QQBot.Commands.MessageExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.MessageExtensions",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.MessageExtensions.yml\" sourcestartlinenumber=\"1\">提供用于 <xref href=\"QQBot.IUserMessage\" data-throw-if-not-resolved=\"false\"></xref> 与命令相关的扩展方法。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -551,7 +763,11 @@
           "relative_path": "api/QQBot.Commands.MessageTypeReader-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.MessageTypeReader<T>",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.MessageTypeReader-1.yml\" sourcestartlinenumber=\"1\">表示一个用于解析实现了 <xref href=\"QQBot.IMessage\" data-throw-if-not-resolved=\"false\"></xref> 的对象的类型读取器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -561,7 +777,11 @@
           "relative_path": "api/QQBot.Commands.ModuleBase-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.ModuleBase<T>",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.ModuleBase-1.yml\" sourcestartlinenumber=\"1\">表示一个模块基类。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -571,7 +791,11 @@
           "relative_path": "api/QQBot.Commands.ModuleBase.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.ModuleBase",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.ModuleBase.yml\" sourcestartlinenumber=\"1\">表示一个模块基类。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -581,7 +805,11 @@
           "relative_path": "api/QQBot.Commands.ModuleInfo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.ModuleInfo",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.ModuleInfo.yml\" sourcestartlinenumber=\"1\">表示一个模块的信息。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -591,7 +819,11 @@
           "relative_path": "api/QQBot.Commands.MultiMatchHandling.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.MultiMatchHandling",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.MultiMatchHandling.yml\" sourcestartlinenumber=\"1\">表示在命令解析阶段匹配到多个结果时的行为。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -601,7 +833,11 @@
           "relative_path": "api/QQBot.Commands.NameAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.NameAttribute",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.NameAttribute.yml\" sourcestartlinenumber=\"1\">标记命令、模块或参数的基本名称。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -611,7 +847,11 @@
           "relative_path": "api/QQBot.Commands.NamedArgumentTypeAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.NamedArgumentTypeAttribute",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.NamedArgumentTypeAttribute.yml\" sourcestartlinenumber=\"1\">指示命令系统将此类型的命令参数视为与其属性匹配的命名参数集合。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -621,7 +861,11 @@
           "relative_path": "api/QQBot.Commands.OverrideTypeReaderAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.OverrideTypeReaderAttribute",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.OverrideTypeReaderAttribute.yml\" sourcestartlinenumber=\"1\">标记指定的参数应有应由指定的 <xref href=\"QQBot.Commands.TypeReader\" data-throw-if-not-resolved=\"false\"></xref> 读取并解析。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -631,7 +875,11 @@
           "relative_path": "api/QQBot.Commands.ParameterInfo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.ParameterInfo",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.ParameterInfo.yml\" sourcestartlinenumber=\"1\">表示一个参数的信息。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -641,7 +889,11 @@
           "relative_path": "api/QQBot.Commands.ParameterPreconditionAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.ParameterPreconditionAttribute",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.ParameterPreconditionAttribute.yml\" sourcestartlinenumber=\"1\">表示一个命令中的参数在其所属命令执行前需要符合的先决条件的基类。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -651,7 +903,11 @@
           "relative_path": "api/QQBot.Commands.ParseResult.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.ParseResult",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.ParseResult.yml\" sourcestartlinenumber=\"1\">表示一个命令的解析结果。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -661,7 +917,11 @@
           "relative_path": "api/QQBot.Commands.PreconditionAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.PreconditionAttribute",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.PreconditionAttribute.yml\" sourcestartlinenumber=\"1\">表示一个模块或类中的命令在执行前需要符合的先决条件的基类。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -671,7 +931,11 @@
           "relative_path": "api/QQBot.Commands.PreconditionGroupResult.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.PreconditionGroupResult",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.PreconditionGroupResult.yml\" sourcestartlinenumber=\"1\">表示一个分组的先决条件检查结果。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -681,7 +945,11 @@
           "relative_path": "api/QQBot.Commands.PreconditionResult.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.PreconditionResult",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.PreconditionResult.yml\" sourcestartlinenumber=\"1\">表示一个命令的先决条件检查结果。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -691,7 +959,11 @@
           "relative_path": "api/QQBot.Commands.PriorityAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.PriorityAttribute",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.PriorityAttribute.yml\" sourcestartlinenumber=\"1\">标记指定的命令的优先级。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -701,7 +973,11 @@
           "relative_path": "api/QQBot.Commands.RemainderAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.RemainderAttribute",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.RemainderAttribute.yml\" sourcestartlinenumber=\"1\">标记指定的参数将接收剩余未解析的所有输入值。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -711,7 +987,11 @@
           "relative_path": "api/QQBot.Commands.RemarksAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.RemarksAttribute",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.RemarksAttribute.yml\" sourcestartlinenumber=\"1\">标记命令的备注。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -721,7 +1001,11 @@
           "relative_path": "api/QQBot.Commands.RequireContextAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.RequireContextAttribute",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.RequireContextAttribute.yml\" sourcestartlinenumber=\"1\">要求命令在指定的上下文类型中（例如在频道内、频道私聊中）执行。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -731,7 +1015,11 @@
           "relative_path": "api/QQBot.Commands.RunMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.RunMode",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.RunMode.yml\" sourcestartlinenumber=\"1\">表示命令执行工作流的行为。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -741,7 +1029,11 @@
           "relative_path": "api/QQBot.Commands.RuntimeResult.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.RuntimeResult",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.RuntimeResult.yml\" sourcestartlinenumber=\"1\">表示命令执行的运行时结果。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -751,7 +1043,11 @@
           "relative_path": "api/QQBot.Commands.SearchResult.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.SearchResult",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.SearchResult.yml\" sourcestartlinenumber=\"1\">表示一个命令搜索的结果。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -761,7 +1057,11 @@
           "relative_path": "api/QQBot.Commands.SocketCommandContext.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.SocketCommandContext",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.SocketCommandContext.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的客户端的命令的上下文。这可能包括客户端、公会、频道、用户和消息。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -771,7 +1071,11 @@
           "relative_path": "api/QQBot.Commands.SummaryAttribute.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.SummaryAttribute",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.SummaryAttribute.yml\" sourcestartlinenumber=\"1\">标记命令的摘要。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -781,7 +1085,11 @@
           "relative_path": "api/QQBot.Commands.TypeReader.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.TypeReader",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.TypeReader.yml\" sourcestartlinenumber=\"1\">表示一个将用户的字符串输入解析为指定类型的类型读取器基类。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -791,7 +1099,11 @@
           "relative_path": "api/QQBot.Commands.TypeReaderResult.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.TypeReaderResult",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.TypeReaderResult.yml\" sourcestartlinenumber=\"1\">表示一个类型读取器的解析结果。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -801,7 +1113,11 @@
           "relative_path": "api/QQBot.Commands.TypeReaderValue.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands.TypeReaderValue",
+      "Summary": "<p sourcefile=\"api/QQBot.Commands.TypeReaderValue.yml\" sourcestartlinenumber=\"1\">表示一个类型读取器的解析值。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -811,7 +1127,11 @@
           "relative_path": "api/QQBot.Commands.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Commands",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -821,7 +1141,11 @@
           "relative_path": "api/QQBot.ConnectionState.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ConnectionState",
+      "Summary": "<p sourcefile=\"api/QQBot.ConnectionState.yml\" sourcestartlinenumber=\"1\">指定客户端的连接状态。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -831,7 +1155,11 @@
           "relative_path": "api/QQBot.CreateApplicationChannelProperties.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.CreateApplicationChannelProperties",
+      "Summary": "<p sourcefile=\"api/QQBot.CreateApplicationChannelProperties.yml\" sourcestartlinenumber=\"1\">提供用于创建 <xref href=\"QQBot.IApplicationChannel\" data-throw-if-not-resolved=\"false\"></xref> 的属性。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -841,7 +1169,11 @@
           "relative_path": "api/QQBot.CreateAttachmentMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.CreateAttachmentMode",
+      "Summary": "<p sourcefile=\"api/QQBot.CreateAttachmentMode.yml\" sourcestartlinenumber=\"1\">指示 <xref href=\"QQBot.FileAttachment\" data-throw-if-not-resolved=\"false\"></xref> 如何创建附件。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -851,7 +1183,11 @@
           "relative_path": "api/QQBot.CreateCategoryChannelProperties.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.CreateCategoryChannelProperties",
+      "Summary": "<p sourcefile=\"api/QQBot.CreateCategoryChannelProperties.yml\" sourcestartlinenumber=\"1\">提供用于创建 <xref href=\"QQBot.ICategoryChannel\" data-throw-if-not-resolved=\"false\"></xref> 的属性。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -861,7 +1197,11 @@
           "relative_path": "api/QQBot.CreateForumChannelProperties.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.CreateForumChannelProperties",
+      "Summary": "<p sourcefile=\"api/QQBot.CreateForumChannelProperties.yml\" sourcestartlinenumber=\"1\">提供用于创建 <xref href=\"QQBot.IForumChannel\" data-throw-if-not-resolved=\"false\"></xref> 的属性。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -871,7 +1211,11 @@
           "relative_path": "api/QQBot.CreateGuildChannelProperties.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.CreateGuildChannelProperties",
+      "Summary": "<p sourcefile=\"api/QQBot.CreateGuildChannelProperties.yml\" sourcestartlinenumber=\"1\">提供用于创建 <xref href=\"QQBot.IGuildChannel\" data-throw-if-not-resolved=\"false\"></xref> 的属性。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -881,7 +1225,11 @@
           "relative_path": "api/QQBot.CreateLiveStreamChannelProperties.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.CreateLiveStreamChannelProperties",
+      "Summary": "<p sourcefile=\"api/QQBot.CreateLiveStreamChannelProperties.yml\" sourcestartlinenumber=\"1\">提供用于创建 <xref href=\"QQBot.ILiveStreamChannel\" data-throw-if-not-resolved=\"false\"></xref> 的属性。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -891,7 +1239,11 @@
           "relative_path": "api/QQBot.CreateScheduleChannelProperties.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.CreateScheduleChannelProperties",
+      "Summary": "<p sourcefile=\"api/QQBot.CreateScheduleChannelProperties.yml\" sourcestartlinenumber=\"1\">提供用于创建 <xref href=\"QQBot.IScheduleChannel\" data-throw-if-not-resolved=\"false\"></xref> 的属性。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -901,7 +1253,11 @@
           "relative_path": "api/QQBot.CreateTextChannelProperties.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.CreateTextChannelProperties",
+      "Summary": "<p sourcefile=\"api/QQBot.CreateTextChannelProperties.yml\" sourcestartlinenumber=\"1\">提供用于创建 <xref href=\"QQBot.ITextChannel\" data-throw-if-not-resolved=\"false\"></xref> 的属性。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -911,7 +1267,11 @@
           "relative_path": "api/QQBot.CreateVoiceChannelProperties.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.CreateVoiceChannelProperties",
+      "Summary": "<p sourcefile=\"api/QQBot.CreateVoiceChannelProperties.yml\" sourcestartlinenumber=\"1\">提供用于创建 <xref href=\"QQBot.IVoiceChannel\" data-throw-if-not-resolved=\"false\"></xref> 的属性。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -921,7 +1281,11 @@
           "relative_path": "api/QQBot.Direction.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Direction",
+      "Summary": "<p sourcefile=\"api/QQBot.Direction.yml\" sourcestartlinenumber=\"1\">表示获取数据的方向。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -931,7 +1295,11 @@
           "relative_path": "api/QQBot.ElementType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ElementType",
+      "Summary": "<p sourcefile=\"api/QQBot.ElementType.yml\" sourcestartlinenumber=\"1\">表示一个富文本元素的类型。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -941,7 +1309,11 @@
           "relative_path": "api/QQBot.Embed.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Embed",
+      "Summary": "<p sourcefile=\"api/QQBot.Embed.yml\" sourcestartlinenumber=\"1\">表示一个嵌入式消息。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -951,7 +1323,11 @@
           "relative_path": "api/QQBot.EmbedBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.EmbedBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.EmbedBuilder.yml\" sourcestartlinenumber=\"1\">表示一个用于构建 <xref href=\"QQBot.Embed\" data-throw-if-not-resolved=\"false\"></xref> 的构建器类。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -961,7 +1337,11 @@
           "relative_path": "api/QQBot.EmbedField.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.EmbedField",
+      "Summary": "<p sourcefile=\"api/QQBot.EmbedField.yml\" sourcestartlinenumber=\"1\">表示一个 <xref href=\"QQBot.IEmbed\" data-throw-if-not-resolved=\"false\"></xref> 的字段。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -971,7 +1351,11 @@
           "relative_path": "api/QQBot.EmbedFieldBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.EmbedFieldBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.EmbedFieldBuilder.yml\" sourcestartlinenumber=\"1\">表示一个用于构建 <xref href=\"QQBot.EmbedField\" data-throw-if-not-resolved=\"false\"></xref> 的构建器类。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -981,7 +1365,11 @@
           "relative_path": "api/QQBot.EmbedThumbnail.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.EmbedThumbnail",
+      "Summary": "<p sourcefile=\"api/QQBot.EmbedThumbnail.yml\" sourcestartlinenumber=\"1\">表示一个 <xref href=\"QQBot.IEmbed\" data-throw-if-not-resolved=\"false\"></xref> 的缩略图。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -991,7 +1379,11 @@
           "relative_path": "api/QQBot.EmojiType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.EmojiType",
+      "Summary": "<p sourcefile=\"api/QQBot.EmojiType.yml\" sourcestartlinenumber=\"1\">表示一个表情方式的类型。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1001,7 +1393,11 @@
           "relative_path": "api/QQBot.Emote.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Emote",
+      "Summary": "<p sourcefile=\"api/QQBot.Emote.yml\" sourcestartlinenumber=\"1\">表示一个系统表情符号。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1011,7 +1407,11 @@
           "relative_path": "api/QQBot.Emotes.Emoji.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Emotes.Emoji",
+      "Summary": "<p sourcefile=\"api/QQBot.Emotes.Emoji.yml\" sourcestartlinenumber=\"1\">提供受支持的 QQ 表情符号。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1021,7 +1421,11 @@
           "relative_path": "api/QQBot.Emotes.System.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Emotes.System",
+      "Summary": "<p sourcefile=\"api/QQBot.Emotes.System.yml\" sourcestartlinenumber=\"1\">提供受支持的系统表情符号。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1031,7 +1435,11 @@
           "relative_path": "api/QQBot.Emotes.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Emotes",
+      "Summary": "<p sourcefile=\"api/QQBot.Emotes.yml\" sourcestartlinenumber=\"1\">提供受支持的表情符号。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1041,7 +1449,11 @@
           "relative_path": "api/QQBot.EmptyElement.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.EmptyElement",
+      "Summary": "<p sourcefile=\"api/QQBot.EmptyElement.yml\" sourcestartlinenumber=\"1\">表示一个空元素。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1051,7 +1463,11 @@
           "relative_path": "api/QQBot.EmptyElementBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.EmptyElementBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.EmptyElementBuilder.yml\" sourcestartlinenumber=\"1\">表示一个空元素的构建器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1061,7 +1477,11 @@
           "relative_path": "api/QQBot.FileAttachment.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.FileAttachment",
+      "Summary": "<p sourcefile=\"api/QQBot.FileAttachment.yml\" sourcestartlinenumber=\"1\">表示一个文件附件。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1071,7 +1491,11 @@
           "relative_path": "api/QQBot.Format.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Format",
+      "Summary": "<p sourcefile=\"api/QQBot.Format.yml\" sourcestartlinenumber=\"1\">提供有关格式化的方法。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1081,7 +1505,11 @@
           "relative_path": "api/QQBot.GatewayIntents.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.GatewayIntents",
+      "Summary": "<p sourcefile=\"api/QQBot.GatewayIntents.yml\" sourcestartlinenumber=\"1\">表示网关意图</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1091,7 +1519,11 @@
           "relative_path": "api/QQBot.IApplicationChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IApplicationChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.IApplicationChannel.yml\" sourcestartlinenumber=\"1\">表示一个应用子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1101,7 +1533,11 @@
           "relative_path": "api/QQBot.IArk.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IArk",
+      "Summary": "<p sourcefile=\"api/QQBot.IArk.yml\" sourcestartlinenumber=\"1\">表示一个通用的模板。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1111,7 +1547,11 @@
           "relative_path": "api/QQBot.IArkParameter.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IArkParameter",
+      "Summary": "<p sourcefile=\"api/QQBot.IArkParameter.yml\" sourcestartlinenumber=\"1\">表示一个 <xref href=\"QQBot.Ark\" data-throw-if-not-resolved=\"false\"></xref> 模板参数。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1121,7 +1561,11 @@
           "relative_path": "api/QQBot.IArkParameterBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IArkParameterBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.IArkParameterBuilder.yml\" sourcestartlinenumber=\"1\">表示一个通用的用于构建 <xref href=\"QQBot.IArkParameter\" data-throw-if-not-resolved=\"false\"></xref> 实例的构建器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1131,7 +1575,11 @@
           "relative_path": "api/QQBot.IAttachment.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IAttachment",
+      "Summary": "<p sourcefile=\"api/QQBot.IAttachment.yml\" sourcestartlinenumber=\"1\">表示一个消息内的附件。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1141,7 +1589,11 @@
           "relative_path": "api/QQBot.ICategoryChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ICategoryChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.ICategoryChannel.yml\" sourcestartlinenumber=\"1\">表示一个分组子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1151,7 +1603,11 @@
           "relative_path": "api/QQBot.IChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.IChannel.yml\" sourcestartlinenumber=\"1\">表示一个子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1161,7 +1617,11 @@
           "relative_path": "api/QQBot.IDMChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IDMChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.IDMChannel.yml\" sourcestartlinenumber=\"1\">表示一个子频道内用户的私聊子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1171,7 +1631,11 @@
           "relative_path": "api/QQBot.IDeletable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IDeletable",
+      "Summary": "<p sourcefile=\"api/QQBot.IDeletable.yml\" sourcestartlinenumber=\"1\">表示实体对象可以被删除。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1181,7 +1645,11 @@
           "relative_path": "api/QQBot.IElement.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IElement",
+      "Summary": "<p sourcefile=\"api/QQBot.IElement.yml\" sourcestartlinenumber=\"1\">表示一个富文本元素。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1191,7 +1659,11 @@
           "relative_path": "api/QQBot.IElementBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IElementBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.IElementBuilder.yml\" sourcestartlinenumber=\"1\">表示一个富文本元素构建器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1201,7 +1673,11 @@
           "relative_path": "api/QQBot.IEmbed.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IEmbed",
+      "Summary": "<p sourcefile=\"api/QQBot.IEmbed.yml\" sourcestartlinenumber=\"1\">表示一个通用的嵌入式消息。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1211,7 +1687,11 @@
           "relative_path": "api/QQBot.IEmote.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IEmote",
+      "Summary": "<p sourcefile=\"api/QQBot.IEmote.yml\" sourcestartlinenumber=\"1\">表示一个通用的表情符号。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1221,7 +1701,11 @@
           "relative_path": "api/QQBot.IEntity-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IEntity<TId>",
+      "Summary": "<p sourcefile=\"api/QQBot.IEntity-1.yml\" sourcestartlinenumber=\"1\">表示一个通用的具有唯一标识符的实体。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1231,7 +1715,11 @@
           "relative_path": "api/QQBot.IForumChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IForumChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.IForumChannel.yml\" sourcestartlinenumber=\"1\">表示一个论坛子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1241,7 +1729,11 @@
           "relative_path": "api/QQBot.IGroupChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IGroupChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.IGroupChannel.yml\" sourcestartlinenumber=\"1\">表示一个群组子频道，即 QQ 群。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1251,7 +1743,11 @@
           "relative_path": "api/QQBot.IGuild.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IGuild",
+      "Summary": "<p sourcefile=\"api/QQBot.IGuild.yml\" sourcestartlinenumber=\"1\">表示一个子频道.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1261,7 +1757,11 @@
           "relative_path": "api/QQBot.IGuildChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IGuildChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.IGuildChannel.yml\" sourcestartlinenumber=\"1\">表示一个子频道内的子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1271,7 +1771,11 @@
           "relative_path": "api/QQBot.IGuildMember.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IGuildMember",
+      "Summary": "<p sourcefile=\"api/QQBot.IGuildMember.yml\" sourcestartlinenumber=\"1\">表示一个子频道内用户</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1281,7 +1785,11 @@
           "relative_path": "api/QQBot.IGuildSchedule.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IGuildSchedule",
+      "Summary": "<p sourcefile=\"api/QQBot.IGuildSchedule.yml\" sourcestartlinenumber=\"1\">表示一个通用的日程。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1291,7 +1799,11 @@
           "relative_path": "api/QQBot.IGuildUser.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IGuildUser",
+      "Summary": "<p sourcefile=\"api/QQBot.IGuildUser.yml\" sourcestartlinenumber=\"1\">表示一个通用的频道上下文中的用户。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1301,7 +1813,11 @@
           "relative_path": "api/QQBot.IKeyboard.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IKeyboard",
+      "Summary": "<p sourcefile=\"api/QQBot.IKeyboard.yml\" sourcestartlinenumber=\"1\">表示一个通用的按钮键盘。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1311,7 +1827,11 @@
           "relative_path": "api/QQBot.IKeyboardBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IKeyboardBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.IKeyboardBuilder.yml\" sourcestartlinenumber=\"1\">表示一个通用的按钮内容构建器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1321,7 +1841,11 @@
           "relative_path": "api/QQBot.ILiveStreamChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ILiveStreamChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.ILiveStreamChannel.yml\" sourcestartlinenumber=\"1\">表示一个直播子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1331,7 +1855,11 @@
           "relative_path": "api/QQBot.IMarkdown.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IMarkdown",
+      "Summary": "<p sourcefile=\"api/QQBot.IMarkdown.yml\" sourcestartlinenumber=\"1\">表示一个通用的 Markdown 内容。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1341,7 +1869,11 @@
           "relative_path": "api/QQBot.IMarkdownBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IMarkdownBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.IMarkdownBuilder.yml\" sourcestartlinenumber=\"1\">表示一个通用的 Markdown 内容构建器</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1351,7 +1883,11 @@
           "relative_path": "api/QQBot.IMentionable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IMentionable",
+      "Summary": "<p sourcefile=\"api/QQBot.IMentionable.yml\" sourcestartlinenumber=\"1\">表示一个可以被提及的实体对象。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1361,7 +1897,11 @@
           "relative_path": "api/QQBot.IMessage.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IMessage",
+      "Summary": "<p sourcefile=\"api/QQBot.IMessage.yml\" sourcestartlinenumber=\"1\">表示一个通用的消息。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1371,7 +1911,11 @@
           "relative_path": "api/QQBot.IMessageChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IMessageChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.IMessageChannel.yml\" sourcestartlinenumber=\"1\">表示一个消息子频道，可以发送和接收消息。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1381,7 +1925,25 @@
           "relative_path": "api/QQBot.INestedChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.INestedChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.INestedChannel.yml\" sourcestartlinenumber=\"1\">表示一个通用的嵌套子频道，即可以嵌套在分组子频道中的频道子频道。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IPost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IPost.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IPost",
+      "Summary": "<p sourcefile=\"api/QQBot.IPost.yml\" sourcestartlinenumber=\"1\">表示一个通用的论坛主题评论。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1391,7 +1953,11 @@
           "relative_path": "api/QQBot.IPrivateChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IPrivateChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.IPrivateChannel.yml\" sourcestartlinenumber=\"1\">表示一个私有子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1401,7 +1967,11 @@
           "relative_path": "api/QQBot.IQQBotClient.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IQQBotClient",
+      "Summary": "<p sourcefile=\"api/QQBot.IQQBotClient.yml\" sourcestartlinenumber=\"1\">表示一个通用的 QQ Bot 客户端。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1411,7 +1981,25 @@
           "relative_path": "api/QQBot.IRateLimitInfo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IRateLimitInfo",
+      "Summary": "<p sourcefile=\"api/QQBot.IRateLimitInfo.yml\" sourcestartlinenumber=\"1\">表示一个通用的限速信息。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IReply.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IReply.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IReply",
+      "Summary": "<p sourcefile=\"api/QQBot.IReply.yml\" sourcestartlinenumber=\"1\">表示一个通用的论坛主题评论回复。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1421,7 +2009,11 @@
           "relative_path": "api/QQBot.IRole.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IRole",
+      "Summary": "<p sourcefile=\"api/QQBot.IRole.yml\" sourcestartlinenumber=\"1\">表示一个子频道身份组。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1431,7 +2023,11 @@
           "relative_path": "api/QQBot.IScheduleChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IScheduleChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.IScheduleChannel.yml\" sourcestartlinenumber=\"1\">表示一个日程子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1441,7 +2037,11 @@
           "relative_path": "api/QQBot.ISelfUser.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ISelfUser",
+      "Summary": "<p sourcefile=\"api/QQBot.ISelfUser.yml\" sourcestartlinenumber=\"1\">表示一个通用的当前登录的用户信息。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1451,7 +2051,11 @@
           "relative_path": "api/QQBot.ITag.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ITag",
+      "Summary": "<p sourcefile=\"api/QQBot.ITag.yml\" sourcestartlinenumber=\"1\">表示一个消息中通用的标签。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1461,7 +2065,11 @@
           "relative_path": "api/QQBot.ITextChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ITextChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.ITextChannel.yml\" sourcestartlinenumber=\"1\">表示一个文字子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1471,7 +2079,11 @@
           "relative_path": "api/QQBot.IThread.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IThread",
+      "Summary": "<p sourcefile=\"api/QQBot.IThread.yml\" sourcestartlinenumber=\"1\">表示一个通用的论坛主题。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1481,7 +2093,11 @@
           "relative_path": "api/QQBot.IUpdateable.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IUpdateable",
+      "Summary": "<p sourcefile=\"api/QQBot.IUpdateable.yml\" sourcestartlinenumber=\"1\">表示一个可以被更新的实体对象。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1491,7 +2107,11 @@
           "relative_path": "api/QQBot.IUser.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IUser",
+      "Summary": "<p sourcefile=\"api/QQBot.IUser.yml\" sourcestartlinenumber=\"1\">表示一个通用的用户。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1501,7 +2121,11 @@
           "relative_path": "api/QQBot.IUserChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IUserChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.IUserChannel.yml\" sourcestartlinenumber=\"1\">表示一个用户单聊子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1511,7 +2135,11 @@
           "relative_path": "api/QQBot.IUserMessage.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IUserMessage",
+      "Summary": "<p sourcefile=\"api/QQBot.IUserMessage.yml\" sourcestartlinenumber=\"1\">表示一个通用的由用户发送的消息。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1521,7 +2149,11 @@
           "relative_path": "api/QQBot.IVoiceChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IVoiceChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.IVoiceChannel.yml\" sourcestartlinenumber=\"1\">表示一个语音子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1531,7 +2163,11 @@
           "relative_path": "api/QQBot.ImageElement.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ImageElement",
+      "Summary": "<p sourcefile=\"api/QQBot.ImageElement.yml\" sourcestartlinenumber=\"1\">表示一个图片元素。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1541,7 +2177,11 @@
           "relative_path": "api/QQBot.ImageElementBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ImageElementBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.ImageElementBuilder.yml\" sourcestartlinenumber=\"1\">表示一个图片元素的构建器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1551,7 +2191,11 @@
           "relative_path": "api/QQBot.KeyboardButton.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.KeyboardButton",
+      "Summary": "<p sourcefile=\"api/QQBot.KeyboardButton.yml\" sourcestartlinenumber=\"1\">表示一个键盘按钮。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1561,7 +2205,11 @@
           "relative_path": "api/QQBot.KeyboardButtonBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.KeyboardButtonBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.KeyboardButtonBuilder.yml\" sourcestartlinenumber=\"1\">表示一个键盘按钮。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1571,7 +2219,11 @@
           "relative_path": "api/QQBot.KeyboardButtonRow.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.KeyboardButtonRow",
+      "Summary": "<p sourcefile=\"api/QQBot.KeyboardButtonRow.yml\" sourcestartlinenumber=\"1\">表示一个自定义键盘内的按钮行。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1581,7 +2233,11 @@
           "relative_path": "api/QQBot.KeyboardButtonRowBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.KeyboardButtonRowBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.KeyboardButtonRowBuilder.yml\" sourcestartlinenumber=\"1\">表示一个自定义键盘内的按钮行构建器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1591,7 +2247,11 @@
           "relative_path": "api/QQBot.KeyboardContent.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.KeyboardContent",
+      "Summary": "<p sourcefile=\"api/QQBot.KeyboardContent.yml\" sourcestartlinenumber=\"1\">表示一个自定义按钮键盘。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1601,7 +2261,11 @@
           "relative_path": "api/QQBot.KeyboardContentBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.KeyboardContentBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.KeyboardContentBuilder.yml\" sourcestartlinenumber=\"1\">表示一个自定义键盘按钮的构建器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1611,7 +2275,11 @@
           "relative_path": "api/QQBot.KeyboardTemplate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.KeyboardTemplate",
+      "Summary": "<p sourcefile=\"api/QQBot.KeyboardTemplate.yml\" sourcestartlinenumber=\"1\">表示一个按钮键盘模板。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1621,7 +2289,11 @@
           "relative_path": "api/QQBot.KeyboardTemplateBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.KeyboardTemplateBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.KeyboardTemplateBuilder.yml\" sourcestartlinenumber=\"1\">表示一个用于创建 <xref href=\"QQBot.KeyboardTemplate\" data-throw-if-not-resolved=\"false\"></xref> 实例的构建器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1631,7 +2303,11 @@
           "relative_path": "api/QQBot.LogMessage.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.LogMessage",
+      "Summary": "<p sourcefile=\"api/QQBot.LogMessage.yml\" sourcestartlinenumber=\"1\">表示一个用于记录日志的消息对象。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1641,7 +2317,11 @@
           "relative_path": "api/QQBot.LogSeverity.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.LogSeverity",
+      "Summary": "<p sourcefile=\"api/QQBot.LogSeverity.yml\" sourcestartlinenumber=\"1\">表示日志消息的严重性。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1651,7 +2331,11 @@
           "relative_path": "api/QQBot.LoginState.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.LoginState",
+      "Summary": "<p sourcefile=\"api/QQBot.LoginState.yml\" sourcestartlinenumber=\"1\">表示客户端的登录状态。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1661,7 +2345,11 @@
           "relative_path": "api/QQBot.MarkdownTemplate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.MarkdownTemplate",
+      "Summary": "<p sourcefile=\"api/QQBot.MarkdownTemplate.yml\" sourcestartlinenumber=\"1\">表示一个 Markdown 模板。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1671,7 +2359,11 @@
           "relative_path": "api/QQBot.MarkdownTemplateBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.MarkdownTemplateBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.MarkdownTemplateBuilder.yml\" sourcestartlinenumber=\"1\">表示一个用于创建 <xref href=\"QQBot.MarkdownTemplate\" data-throw-if-not-resolved=\"false\"></xref> 实例的构建器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1681,7 +2373,11 @@
           "relative_path": "api/QQBot.MarkdownText.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.MarkdownText",
+      "Summary": "<p sourcefile=\"api/QQBot.MarkdownText.yml\" sourcestartlinenumber=\"1\">表示一个 Markdown 文本内容。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1691,7 +2387,11 @@
           "relative_path": "api/QQBot.MarkdownTextBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.MarkdownTextBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.MarkdownTextBuilder.yml\" sourcestartlinenumber=\"1\">表示一个用于创建 <xref href=\"QQBot.MarkdownText\" data-throw-if-not-resolved=\"false\"></xref> 实例的构建器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1701,7 +2401,11 @@
           "relative_path": "api/QQBot.MediaFileInfo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.MediaFileInfo",
+      "Summary": "<p sourcefile=\"api/QQBot.MediaFileInfo.yml\" sourcestartlinenumber=\"1\">表示一个富媒体文件信息。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1711,7 +2415,11 @@
           "relative_path": "api/QQBot.MentionUtils.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.MentionUtils",
+      "Summary": "<p sourcefile=\"api/QQBot.MentionUtils.yml\" sourcestartlinenumber=\"1\">提供一组用于生成与解析提及标签的辅助方法。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1721,7 +2429,11 @@
           "relative_path": "api/QQBot.MessageExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.MessageExtensions",
+      "Summary": "<p sourcefile=\"api/QQBot.MessageExtensions.yml\" sourcestartlinenumber=\"1\">提供用于各种消息实体的扩展方法。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1731,7 +2443,25 @@
           "relative_path": "api/QQBot.MessageReference.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.MessageReference",
+      "Summary": "<p sourcefile=\"api/QQBot.MessageReference.yml\" sourcestartlinenumber=\"1\">表示一个消息引用。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.MessageSequenceGenerationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.MessageSequenceGenerationParameters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.MessageSequenceGenerationParameters",
+      "Summary": "<p sourcefile=\"api/QQBot.MessageSequenceGenerationParameters.yml\" sourcestartlinenumber=\"1\">消息序号生成算法所包含的参数。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1741,7 +2471,11 @@
           "relative_path": "api/QQBot.MessageSetting.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.MessageSetting",
+      "Summary": "<p sourcefile=\"api/QQBot.MessageSetting.yml\" sourcestartlinenumber=\"1\">表示一个频道的消息设置。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1751,7 +2485,11 @@
           "relative_path": "api/QQBot.MessageSource.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.MessageSource",
+      "Summary": "<p sourcefile=\"api/QQBot.MessageSource.yml\" sourcestartlinenumber=\"1\">表示一个消息的来源。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1761,7 +2499,11 @@
           "relative_path": "api/QQBot.MessageType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.MessageType",
+      "Summary": "<p sourcefile=\"api/QQBot.MessageType.yml\" sourcestartlinenumber=\"1\">表示消息的类型。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1771,7 +2513,11 @@
           "relative_path": "api/QQBot.ModifyApplicationChannelProperties.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ModifyApplicationChannelProperties",
+      "Summary": "<p sourcefile=\"api/QQBot.ModifyApplicationChannelProperties.yml\" sourcestartlinenumber=\"1\">提供用于创建 <xref href=\"QQBot.IApplicationChannel\" data-throw-if-not-resolved=\"false\"></xref> 的属性。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1781,7 +2527,11 @@
           "relative_path": "api/QQBot.ModifyCategoryChannelProperties.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ModifyCategoryChannelProperties",
+      "Summary": "<p sourcefile=\"api/QQBot.ModifyCategoryChannelProperties.yml\" sourcestartlinenumber=\"1\">提供用于修改 <xref href=\"QQBot.ICategoryChannel\" data-throw-if-not-resolved=\"false\"></xref> 的属性。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1791,7 +2541,11 @@
           "relative_path": "api/QQBot.ModifyForumChannelProperties.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ModifyForumChannelProperties",
+      "Summary": "<p sourcefile=\"api/QQBot.ModifyForumChannelProperties.yml\" sourcestartlinenumber=\"1\">提供用于修改 <xref href=\"QQBot.IForumChannel\" data-throw-if-not-resolved=\"false\"></xref> 的属性。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1801,7 +2555,11 @@
           "relative_path": "api/QQBot.ModifyGuildChannelProperties.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ModifyGuildChannelProperties",
+      "Summary": "<p sourcefile=\"api/QQBot.ModifyGuildChannelProperties.yml\" sourcestartlinenumber=\"1\">提供用于修改 <xref href=\"QQBot.IGuildChannel\" data-throw-if-not-resolved=\"false\"></xref> 的属性。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1811,7 +2569,11 @@
           "relative_path": "api/QQBot.ModifyGuildScheduleProperties.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ModifyGuildScheduleProperties",
+      "Summary": "<p sourcefile=\"api/QQBot.ModifyGuildScheduleProperties.yml\" sourcestartlinenumber=\"1\">提供用于修改 <xref href=\"QQBot.IGuildSchedule\" data-throw-if-not-resolved=\"false\"></xref> 的属性。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1821,7 +2583,11 @@
           "relative_path": "api/QQBot.ModifyLiveStreamChannelProperties.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ModifyLiveStreamChannelProperties",
+      "Summary": "<p sourcefile=\"api/QQBot.ModifyLiveStreamChannelProperties.yml\" sourcestartlinenumber=\"1\">提供用于修改 <xref href=\"QQBot.ILiveStreamChannel\" data-throw-if-not-resolved=\"false\"></xref> 的属性。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1831,7 +2597,11 @@
           "relative_path": "api/QQBot.ModifyScheduleChannelProperties.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ModifyScheduleChannelProperties",
+      "Summary": "<p sourcefile=\"api/QQBot.ModifyScheduleChannelProperties.yml\" sourcestartlinenumber=\"1\">提供用于修改 <xref href=\"QQBot.IScheduleChannel\" data-throw-if-not-resolved=\"false\"></xref> 的属性。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1841,7 +2611,11 @@
           "relative_path": "api/QQBot.ModifyTextChannelProperties.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ModifyTextChannelProperties",
+      "Summary": "<p sourcefile=\"api/QQBot.ModifyTextChannelProperties.yml\" sourcestartlinenumber=\"1\">提供用于修改 <xref href=\"QQBot.ITextChannel\" data-throw-if-not-resolved=\"false\"></xref> 的属性。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1851,7 +2625,11 @@
           "relative_path": "api/QQBot.ModifyVoiceChannelProperties.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ModifyVoiceChannelProperties",
+      "Summary": "<p sourcefile=\"api/QQBot.ModifyVoiceChannelProperties.yml\" sourcestartlinenumber=\"1\">提供用于修改 <xref href=\"QQBot.IVoiceChannel\" data-throw-if-not-resolved=\"false\"></xref> 的属性。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1861,7 +2639,11 @@
           "relative_path": "api/QQBot.Net.BucketId.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.BucketId",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.BucketId.yml\" sourcestartlinenumber=\"1\">表示一个限速桶。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1871,7 +2653,11 @@
           "relative_path": "api/QQBot.Net.HttpException.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.HttpException",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.HttpException.yml\" sourcestartlinenumber=\"1\">当处理 QQBot HTTP 请求时发生错误时引发的异常。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1881,7 +2667,11 @@
           "relative_path": "api/QQBot.Net.IRequest.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.IRequest",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.IRequest.yml\" sourcestartlinenumber=\"1\">表示一个要发送到 QQ 的通用的请求。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1891,7 +2681,11 @@
           "relative_path": "api/QQBot.Net.Queue.BaseMessageQueue.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.Queue.BaseMessageQueue",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.Queue.BaseMessageQueue.yml\" sourcestartlinenumber=\"1\">表示一个通用的消息队列抽象类。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1901,7 +2695,11 @@
           "relative_path": "api/QQBot.Net.Queue.IMessageQueue.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.Queue.IMessageQueue",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.Queue.IMessageQueue.yml\" sourcestartlinenumber=\"1\">表示一个消息队列，用于从 QQ 机器人网关接收并处理事件。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1911,7 +2709,11 @@
           "relative_path": "api/QQBot.Net.Queue.MessageQueueProvider.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.Queue.MessageQueueProvider",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.Queue.MessageQueueProvider.yml\" sourcestartlinenumber=\"1\">表示一个提供新的 <xref href=\"QQBot.Net.Queue.IMessageQueue\" data-throw-if-not-resolved=\"false\"></xref> 实例的委托。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1921,7 +2723,11 @@
           "relative_path": "api/QQBot.Net.Queue.SynchronousImmediate.SynchronousImmediateMessageQueue.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.Queue.SynchronousImmediate.SynchronousImmediateMessageQueue",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.Queue.SynchronousImmediate.SynchronousImmediateMessageQueue.yml\" sourcestartlinenumber=\"1\">表示一个同步处理消息队列。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1931,7 +2737,11 @@
           "relative_path": "api/QQBot.Net.Queue.SynchronousImmediate.SynchronousImmediateMessageQueueProvider.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.Queue.SynchronousImmediate.SynchronousImmediateMessageQueueProvider",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.Queue.SynchronousImmediate.SynchronousImmediateMessageQueueProvider.yml\" sourcestartlinenumber=\"1\">表示一个默认的使用同步处理机制的 <xref href=\"QQBot.Net.Queue.MessageQueueProvider\" data-throw-if-not-resolved=\"false\"></xref>，用于创建 <xref href=\"QQBot.Net.Queue.SynchronousImmediate.SynchronousImmediateMessageQueue\" data-throw-if-not-resolved=\"false\"></xref> 实例。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1941,7 +2751,11 @@
           "relative_path": "api/QQBot.Net.Queue.SynchronousImmediate.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.Queue.SynchronousImmediate",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1951,7 +2765,11 @@
           "relative_path": "api/QQBot.Net.Queue.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.Queue",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -1961,7 +2779,11 @@
           "relative_path": "api/QQBot.Net.RateLimitInfo.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.RateLimitInfo",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.RateLimitInfo.yml\" sourcestartlinenumber=\"1\">表示一个基于 REST 的速率限制信息。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1971,7 +2793,11 @@
           "relative_path": "api/QQBot.Net.RateLimitedException.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.RateLimitedException",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.RateLimitedException.yml\" sourcestartlinenumber=\"1\">表示一个由 QQBot 限制请求频率时引发的异常。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1981,7 +2807,11 @@
           "relative_path": "api/QQBot.Net.Rest.DefaultRestClientProvider.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.Rest.DefaultRestClientProvider",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.Rest.DefaultRestClientProvider.yml\" sourcestartlinenumber=\"1\">表示一个默认的 <xref href=\"QQBot.Net.Rest.RestClientProvider\" data-throw-if-not-resolved=\"false\"></xref>，用于创建\n<xref href=\"QQBot.Net.Rest.IRestClient\" data-throw-if-not-resolved=\"false\"></xref> 的默认实现的实例。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1991,7 +2821,11 @@
           "relative_path": "api/QQBot.Net.Rest.IRestClient.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.Rest.IRestClient",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.Rest.IRestClient.yml\" sourcestartlinenumber=\"1\">表示一个通用的基于 RESTful API 的客户端。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2001,7 +2835,11 @@
           "relative_path": "api/QQBot.Net.Rest.RestClientProvider.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.Rest.RestClientProvider",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.Rest.RestClientProvider.yml\" sourcestartlinenumber=\"1\">表示一个用于创建 <xref href=\"QQBot.Net.Rest.IRestClient\" data-throw-if-not-resolved=\"false\"></xref> 实例的委托。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2011,7 +2849,11 @@
           "relative_path": "api/QQBot.Net.Rest.RestResponse.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.Rest.RestResponse",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.Rest.RestResponse.yml\" sourcestartlinenumber=\"1\">表示一个 RESTful API 请求的响应。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2021,7 +2863,11 @@
           "relative_path": "api/QQBot.Net.Rest.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.Rest",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2031,7 +2877,11 @@
           "relative_path": "api/QQBot.Net.WebSocketClosedException.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.WebSocketClosedException",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.WebSocketClosedException.yml\" sourcestartlinenumber=\"1\">表示一个由 QQBot 意外关闭 WebSocket 会话时引发的异常。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2041,7 +2891,11 @@
           "relative_path": "api/QQBot.Net.WebSockets.DefaultWebSocketProvider.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.WebSockets.DefaultWebSocketProvider",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.WebSockets.DefaultWebSocketProvider.yml\" sourcestartlinenumber=\"1\">表示一个默认的 <xref href=\"QQBot.Net.WebSockets.WebSocketProvider\" data-throw-if-not-resolved=\"false\"></xref>，用于创建\n<xref href=\"QQBot.Net.WebSockets.IWebSocketClient\" data-throw-if-not-resolved=\"false\"></xref> 的默认实现的实例。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2051,7 +2905,11 @@
           "relative_path": "api/QQBot.Net.WebSockets.IWebSocketClient.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.WebSockets.IWebSocketClient",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.WebSockets.IWebSocketClient.yml\" sourcestartlinenumber=\"1\">表示一个通用的 WebSocket 客户端。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2061,7 +2919,11 @@
           "relative_path": "api/QQBot.Net.WebSockets.WebSocketProvider.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.WebSockets.WebSocketProvider",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.WebSockets.WebSocketProvider.yml\" sourcestartlinenumber=\"1\">表示一个用于创建 <xref href=\"QQBot.Net.WebSockets.IWebSocketClient\" data-throw-if-not-resolved=\"false\"></xref> 实例的委托。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2071,7 +2933,11 @@
           "relative_path": "api/QQBot.Net.WebSockets.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.WebSockets",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2081,7 +2947,11 @@
           "relative_path": "api/QQBot.Net.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2091,7 +2961,11 @@
           "relative_path": "api/QQBot.OverwritePermissions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.OverwritePermissions",
+      "Summary": "<p sourcefile=\"api/QQBot.OverwritePermissions.yml\" sourcestartlinenumber=\"1\">表示一组权限重写配置。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2101,7 +2975,11 @@
           "relative_path": "api/QQBot.Paragraph.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Paragraph",
+      "Summary": "<p sourcefile=\"api/QQBot.Paragraph.yml\" sourcestartlinenumber=\"1\">表示一个富文本段落。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2111,7 +2989,11 @@
           "relative_path": "api/QQBot.ParagraphBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ParagraphBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.ParagraphBuilder.yml\" sourcestartlinenumber=\"1\">表示一个富文本段落构建器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2121,7 +3003,11 @@
           "relative_path": "api/QQBot.PermValue.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.PermValue",
+      "Summary": "<p sourcefile=\"api/QQBot.PermValue.yml\" sourcestartlinenumber=\"1\">表示一个权限的重写配置的值。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2131,7 +3017,11 @@
           "relative_path": "api/QQBot.PrivateType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.PrivateType",
+      "Summary": "<p sourcefile=\"api/QQBot.PrivateType.yml\" sourcestartlinenumber=\"1\">表示一个子频道的私密类型。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2141,7 +3031,11 @@
           "relative_path": "api/QQBot.QQBotConfig.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.QQBotConfig",
+      "Summary": "<p sourcefile=\"api/QQBot.QQBotConfig.yml\" sourcestartlinenumber=\"1\">定义 QQBot.Net 各种基础行为的配置项。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2151,7 +3045,11 @@
           "relative_path": "api/QQBot.QQBotError.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.QQBotError",
+      "Summary": "<p sourcefile=\"api/QQBot.QQBotError.yml\" sourcestartlinenumber=\"1\">表示一个 QQBot 返回的错误。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2161,7 +3059,11 @@
           "relative_path": "api/QQBot.QQBotErrorCode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.QQBotErrorCode",
+      "Summary": "<p sourcefile=\"api/QQBot.QQBotErrorCode.yml\" sourcestartlinenumber=\"1\">表示从 QQBot 接收到的错误代码。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2171,7 +3073,11 @@
           "relative_path": "api/QQBot.QQBotJsonError.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.QQBotJsonError",
+      "Summary": "<p sourcefile=\"api/QQBot.QQBotJsonError.yml\" sourcestartlinenumber=\"1\">表示一个在执行 API 请求后从 QQBot 接收到的 JSON 数据中解析出的错误。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2181,7 +3087,11 @@
           "relative_path": "api/QQBot.RemindType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.RemindType",
+      "Summary": "<p sourcefile=\"api/QQBot.RemindType.yml\" sourcestartlinenumber=\"1\">表示提醒类型。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2191,7 +3101,11 @@
           "relative_path": "api/QQBot.RequestOptions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.RequestOptions",
+      "Summary": "<p sourcefile=\"api/QQBot.RequestOptions.yml\" sourcestartlinenumber=\"1\">表示发送请求时要使用的选项。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2201,7 +3115,11 @@
           "relative_path": "api/QQBot.Rest.Attachment.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.Attachment",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.Attachment.yml\" sourcestartlinenumber=\"1\">表示一个消息内的附件。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2211,7 +3129,11 @@
           "relative_path": "api/QQBot.Rest.BaseQQBotClient.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.BaseQQBotClient",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.BaseQQBotClient.yml\" sourcestartlinenumber=\"1\">表示一个可以连接到 QQ API 的通用的 QQ Bot 客户端。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2221,7 +3143,11 @@
           "relative_path": "api/QQBot.Rest.QQBotRestClient.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.QQBotRestClient",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.QQBotRestClient.yml\" sourcestartlinenumber=\"1\">表示一个基于 REST 的 QQ Bot 客户端。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2231,7 +3157,11 @@
           "relative_path": "api/QQBot.Rest.QQBotRestConfig.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.QQBotRestConfig",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.QQBotRestConfig.yml\" sourcestartlinenumber=\"1\">定义 QQBot.Net 有关 REST 各种行为的配置类。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2241,7 +3171,11 @@
           "relative_path": "api/QQBot.Rest.RestApplicationChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestApplicationChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestApplicationChannel.yml\" sourcestartlinenumber=\"1\">表示频道中的一个基于 REST 的应用子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2251,7 +3185,11 @@
           "relative_path": "api/QQBot.Rest.RestCategoryChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestCategoryChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestCategoryChannel.yml\" sourcestartlinenumber=\"1\">表示一个基于 REST 的分组子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2261,7 +3199,11 @@
           "relative_path": "api/QQBot.Rest.RestChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestChannel.yml\" sourcestartlinenumber=\"1\">表示一个基于 REST 的频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2271,7 +3213,11 @@
           "relative_path": "api/QQBot.Rest.RestEntity-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestEntity<TId>",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestEntity-1.yml\" sourcestartlinenumber=\"1\">表示一个基于 REST 的实体。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2281,7 +3227,11 @@
           "relative_path": "api/QQBot.Rest.RestForumChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestForumChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestForumChannel.yml\" sourcestartlinenumber=\"1\">表示频道中的一个基于 REST 的论坛子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2291,7 +3241,11 @@
           "relative_path": "api/QQBot.Rest.RestGuild.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestGuild",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestGuild.yml\" sourcestartlinenumber=\"1\">表示一个基于 REST 的频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2301,7 +3255,11 @@
           "relative_path": "api/QQBot.Rest.RestGuildChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestGuildChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestGuildChannel.yml\" sourcestartlinenumber=\"1\">表示一个基于 REST 的频道内的子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2311,7 +3269,11 @@
           "relative_path": "api/QQBot.Rest.RestGuildMember.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestGuildMember",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestGuildMember.yml\" sourcestartlinenumber=\"1\">表示一个基于 REST 的子频道内用户。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2321,7 +3283,11 @@
           "relative_path": "api/QQBot.Rest.RestGuildSchedule.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestGuildSchedule",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestGuildSchedule.yml\" sourcestartlinenumber=\"1\">表示一个基于 REST 的日程。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2331,7 +3297,11 @@
           "relative_path": "api/QQBot.Rest.RestGuildUser.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestGuildUser",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestGuildUser.yml\" sourcestartlinenumber=\"1\">表示一个基于 REST 的子频道用户。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2341,7 +3311,11 @@
           "relative_path": "api/QQBot.Rest.RestLiveStreamChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestLiveStreamChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestLiveStreamChannel.yml\" sourcestartlinenumber=\"1\">表示频道中的一个基于 REST 的直播子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2351,7 +3325,11 @@
           "relative_path": "api/QQBot.Rest.RestMessage.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestMessage",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestMessage.yml\" sourcestartlinenumber=\"1\">表示一个基于 REST 的通用消息。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2361,7 +3339,11 @@
           "relative_path": "api/QQBot.Rest.RestRole.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestRole",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestRole.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的频道角色。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2371,7 +3353,11 @@
           "relative_path": "api/QQBot.Rest.RestScheduleChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestScheduleChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestScheduleChannel.yml\" sourcestartlinenumber=\"1\">表示频道中的一个基于 REST 的日程子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2381,7 +3367,11 @@
           "relative_path": "api/QQBot.Rest.RestSelfUser.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestSelfUser",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestSelfUser.yml\" sourcestartlinenumber=\"1\">表示一个基于 REST 的当前用户。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2391,7 +3381,11 @@
           "relative_path": "api/QQBot.Rest.RestTextChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestTextChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestTextChannel.yml\" sourcestartlinenumber=\"1\">表示频道中一个基于 REST 的具有文字聊天能力的子频道，可以发送和接收消息。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2401,7 +3395,11 @@
           "relative_path": "api/QQBot.Rest.RestThread.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestThread",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestThread.yml\" sourcestartlinenumber=\"1\">表示一个基于 REST 的论坛主题。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2411,7 +3409,11 @@
           "relative_path": "api/QQBot.Rest.RestUser.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestUser",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestUser.yml\" sourcestartlinenumber=\"1\">表示一个基于 REST 的用户。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2421,7 +3423,11 @@
           "relative_path": "api/QQBot.Rest.RestUserMessage.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestUserMessage",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestUserMessage.yml\" sourcestartlinenumber=\"1\">表示一个由用户发送的消息。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2431,7 +3437,11 @@
           "relative_path": "api/QQBot.Rest.RestVoiceChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestVoiceChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestVoiceChannel.yml\" sourcestartlinenumber=\"1\">表示频道中的一个基于 REST 的具有语音聊天能力的子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2441,7 +3451,11 @@
           "relative_path": "api/QQBot.Rest.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2451,7 +3465,11 @@
           "relative_path": "api/QQBot.RetryMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.RetryMode",
+      "Summary": "<p sourcefile=\"api/QQBot.RetryMode.yml\" sourcestartlinenumber=\"1\">表示请求在发生错误时应如何处理。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2461,7 +3479,11 @@
           "relative_path": "api/QQBot.RichText.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.RichText",
+      "Summary": "<p sourcefile=\"api/QQBot.RichText.yml\" sourcestartlinenumber=\"1\">表示一个富文本。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2471,7 +3493,11 @@
           "relative_path": "api/QQBot.RichTextBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.RichTextBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.RichTextBuilder.yml\" sourcestartlinenumber=\"1\">表示一个富文本构建器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2481,7 +3507,11 @@
           "relative_path": "api/QQBot.RichTextExtensions.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.RichTextExtensions",
+      "Summary": "<p sourcefile=\"api/QQBot.RichTextExtensions.yml\" sourcestartlinenumber=\"1\">提供 <xref href=\"QQBot.RichText\" data-throw-if-not-resolved=\"false\"></xref> 的扩展方法。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2491,7 +3521,11 @@
           "relative_path": "api/QQBot.RoleProperties.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.RoleProperties",
+      "Summary": "<p sourcefile=\"api/QQBot.RoleProperties.yml\" sourcestartlinenumber=\"1\">提供用于创建与修改 <xref href=\"QQBot.IRole\" data-throw-if-not-resolved=\"false\"></xref> 的属性。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2501,7 +3535,11 @@
           "relative_path": "api/QQBot.RoleType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.RoleType",
+      "Summary": "<p sourcefile=\"api/QQBot.RoleType.yml\" sourcestartlinenumber=\"1\">表示身份组的类型。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2511,7 +3549,11 @@
           "relative_path": "api/QQBot.SessionStartLimit.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.SessionStartLimit",
+      "Summary": "<p sourcefile=\"api/QQBot.SessionStartLimit.yml\" sourcestartlinenumber=\"1\">Stores the information related to the gateway identify request.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2521,7 +3563,11 @@
           "relative_path": "api/QQBot.SpeakPermission.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.SpeakPermission",
+      "Summary": "<p sourcefile=\"api/QQBot.SpeakPermission.yml\" sourcestartlinenumber=\"1\">表示子频道发言权限。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2531,7 +3577,11 @@
           "relative_path": "api/QQBot.Tag-2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Tag<TKey, TValue>",
+      "Summary": "<p sourcefile=\"api/QQBot.Tag-2.yml\" sourcestartlinenumber=\"1\">Supports all classes in the .NET class hierarchy and provides low-level services to derived classes. This is the ultimate base class of all .NET classes; it is the root of the type hierarchy.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2541,7 +3591,11 @@
           "relative_path": "api/QQBot.TagHandling.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.TagHandling",
+      "Summary": "<p sourcefile=\"api/QQBot.TagHandling.yml\" sourcestartlinenumber=\"1\">表示在转换标签时应进行的操作类型。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2551,7 +3605,11 @@
           "relative_path": "api/QQBot.TagType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.TagType",
+      "Summary": "<p sourcefile=\"api/QQBot.TagType.yml\" sourcestartlinenumber=\"1\">表示标签的类型。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2561,7 +3619,11 @@
           "relative_path": "api/QQBot.TextAlignment.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.TextAlignment",
+      "Summary": "<p sourcefile=\"api/QQBot.TextAlignment.yml\" sourcestartlinenumber=\"1\">表示一个富文本段落的对齐方式。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2571,7 +3633,11 @@
           "relative_path": "api/QQBot.TextElement.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.TextElement",
+      "Summary": "<p sourcefile=\"api/QQBot.TextElement.yml\" sourcestartlinenumber=\"1\">表示一个文本元素。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2581,7 +3647,11 @@
           "relative_path": "api/QQBot.TextElementBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.TextElementBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.TextElementBuilder.yml\" sourcestartlinenumber=\"1\">表示一个文本元素的构建器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2591,7 +3661,11 @@
           "relative_path": "api/QQBot.TextStyle.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.TextStyle",
+      "Summary": "<p sourcefile=\"api/QQBot.TextStyle.yml\" sourcestartlinenumber=\"1\">表示一个文本元素 <xref href=\"QQBot.TextElement\" data-throw-if-not-resolved=\"false\"></xref> 的样式。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2601,7 +3675,11 @@
           "relative_path": "api/QQBot.ThreadTextType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ThreadTextType",
+      "Summary": "<p sourcefile=\"api/QQBot.ThreadTextType.yml\" sourcestartlinenumber=\"1\">表示一个帖子文本的格式。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2611,7 +3689,11 @@
           "relative_path": "api/QQBot.TokenType.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.TokenType",
+      "Summary": "<p sourcefile=\"api/QQBot.TokenType.yml\" sourcestartlinenumber=\"1\">表示客户端所使用的令牌类型。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2621,7 +3703,11 @@
           "relative_path": "api/QQBot.TokenUtils.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.TokenUtils",
+      "Summary": "<p sourcefile=\"api/QQBot.TokenUtils.yml\" sourcestartlinenumber=\"1\">提供一组用于处理 QQBot 登录令牌的辅助方法。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2631,7 +3717,11 @@
           "relative_path": "api/QQBot.UrlElement.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.UrlElement",
+      "Summary": "<p sourcefile=\"api/QQBot.UrlElement.yml\" sourcestartlinenumber=\"1\">表示一个 URL 元素。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2641,7 +3731,11 @@
           "relative_path": "api/QQBot.UrlElementBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.UrlElementBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.UrlElementBuilder.yml\" sourcestartlinenumber=\"1\">表示一个 URL 元素的构建器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2651,7 +3745,11 @@
           "relative_path": "api/QQBot.UrlUtils.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.UrlUtils",
+      "Summary": "<p sourcefile=\"api/QQBot.UrlUtils.yml\" sourcestartlinenumber=\"1\">提供有关网络地址的工具方法。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2661,7 +3759,11 @@
           "relative_path": "api/QQBot.VideoElement.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.VideoElement",
+      "Summary": "<p sourcefile=\"api/QQBot.VideoElement.yml\" sourcestartlinenumber=\"1\">表示一个视频元素。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2671,7 +3773,11 @@
           "relative_path": "api/QQBot.VideoElementBuilder.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.VideoElementBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.VideoElementBuilder.yml\" sourcestartlinenumber=\"1\">表示一个视频元素的构建器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2681,7 +3787,11 @@
           "relative_path": "api/QQBot.WebSocket.BaseSocketClient.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.BaseSocketClient",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.BaseSocketClient.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的客户端的抽象基类。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2691,7 +3801,11 @@
           "relative_path": "api/QQBot.WebSocket.GatewayReconnectException.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.GatewayReconnectException",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.GatewayReconnectException.yml\" sourcestartlinenumber=\"1\">当网关客户端被请求重新连接时引发的异常。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2701,7 +3815,11 @@
           "relative_path": "api/QQBot.WebSocket.ISocketMessageChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.ISocketMessageChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.ISocketMessageChannel.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的消息子频道，可以发送和接收消息。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2711,7 +3829,11 @@
           "relative_path": "api/QQBot.WebSocket.ISocketPrivateChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.ISocketPrivateChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.ISocketPrivateChannel.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的私有子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2721,7 +3843,11 @@
           "relative_path": "api/QQBot.WebSocket.QQBotShardedClient.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.QQBotShardedClient",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.QQBotShardedClient.yml\" sourcestartlinenumber=\"1\">Represents a sharded QQBot client.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2731,7 +3857,11 @@
           "relative_path": "api/QQBot.WebSocket.QQBotSocketClient.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.QQBotSocketClient",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.QQBotSocketClient.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的 QQ Bot 客户端。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2741,7 +3871,11 @@
           "relative_path": "api/QQBot.WebSocket.QQBotSocketConfig.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.QQBotSocketConfig",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.QQBotSocketConfig.yml\" sourcestartlinenumber=\"1\">表示一个用于 <xref href=\"QQBot.WebSocket.QQBotSocketClient\" data-throw-if-not-resolved=\"false\"></xref> 的配置类。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2751,7 +3885,11 @@
           "relative_path": "api/QQBot.WebSocket.QQBotSocketRestClient.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.QQBotSocketRestClient",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.QQBotSocketRestClient.yml\" sourcestartlinenumber=\"1\">表示一个用于网关客户端内的 REST 客户端。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2761,7 +3899,11 @@
           "relative_path": "api/QQBot.WebSocket.SocketApplicationChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketApplicationChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketApplicationChannel.yml\" sourcestartlinenumber=\"1\">表示频道中的一个基于网关的应用子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2771,7 +3913,11 @@
           "relative_path": "api/QQBot.WebSocket.SocketCategoryChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketCategoryChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketCategoryChannel.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的分组子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2781,7 +3927,11 @@
           "relative_path": "api/QQBot.WebSocket.SocketChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketChannel.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2791,7 +3941,11 @@
           "relative_path": "api/QQBot.WebSocket.SocketDMChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketDMChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketDMChannel.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的子频道用户私聊子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2801,7 +3955,11 @@
           "relative_path": "api/QQBot.WebSocket.SocketEntity-1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketEntity<TId>",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketEntity-1.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的具有唯一标识符的实体。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2811,7 +3969,11 @@
           "relative_path": "api/QQBot.WebSocket.SocketForumChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketForumChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketForumChannel.yml\" sourcestartlinenumber=\"1\">表示频道中的一个基于网关的论坛子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2821,7 +3983,11 @@
           "relative_path": "api/QQBot.WebSocket.SocketGroupChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketGroupChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketGroupChannel.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的群组子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2831,7 +3997,11 @@
           "relative_path": "api/QQBot.WebSocket.SocketGuild.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketGuild",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketGuild.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2841,7 +4011,11 @@
           "relative_path": "api/QQBot.WebSocket.SocketGuildChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketGuildChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketGuildChannel.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的子频道内的子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2851,7 +4025,11 @@
           "relative_path": "api/QQBot.WebSocket.SocketGuildMember.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketGuildMember",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketGuildMember.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的子频道用户。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2861,7 +4039,11 @@
           "relative_path": "api/QQBot.WebSocket.SocketGuildUser.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketGuildUser",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketGuildUser.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的频道上下文中的用户。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2871,7 +4053,11 @@
           "relative_path": "api/QQBot.WebSocket.SocketLiveStreamChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketLiveStreamChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketLiveStreamChannel.yml\" sourcestartlinenumber=\"1\">表示频道中的一个基于网关的直播子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2881,7 +4067,39 @@
           "relative_path": "api/QQBot.WebSocket.SocketMessage.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketMessage",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketMessage.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的通用消息。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketPost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketPost.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketPost",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketPost.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的论坛主题评论。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketReply.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketReply.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketReply",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketReply.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的论坛主题评论回复。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2891,7 +4109,11 @@
           "relative_path": "api/QQBot.WebSocket.SocketRole.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketRole",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketRole.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的频道角色。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2901,7 +4123,11 @@
           "relative_path": "api/QQBot.WebSocket.SocketScheduleChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketScheduleChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketScheduleChannel.yml\" sourcestartlinenumber=\"1\">表示频道中的一个基于网关的直播子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2911,7 +4137,11 @@
           "relative_path": "api/QQBot.WebSocket.SocketSelfUser.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketSelfUser",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketSelfUser.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的当前用户。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2921,7 +4151,25 @@
           "relative_path": "api/QQBot.WebSocket.SocketTextChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketTextChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketTextChannel.yml\" sourcestartlinenumber=\"1\">表示频道中一个基于网关的具有文字聊天能力的子频道，可以发送和接收消息。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketThread.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketThread.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketThread",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketThread.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的论坛主题。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2931,7 +4179,11 @@
           "relative_path": "api/QQBot.WebSocket.SocketUser.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketUser",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketUser.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的用户</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2941,7 +4193,11 @@
           "relative_path": "api/QQBot.WebSocket.SocketUserChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketUserChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketUserChannel.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的群组子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2951,7 +4207,11 @@
           "relative_path": "api/QQBot.WebSocket.SocketUserMessage.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketUserMessage",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketUserMessage.yml\" sourcestartlinenumber=\"1\">表示一个由用户发送的消息。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2961,7 +4221,11 @@
           "relative_path": "api/QQBot.WebSocket.SocketVoiceChannel.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketVoiceChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketVoiceChannel.yml\" sourcestartlinenumber=\"1\">表示频道中的一个基于网关的具有语音聊天能力的子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2971,7 +4235,11 @@
           "relative_path": "api/QQBot.WebSocket.StartupCacheFetchData.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.StartupCacheFetchData",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.StartupCacheFetchData.yml\" sourcestartlinenumber=\"1\">表示基于网关的客户端在启动时所加载的除频道列表外的其它数据。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2981,7 +4249,11 @@
           "relative_path": "api/QQBot.WebSocket.StartupCacheFetchMode.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.StartupCacheFetchMode",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.StartupCacheFetchMode.yml\" sourcestartlinenumber=\"1\">表示基于网关的客户端在启动时缓存基础数据的模式。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2991,7 +4263,11 @@
           "relative_path": "api/QQBot.WebSocket.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -3001,7 +4277,11 @@
           "relative_path": "api/QQBot.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot",
+      "Summary": null
     },
     {
       "type": "Conceptual",
@@ -3017,11 +4297,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "api/toc.html"
-        },
         ".json": {
           "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
         }
       },
       "version": ""
@@ -3040,11 +4320,11 @@
       "type": "Toc",
       "source_relative_path": "changelog/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "changelog/toc.html"
-        },
         ".json": {
           "relative_path": "changelog/toc.json"
+        },
+        ".html": {
+          "relative_path": "changelog/toc.html"
         }
       },
       "version": ""
@@ -3073,11 +4353,11 @@
       "type": "Toc",
       "source_relative_path": "demos/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "demos/toc.html"
-        },
         ".json": {
           "relative_path": "demos/toc.json"
+        },
+        ".html": {
+          "relative_path": "demos/toc.html"
         }
       },
       "version": ""
@@ -3096,11 +4376,11 @@
       "type": "Toc",
       "source_relative_path": "guides/toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "guides/toc.html"
-        },
         ".json": {
           "relative_path": "guides/toc.json"
+        },
+        ".html": {
+          "relative_path": "guides/toc.html"
         }
       },
       "version": ""
@@ -3119,11 +4399,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
         ".json": {
           "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""

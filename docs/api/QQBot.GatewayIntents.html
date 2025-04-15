@@ -119,59 +119,75 @@ public enum GatewayIntents</code></pre>
 </h2>
   <dl class="parameters">
     <dt id="QQBot_GatewayIntents_All"><code>All = GuildMessages | ForumsEvent | AllPublicDomain</code></dt>
-    <dd><p>此网关意图包括所有事件</p>
+  
+  <dd><p>此网关意图包括所有事件</p>
 </dd>
     <dt id="QQBot_GatewayIntents_AllPublicDomain"><code>AllPublicDomain = Guilds | GuildMembers | GuildMessageReactions | DirectMessages | OpenForumsEvent | AudioOrLiveChannelMember | GroupAndC2CEvent | Interaction | MessageAudit | AudioAction | PublicGuildMessages</code></dt>
-    <dd><p>此网关意图包括所有公域机器人可以订阅的事件</p>
+  
+  <dd><p>此网关意图包括所有公域机器人可以订阅的事件</p>
 </dd>
     <dt id="QQBot_GatewayIntents_AudioAction"><code>AudioAction = 536870912</code></dt>
-    <dd><p>此网关意图包括 <code>AUDIO_START</code>, <code>AUDIO_FINISH</code>, <code>AUDIO_ON_MIC</code>, <code>AUDIO_OFF_MIC</code></p>
+  
+  <dd><p>此网关意图包括 <code>AUDIO_START</code>, <code>AUDIO_FINISH</code>, <code>AUDIO_ON_MIC</code>, <code>AUDIO_OFF_MIC</code></p>
 </dd>
     <dt id="QQBot_GatewayIntents_AudioOrLiveChannelMember"><code>AudioOrLiveChannelMember = 524288</code></dt>
-    <dd><p>此网关意图包括 <code>AUDIO_OR_LIVE_CHANNEL_MEMBER_ENTER</code>, <code>AUDIO_OR_LIVE_CHANNEL_MEMBER_EXIT</code></p>
+  
+  <dd><p>此网关意图包括 <code>AUDIO_OR_LIVE_CHANNEL_MEMBER_ENTER</code>, <code>AUDIO_OR_LIVE_CHANNEL_MEMBER_EXIT</code></p>
 </dd>
     <dt id="QQBot_GatewayIntents_DirectMessages"><code>DirectMessages = 4096</code></dt>
-    <dd><p>此网关意图包括 <code>DIRECT_MESSAGE_CREATE</code>, <code>DIRECT_MESSAGE_DELETE</code></p>
+  
+  <dd><p>此网关意图包括 <code>DIRECT_MESSAGE_CREATE</code>, <code>DIRECT_MESSAGE_DELETE</code></p>
 </dd>
     <dt id="QQBot_GatewayIntents_ForumsEvent"><code>ForumsEvent = 268435456</code></dt>
-    <dd><p>此网关意图包括 <code>FORUM_THREAD_CREATE</code>, <code>FORUM_THREAD_UPDATE</code>, <code>FORUM_THREAD_DELETE</code>,
+  
+  <dd><p>此网关意图包括 <code>FORUM_THREAD_CREATE</code>, <code>FORUM_THREAD_UPDATE</code>, <code>FORUM_THREAD_DELETE</code>,
 <code>FORUM_POST_CREATE</code>, <code>FORUM_POST_DELETE</code>, <code>FORUM_REPLY_CREATE</code>, <code>FORUM_REPLY_DELETE</code>,
 <code>FORUM_PUBLISH_AUDIT_RESULT</code></p>
 </dd>
     <dt id="QQBot_GatewayIntents_GroupAndC2CEvent"><code>GroupAndC2CEvent = 33554432</code></dt>
-    <dd><p>此网关意图包括 <code>C2C_MESSAGE_CREATE</code>, <code>FRIEND_ADD</code>, <code>FRIEND_DEL</code>, <code>C2C_MSG_REJECT</code>,
+  
+  <dd><p>此网关意图包括 <code>C2C_MESSAGE_CREATE</code>, <code>FRIEND_ADD</code>, <code>FRIEND_DEL</code>, <code>C2C_MSG_REJECT</code>,
 <code>C2C_MSG_RECEIVE</code>, <code>GROUP_AT_MESSAGE_CREATE</code>, <code>GROUP_ADD_ROBOT</code>, <code>GROUP_DEL_ROBOT</code>,
 <code>GROUP_MSG_REJECT</code>, <code>GROUP_MSG_RECEIVE</code></p>
 </dd>
     <dt id="QQBot_GatewayIntents_GuildMembers"><code>GuildMembers = 2</code></dt>
-    <dd><p>此网关意图包括 <code>GUILD_MEMBER_ADD</code>, <code>GUILD_MEMBER_UPDATE</code>, <code>GUILD_MEMBER_REMOVE</code></p>
+  
+  <dd><p>此网关意图包括 <code>GUILD_MEMBER_ADD</code>, <code>GUILD_MEMBER_UPDATE</code>, <code>GUILD_MEMBER_REMOVE</code></p>
 </dd>
     <dt id="QQBot_GatewayIntents_GuildMessageReactions"><code>GuildMessageReactions = 1024</code></dt>
-    <dd><p>此网关意图包括 <code>MESSAGE_REACTION_ADD</code>, <code>MESSAGE_REACTION_REMOVE</code></p>
+  
+  <dd><p>此网关意图包括 <code>MESSAGE_REACTION_ADD</code>, <code>MESSAGE_REACTION_REMOVE</code></p>
 </dd>
     <dt id="QQBot_GatewayIntents_GuildMessages"><code>GuildMessages = 512</code></dt>
-    <dd><p>此网关意图包括 <code>MESSAGE_CREATE</code>, <code>MESSAGE_DELETE</code></p>
+  
+  <dd><p>此网关意图包括 <code>MESSAGE_CREATE</code>, <code>MESSAGE_DELETE</code></p>
 </dd>
     <dt id="QQBot_GatewayIntents_Guilds"><code>Guilds = 1</code></dt>
-    <dd><p>此网关意图包括 <code>GUILD_CREATE</code>, <code>GUILD_UPDATE</code>, <code>GUILD_DELETE</code>, <code>CHANNEL_CREATE</code>,
+  
+  <dd><p>此网关意图包括 <code>GUILD_CREATE</code>, <code>GUILD_UPDATE</code>, <code>GUILD_DELETE</code>, <code>CHANNEL_CREATE</code>,
 <code>CHANNEL_UPDATE</code>, <code>CHANNEL_DELETE</code></p>
 </dd>
     <dt id="QQBot_GatewayIntents_Interaction"><code>Interaction = 67108864</code></dt>
-    <dd><p>此网关意图包括 <code>INTERACTION_CREATE</code></p>
+  
+  <dd><p>此网关意图包括 <code>INTERACTION_CREATE</code></p>
 </dd>
     <dt id="QQBot_GatewayIntents_MessageAudit"><code>MessageAudit = 134217728</code></dt>
-    <dd><p>此网关意图包括 <code>MESSAGE_AUDIT_PASS</code>, <code>MESSAGE_AUDIT_REJECT</code></p>
+  
+  <dd><p>此网关意图包括 <code>MESSAGE_AUDIT_PASS</code>, <code>MESSAGE_AUDIT_REJECT</code></p>
 </dd>
     <dt id="QQBot_GatewayIntents_None"><code>None = 0</code></dt>
-    <dd><p>此网关意图不包括任何事件</p>
+  
+  <dd><p>此网关意图不包括任何事件</p>
 </dd>
     <dt id="QQBot_GatewayIntents_OpenForumsEvent"><code>OpenForumsEvent = 262144</code></dt>
-    <dd><p>此网关意图包括 <code>OPEN_FORUM_THREAD_CREATE</code>, <code>OPEN_FORUM_THREAD_UPDATE</code>,
+  
+  <dd><p>此网关意图包括 <code>OPEN_FORUM_THREAD_CREATE</code>, <code>OPEN_FORUM_THREAD_UPDATE</code>,
 <code>OPEN_FORUM_THREAD_DELETE</code>, <code>OPEN_FORUM_POST_CREATE</code>, <code>OPEN_FORUM_POST_DELETE</code>,
 <code>OPEN_FORUM_REPLY_CREATE</code>, <code>OPEN_FORUM_REPLY_DELETE</code></p>
 </dd>
     <dt id="QQBot_GatewayIntents_PublicGuildMessages"><code>PublicGuildMessages = 1073741824</code></dt>
-    <dd><p>此网关意图包括 <code>AT_MESSAGE_CREATE</code>, <code>PUBLIC_MESSAGE_DELETE</code></p>
+  
+  <dd><p>此网关意图包括 <code>AT_MESSAGE_CREATE</code>, <code>PUBLIC_MESSAGE_DELETE</code></p>
 </dd>
   </dl>
 

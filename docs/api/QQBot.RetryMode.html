@@ -119,19 +119,24 @@ public enum RetryMode</code></pre>
 </h2>
   <dl class="parameters">
     <dt id="QQBot_RetryMode_AlwaysFail"><code>AlwaysFail = 0</code></dt>
-    <dd><p>如果请求失败，将立即引发异常。</p>
+  
+  <dd><p>如果请求失败，将立即引发异常。</p>
 </dd>
     <dt id="QQBot_RetryMode_AlwaysRetry"><code>AlwaysRetry = RetryTimeouts | RetryRatelimit | Retry502</code></dt>
-    <dd><p>总是重试失败的请求，直到超时、取消令牌被触发或频道响应非 502 错误。</p>
+  
+  <dd><p>总是重试失败的请求，直到超时、取消令牌被触发或频道响应非 502 错误。</p>
 </dd>
     <dt id="QQBot_RetryMode_Retry502"><code>Retry502 = 8</code></dt>
-    <dd><p>如果请求因 HTTP 状态码 502 而失败，则重试。</p>
+  
+  <dd><p>如果请求因 HTTP 状态码 502 而失败，则重试。</p>
 </dd>
     <dt id="QQBot_RetryMode_RetryRatelimit"><code>RetryRatelimit = 4</code></dt>
-    <dd><p>如果请求因速率限制而失败，则重试。</p>
+  
+  <dd><p>如果请求因速率限制而失败，则重试。</p>
 </dd>
     <dt id="QQBot_RetryMode_RetryTimeouts"><code>RetryTimeouts = 1</code></dt>
-    <dd><p>如果请求超时，则重试。</p>
+  
+  <dd><p>如果请求超时，则重试。</p>
 </dd>
   </dl>
 

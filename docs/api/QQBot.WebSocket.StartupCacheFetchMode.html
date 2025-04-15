@@ -118,17 +118,36 @@ Enum StartupCacheFetchMode  <a class="header-action link-secondary" title="View 
 </h2>
   <dl class="parameters">
     <dt id="QQBot_WebSocket_StartupCacheFetchMode_Asynchronous"><code>Asynchronous = 2</code></dt>
-    <dd><p>异步主动获取。</p>
+  <dd><p>异步主动获取。</p>
+<p>当客户端启动时，将尽快引发 <a class="xref" href="QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_Ready">Ready</a> 事件，然后启动一个后台任务，通过
+QQ Bot API 获取所有频道基础数据。如果在基础数据获取期间接收到与频道相关的事件，但该频道的基础数据尚未获取，
+事件处理程序将在引发用户代码订阅的事件之前获取该频道的基础数据。 <br>
+缓存基础数据包括频道基本信息、子频道、角色、子频道权限重写、当前用户在频道内的昵称。</p>
 </dd>
+  
     <dt id="QQBot_WebSocket_StartupCacheFetchMode_Auto"><code>Auto = 0</code></dt>
-    <dd><p>根据频道数量自动选择最佳模式。</p>
+  <dd><p>根据频道数量自动选择最佳模式。</p>
+<p>如果频道数量达到了 <a class="xref" href="QQBot.WebSocket.QQBotSocketConfig.html#QQBot_WebSocket_QQBotSocketConfig_LargeNumberOfGuildsThreshold">LargeNumberOfGuildsThreshold</a>
+的值，模式将为 <a class="xref" href="QQBot.WebSocket.StartupCacheFetchMode.html#QQBot_WebSocket_StartupCacheFetchMode_Lazy">Lazy</a>；否则，如果达到了
+<a class="xref" href="QQBot.WebSocket.QQBotSocketConfig.html#QQBot_WebSocket_QQBotSocketConfig_SmallNumberOfGuildsThreshold">SmallNumberOfGuildsThreshold</a>
+的值，模式将为 <a class="xref" href="QQBot.WebSocket.StartupCacheFetchMode.html#QQBot_WebSocket_StartupCacheFetchMode_Asynchronous">Asynchronous</a>；
+否则，模式将为 <a class="xref" href="QQBot.WebSocket.StartupCacheFetchMode.html#QQBot_WebSocket_StartupCacheFetchMode_Synchronous">Synchronous</a>。</p>
 </dd>
+  
     <dt id="QQBot_WebSocket_StartupCacheFetchMode_Lazy"><code>Lazy = 3</code></dt>
-    <dd><p>被动获取。</p>
+  <dd><p>被动获取。</p>
+<p>当客户端启动时，将尽快引发 <a class="xref" href="QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_Ready">Ready</a>
+事件。当接收到与频道相关的事件，但该频道的基础数据尚未获取时，事件处理程序将在引发用户代码订阅的事件之前获取该频道的基础数据。 <br>
+缓存基础数据包括频道基本信息、子频道、角色、子频道权限重写、当前用户在频道内的昵称。</p>
 </dd>
+  
     <dt id="QQBot_WebSocket_StartupCacheFetchMode_Synchronous"><code>Synchronous = 1</code></dt>
-    <dd><p>同步主动获取。</p>
+  <dd><p>同步主动获取。</p>
+<p>当客户端启动时，将主动通过 QQ Bot API 获取所有频道基础数据，数据获取完成后引发
+<a class="xref" href="QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_Ready">Ready</a> 事件。 <br>
+缓存基础数据包括频道基本信息、子频道、角色、子频道权限重写、当前用户在频道内的昵称。</p>
 </dd>
+  
   </dl>
 
 

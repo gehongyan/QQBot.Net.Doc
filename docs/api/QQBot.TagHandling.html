@@ -118,20 +118,36 @@ Enum TagHandling  <a class="header-action link-secondary" title="View source" hr
 </h2>
   <dl class="parameters">
     <dt id="QQBot_TagHandling_Ignore"><code>Ignore = 0</code></dt>
-    <dd><p>不进行任何处理。</p>
+  <dd><p>不进行任何处理。</p>
+<p>例如：</p>
+<table><thead><tr><th class="term"> 原始值 </th><th class="description"> 转换结果 </th></tr></thead><tbody><tr><td class="term"> <code>(met)2810246202(met)</code> </td><td class="description"> <code>(met)2810246202(met)</code> </td></tr><tr><td class="term"> <code>(chn)5017360261312802(chn)</code> </td><td class="description"> <code>(chn)5017360261312802(chn)</code> </td></tr><tr><td class="term"> <code>(rol)6790760(rol)</code> </td><td class="description"> <code>(rol)6790760(rol)</code> </td></tr><tr><td class="term"> <code>(met)all(met)</code> </td><td class="description"> <code>(met)all(met)</code> </td></tr><tr><td class="term"> <code>(met)here(met)</code> </td><td class="description"> <code>(met)here(met)</code> </td></tr><tr><td class="term"> <code>(emj)kooknet-logo(emj)[1591057729615250/E8fy7hpRFU1jk1jk]</code> </td><td class="description"> <code>(emj)kooknet-logo(emj)[1591057729615250/E8fy7hpRFU1jk1jk]</code> </td></tr></tbody></table>
 </dd>
+  
     <dt id="QQBot_TagHandling_Name"><code>Name = 2</code></dt>
-    <dd><p>转换为名称，包含提及前缀。</p>
+  <dd><p>转换为名称，包含提及前缀。</p>
+<p>例如：</p>
+<table><thead><tr><th class="term"> 原始值 </th><th class="description"> 转换结果 </th></tr></thead><tbody><tr><td class="term"> <code>(met)2810246202(met)</code> </td><td class="description"> <code>@用户名</code> </td></tr><tr><td class="term"> <code>(chn)5017360261312802(chn)</code> </td><td class="description"> <code>#频道名称</code> </td></tr><tr><td class="term"> <code>(rol)6790760(rol)</code> </td><td class="description"> <code>@角色名称</code> </td></tr><tr><td class="term"> <code>(met)all(met)</code> </td><td class="description"> <code>@全体成员</code> </td></tr><tr><td class="term"> <code>(met)here(met)</code> </td><td class="description"> <code>@在线成员</code> </td></tr><tr><td class="term"> <code>(emj)kooknet-logo(emj)[1591057729615250/E8fy7hpRFU1jk1jk]</code> </td><td class="description"> <code>:kooknet-logo:</code> </td></tr></tbody></table>
 </dd>
+  
     <dt id="QQBot_TagHandling_NameNoPrefix"><code>NameNoPrefix = 3</code></dt>
-    <dd><p>转换为名称，但不包含提及前缀。</p>
+  <dd><p>转换为名称，但不包含提及前缀。</p>
+<p>例如：</p>
+<table><thead><tr><th class="term"> 原始值 </th><th class="description"> 转换结果 </th></tr></thead><tbody><tr><td class="term"> <code>(met)2810246202(met)</code> </td><td class="description"> <code>用户名</code> </td></tr><tr><td class="term"> <code>(chn)5017360261312802(chn)</code> </td><td class="description"> <code>频道名称</code> </td></tr><tr><td class="term"> <code>(rol)6790760(rol)</code> </td><td class="description"> <code>角色名称</code> </td></tr><tr><td class="term"> <code>(met)all(met)</code> </td><td class="description"> <code>全体成员</code> </td></tr><tr><td class="term"> <code>(met)here(met)</code> </td><td class="description"> <code>在线成员</code> </td></tr><tr><td class="term"> <code>(emj)kooknet-logo(emj)[1591057729615250/E8fy7hpRFU1jk1jk]</code> </td><td class="description"> <code>kooknet-logo</code> </td></tr></tbody></table>
 </dd>
+  
     <dt id="QQBot_TagHandling_Remove"><code>Remove = 1</code></dt>
-    <dd><p>移除标签。</p>
+  <dd><p>移除标签。</p>
+<p>例如：</p>
+<table><thead><tr><th class="term"> 原始值 </th><th class="description"> 转换结果 </th></tr></thead><tbody><tr><td class="term"> <code>(met)2810246202(met)</code> </td><td class="description"> <code></code> </td></tr><tr><td class="term"> <code>(chn)5017360261312802(chn)</code> </td><td class="description"> <code></code> </td></tr><tr><td class="term"> <code>(rol)6790760(rol)</code> </td><td class="description"> <code></code> </td></tr><tr><td class="term"> <code>(met)all(met)</code> </td><td class="description"> <code></code> </td></tr><tr><td class="term"> <code>(met)here(met)</code> </td><td class="description"> <code></code> </td></tr><tr><td class="term"> <code>(emj)kooknet-logo(emj)[1591057729615250/E8fy7hpRFU1jk1jk]</code> </td><td class="description"> <code></code> </td></tr></tbody></table>
 </dd>
+  
     <dt id="QQBot_TagHandling_Sanitize"><code>Sanitize = 4</code></dt>
-    <dd><p>使用 <code>U+200B</code> 零宽空格字符转义标签。</p>
+  <dd><p>使用 <code>U+200B</code> 零宽空格字符转义标签。</p>
+<p>例如：</p>
+<table><thead><tr><th class="term"> 原始值 </th><th class="description"> 转换结果 </th></tr></thead><tbody><tr><td class="term"> <code>(met)2810246202(met)</code> </td><td class="description"> <code>(met)[ZWSP]2810246202(met)</code> </td></tr><tr><td class="term"> <code>(chn)5017360261312802(chn)</code> </td><td class="description"> <code>(chn)[ZWSP]5017360261312802(chn)</code> </td></tr><tr><td class="term"> <code>(rol)6790760(rol)</code> </td><td class="description"> <code>(rol)[ZWSP]6790760(rol)</code> </td></tr><tr><td class="term"> <code>(met)all(met)</code> </td><td class="description"> <code>(met)[ZWSP]all(met)</code> </td></tr><tr><td class="term"> <code>(met)here(met)</code> </td><td class="description"> <code>(met)[ZWSP]here(met)</code> </td></tr><tr><td class="term"> <code>(emj)kooknet-logo(emj)[1591057729615250/E8fy7hpRFU1jk1jk]</code> </td><td class="description"> <code>(emj)[ZWSP]kooknet-logo(emj)[[ZWSP]1591057729615250/E8fy7hpRFU1jk1jk]</code> </td></tr></tbody></table>
+其中，<code>[ZWSP]</code> 代表 <code>U+200B</code> 零宽空格字符。
 </dd>
+  
   </dl>
 
 

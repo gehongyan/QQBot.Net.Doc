@@ -983,7 +983,8 @@ Class Format  <a class="header-action link-secondary" title="View source" href="
 
 
   <h4 class="section" id="QQBot_Format_Sanitize_System_String_System_String____remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>如果未指定要转移的字符，则将使用默认的转义字符列表。默认的待转义字符包括：<br><code>&lt;/code&gt;、<code>*</code>、<code>~</code>、<code>`</code>、<code>:</code>、<code>-</code>、<code>]</code>、<code>)</code>、<code>&gt;</code>、<code>#</code>。
+  <div class="markdown level1 remarks"><p>如果未指定要转移的字符，则将使用默认的转义字符列表。默认的待转义字符包括：<br>
+<code>&lt;/code&gt;、<code>*</code>、<code>~</code>、<code>`</code>、<code>:</code>、<code>-</code>、<code>]</code>、<code>)</code>、<code>&gt;</code>、<code>#</code>。
 此方法会在每个待转义字符前添加一个零宽空格字符（U+200B）。此操作会使内嵌格式提及失效。 <br>
 例如，用户发送用户提及 <code>@someone</code>，网关下传 <code>&lt;@!4937680016579989979&gt;</code>，经过此方法转义的结果为
 <code>&lt;@!4937680016579989979\u200B&gt;</code>，发送给用户后，用户将看到 <code>&lt;@!4937680016579989979&gt;</code>。 <br>

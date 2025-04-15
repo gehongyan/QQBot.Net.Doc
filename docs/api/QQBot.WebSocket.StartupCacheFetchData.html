@@ -119,23 +119,42 @@ public enum StartupCacheFetchData</code></pre>
 </h2>
   <dl class="parameters">
     <dt id="QQBot_WebSocket_StartupCacheFetchData_All"><code>All = AllPublicDomain | GuildUsers</code></dt>
-    <dd><p>加载所有基础数据。</p>
+  
+  <dd><p>加载所有基础数据。</p>
 </dd>
     <dt id="QQBot_WebSocket_StartupCacheFetchData_AllPublicDomain"><code>AllPublicDomain = Roles | Channels</code></dt>
-    <dd><p>加载所有公域机器人可以加载的数据。</p>
+  
+  <dd><p>加载所有公域机器人可以加载的数据。</p>
 </dd>
     <dt id="QQBot_WebSocket_StartupCacheFetchData_Channels"><code>Channels = 2</code></dt>
-    <dd><p>加载子频道列表。</p>
+  <dd><p>加载子频道列表。</p>
+<p>子频道列表会在 Bot 启动时优先下载，若 <a class="xref" href="QQBot.WebSocket.QQBotSocketConfig.html#QQBot_WebSocket_QQBotSocketConfig_StartupCacheFetchMode">StartupCacheFetchMode</a>
+设置为 <a class="xref" href="QQBot.WebSocket.StartupCacheFetchMode.html#QQBot_WebSocket_StartupCacheFetchMode_Synchronous">Synchronous</a>，
+<a class="xref" href="QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_Ready">Ready</a> 事件引发时子频道列表应已经下载完成。
+调用 <a class="xref" href="QQBot.WebSocket.SocketGuild.html#QQBot_WebSocket_SocketGuild_UpdateAsync_QQBot_RequestOptions_">UpdateAsync(RequestOptions?)</a> 时也会更新角色列表。</p>
 </dd>
+  
     <dt id="QQBot_WebSocket_StartupCacheFetchData_GuildUsers"><code>GuildUsers = 4</code></dt>
-    <dd><p>加载频道用户列表。</p>
+  <dd><p>加载频道用户列表。</p>
+<p>子频道列表会在 Bot 启动时推迟下载，即便 <a class="xref" href="QQBot.WebSocket.QQBotSocketConfig.html#QQBot_WebSocket_QQBotSocketConfig_StartupCacheFetchMode">StartupCacheFetchMode</a>
+设置为 <a class="xref" href="QQBot.WebSocket.StartupCacheFetchMode.html#QQBot_WebSocket_StartupCacheFetchMode_Synchronous">Synchronous</a>，
+<a class="xref" href="QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_Ready">Ready</a> 事件引发时也无法保证频道用户列表下载完成。
+调用 <a class="xref" href="QQBot.WebSocket.SocketGuild.html#QQBot_WebSocket_SocketGuild_UpdateAsync_QQBot_RequestOptions_">UpdateAsync(RequestOptions?)</a> 时不会更新频道用户列表。
+要获取频道用户列表，需要调用 <a class="xref" href="QQBot.WebSocket.SocketGuild.html#QQBot_WebSocket_SocketGuild_DownloadUsersAsync_QQBot_RequestOptions_">DownloadUsersAsync(RequestOptions?)</a>。</p>
 </dd>
+  
     <dt id="QQBot_WebSocket_StartupCacheFetchData_None"><code>None = 0</code></dt>
-    <dd><p>不在启动时加载除频道列表外的其它数据。</p>
+  
+  <dd><p>不在启动时加载除频道列表外的其它数据。</p>
 </dd>
     <dt id="QQBot_WebSocket_StartupCacheFetchData_Roles"><code>Roles = 1</code></dt>
-    <dd><p>加载频道角色列表。</p>
+  <dd><p>加载频道角色列表。</p>
+<p>角色列表会在 Bot 启动时优先下载，若 <a class="xref" href="QQBot.WebSocket.QQBotSocketConfig.html#QQBot_WebSocket_QQBotSocketConfig_StartupCacheFetchMode">StartupCacheFetchMode</a>
+设置为 <a class="xref" href="QQBot.WebSocket.StartupCacheFetchMode.html#QQBot_WebSocket_StartupCacheFetchMode_Synchronous">Synchronous</a>，
+<a class="xref" href="QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_Ready">Ready</a> 事件引发时角色列表应已经下载完成。
+调用 <a class="xref" href="QQBot.WebSocket.SocketGuild.html#QQBot_WebSocket_SocketGuild_UpdateAsync_QQBot_RequestOptions_">UpdateAsync(RequestOptions?)</a> 时也会更新角色列表。</p>
 </dd>
+  
   </dl>
 
 
