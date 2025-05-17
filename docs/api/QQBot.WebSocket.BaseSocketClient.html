@@ -170,6 +170,9 @@ Class BaseSocketClient  <a class="header-action link-secondary" title="View sour
       <a class="xref" href="QQBot.Rest.BaseQQBotClient.html#QQBot_Rest_BaseQQBotClient_GetBotGatewayAsync_QQBot_RequestOptions_">BaseQQBotClient.GetBotGatewayAsync(RequestOptions)</a>
     </div>
     <div>
+      <a class="xref" href="QQBot.Rest.BaseQQBotClient.html#QQBot_Rest_BaseQQBotClient_GetBotShardedGatewayAsync_QQBot_RequestOptions_">BaseQQBotClient.GetBotShardedGatewayAsync(RequestOptions)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
     <div>
@@ -611,9 +614,645 @@ Class BaseSocketClient  <a class="header-action link-secondary" title="View sour
 
 
 
+  <h3 id="QQBot_WebSocket_BaseSocketClient_ChannelCreated" data-uid="QQBot.WebSocket.BaseSocketClient.ChannelCreated">
+  ChannelCreated
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当子频道被创建时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketGuildChannel, Task&gt; ChannelCreated</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketGuildChannel.html">SocketGuildChannel</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_ChannelCreated_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li> <a class="xref" href="QQBot.WebSocket.SocketGuildChannel.html">SocketGuildChannel</a> 参数是新创建的子频道。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_ChannelDestroyed" data-uid="QQBot.WebSocket.BaseSocketClient.ChannelDestroyed">
+  ChannelDestroyed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当子频道被删除时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketGuildChannel, Cacheable&lt;SocketGuildMember, ulong&gt;, Task&gt; ChannelDestroyed</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketGuildChannel.html">SocketGuildChannel</a>, <a class="xref" href="QQBot.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketGuildMember.html">SocketGuildMember</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_ChannelDestroyed_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li> <a class="xref" href="QQBot.WebSocket.SocketGuildChannel.html">SocketGuildChannel</a> 参数是被删除的子频道。 </li><li>
+    <a class="xref" href="QQBot.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是删除此子频道的用户。如果缓存中存在此用户实体，那么该结构内包含该
+    <a class="xref" href="QQBot.WebSocket.SocketGuildMember.html">SocketGuildMember</a> 频道用户；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a> 用户 ID，以供按需下载实体。
+</li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_ChannelUpdated" data-uid="QQBot.WebSocket.BaseSocketClient.ChannelUpdated">
+  ChannelUpdated
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当子频道信息被更新时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketGuildChannel, SocketGuildChannel, Cacheable&lt;SocketGuildMember, ulong&gt;, Task&gt; ChannelUpdated</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-4">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketGuildChannel.html">SocketGuildChannel</a>, <a class="xref" href="QQBot.WebSocket.SocketGuildChannel.html">SocketGuildChannel</a>, <a class="xref" href="QQBot.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketGuildMember.html">SocketGuildMember</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_ChannelUpdated_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li> <a class="xref" href="QQBot.WebSocket.SocketGuildChannel.html">SocketGuildChannel</a> 参数是更新前的子频道。 </li><li> <a class="xref" href="QQBot.WebSocket.SocketGuildChannel.html">SocketGuildChannel</a> 参数是更新后的子频道。 </li><li>
+    <a class="xref" href="QQBot.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是更新此子频道的用户。如果缓存中存在此用户实体，那么该结构内包含该
+    <a class="xref" href="QQBot.WebSocket.SocketGuildMember.html">SocketGuildMember</a> 频道用户；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a> 用户 ID，以供按需下载实体。
+</li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_ForumPostCreated" data-uid="QQBot.WebSocket.BaseSocketClient.ForumPostCreated">
+  ForumPostCreated
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L321"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当论坛主题评论被创建时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketPost, Task&gt; ForumPostCreated</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketPost.html">SocketPost</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_ForumPostCreated_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li> <a class="xref" href="QQBot.WebSocket.SocketPost.html">SocketPost</a> 参数是新创建的论坛主题评论。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_ForumPostDeleted" data-uid="QQBot.WebSocket.BaseSocketClient.ForumPostDeleted">
+  ForumPostDeleted
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L338"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当论坛主题评论被删除时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketPost, Task&gt; ForumPostDeleted</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketPost.html">SocketPost</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_ForumPostDeleted_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li> <a class="xref" href="QQBot.WebSocket.SocketPost.html">SocketPost</a> 参数是被删除的论坛主题评论。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_ForumReplyCreated" data-uid="QQBot.WebSocket.BaseSocketClient.ForumReplyCreated">
+  ForumReplyCreated
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L355"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当论坛主题评论回复被创建时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketReply, Task&gt; ForumReplyCreated</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketReply.html">SocketReply</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_ForumReplyCreated_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li> <a class="xref" href="QQBot.WebSocket.SocketReply.html">SocketReply</a> 参数是新创建的论坛主题评论回复。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_ForumReplyDeleted" data-uid="QQBot.WebSocket.BaseSocketClient.ForumReplyDeleted">
+  ForumReplyDeleted
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L372"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当论坛主题评论回复被删除时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketReply, Task&gt; ForumReplyDeleted</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketReply.html">SocketReply</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_ForumReplyDeleted_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li> <a class="xref" href="QQBot.WebSocket.SocketReply.html">SocketReply</a> 参数是被删除的论坛主题评论回复。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_ForumThreadCreated" data-uid="QQBot.WebSocket.BaseSocketClient.ForumThreadCreated">
+  ForumThreadCreated
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L270"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当论坛主题被创建时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketThread, Task&gt; ForumThreadCreated</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketThread.html">SocketThread</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_ForumThreadCreated_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li> <a class="xref" href="QQBot.WebSocket.SocketThread.html">SocketThread</a> 参数是新创建的论坛主题。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_ForumThreadDeleted" data-uid="QQBot.WebSocket.BaseSocketClient.ForumThreadDeleted">
+  ForumThreadDeleted
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L304"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当论坛主题被删除时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketThread, Task&gt; ForumThreadDeleted</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketThread.html">SocketThread</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_ForumThreadDeleted_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li> <a class="xref" href="QQBot.WebSocket.SocketThread.html">SocketThread</a> 参数是被删除的论坛主题。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_ForumThreadUpdated" data-uid="QQBot.WebSocket.BaseSocketClient.ForumThreadUpdated">
+  ForumThreadUpdated
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L287"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当论坛主题被修改时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketThread, Task&gt; ForumThreadUpdated</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketThread.html">SocketThread</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_ForumThreadUpdated_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li> <a class="xref" href="QQBot.WebSocket.SocketThread.html">SocketThread</a> 参数是修改后的论坛主题。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_GroupActiveMessageAllowed" data-uid="QQBot.WebSocket.BaseSocketClient.GroupActiveMessageAllowed">
+  GroupActiveMessageAllowed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L445"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当群组接受当前用户的主动消息时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketGroupChannel, Cacheable&lt;SocketUser, string&gt;, Task&gt; GroupActiveMessageAllowed</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketGroupChannel.html">SocketGroupChannel</a>, <a class="xref" href="QQBot.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketUser.html">SocketUser</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_GroupActiveMessageAllowed_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li> <a class="xref" href="QQBot.WebSocket.SocketGroupChannel.html">SocketGroupChannel</a> 参数是接受当前用户主动消息的群组。 </li><li>
+    <a class="xref" href="QQBot.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是添加当前用户的群组的用户。如果缓存中存在此用户实体，那么该结构内包含该
+    <a class="xref" href="QQBot.WebSocket.SocketUser.html">SocketUser</a> 群组用户；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> 用户 ID。
+    如果网关没有提供实体的详细信息，由于目前无法通过 API 获取此用户实体，因此
+    <a class="xref" href="QQBot.Cacheable-2.html#QQBot_Cacheable_2_GetOrDownloadAsync">GetOrDownloadAsync()</a> 总会返回 <code>null</code>。
+</li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_GroupActiveMessageRejected" data-uid="QQBot.WebSocket.BaseSocketClient.GroupActiveMessageRejected">
+  GroupActiveMessageRejected
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L468"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当群组接受当前用户的主动消息时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketGroupChannel, Cacheable&lt;SocketUser, string&gt;, Task&gt; GroupActiveMessageRejected</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketGroupChannel.html">SocketGroupChannel</a>, <a class="xref" href="QQBot.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketUser.html">SocketUser</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_GroupActiveMessageRejected_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li> <a class="xref" href="QQBot.WebSocket.SocketGroupChannel.html">SocketGroupChannel</a> 参数是接受当前用户主动消息的群组。 </li><li>
+    <a class="xref" href="QQBot.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是添加当前用户的群组的用户。如果缓存中存在此用户实体，那么该结构内包含该
+    <a class="xref" href="QQBot.WebSocket.SocketUser.html">SocketUser</a> 群组用户；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> 用户 ID。
+    如果网关没有提供实体的详细信息，由于目前无法通过 API 获取此用户实体，因此
+    <a class="xref" href="QQBot.Cacheable-2.html#QQBot_Cacheable_2_GetOrDownloadAsync">GetOrDownloadAsync()</a> 总会返回 <code>null</code>。
+</li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_GuildAvailable" data-uid="QQBot.WebSocket.BaseSocketClient.GuildAvailable">
+  GuildAvailable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当频道状态变更为可用时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketGuild, Task&gt; GuildAvailable</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketGuild.html">SocketGuild</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_GuildAvailable_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>频道状态变更为可用，表示此频道实体已完整缓存基础数据，并与网关同步。 <br>
+缓存基础数据包括频道基本信息、子频道、角色、子频道权限重写、当前用户在频道内的昵称。
+<br>
+事件参数：</p>
+<ol><li> <a class="xref" href="QQBot.WebSocket.SocketGuild.html">SocketGuild</a> 参数是频道状态变更为可用的频道。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_GuildMemberUpdated" data-uid="QQBot.WebSocket.BaseSocketClient.GuildMemberUpdated">
+  GuildMemberUpdated
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当频道用户信息被更新时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;Cacheable&lt;SocketGuildMember, ulong&gt;, SocketGuildMember, Cacheable&lt;SocketGuildMember, ulong&gt;, Task&gt; GuildMemberUpdated</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-4">Func</a>&lt;<a class="xref" href="QQBot.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketGuildMember.html">SocketGuildMember</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;, <a class="xref" href="QQBot.WebSocket.SocketGuildMember.html">SocketGuildMember</a>, <a class="xref" href="QQBot.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketGuildMember.html">SocketGuildMember</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_GuildMemberUpdated_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li>
+    <a class="xref" href="QQBot.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是可缓存用户被更新前的状态。如果缓存中存在此用户实体，那么该结构内包含该
+    <a class="xref" href="QQBot.WebSocket.SocketUser.html">SocketUser</a> 用户被更新前的状态；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a> 用户 ID。
+    <br>
+    <div class="IMPORTANT"><h5>important</h5><p>
+        用户被更新前的状态无法通过 <a class="xref" href="QQBot.Cacheable-2.html#QQBot_Cacheable_2_DownloadAsync">DownloadAsync()</a> 方法下载。
+    </p></div>
+</li><li> <a class="xref" href="QQBot.WebSocket.SocketGuildUser.html">SocketGuildUser</a> 参数是更新后的频道用户。 </li><li>
+    <a class="xref" href="QQBot.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是进行此操作的子频道的用户。如果缓存中存在此用户实体，那么该结构内包含该
+    <a class="xref" href="QQBot.WebSocket.SocketGuildMember.html">SocketGuildMember</a> 频道用户；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a> 用户 ID，以供按需下载实体。
+</li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_GuildUnavailable" data-uid="QQBot.WebSocket.BaseSocketClient.GuildUnavailable">
+  GuildUnavailable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当频道状态变更为不可用时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketGuild, Task&gt; GuildUnavailable</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketGuild.html">SocketGuild</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_GuildUnavailable_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>频道状态变更为不可用，表示此频道实体丢失与网关的同步，所缓存的数据不可靠，这通常发生在频道被删除、当前用户离开频道、网关连接断开等情况。
+<br>
+事件参数：</p>
+<ol><li> <a class="xref" href="QQBot.WebSocket.SocketGuild.html">SocketGuild</a> 参数是频道状态变更为不可用的频道。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_JoinedGroup" data-uid="QQBot.WebSocket.BaseSocketClient.JoinedGroup">
+  JoinedGroup
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L399"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当群组添加当前用户时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketGroupChannel, Cacheable&lt;SocketUser, string&gt;, Task&gt; JoinedGroup</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketGroupChannel.html">SocketGroupChannel</a>, <a class="xref" href="QQBot.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketUser.html">SocketUser</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_JoinedGroup_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li> <a class="xref" href="QQBot.WebSocket.SocketGroupChannel.html">SocketGroupChannel</a> 参数是添加当前用户的群组。 </li><li>
+    <a class="xref" href="QQBot.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是添加当前用户的群组的用户。如果缓存中存在此用户实体，那么该结构内包含该
+    <a class="xref" href="QQBot.WebSocket.SocketUser.html">SocketUser</a> 群组用户；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> 用户 ID。
+    如果网关没有提供实体的详细信息，由于目前无法通过 API 获取此用户实体，因此
+    <a class="xref" href="QQBot.Cacheable-2.html#QQBot_Cacheable_2_GetOrDownloadAsync">GetOrDownloadAsync()</a> 总会返回 <code>null</code>。
+</li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_LeftGroup" data-uid="QQBot.WebSocket.BaseSocketClient.LeftGroup">
+  LeftGroup
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L422"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当群组移除当前用户时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketGroupChannel, Cacheable&lt;SocketUser, string&gt;, Task&gt; LeftGroup</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketGroupChannel.html">SocketGroupChannel</a>, <a class="xref" href="QQBot.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketUser.html">SocketUser</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_LeftGroup_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li> <a class="xref" href="QQBot.WebSocket.SocketGroupChannel.html">SocketGroupChannel</a> 参数是移除当前用户的群组。 </li><li>
+    <a class="xref" href="QQBot.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是添加当前用户的群组的用户。如果缓存中存在此用户实体，那么该结构内包含该
+    <a class="xref" href="QQBot.WebSocket.SocketUser.html">SocketUser</a> 群组用户；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> 用户 ID。
+    如果网关没有提供实体的详细信息，由于目前无法通过 API 获取此用户实体，因此
+    <a class="xref" href="QQBot.Cacheable-2.html#QQBot_Cacheable_2_GetOrDownloadAsync">GetOrDownloadAsync()</a> 总会返回 <code>null</code>。
+</li></ol>
+</div>
+
+
+
+
+
   <h3 id="QQBot_WebSocket_BaseSocketClient_MessageReceived" data-uid="QQBot.WebSocket.BaseSocketClient.MessageReceived">
   MessageReceived
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L203"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>当接收到新消息时引发。</p>
@@ -640,6 +1279,302 @@ Class BaseSocketClient  <a class="header-action link-secondary" title="View sour
   <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_MessageReceived_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>事件参数：</p>
 <ol><li> <a class="xref" href="QQBot.WebSocket.SocketMessage.html">SocketMessage</a> 参数是新接收到的消息。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_UserActiveMessageAllowed" data-uid="QQBot.WebSocket.BaseSocketClient.UserActiveMessageAllowed">
+  UserActiveMessageAllowed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L523"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当用户接受当前用户的主动消息时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketUserChannel, Task&gt; UserActiveMessageAllowed</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketUserChannel.html">SocketUserChannel</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_UserActiveMessageAllowed_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li> <a class="xref" href="QQBot.WebSocket.SocketUserChannel.html">SocketUserChannel</a> 参数是接受当前用户主动消息的用户。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_UserActiveMessageRejected" data-uid="QQBot.WebSocket.BaseSocketClient.UserActiveMessageRejected">
+  UserActiveMessageRejected
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L540"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当用户接受当前用户的主动消息时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketUserChannel, Task&gt; UserActiveMessageRejected</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketUserChannel.html">SocketUserChannel</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_UserActiveMessageRejected_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li> <a class="xref" href="QQBot.WebSocket.SocketUserChannel.html">SocketUserChannel</a> 参数是接受当前用户主动消息的用户。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_UserAdded" data-uid="QQBot.WebSocket.BaseSocketClient.UserAdded">
+  UserAdded
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L489"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当用户添加当前用户时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketUserChannel, Task&gt; UserAdded</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketUserChannel.html">SocketUserChannel</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_UserAdded_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li> <a class="xref" href="QQBot.WebSocket.SocketUserChannel.html">SocketUserChannel</a> 参数是添加当前用户的用户频道。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_UserConnected" data-uid="QQBot.WebSocket.BaseSocketClient.UserConnected">
+  UserConnected
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L228"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当频道用户连接到语音子频道或直播子频道时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;Cacheable&lt;SocketGuildMember, ulong&gt;, SocketGuildChannel, Task&gt; UserConnected</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="QQBot.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketGuildMember.html">SocketGuildMember</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;, <a class="xref" href="QQBot.WebSocket.SocketGuildChannel.html">SocketGuildChannel</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_UserConnected_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li>
+    <a class="xref" href="QQBot.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是连接到语音子频道或直播子频道的可缓存频道用户。如果缓存中存在此频道用户实体，那么该结构内包含该
+    <a class="xref" href="QQBot.WebSocket.SocketGuildMember.html">SocketGuildMember</a> 频道用户；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a> 用户 ID，以供按需下载实体。
+</li><li> <a class="xref" href="QQBot.WebSocket.SocketGuildChannel.html">SocketGuildChannel</a> 参数是用户连接到的语音子频道或直播子频道。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_UserDisconnected" data-uid="QQBot.WebSocket.BaseSocketClient.UserDisconnected">
+  UserDisconnected
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L249"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当频道用户从语音子频道或直播子频道断开连接时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;Cacheable&lt;SocketGuildMember, ulong&gt;, SocketGuildChannel, Task&gt; UserDisconnected</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="QQBot.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketGuildMember.html">SocketGuildMember</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;, <a class="xref" href="QQBot.WebSocket.SocketGuildChannel.html">SocketGuildChannel</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_UserDisconnected_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li>
+    <a class="xref" href="QQBot.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是从语音子频道或直播子频道断开连接的可缓存频道用户。如果缓存中存在此频道用户实体，那么该结构内包含该
+    <a class="xref" href="QQBot.WebSocket.SocketGuildMember.html">SocketGuildMember</a> 频道用户；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a> 用户 ID，以供按需下载实体。
+</li><li> <a class="xref" href="QQBot.WebSocket.SocketGuildChannel.html">SocketGuildChannel</a> 参数是用户断开连接的语音子频道或直播子频道。 </li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_UserJoined" data-uid="QQBot.WebSocket.BaseSocketClient.UserJoined">
+  UserJoined
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当用户加入频道时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketGuildMember, Cacheable&lt;SocketGuildMember, ulong&gt;, Task&gt; UserJoined</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketGuildMember.html">SocketGuildMember</a>, <a class="xref" href="QQBot.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketGuildMember.html">SocketGuildMember</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_UserJoined_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li> <a class="xref" href="QQBot.WebSocket.SocketGuildMember.html">SocketGuildMember</a> 参数是加入频道的频道用户。 </li><li>
+    <a class="xref" href="QQBot.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是进行此操作的子频道的用户。如果缓存中存在此用户实体，那么该结构内包含该
+    <a class="xref" href="QQBot.WebSocket.SocketGuildMember.html">SocketGuildMember</a> 频道用户；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a> 用户 ID，以供按需下载实体。
+</li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_UserLeft" data-uid="QQBot.WebSocket.BaseSocketClient.UserLeft">
+  UserLeft
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当用户离开频道时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketGuild, SocketGuildUser, Cacheable&lt;SocketGuildMember, ulong&gt;, Task&gt; UserLeft</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-4">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketGuild.html">SocketGuild</a>, <a class="xref" href="QQBot.WebSocket.SocketGuildUser.html">SocketGuildUser</a>, <a class="xref" href="QQBot.Cacheable-2.html">Cacheable</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketGuildMember.html">SocketGuildMember</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_UserLeft_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><div class="WARNING"><h5>warning</h5><p>
+    有消息称，那么此事件不会在其成员数量超过 2000 人的频道内被触发。
+</p></div>
+<br>
+事件参数：
+<ol><li> <a class="xref" href="QQBot.WebSocket.SocketGuild.html">SocketGuild</a> 参数是用户离开的频道。 </li><li> <a class="xref" href="QQBot.WebSocket.SocketGuildUser.html">SocketGuildUser</a> 参数是离开频道的频道用户。 </li><li>
+    <a class="xref" href="QQBot.Cacheable-2.html">Cacheable&lt;TEntity, TId&gt;</a> 参数是进行此操作的子频道的用户。如果缓存中存在此用户实体，那么该结构内包含该
+    <a class="xref" href="QQBot.WebSocket.SocketGuildMember.html">SocketGuildMember</a> 频道用户；否则，包含 <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a> 用户 ID，以供按需下载实体。
+</li></ol>
+</div>
+
+
+
+
+
+  <h3 id="QQBot_WebSocket_BaseSocketClient_UserRemoved" data-uid="QQBot.WebSocket.BaseSocketClient.UserRemoved">
+  UserRemoved
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.WebSocket/BaseSocketClient.Event.cs/#L506"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>当用户移除当前用户时引发。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;SocketUserChannel, Task&gt; UserRemoved</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="QQBot.WebSocket.SocketUserChannel.html">SocketUserChannel</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_BaseSocketClient_UserRemoved_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>事件参数：</p>
+<ol><li> <a class="xref" href="QQBot.WebSocket.SocketUserChannel.html">SocketUserChannel</a> 参数是移除当前用户的用户频道。 </li></ol>
 </div>
 
 

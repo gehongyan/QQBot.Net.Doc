@@ -197,6 +197,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.BotShardedGateway.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.BotShardedGateway.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.BotShardedGateway",
+      "Summary": "<p sourcefile=\"api/QQBot.BotShardedGateway.yml\" sourcestartlinenumber=\"1\">Stores the gateway information related to the current bot including sharding information.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/QQBot.ButtonAction.yml",
       "output": {
         ".html": {
@@ -4297,11 +4311,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "api/toc.json"
-        },
         ".html": {
           "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -4320,11 +4334,11 @@
       "type": "Toc",
       "source_relative_path": "changelog/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "changelog/toc.json"
-        },
         ".html": {
           "relative_path": "changelog/toc.html"
+        },
+        ".json": {
+          "relative_path": "changelog/toc.json"
         }
       },
       "version": ""
@@ -4353,11 +4367,11 @@
       "type": "Toc",
       "source_relative_path": "demos/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "demos/toc.json"
-        },
         ".html": {
           "relative_path": "demos/toc.html"
+        },
+        ".json": {
+          "relative_path": "demos/toc.json"
         }
       },
       "version": ""
@@ -4376,11 +4390,11 @@
       "type": "Toc",
       "source_relative_path": "guides/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "guides/toc.json"
-        },
         ".html": {
           "relative_path": "guides/toc.html"
+        },
+        ".json": {
+          "relative_path": "guides/toc.json"
         }
       },
       "version": ""
@@ -4399,11 +4413,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
         ".html": {
           "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""

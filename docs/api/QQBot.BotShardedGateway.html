@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class BotGateway | QQBot.Net 文档 </title>
+      <title>Class BotShardedGateway | QQBot.Net 文档 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class BotGateway | QQBot.Net 文档 ">
+      <meta name="title" content="Class BotShardedGateway | QQBot.Net 文档 ">
       
-      <meta name="description" content="Stores the gateway information related to the current bot.">
+      <meta name="description" content="Stores the gateway information related to the current bot including sharding information.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/gehongyan/QQBot.Net/new/master/apiSpec/new?filename=QQBot_BotGateway.md&amp;value=---%0Auid%3A%20QQBot.BotGateway%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/QQBot.Net/new/master/apiSpec/new?filename=QQBot_BotShardedGateway.md&amp;value=---%0Auid%3A%20QQBot.BotShardedGateway%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="QQBot.BotGateway">
+        <article data-uid="QQBot.BotShardedGateway">
 
 
 
-  <h1 id="QQBot_BotGateway" data-uid="QQBot.BotGateway" class="text-break">
-Class BotGateway  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Gateway/BotGateway.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <h1 id="QQBot_BotShardedGateway" data-uid="QQBot.BotShardedGateway" class="text-break">
+Class BotShardedGateway  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Gateway/BotGateway.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,12 @@ Class BotGateway  <a class="header-action link-secondary" title="View source" hr
   <dl><dt>Assembly</dt><dd>QQBot.Net.Core.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Stores the gateway information related to the current bot.</p>
+  <div class="markdown summary"><p>Stores the gateway information related to the current bot including sharding information.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BotGateway</code></pre>
+    <pre><code class="lang-csharp hljs">public class BotShardedGateway : BotGateway</code></pre>
   </div>
 
 
@@ -112,21 +112,19 @@ Class BotGateway  <a class="header-action link-secondary" title="View source" hr
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">BotGateway</span></div>
+      <div><a class="xref" href="QQBot.BotGateway.html">BotGateway</a></div>
+      <div><span class="xref">BotShardedGateway</span></div>
     </dd>
   </dl>
 
 
-  <dl class="typelist derived">
-    <dt>Derived</dt>
-    <dd>
-      <div><a class="xref" href="QQBot.BotShardedGateway.html">BotShardedGateway</a></div>
-    </dd>
-  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="QQBot.BotGateway.html#QQBot_BotGateway_Url">BotGateway.Url</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -159,19 +157,20 @@ Class BotGateway  <a class="header-action link-secondary" title="View source" hr
 </h2>
 
 
-  <a id="QQBot_BotGateway_Url_" data-uid="QQBot.BotGateway.Url*"></a>
+  <a id="QQBot_BotShardedGateway_SessionStartLimit_" data-uid="QQBot.BotShardedGateway.SessionStartLimit*"></a>
 
-  <h3 id="QQBot_BotGateway_Url" data-uid="QQBot.BotGateway.Url">
-  Url
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Gateway/BotGateway.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  <h3 id="QQBot_BotShardedGateway_SessionStartLimit" data-uid="QQBot.BotShardedGateway.SessionStartLimit">
+  SessionStartLimit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Gateway/BotGateway.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the WSS URL that can be used for connecting to the gateway.</p>
+  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="QQBot.BotShardedGateway.html#QQBot_BotShardedGateway_SessionStartLimit">SessionStartLimit</a> that contains the information
+about the current session start limit.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Url { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public SessionStartLimit SessionStartLimit { get; }</code></pre>
   </div>
 
 
@@ -180,7 +179,39 @@ Class BotGateway  <a class="header-action link-secondary" title="View source" hr
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dt><a class="xref" href="QQBot.SessionStartLimit.html">SessionStartLimit</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_BotShardedGateway_Shards_" data-uid="QQBot.BotShardedGateway.Shards*"></a>
+
+  <h3 id="QQBot_BotShardedGateway_Shards" data-uid="QQBot.BotShardedGateway.Shards">
+  Shards
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Gateway/BotGateway.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the recommended number of shards to use when connecting.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Shards { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
   </dl>
 
@@ -195,7 +226,7 @@ Class BotGateway  <a class="header-action link-secondary" title="View source" hr
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Gateway/BotGateway.cs/#L30" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/QQBot.Net/blob/doc/src/QQBot.Net.Core/Entities/Gateway/BotGateway.cs/#L6" class="edit-link">Edit this page</a>
         </div>
 
 

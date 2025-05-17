@@ -1100,32 +1100,6 @@ references:
   commentId: T:QQBot.BotGateway
   fullName: QQBot.BotGateway
   nameWithType: BotGateway
-- uid: QQBot.BotGateway.SessionStartLimit
-  name: SessionStartLimit
-  href: api/QQBot.BotGateway.html#QQBot_BotGateway_SessionStartLimit
-  commentId: P:QQBot.BotGateway.SessionStartLimit
-  fullName: QQBot.BotGateway.SessionStartLimit
-  nameWithType: BotGateway.SessionStartLimit
-- uid: QQBot.BotGateway.SessionStartLimit*
-  name: SessionStartLimit
-  href: api/QQBot.BotGateway.html#QQBot_BotGateway_SessionStartLimit_
-  commentId: Overload:QQBot.BotGateway.SessionStartLimit
-  isSpec: "True"
-  fullName: QQBot.BotGateway.SessionStartLimit
-  nameWithType: BotGateway.SessionStartLimit
-- uid: QQBot.BotGateway.Shards
-  name: Shards
-  href: api/QQBot.BotGateway.html#QQBot_BotGateway_Shards
-  commentId: P:QQBot.BotGateway.Shards
-  fullName: QQBot.BotGateway.Shards
-  nameWithType: BotGateway.Shards
-- uid: QQBot.BotGateway.Shards*
-  name: Shards
-  href: api/QQBot.BotGateway.html#QQBot_BotGateway_Shards_
-  commentId: Overload:QQBot.BotGateway.Shards
-  isSpec: "True"
-  fullName: QQBot.BotGateway.Shards
-  nameWithType: BotGateway.Shards
 - uid: QQBot.BotGateway.Url
   name: Url
   href: api/QQBot.BotGateway.html#QQBot_BotGateway_Url
@@ -1139,6 +1113,38 @@ references:
   isSpec: "True"
   fullName: QQBot.BotGateway.Url
   nameWithType: BotGateway.Url
+- uid: QQBot.BotShardedGateway
+  name: BotShardedGateway
+  href: api/QQBot.BotShardedGateway.html
+  commentId: T:QQBot.BotShardedGateway
+  fullName: QQBot.BotShardedGateway
+  nameWithType: BotShardedGateway
+- uid: QQBot.BotShardedGateway.SessionStartLimit
+  name: SessionStartLimit
+  href: api/QQBot.BotShardedGateway.html#QQBot_BotShardedGateway_SessionStartLimit
+  commentId: P:QQBot.BotShardedGateway.SessionStartLimit
+  fullName: QQBot.BotShardedGateway.SessionStartLimit
+  nameWithType: BotShardedGateway.SessionStartLimit
+- uid: QQBot.BotShardedGateway.SessionStartLimit*
+  name: SessionStartLimit
+  href: api/QQBot.BotShardedGateway.html#QQBot_BotShardedGateway_SessionStartLimit_
+  commentId: Overload:QQBot.BotShardedGateway.SessionStartLimit
+  isSpec: "True"
+  fullName: QQBot.BotShardedGateway.SessionStartLimit
+  nameWithType: BotShardedGateway.SessionStartLimit
+- uid: QQBot.BotShardedGateway.Shards
+  name: Shards
+  href: api/QQBot.BotShardedGateway.html#QQBot_BotShardedGateway_Shards
+  commentId: P:QQBot.BotShardedGateway.Shards
+  fullName: QQBot.BotShardedGateway.Shards
+  nameWithType: BotShardedGateway.Shards
+- uid: QQBot.BotShardedGateway.Shards*
+  name: Shards
+  href: api/QQBot.BotShardedGateway.html#QQBot_BotShardedGateway_Shards_
+  commentId: Overload:QQBot.BotShardedGateway.Shards
+  isSpec: "True"
+  fullName: QQBot.BotShardedGateway.Shards
+  nameWithType: BotShardedGateway.Shards
 - uid: QQBot.ButtonAction
   name: ButtonAction
   href: api/QQBot.ButtonAction.html
@@ -12004,6 +12010,22 @@ references:
   isSpec: "True"
   fullName: QQBot.IQQBotClient.GetBotGatewayAsync
   nameWithType: IQQBotClient.GetBotGatewayAsync
+- uid: QQBot.IQQBotClient.GetBotShardedGatewayAsync(QQBot.RequestOptions)
+  name: GetBotShardedGatewayAsync(RequestOptions?)
+  href: api/QQBot.IQQBotClient.html#QQBot_IQQBotClient_GetBotShardedGatewayAsync_QQBot_RequestOptions_
+  commentId: M:QQBot.IQQBotClient.GetBotShardedGatewayAsync(QQBot.RequestOptions)
+  name.vb: GetBotShardedGatewayAsync(RequestOptions)
+  fullName: QQBot.IQQBotClient.GetBotShardedGatewayAsync(QQBot.RequestOptions?)
+  fullName.vb: QQBot.IQQBotClient.GetBotShardedGatewayAsync(QQBot.RequestOptions)
+  nameWithType: IQQBotClient.GetBotShardedGatewayAsync(RequestOptions?)
+  nameWithType.vb: IQQBotClient.GetBotShardedGatewayAsync(RequestOptions)
+- uid: QQBot.IQQBotClient.GetBotShardedGatewayAsync*
+  name: GetBotShardedGatewayAsync
+  href: api/QQBot.IQQBotClient.html#QQBot_IQQBotClient_GetBotShardedGatewayAsync_
+  commentId: Overload:QQBot.IQQBotClient.GetBotShardedGatewayAsync
+  isSpec: "True"
+  fullName: QQBot.IQQBotClient.GetBotShardedGatewayAsync
+  nameWithType: IQQBotClient.GetBotShardedGatewayAsync
 - uid: QQBot.IQQBotClient.GetGuildAsync(System.UInt64,QQBot.CacheMode,QQBot.RequestOptions)
   name: GetGuildAsync(ulong, CacheMode, RequestOptions?)
   href: api/QQBot.IQQBotClient.html#QQBot_IQQBotClient_GetGuildAsync_System_UInt64_QQBot_CacheMode_QQBot_RequestOptions_
@@ -19663,6 +19685,22 @@ references:
   isSpec: "True"
   fullName: QQBot.Rest.BaseQQBotClient.GetBotGatewayAsync
   nameWithType: BaseQQBotClient.GetBotGatewayAsync
+- uid: QQBot.Rest.BaseQQBotClient.GetBotShardedGatewayAsync(QQBot.RequestOptions)
+  name: GetBotShardedGatewayAsync(RequestOptions?)
+  href: api/QQBot.Rest.BaseQQBotClient.html#QQBot_Rest_BaseQQBotClient_GetBotShardedGatewayAsync_QQBot_RequestOptions_
+  commentId: M:QQBot.Rest.BaseQQBotClient.GetBotShardedGatewayAsync(QQBot.RequestOptions)
+  name.vb: GetBotShardedGatewayAsync(RequestOptions)
+  fullName: QQBot.Rest.BaseQQBotClient.GetBotShardedGatewayAsync(QQBot.RequestOptions?)
+  fullName.vb: QQBot.Rest.BaseQQBotClient.GetBotShardedGatewayAsync(QQBot.RequestOptions)
+  nameWithType: BaseQQBotClient.GetBotShardedGatewayAsync(RequestOptions?)
+  nameWithType.vb: BaseQQBotClient.GetBotShardedGatewayAsync(RequestOptions)
+- uid: QQBot.Rest.BaseQQBotClient.GetBotShardedGatewayAsync*
+  name: GetBotShardedGatewayAsync
+  href: api/QQBot.Rest.BaseQQBotClient.html#QQBot_Rest_BaseQQBotClient_GetBotShardedGatewayAsync_
+  commentId: Overload:QQBot.Rest.BaseQQBotClient.GetBotShardedGatewayAsync
+  isSpec: "True"
+  fullName: QQBot.Rest.BaseQQBotClient.GetBotShardedGatewayAsync
+  nameWithType: BaseQQBotClient.GetBotShardedGatewayAsync
 - uid: QQBot.Rest.BaseQQBotClient.Log
   name: Log
   href: api/QQBot.Rest.BaseQQBotClient.html#QQBot_Rest_BaseQQBotClient_Log
@@ -24467,6 +24505,24 @@ references:
   commentId: F:QQBot.WebSocket.BaseSocketClient.BaseConfig
   fullName: QQBot.WebSocket.BaseSocketClient.BaseConfig
   nameWithType: BaseSocketClient.BaseConfig
+- uid: QQBot.WebSocket.BaseSocketClient.ChannelCreated
+  name: ChannelCreated
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_ChannelCreated
+  commentId: E:QQBot.WebSocket.BaseSocketClient.ChannelCreated
+  fullName: QQBot.WebSocket.BaseSocketClient.ChannelCreated
+  nameWithType: BaseSocketClient.ChannelCreated
+- uid: QQBot.WebSocket.BaseSocketClient.ChannelDestroyed
+  name: ChannelDestroyed
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_ChannelDestroyed
+  commentId: E:QQBot.WebSocket.BaseSocketClient.ChannelDestroyed
+  fullName: QQBot.WebSocket.BaseSocketClient.ChannelDestroyed
+  nameWithType: BaseSocketClient.ChannelDestroyed
+- uid: QQBot.WebSocket.BaseSocketClient.ChannelUpdated
+  name: ChannelUpdated
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_ChannelUpdated
+  commentId: E:QQBot.WebSocket.BaseSocketClient.ChannelUpdated
+  fullName: QQBot.WebSocket.BaseSocketClient.ChannelUpdated
+  nameWithType: BaseSocketClient.ChannelUpdated
 - uid: QQBot.WebSocket.BaseSocketClient.CurrentUser
   name: CurrentUser
   href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_CurrentUser
@@ -24496,6 +24552,48 @@ references:
   isSpec: "True"
   fullName: QQBot.WebSocket.BaseSocketClient.DownloadUsersAsync
   nameWithType: BaseSocketClient.DownloadUsersAsync
+- uid: QQBot.WebSocket.BaseSocketClient.ForumPostCreated
+  name: ForumPostCreated
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_ForumPostCreated
+  commentId: E:QQBot.WebSocket.BaseSocketClient.ForumPostCreated
+  fullName: QQBot.WebSocket.BaseSocketClient.ForumPostCreated
+  nameWithType: BaseSocketClient.ForumPostCreated
+- uid: QQBot.WebSocket.BaseSocketClient.ForumPostDeleted
+  name: ForumPostDeleted
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_ForumPostDeleted
+  commentId: E:QQBot.WebSocket.BaseSocketClient.ForumPostDeleted
+  fullName: QQBot.WebSocket.BaseSocketClient.ForumPostDeleted
+  nameWithType: BaseSocketClient.ForumPostDeleted
+- uid: QQBot.WebSocket.BaseSocketClient.ForumReplyCreated
+  name: ForumReplyCreated
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_ForumReplyCreated
+  commentId: E:QQBot.WebSocket.BaseSocketClient.ForumReplyCreated
+  fullName: QQBot.WebSocket.BaseSocketClient.ForumReplyCreated
+  nameWithType: BaseSocketClient.ForumReplyCreated
+- uid: QQBot.WebSocket.BaseSocketClient.ForumReplyDeleted
+  name: ForumReplyDeleted
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_ForumReplyDeleted
+  commentId: E:QQBot.WebSocket.BaseSocketClient.ForumReplyDeleted
+  fullName: QQBot.WebSocket.BaseSocketClient.ForumReplyDeleted
+  nameWithType: BaseSocketClient.ForumReplyDeleted
+- uid: QQBot.WebSocket.BaseSocketClient.ForumThreadCreated
+  name: ForumThreadCreated
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_ForumThreadCreated
+  commentId: E:QQBot.WebSocket.BaseSocketClient.ForumThreadCreated
+  fullName: QQBot.WebSocket.BaseSocketClient.ForumThreadCreated
+  nameWithType: BaseSocketClient.ForumThreadCreated
+- uid: QQBot.WebSocket.BaseSocketClient.ForumThreadDeleted
+  name: ForumThreadDeleted
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_ForumThreadDeleted
+  commentId: E:QQBot.WebSocket.BaseSocketClient.ForumThreadDeleted
+  fullName: QQBot.WebSocket.BaseSocketClient.ForumThreadDeleted
+  nameWithType: BaseSocketClient.ForumThreadDeleted
+- uid: QQBot.WebSocket.BaseSocketClient.ForumThreadUpdated
+  name: ForumThreadUpdated
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_ForumThreadUpdated
+  commentId: E:QQBot.WebSocket.BaseSocketClient.ForumThreadUpdated
+  fullName: QQBot.WebSocket.BaseSocketClient.ForumThreadUpdated
+  nameWithType: BaseSocketClient.ForumThreadUpdated
 - uid: QQBot.WebSocket.BaseSocketClient.GetGuild(System.UInt64)
   name: GetGuild(ulong)
   href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_GetGuild_System_UInt64_
@@ -24544,6 +24642,36 @@ references:
   isSpec: "True"
   fullName: QQBot.WebSocket.BaseSocketClient.GetUser
   nameWithType: BaseSocketClient.GetUser
+- uid: QQBot.WebSocket.BaseSocketClient.GroupActiveMessageAllowed
+  name: GroupActiveMessageAllowed
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_GroupActiveMessageAllowed
+  commentId: E:QQBot.WebSocket.BaseSocketClient.GroupActiveMessageAllowed
+  fullName: QQBot.WebSocket.BaseSocketClient.GroupActiveMessageAllowed
+  nameWithType: BaseSocketClient.GroupActiveMessageAllowed
+- uid: QQBot.WebSocket.BaseSocketClient.GroupActiveMessageRejected
+  name: GroupActiveMessageRejected
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_GroupActiveMessageRejected
+  commentId: E:QQBot.WebSocket.BaseSocketClient.GroupActiveMessageRejected
+  fullName: QQBot.WebSocket.BaseSocketClient.GroupActiveMessageRejected
+  nameWithType: BaseSocketClient.GroupActiveMessageRejected
+- uid: QQBot.WebSocket.BaseSocketClient.GuildAvailable
+  name: GuildAvailable
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_GuildAvailable
+  commentId: E:QQBot.WebSocket.BaseSocketClient.GuildAvailable
+  fullName: QQBot.WebSocket.BaseSocketClient.GuildAvailable
+  nameWithType: BaseSocketClient.GuildAvailable
+- uid: QQBot.WebSocket.BaseSocketClient.GuildMemberUpdated
+  name: GuildMemberUpdated
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_GuildMemberUpdated
+  commentId: E:QQBot.WebSocket.BaseSocketClient.GuildMemberUpdated
+  fullName: QQBot.WebSocket.BaseSocketClient.GuildMemberUpdated
+  nameWithType: BaseSocketClient.GuildMemberUpdated
+- uid: QQBot.WebSocket.BaseSocketClient.GuildUnavailable
+  name: GuildUnavailable
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_GuildUnavailable
+  commentId: E:QQBot.WebSocket.BaseSocketClient.GuildUnavailable
+  fullName: QQBot.WebSocket.BaseSocketClient.GuildUnavailable
+  nameWithType: BaseSocketClient.GuildUnavailable
 - uid: QQBot.WebSocket.BaseSocketClient.Guilds
   name: Guilds
   href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_Guilds
@@ -24557,6 +24685,12 @@ references:
   isSpec: "True"
   fullName: QQBot.WebSocket.BaseSocketClient.Guilds
   nameWithType: BaseSocketClient.Guilds
+- uid: QQBot.WebSocket.BaseSocketClient.JoinedGroup
+  name: JoinedGroup
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_JoinedGroup
+  commentId: E:QQBot.WebSocket.BaseSocketClient.JoinedGroup
+  fullName: QQBot.WebSocket.BaseSocketClient.JoinedGroup
+  nameWithType: BaseSocketClient.JoinedGroup
 - uid: QQBot.WebSocket.BaseSocketClient.Latency
   name: Latency
   href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_Latency
@@ -24570,6 +24704,12 @@ references:
   isSpec: "True"
   fullName: QQBot.WebSocket.BaseSocketClient.Latency
   nameWithType: BaseSocketClient.Latency
+- uid: QQBot.WebSocket.BaseSocketClient.LeftGroup
+  name: LeftGroup
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_LeftGroup
+  commentId: E:QQBot.WebSocket.BaseSocketClient.LeftGroup
+  fullName: QQBot.WebSocket.BaseSocketClient.LeftGroup
+  nameWithType: BaseSocketClient.LeftGroup
 - uid: QQBot.WebSocket.BaseSocketClient.MessageReceived
   name: MessageReceived
   href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_MessageReceived
@@ -24615,6 +24755,54 @@ references:
   isSpec: "True"
   fullName: QQBot.WebSocket.BaseSocketClient.StopAsync
   nameWithType: BaseSocketClient.StopAsync
+- uid: QQBot.WebSocket.BaseSocketClient.UserActiveMessageAllowed
+  name: UserActiveMessageAllowed
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_UserActiveMessageAllowed
+  commentId: E:QQBot.WebSocket.BaseSocketClient.UserActiveMessageAllowed
+  fullName: QQBot.WebSocket.BaseSocketClient.UserActiveMessageAllowed
+  nameWithType: BaseSocketClient.UserActiveMessageAllowed
+- uid: QQBot.WebSocket.BaseSocketClient.UserActiveMessageRejected
+  name: UserActiveMessageRejected
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_UserActiveMessageRejected
+  commentId: E:QQBot.WebSocket.BaseSocketClient.UserActiveMessageRejected
+  fullName: QQBot.WebSocket.BaseSocketClient.UserActiveMessageRejected
+  nameWithType: BaseSocketClient.UserActiveMessageRejected
+- uid: QQBot.WebSocket.BaseSocketClient.UserAdded
+  name: UserAdded
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_UserAdded
+  commentId: E:QQBot.WebSocket.BaseSocketClient.UserAdded
+  fullName: QQBot.WebSocket.BaseSocketClient.UserAdded
+  nameWithType: BaseSocketClient.UserAdded
+- uid: QQBot.WebSocket.BaseSocketClient.UserConnected
+  name: UserConnected
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_UserConnected
+  commentId: E:QQBot.WebSocket.BaseSocketClient.UserConnected
+  fullName: QQBot.WebSocket.BaseSocketClient.UserConnected
+  nameWithType: BaseSocketClient.UserConnected
+- uid: QQBot.WebSocket.BaseSocketClient.UserDisconnected
+  name: UserDisconnected
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_UserDisconnected
+  commentId: E:QQBot.WebSocket.BaseSocketClient.UserDisconnected
+  fullName: QQBot.WebSocket.BaseSocketClient.UserDisconnected
+  nameWithType: BaseSocketClient.UserDisconnected
+- uid: QQBot.WebSocket.BaseSocketClient.UserJoined
+  name: UserJoined
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_UserJoined
+  commentId: E:QQBot.WebSocket.BaseSocketClient.UserJoined
+  fullName: QQBot.WebSocket.BaseSocketClient.UserJoined
+  nameWithType: BaseSocketClient.UserJoined
+- uid: QQBot.WebSocket.BaseSocketClient.UserLeft
+  name: UserLeft
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_UserLeft
+  commentId: E:QQBot.WebSocket.BaseSocketClient.UserLeft
+  fullName: QQBot.WebSocket.BaseSocketClient.UserLeft
+  nameWithType: BaseSocketClient.UserLeft
+- uid: QQBot.WebSocket.BaseSocketClient.UserRemoved
+  name: UserRemoved
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_UserRemoved
+  commentId: E:QQBot.WebSocket.BaseSocketClient.UserRemoved
+  fullName: QQBot.WebSocket.BaseSocketClient.UserRemoved
+  nameWithType: BaseSocketClient.UserRemoved
 - uid: QQBot.WebSocket.GatewayReconnectException
   name: GatewayReconnectException
   href: api/QQBot.WebSocket.GatewayReconnectException.html
@@ -25010,24 +25198,6 @@ references:
   fullName.vb: QQBot.WebSocket.QQBotSocketClient.New
   nameWithType: QQBotSocketClient.QQBotSocketClient
   nameWithType.vb: QQBotSocketClient.New
-- uid: QQBot.WebSocket.QQBotSocketClient.ChannelCreated
-  name: ChannelCreated
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_ChannelCreated
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.ChannelCreated
-  fullName: QQBot.WebSocket.QQBotSocketClient.ChannelCreated
-  nameWithType: QQBotSocketClient.ChannelCreated
-- uid: QQBot.WebSocket.QQBotSocketClient.ChannelDestroyed
-  name: ChannelDestroyed
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_ChannelDestroyed
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.ChannelDestroyed
-  fullName: QQBot.WebSocket.QQBotSocketClient.ChannelDestroyed
-  nameWithType: QQBotSocketClient.ChannelDestroyed
-- uid: QQBot.WebSocket.QQBotSocketClient.ChannelUpdated
-  name: ChannelUpdated
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_ChannelUpdated
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.ChannelUpdated
-  fullName: QQBot.WebSocket.QQBotSocketClient.ChannelUpdated
-  nameWithType: QQBotSocketClient.ChannelUpdated
 - uid: QQBot.WebSocket.QQBotSocketClient.Connected
   name: Connected
   href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_Connected
@@ -25069,48 +25239,6 @@ references:
   isSpec: "True"
   fullName: QQBot.WebSocket.QQBotSocketClient.DownloadUsersAsync
   nameWithType: QQBotSocketClient.DownloadUsersAsync
-- uid: QQBot.WebSocket.QQBotSocketClient.ForumPostCreated
-  name: ForumPostCreated
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_ForumPostCreated
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.ForumPostCreated
-  fullName: QQBot.WebSocket.QQBotSocketClient.ForumPostCreated
-  nameWithType: QQBotSocketClient.ForumPostCreated
-- uid: QQBot.WebSocket.QQBotSocketClient.ForumPostDeleted
-  name: ForumPostDeleted
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_ForumPostDeleted
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.ForumPostDeleted
-  fullName: QQBot.WebSocket.QQBotSocketClient.ForumPostDeleted
-  nameWithType: QQBotSocketClient.ForumPostDeleted
-- uid: QQBot.WebSocket.QQBotSocketClient.ForumReplyCreated
-  name: ForumReplyCreated
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_ForumReplyCreated
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.ForumReplyCreated
-  fullName: QQBot.WebSocket.QQBotSocketClient.ForumReplyCreated
-  nameWithType: QQBotSocketClient.ForumReplyCreated
-- uid: QQBot.WebSocket.QQBotSocketClient.ForumReplyDeleted
-  name: ForumReplyDeleted
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_ForumReplyDeleted
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.ForumReplyDeleted
-  fullName: QQBot.WebSocket.QQBotSocketClient.ForumReplyDeleted
-  nameWithType: QQBotSocketClient.ForumReplyDeleted
-- uid: QQBot.WebSocket.QQBotSocketClient.ForumThreadCreated
-  name: ForumThreadCreated
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_ForumThreadCreated
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.ForumThreadCreated
-  fullName: QQBot.WebSocket.QQBotSocketClient.ForumThreadCreated
-  nameWithType: QQBotSocketClient.ForumThreadCreated
-- uid: QQBot.WebSocket.QQBotSocketClient.ForumThreadDeleted
-  name: ForumThreadDeleted
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_ForumThreadDeleted
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.ForumThreadDeleted
-  fullName: QQBot.WebSocket.QQBotSocketClient.ForumThreadDeleted
-  nameWithType: QQBotSocketClient.ForumThreadDeleted
-- uid: QQBot.WebSocket.QQBotSocketClient.ForumThreadUpdated
-  name: ForumThreadUpdated
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_ForumThreadUpdated
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.ForumThreadUpdated
-  fullName: QQBot.WebSocket.QQBotSocketClient.ForumThreadUpdated
-  nameWithType: QQBotSocketClient.ForumThreadUpdated
 - uid: QQBot.WebSocket.QQBotSocketClient.GetGuild(System.UInt64)
   name: GetGuild(ulong)
   href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_GetGuild_System_UInt64_
@@ -25181,36 +25309,6 @@ references:
   isSpec: "True"
   fullName: QQBot.WebSocket.QQBotSocketClient.GetUserChannel
   nameWithType: QQBotSocketClient.GetUserChannel
-- uid: QQBot.WebSocket.QQBotSocketClient.GroupActiveMessageAllowed
-  name: GroupActiveMessageAllowed
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_GroupActiveMessageAllowed
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.GroupActiveMessageAllowed
-  fullName: QQBot.WebSocket.QQBotSocketClient.GroupActiveMessageAllowed
-  nameWithType: QQBotSocketClient.GroupActiveMessageAllowed
-- uid: QQBot.WebSocket.QQBotSocketClient.GroupActiveMessageRejected
-  name: GroupActiveMessageRejected
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_GroupActiveMessageRejected
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.GroupActiveMessageRejected
-  fullName: QQBot.WebSocket.QQBotSocketClient.GroupActiveMessageRejected
-  nameWithType: QQBotSocketClient.GroupActiveMessageRejected
-- uid: QQBot.WebSocket.QQBotSocketClient.GuildAvailable
-  name: GuildAvailable
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_GuildAvailable
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.GuildAvailable
-  fullName: QQBot.WebSocket.QQBotSocketClient.GuildAvailable
-  nameWithType: QQBotSocketClient.GuildAvailable
-- uid: QQBot.WebSocket.QQBotSocketClient.GuildMemberUpdated
-  name: GuildMemberUpdated
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_GuildMemberUpdated
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.GuildMemberUpdated
-  fullName: QQBot.WebSocket.QQBotSocketClient.GuildMemberUpdated
-  nameWithType: QQBotSocketClient.GuildMemberUpdated
-- uid: QQBot.WebSocket.QQBotSocketClient.GuildUnavailable
-  name: GuildUnavailable
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_GuildUnavailable
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.GuildUnavailable
-  fullName: QQBot.WebSocket.QQBotSocketClient.GuildUnavailable
-  nameWithType: QQBotSocketClient.GuildUnavailable
 - uid: QQBot.WebSocket.QQBotSocketClient.Guilds
   name: Guilds
   href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_Guilds
@@ -25224,12 +25322,6 @@ references:
   isSpec: "True"
   fullName: QQBot.WebSocket.QQBotSocketClient.Guilds
   nameWithType: QQBotSocketClient.Guilds
-- uid: QQBot.WebSocket.QQBotSocketClient.JoinedGroup
-  name: JoinedGroup
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_JoinedGroup
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.JoinedGroup
-  fullName: QQBot.WebSocket.QQBotSocketClient.JoinedGroup
-  nameWithType: QQBotSocketClient.JoinedGroup
 - uid: QQBot.WebSocket.QQBotSocketClient.Latency
   name: Latency
   href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_Latency
@@ -25249,12 +25341,6 @@ references:
   commentId: E:QQBot.WebSocket.QQBotSocketClient.LatencyUpdated
   fullName: QQBot.WebSocket.QQBotSocketClient.LatencyUpdated
   nameWithType: QQBotSocketClient.LatencyUpdated
-- uid: QQBot.WebSocket.QQBotSocketClient.LeftGroup
-  name: LeftGroup
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_LeftGroup
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.LeftGroup
-  fullName: QQBot.WebSocket.QQBotSocketClient.LeftGroup
-  nameWithType: QQBotSocketClient.LeftGroup
 - uid: QQBot.WebSocket.QQBotSocketClient.Ready
   name: Ready
   href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_Ready
@@ -25313,54 +25399,6 @@ references:
   isSpec: "True"
   fullName: QQBot.WebSocket.QQBotSocketClient.StopAsync
   nameWithType: QQBotSocketClient.StopAsync
-- uid: QQBot.WebSocket.QQBotSocketClient.UserActiveMessageAllowed
-  name: UserActiveMessageAllowed
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_UserActiveMessageAllowed
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.UserActiveMessageAllowed
-  fullName: QQBot.WebSocket.QQBotSocketClient.UserActiveMessageAllowed
-  nameWithType: QQBotSocketClient.UserActiveMessageAllowed
-- uid: QQBot.WebSocket.QQBotSocketClient.UserActiveMessageRejected
-  name: UserActiveMessageRejected
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_UserActiveMessageRejected
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.UserActiveMessageRejected
-  fullName: QQBot.WebSocket.QQBotSocketClient.UserActiveMessageRejected
-  nameWithType: QQBotSocketClient.UserActiveMessageRejected
-- uid: QQBot.WebSocket.QQBotSocketClient.UserAdded
-  name: UserAdded
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_UserAdded
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.UserAdded
-  fullName: QQBot.WebSocket.QQBotSocketClient.UserAdded
-  nameWithType: QQBotSocketClient.UserAdded
-- uid: QQBot.WebSocket.QQBotSocketClient.UserConnected
-  name: UserConnected
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_UserConnected
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.UserConnected
-  fullName: QQBot.WebSocket.QQBotSocketClient.UserConnected
-  nameWithType: QQBotSocketClient.UserConnected
-- uid: QQBot.WebSocket.QQBotSocketClient.UserDisconnected
-  name: UserDisconnected
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_UserDisconnected
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.UserDisconnected
-  fullName: QQBot.WebSocket.QQBotSocketClient.UserDisconnected
-  nameWithType: QQBotSocketClient.UserDisconnected
-- uid: QQBot.WebSocket.QQBotSocketClient.UserJoined
-  name: UserJoined
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_UserJoined
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.UserJoined
-  fullName: QQBot.WebSocket.QQBotSocketClient.UserJoined
-  nameWithType: QQBotSocketClient.UserJoined
-- uid: QQBot.WebSocket.QQBotSocketClient.UserLeft
-  name: UserLeft
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_UserLeft
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.UserLeft
-  fullName: QQBot.WebSocket.QQBotSocketClient.UserLeft
-  nameWithType: QQBotSocketClient.UserLeft
-- uid: QQBot.WebSocket.QQBotSocketClient.UserRemoved
-  name: UserRemoved
-  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_UserRemoved
-  commentId: E:QQBot.WebSocket.QQBotSocketClient.UserRemoved
-  fullName: QQBot.WebSocket.QQBotSocketClient.UserRemoved
-  nameWithType: QQBotSocketClient.UserRemoved
 - uid: QQBot.WebSocket.QQBotSocketConfig
   name: QQBotSocketConfig
   href: api/QQBot.WebSocket.QQBotSocketConfig.html
