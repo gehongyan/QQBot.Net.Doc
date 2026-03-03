@@ -17630,6 +17630,18 @@ references:
   isSpec: "True"
   fullName: QQBot.QQBotConfig.AccessEnvironment
   nameWithType: QQBotConfig.AccessEnvironment
+- uid: QQBot.QQBotConfig.AccessTokenAPIUrl
+  name: AccessTokenAPIUrl
+  href: api/QQBot.QQBotConfig.html#QQBot_QQBotConfig_AccessTokenAPIUrl
+  commentId: F:QQBot.QQBotConfig.AccessTokenAPIUrl
+  fullName: QQBot.QQBotConfig.AccessTokenAPIUrl
+  nameWithType: QQBotConfig.AccessTokenAPIUrl
+- uid: QQBot.QQBotConfig.AccessTokenRefreshBuffer
+  name: AccessTokenRefreshBuffer
+  href: api/QQBot.QQBotConfig.html#QQBot_QQBotConfig_AccessTokenRefreshBuffer
+  commentId: F:QQBot.QQBotConfig.AccessTokenRefreshBuffer
+  fullName: QQBot.QQBotConfig.AccessTokenRefreshBuffer
+  nameWithType: QQBotConfig.AccessTokenRefreshBuffer
 - uid: QQBot.QQBotConfig.DefaultRatelimitCallback
   name: DefaultRatelimitCallback
   href: api/QQBot.QQBotConfig.html#QQBot_QQBotConfig_DefaultRatelimitCallback
@@ -24082,18 +24094,6 @@ references:
   commentId: F:QQBot.TokenType.AppSecret
   fullName: QQBot.TokenType.AppSecret
   nameWithType: TokenType.AppSecret
-- uid: QQBot.TokenType.BearerToken
-  name: BearerToken
-  href: api/QQBot.TokenType.html#QQBot_TokenType_BearerToken
-  commentId: F:QQBot.TokenType.BearerToken
-  fullName: QQBot.TokenType.BearerToken
-  nameWithType: TokenType.BearerToken
-- uid: QQBot.TokenType.BotToken
-  name: BotToken
-  href: api/QQBot.TokenType.html#QQBot_TokenType_BotToken
-  commentId: F:QQBot.TokenType.BotToken
-  fullName: QQBot.TokenType.BotToken
-  nameWithType: TokenType.BotToken
 - uid: QQBot.TokenUtils
   name: TokenUtils
   href: api/QQBot.TokenUtils.html
