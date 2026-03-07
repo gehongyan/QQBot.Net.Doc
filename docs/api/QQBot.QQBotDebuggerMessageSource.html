@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Enum CacheMode | QQBot.Net 文档 </title>
+      <title>Enum QQBotDebuggerMessageSource | QQBot.Net 文档 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Enum CacheMode | QQBot.Net 文档 ">
+      <meta name="title" content="Enum QQBotDebuggerMessageSource | QQBot.Net 文档 ">
       
-      <meta name="description" content="表示应该使用的缓存模式。">
+      <meta name="description" content="表示 QQBot.Net 调试器消息的来源。">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/gehongyan/QQBot.Net/new/master/apiSpec/new?filename=QQBot_CacheMode.md&amp;value=---%0Auid%3A%20QQBot.CacheMode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/QQBot.Net/new/master/apiSpec/new?filename=QQBot_QQBotDebuggerMessageSource.md&amp;value=---%0Auid%3A%20QQBot.QQBotDebuggerMessageSource%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,13 +84,13 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="QQBot.CacheMode">
+        <article data-uid="QQBot.QQBotDebuggerMessageSource">
 
 
 
 
-  <h1 id="QQBot_CacheMode" data-uid="QQBot.CacheMode" class="text-break">
-Enum CacheMode  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.2/src/QQBot.Net.Core/CacheMode.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <h1 id="QQBot_QQBotDebuggerMessageSource" data-uid="QQBot.QQBotDebuggerMessageSource" class="text-break">
+Enum QQBotDebuggerMessageSource  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.2/src/QQBot.Net.Core/QQBotDebuggerMessageSource.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -98,12 +98,12 @@ Enum CacheMode  <a class="header-action link-secondary" title="View source" href
   <dl><dt>Assembly</dt><dd>QQBot.Net.Core.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>表示应该使用的缓存模式。</p>
+  <div class="markdown summary"><p>表示 QQBot.Net 调试器消息的来源。</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum CacheMode</code></pre>
+    <pre><code class="lang-csharp hljs">public enum QQBotDebuggerMessageSource</code></pre>
   </div>
 
 
@@ -117,13 +117,17 @@ Enum CacheMode  <a class="header-action link-secondary" title="View source" href
   <h2 id="fields">Fields
 </h2>
   <dl class="parameters">
-    <dt id="QQBot_CacheMode_AllowDownload"><code>AllowDownload = 0</code></dt>
+    <dt id="QQBot_QQBotDebuggerMessageSource_Packet"><code>Packet = 1</code></dt>
   
-  <dd><p>允许在实体不存在于现有缓存中时下载对象。</p>
+  <dd><p>表示来自网关数据包调试器。</p>
 </dd>
-    <dt id="QQBot_CacheMode_CacheOnly"><code>CacheOnly = 1</code></dt>
+    <dt id="QQBot_QQBotDebuggerMessageSource_Ratelimit"><code>Ratelimit = 2</code></dt>
   
-  <dd><p>仅允许从现有缓存中提取对象。</p>
+  <dd><p>表示来自速率限制调试器。</p>
+</dd>
+    <dt id="QQBot_QQBotDebuggerMessageSource_Rest"><code>Rest = 0</code></dt>
+  
+  <dd><p>表示来自 Rest 调试器。</p>
 </dd>
   </dl>
 
@@ -132,7 +136,7 @@ Enum CacheMode  <a class="header-action link-secondary" title="View source" href
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.2/src/QQBot.Net.Core/CacheMode.cs/#L6" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.2/src/QQBot.Net.Core/QQBotDebuggerMessageSource.cs/#L6" class="edit-link">Edit this page</a>
         </div>
 
 

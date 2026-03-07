@@ -11994,6 +11994,22 @@ references:
   isSpec: "True"
   fullName: QQBot.IQQBotClient.CurrentUser
   nameWithType: IQQBotClient.CurrentUser
+- uid: QQBot.IQQBotClient.GenerateProfileUrlAsync(System.String,QQBot.RequestOptions)
+  name: GenerateProfileUrlAsync(string?, RequestOptions?)
+  href: api/QQBot.IQQBotClient.html#QQBot_IQQBotClient_GenerateProfileUrlAsync_System_String_QQBot_RequestOptions_
+  commentId: M:QQBot.IQQBotClient.GenerateProfileUrlAsync(System.String,QQBot.RequestOptions)
+  name.vb: GenerateProfileUrlAsync(String, RequestOptions)
+  fullName: QQBot.IQQBotClient.GenerateProfileUrlAsync(string?, QQBot.RequestOptions?)
+  fullName.vb: QQBot.IQQBotClient.GenerateProfileUrlAsync(String, QQBot.RequestOptions)
+  nameWithType: IQQBotClient.GenerateProfileUrlAsync(string?, RequestOptions?)
+  nameWithType.vb: IQQBotClient.GenerateProfileUrlAsync(String, RequestOptions)
+- uid: QQBot.IQQBotClient.GenerateProfileUrlAsync*
+  name: GenerateProfileUrlAsync
+  href: api/QQBot.IQQBotClient.html#QQBot_IQQBotClient_GenerateProfileUrlAsync_
+  commentId: Overload:QQBot.IQQBotClient.GenerateProfileUrlAsync
+  isSpec: "True"
+  fullName: QQBot.IQQBotClient.GenerateProfileUrlAsync
+  nameWithType: IQQBotClient.GenerateProfileUrlAsync
 - uid: QQBot.IQQBotClient.GetBotGatewayAsync(QQBot.RequestOptions)
   name: GetBotGatewayAsync(RequestOptions?)
   href: api/QQBot.IQQBotClient.html#QQBot_IQQBotClient_GetBotGatewayAsync_QQBot_RequestOptions_
@@ -17750,6 +17766,231 @@ references:
   isSpec: "True"
   fullName: QQBot.QQBotConfig.Version
   nameWithType: QQBotConfig.Version
+- uid: QQBot.QQBotDebugger
+  name: QQBotDebugger
+  href: api/QQBot.QQBotDebugger.html
+  commentId: T:QQBot.QQBotDebugger
+  fullName: QQBot.QQBotDebugger
+  nameWithType: QQBotDebugger
+- uid: QQBot.QQBotDebugger.DisableAll
+  name: DisableAll()
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_DisableAll
+  commentId: M:QQBot.QQBotDebugger.DisableAll
+  fullName: QQBot.QQBotDebugger.DisableAll()
+  nameWithType: QQBotDebugger.DisableAll()
+- uid: QQBot.QQBotDebugger.DisableAll*
+  name: DisableAll
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_DisableAll_
+  commentId: Overload:QQBot.QQBotDebugger.DisableAll
+  isSpec: "True"
+  fullName: QQBot.QQBotDebugger.DisableAll
+  nameWithType: QQBotDebugger.DisableAll
+- uid: QQBot.QQBotDebugger.DisablePacket
+  name: DisablePacket()
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_DisablePacket
+  commentId: M:QQBot.QQBotDebugger.DisablePacket
+  fullName: QQBot.QQBotDebugger.DisablePacket()
+  nameWithType: QQBotDebugger.DisablePacket()
+- uid: QQBot.QQBotDebugger.DisablePacket*
+  name: DisablePacket
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_DisablePacket_
+  commentId: Overload:QQBot.QQBotDebugger.DisablePacket
+  isSpec: "True"
+  fullName: QQBot.QQBotDebugger.DisablePacket
+  nameWithType: QQBotDebugger.DisablePacket
+- uid: QQBot.QQBotDebugger.DisableRatelimit
+  name: DisableRatelimit()
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_DisableRatelimit
+  commentId: M:QQBot.QQBotDebugger.DisableRatelimit
+  fullName: QQBot.QQBotDebugger.DisableRatelimit()
+  nameWithType: QQBotDebugger.DisableRatelimit()
+- uid: QQBot.QQBotDebugger.DisableRatelimit*
+  name: DisableRatelimit
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_DisableRatelimit_
+  commentId: Overload:QQBot.QQBotDebugger.DisableRatelimit
+  isSpec: "True"
+  fullName: QQBot.QQBotDebugger.DisableRatelimit
+  nameWithType: QQBotDebugger.DisableRatelimit
+- uid: QQBot.QQBotDebugger.DisableRest
+  name: DisableRest()
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_DisableRest
+  commentId: M:QQBot.QQBotDebugger.DisableRest
+  fullName: QQBot.QQBotDebugger.DisableRest()
+  nameWithType: QQBotDebugger.DisableRest()
+- uid: QQBot.QQBotDebugger.DisableRest*
+  name: DisableRest
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_DisableRest_
+  commentId: Overload:QQBot.QQBotDebugger.DisableRest
+  isSpec: "True"
+  fullName: QQBot.QQBotDebugger.DisableRest
+  nameWithType: QQBotDebugger.DisableRest
+- uid: QQBot.QQBotDebugger.EnableAll
+  name: EnableAll()
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_EnableAll
+  commentId: M:QQBot.QQBotDebugger.EnableAll
+  fullName: QQBot.QQBotDebugger.EnableAll()
+  nameWithType: QQBotDebugger.EnableAll()
+- uid: QQBot.QQBotDebugger.EnableAll(System.Action{QQBot.QQBotDebuggerMessageSource,System.String})
+  name: EnableAll(Action<QQBotDebuggerMessageSource, string>)
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_EnableAll_System_Action_QQBot_QQBotDebuggerMessageSource_System_String__
+  commentId: M:QQBot.QQBotDebugger.EnableAll(System.Action{QQBot.QQBotDebuggerMessageSource,System.String})
+  name.vb: EnableAll(Action(Of QQBotDebuggerMessageSource, String))
+  fullName: QQBot.QQBotDebugger.EnableAll(System.Action<QQBot.QQBotDebuggerMessageSource, string>)
+  fullName.vb: QQBot.QQBotDebugger.EnableAll(System.Action(Of QQBot.QQBotDebuggerMessageSource, String))
+  nameWithType: QQBotDebugger.EnableAll(Action<QQBotDebuggerMessageSource, string>)
+  nameWithType.vb: QQBotDebugger.EnableAll(Action(Of QQBotDebuggerMessageSource, String))
+- uid: QQBot.QQBotDebugger.EnableAll*
+  name: EnableAll
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_EnableAll_
+  commentId: Overload:QQBot.QQBotDebugger.EnableAll
+  isSpec: "True"
+  fullName: QQBot.QQBotDebugger.EnableAll
+  nameWithType: QQBotDebugger.EnableAll
+- uid: QQBot.QQBotDebugger.EnablePacket
+  name: EnablePacket()
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_EnablePacket
+  commentId: M:QQBot.QQBotDebugger.EnablePacket
+  fullName: QQBot.QQBotDebugger.EnablePacket()
+  nameWithType: QQBotDebugger.EnablePacket()
+- uid: QQBot.QQBotDebugger.EnablePacket(System.Action{System.String})
+  name: EnablePacket(Action<string>)
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_EnablePacket_System_Action_System_String__
+  commentId: M:QQBot.QQBotDebugger.EnablePacket(System.Action{System.String})
+  name.vb: EnablePacket(Action(Of String))
+  fullName: QQBot.QQBotDebugger.EnablePacket(System.Action<string>)
+  fullName.vb: QQBot.QQBotDebugger.EnablePacket(System.Action(Of String))
+  nameWithType: QQBotDebugger.EnablePacket(Action<string>)
+  nameWithType.vb: QQBotDebugger.EnablePacket(Action(Of String))
+- uid: QQBot.QQBotDebugger.EnablePacket*
+  name: EnablePacket
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_EnablePacket_
+  commentId: Overload:QQBot.QQBotDebugger.EnablePacket
+  isSpec: "True"
+  fullName: QQBot.QQBotDebugger.EnablePacket
+  nameWithType: QQBotDebugger.EnablePacket
+- uid: QQBot.QQBotDebugger.EnableRatelimit
+  name: EnableRatelimit()
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_EnableRatelimit
+  commentId: M:QQBot.QQBotDebugger.EnableRatelimit
+  fullName: QQBot.QQBotDebugger.EnableRatelimit()
+  nameWithType: QQBotDebugger.EnableRatelimit()
+- uid: QQBot.QQBotDebugger.EnableRatelimit(System.Action{System.String})
+  name: EnableRatelimit(Action<string>)
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_EnableRatelimit_System_Action_System_String__
+  commentId: M:QQBot.QQBotDebugger.EnableRatelimit(System.Action{System.String})
+  name.vb: EnableRatelimit(Action(Of String))
+  fullName: QQBot.QQBotDebugger.EnableRatelimit(System.Action<string>)
+  fullName.vb: QQBot.QQBotDebugger.EnableRatelimit(System.Action(Of String))
+  nameWithType: QQBotDebugger.EnableRatelimit(Action<string>)
+  nameWithType.vb: QQBotDebugger.EnableRatelimit(Action(Of String))
+- uid: QQBot.QQBotDebugger.EnableRatelimit*
+  name: EnableRatelimit
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_EnableRatelimit_
+  commentId: Overload:QQBot.QQBotDebugger.EnableRatelimit
+  isSpec: "True"
+  fullName: QQBot.QQBotDebugger.EnableRatelimit
+  nameWithType: QQBotDebugger.EnableRatelimit
+- uid: QQBot.QQBotDebugger.EnableRest
+  name: EnableRest()
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_EnableRest
+  commentId: M:QQBot.QQBotDebugger.EnableRest
+  fullName: QQBot.QQBotDebugger.EnableRest()
+  nameWithType: QQBotDebugger.EnableRest()
+- uid: QQBot.QQBotDebugger.EnableRest(System.Action{System.String})
+  name: EnableRest(Action<string>)
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_EnableRest_System_Action_System_String__
+  commentId: M:QQBot.QQBotDebugger.EnableRest(System.Action{System.String})
+  name.vb: EnableRest(Action(Of String))
+  fullName: QQBot.QQBotDebugger.EnableRest(System.Action<string>)
+  fullName.vb: QQBot.QQBotDebugger.EnableRest(System.Action(Of String))
+  nameWithType: QQBotDebugger.EnableRest(Action<string>)
+  nameWithType.vb: QQBotDebugger.EnableRest(Action(Of String))
+- uid: QQBot.QQBotDebugger.EnableRest*
+  name: EnableRest
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_EnableRest_
+  commentId: Overload:QQBot.QQBotDebugger.EnableRest
+  isSpec: "True"
+  fullName: QQBot.QQBotDebugger.EnableRest
+  nameWithType: QQBotDebugger.EnableRest
+- uid: QQBot.QQBotDebugger.IsDebuggingPacket
+  name: IsDebuggingPacket
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_IsDebuggingPacket
+  commentId: P:QQBot.QQBotDebugger.IsDebuggingPacket
+  fullName: QQBot.QQBotDebugger.IsDebuggingPacket
+  nameWithType: QQBotDebugger.IsDebuggingPacket
+- uid: QQBot.QQBotDebugger.IsDebuggingPacket*
+  name: IsDebuggingPacket
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_IsDebuggingPacket_
+  commentId: Overload:QQBot.QQBotDebugger.IsDebuggingPacket
+  isSpec: "True"
+  fullName: QQBot.QQBotDebugger.IsDebuggingPacket
+  nameWithType: QQBotDebugger.IsDebuggingPacket
+- uid: QQBot.QQBotDebugger.IsDebuggingRatelimit
+  name: IsDebuggingRatelimit
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_IsDebuggingRatelimit
+  commentId: P:QQBot.QQBotDebugger.IsDebuggingRatelimit
+  fullName: QQBot.QQBotDebugger.IsDebuggingRatelimit
+  nameWithType: QQBotDebugger.IsDebuggingRatelimit
+- uid: QQBot.QQBotDebugger.IsDebuggingRatelimit*
+  name: IsDebuggingRatelimit
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_IsDebuggingRatelimit_
+  commentId: Overload:QQBot.QQBotDebugger.IsDebuggingRatelimit
+  isSpec: "True"
+  fullName: QQBot.QQBotDebugger.IsDebuggingRatelimit
+  nameWithType: QQBotDebugger.IsDebuggingRatelimit
+- uid: QQBot.QQBotDebugger.IsDebuggingRest
+  name: IsDebuggingRest
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_IsDebuggingRest
+  commentId: P:QQBot.QQBotDebugger.IsDebuggingRest
+  fullName: QQBot.QQBotDebugger.IsDebuggingRest
+  nameWithType: QQBotDebugger.IsDebuggingRest
+- uid: QQBot.QQBotDebugger.IsDebuggingRest*
+  name: IsDebuggingRest
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_IsDebuggingRest_
+  commentId: Overload:QQBot.QQBotDebugger.IsDebuggingRest
+  isSpec: "True"
+  fullName: QQBot.QQBotDebugger.IsDebuggingRest
+  nameWithType: QQBotDebugger.IsDebuggingRest
+- uid: QQBot.QQBotDebugger.SetDebuggers(System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Action{QQBot.QQBotDebuggerMessageSource,System.String})
+  name: SetDebuggers(bool?, bool?, bool?, Action<QQBotDebuggerMessageSource, string>?)
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_SetDebuggers_System_Nullable_System_Boolean__System_Nullable_System_Boolean__System_Nullable_System_Boolean__System_Action_QQBot_QQBotDebuggerMessageSource_System_String__
+  commentId: M:QQBot.QQBotDebugger.SetDebuggers(System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Action{QQBot.QQBotDebuggerMessageSource,System.String})
+  name.vb: SetDebuggers(Boolean?, Boolean?, Boolean?, Action(Of QQBotDebuggerMessageSource, String))
+  fullName: QQBot.QQBotDebugger.SetDebuggers(bool?, bool?, bool?, System.Action<QQBot.QQBotDebuggerMessageSource, string>?)
+  fullName.vb: QQBot.QQBotDebugger.SetDebuggers(Boolean?, Boolean?, Boolean?, System.Action(Of QQBot.QQBotDebuggerMessageSource, String))
+  nameWithType: QQBotDebugger.SetDebuggers(bool?, bool?, bool?, Action<QQBotDebuggerMessageSource, string>?)
+  nameWithType.vb: QQBotDebugger.SetDebuggers(Boolean?, Boolean?, Boolean?, Action(Of QQBotDebuggerMessageSource, String))
+- uid: QQBot.QQBotDebugger.SetDebuggers*
+  name: SetDebuggers
+  href: api/QQBot.QQBotDebugger.html#QQBot_QQBotDebugger_SetDebuggers_
+  commentId: Overload:QQBot.QQBotDebugger.SetDebuggers
+  isSpec: "True"
+  fullName: QQBot.QQBotDebugger.SetDebuggers
+  nameWithType: QQBotDebugger.SetDebuggers
+- uid: QQBot.QQBotDebuggerMessageSource
+  name: QQBotDebuggerMessageSource
+  href: api/QQBot.QQBotDebuggerMessageSource.html
+  commentId: T:QQBot.QQBotDebuggerMessageSource
+  fullName: QQBot.QQBotDebuggerMessageSource
+  nameWithType: QQBotDebuggerMessageSource
+- uid: QQBot.QQBotDebuggerMessageSource.Packet
+  name: Packet
+  href: api/QQBot.QQBotDebuggerMessageSource.html#QQBot_QQBotDebuggerMessageSource_Packet
+  commentId: F:QQBot.QQBotDebuggerMessageSource.Packet
+  fullName: QQBot.QQBotDebuggerMessageSource.Packet
+  nameWithType: QQBotDebuggerMessageSource.Packet
+- uid: QQBot.QQBotDebuggerMessageSource.Ratelimit
+  name: Ratelimit
+  href: api/QQBot.QQBotDebuggerMessageSource.html#QQBot_QQBotDebuggerMessageSource_Ratelimit
+  commentId: F:QQBot.QQBotDebuggerMessageSource.Ratelimit
+  fullName: QQBot.QQBotDebuggerMessageSource.Ratelimit
+  nameWithType: QQBotDebuggerMessageSource.Ratelimit
+- uid: QQBot.QQBotDebuggerMessageSource.Rest
+  name: Rest
+  href: api/QQBot.QQBotDebuggerMessageSource.html#QQBot_QQBotDebuggerMessageSource_Rest
+  commentId: F:QQBot.QQBotDebuggerMessageSource.Rest
+  fullName: QQBot.QQBotDebuggerMessageSource.Rest
+  nameWithType: QQBotDebuggerMessageSource.Rest
 - uid: QQBot.QQBotError
   name: QQBotError
   href: api/QQBot.QQBotError.html
@@ -19839,6 +20080,22 @@ references:
   isSpec: "True"
   fullName: QQBot.Rest.QQBotRestClient.CurrentUser
   nameWithType: QQBotRestClient.CurrentUser
+- uid: QQBot.Rest.QQBotRestClient.GenerateProfileUrlAsync(System.String,QQBot.RequestOptions)
+  name: GenerateProfileUrlAsync(string?, RequestOptions?)
+  href: api/QQBot.Rest.QQBotRestClient.html#QQBot_Rest_QQBotRestClient_GenerateProfileUrlAsync_System_String_QQBot_RequestOptions_
+  commentId: M:QQBot.Rest.QQBotRestClient.GenerateProfileUrlAsync(System.String,QQBot.RequestOptions)
+  name.vb: GenerateProfileUrlAsync(String, RequestOptions)
+  fullName: QQBot.Rest.QQBotRestClient.GenerateProfileUrlAsync(string?, QQBot.RequestOptions?)
+  fullName.vb: QQBot.Rest.QQBotRestClient.GenerateProfileUrlAsync(String, QQBot.RequestOptions)
+  nameWithType: QQBotRestClient.GenerateProfileUrlAsync(string?, RequestOptions?)
+  nameWithType.vb: QQBotRestClient.GenerateProfileUrlAsync(String, RequestOptions)
+- uid: QQBot.Rest.QQBotRestClient.GenerateProfileUrlAsync*
+  name: GenerateProfileUrlAsync
+  href: api/QQBot.Rest.QQBotRestClient.html#QQBot_Rest_QQBotRestClient_GenerateProfileUrlAsync_
+  commentId: Overload:QQBot.Rest.QQBotRestClient.GenerateProfileUrlAsync
+  isSpec: "True"
+  fullName: QQBot.Rest.QQBotRestClient.GenerateProfileUrlAsync
+  nameWithType: QQBotRestClient.GenerateProfileUrlAsync
 - uid: QQBot.Rest.QQBotRestClient.GetCurrentUserAsync(QQBot.RequestOptions)
   name: GetCurrentUserAsync(RequestOptions?)
   href: api/QQBot.Rest.QQBotRestClient.html#QQBot_Rest_QQBotRestClient_GetCurrentUserAsync_QQBot_RequestOptions_
@@ -24301,6 +24558,66 @@ references:
   isSpec: "True"
   fullName: QQBot.UrlUtils.GetUserAvatarUrl
   nameWithType: UrlUtils.GetUserAvatarUrl
+- uid: QQBot.UserChannelSource
+  name: UserChannelSource
+  href: api/QQBot.UserChannelSource.html
+  commentId: T:QQBot.UserChannelSource
+  fullName: QQBot.UserChannelSource
+  nameWithType: UserChannelSource
+- uid: QQBot.UserChannelSource.BotSearch
+  name: BotSearch
+  href: api/QQBot.UserChannelSource.html#QQBot_UserChannelSource_BotSearch
+  commentId: F:QQBot.UserChannelSource.BotSearch
+  fullName: QQBot.UserChannelSource.BotSearch
+  nameWithType: UserChannelSource.BotSearch
+- uid: QQBot.UserChannelSource.Default
+  name: Default
+  href: api/QQBot.UserChannelSource.html#QQBot_UserChannelSource_Default
+  commentId: F:QQBot.UserChannelSource.Default
+  fullName: QQBot.UserChannelSource.Default
+  nameWithType: UserChannelSource.Default
+- uid: QQBot.UserChannelSource.ExternalDeveloperShareUrl
+  name: ExternalDeveloperShareUrl
+  href: api/QQBot.UserChannelSource.html#QQBot_UserChannelSource_ExternalDeveloperShareUrl
+  commentId: F:QQBot.UserChannelSource.ExternalDeveloperShareUrl
+  fullName: QQBot.UserChannelSource.ExternalDeveloperShareUrl
+  nameWithType: UserChannelSource.ExternalDeveloperShareUrl
+- uid: QQBot.UserChannelSource.ExternalProfileShare
+  name: ExternalProfileShare
+  href: api/QQBot.UserChannelSource.html#QQBot_UserChannelSource_ExternalProfileShare
+  commentId: F:QQBot.UserChannelSource.ExternalProfileShare
+  fullName: QQBot.UserChannelSource.ExternalProfileShare
+  nameWithType: UserChannelSource.ExternalProfileShare
+- uid: QQBot.UserChannelSource.Group
+  name: Group
+  href: api/QQBot.UserChannelSource.html#QQBot_UserChannelSource_Group
+  commentId: F:QQBot.UserChannelSource.Group
+  fullName: QQBot.UserChannelSource.Group
+  nameWithType: UserChannelSource.Group
+- uid: QQBot.UserChannelSource.InternalDeveloperShareUrl
+  name: InternalDeveloperShareUrl
+  href: api/QQBot.UserChannelSource.html#QQBot_UserChannelSource_InternalDeveloperShareUrl
+  commentId: F:QQBot.UserChannelSource.InternalDeveloperShareUrl
+  fullName: QQBot.UserChannelSource.InternalDeveloperShareUrl
+  nameWithType: UserChannelSource.InternalDeveloperShareUrl
+- uid: QQBot.UserChannelSource.InternalProfileShare
+  name: InternalProfileShare
+  href: api/QQBot.UserChannelSource.html#QQBot_UserChannelSource_InternalProfileShare
+  commentId: F:QQBot.UserChannelSource.InternalProfileShare
+  fullName: QQBot.UserChannelSource.InternalProfileShare
+  nameWithType: UserChannelSource.InternalProfileShare
+- uid: QQBot.UserChannelSource.Space
+  name: Space
+  href: api/QQBot.UserChannelSource.html#QQBot_UserChannelSource_Space
+  commentId: F:QQBot.UserChannelSource.Space
+  fullName: QQBot.UserChannelSource.Space
+  nameWithType: UserChannelSource.Space
+- uid: QQBot.UserChannelSource.UserSearch
+  name: UserSearch
+  href: api/QQBot.UserChannelSource.html#QQBot_UserChannelSource_UserSearch
+  commentId: F:QQBot.UserChannelSource.UserSearch
+  fullName: QQBot.UserChannelSource.UserSearch
+  nameWithType: UserChannelSource.UserSearch
 - uid: QQBot.VideoElement
   name: VideoElement
   href: api/QQBot.VideoElement.html
@@ -24672,6 +24989,12 @@ references:
   commentId: E:QQBot.WebSocket.BaseSocketClient.GuildUnavailable
   fullName: QQBot.WebSocket.BaseSocketClient.GuildUnavailable
   nameWithType: BaseSocketClient.GuildUnavailable
+- uid: QQBot.WebSocket.BaseSocketClient.GuildUpdated
+  name: GuildUpdated
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_GuildUpdated
+  commentId: E:QQBot.WebSocket.BaseSocketClient.GuildUpdated
+  fullName: QQBot.WebSocket.BaseSocketClient.GuildUpdated
+  nameWithType: BaseSocketClient.GuildUpdated
 - uid: QQBot.WebSocket.BaseSocketClient.Guilds
   name: Guilds
   href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_Guilds
@@ -24691,6 +25014,12 @@ references:
   commentId: E:QQBot.WebSocket.BaseSocketClient.JoinedGroup
   fullName: QQBot.WebSocket.BaseSocketClient.JoinedGroup
   nameWithType: BaseSocketClient.JoinedGroup
+- uid: QQBot.WebSocket.BaseSocketClient.JoinedGuild
+  name: JoinedGuild
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_JoinedGuild
+  commentId: E:QQBot.WebSocket.BaseSocketClient.JoinedGuild
+  fullName: QQBot.WebSocket.BaseSocketClient.JoinedGuild
+  nameWithType: BaseSocketClient.JoinedGuild
 - uid: QQBot.WebSocket.BaseSocketClient.Latency
   name: Latency
   href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_Latency
@@ -24710,6 +25039,12 @@ references:
   commentId: E:QQBot.WebSocket.BaseSocketClient.LeftGroup
   fullName: QQBot.WebSocket.BaseSocketClient.LeftGroup
   nameWithType: BaseSocketClient.LeftGroup
+- uid: QQBot.WebSocket.BaseSocketClient.LeftGuild
+  name: LeftGuild
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_LeftGuild
+  commentId: E:QQBot.WebSocket.BaseSocketClient.LeftGuild
+  fullName: QQBot.WebSocket.BaseSocketClient.LeftGuild
+  nameWithType: BaseSocketClient.LeftGuild
 - uid: QQBot.WebSocket.BaseSocketClient.MessageReceived
   name: MessageReceived
   href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_MessageReceived
@@ -24963,6 +25298,22 @@ references:
   isSpec: "True"
   fullName: QQBot.WebSocket.QQBotShardedClient.DownloadUsersAsync
   nameWithType: QQBotShardedClient.DownloadUsersAsync
+- uid: QQBot.WebSocket.QQBotShardedClient.GenerateProfileUrlAsync(System.String,QQBot.RequestOptions)
+  name: GenerateProfileUrlAsync(string?, RequestOptions?)
+  href: api/QQBot.WebSocket.QQBotShardedClient.html#QQBot_WebSocket_QQBotShardedClient_GenerateProfileUrlAsync_System_String_QQBot_RequestOptions_
+  commentId: M:QQBot.WebSocket.QQBotShardedClient.GenerateProfileUrlAsync(System.String,QQBot.RequestOptions)
+  name.vb: GenerateProfileUrlAsync(String, RequestOptions)
+  fullName: QQBot.WebSocket.QQBotShardedClient.GenerateProfileUrlAsync(string?, QQBot.RequestOptions?)
+  fullName.vb: QQBot.WebSocket.QQBotShardedClient.GenerateProfileUrlAsync(String, QQBot.RequestOptions)
+  nameWithType: QQBotShardedClient.GenerateProfileUrlAsync(string?, RequestOptions?)
+  nameWithType.vb: QQBotShardedClient.GenerateProfileUrlAsync(String, RequestOptions)
+- uid: QQBot.WebSocket.QQBotShardedClient.GenerateProfileUrlAsync*
+  name: GenerateProfileUrlAsync
+  href: api/QQBot.WebSocket.QQBotShardedClient.html#QQBot_WebSocket_QQBotShardedClient_GenerateProfileUrlAsync_
+  commentId: Overload:QQBot.WebSocket.QQBotShardedClient.GenerateProfileUrlAsync
+  isSpec: "True"
+  fullName: QQBot.WebSocket.QQBotShardedClient.GenerateProfileUrlAsync
+  nameWithType: QQBotShardedClient.GenerateProfileUrlAsync
 - uid: QQBot.WebSocket.QQBotShardedClient.GetGuild(System.UInt64)
   name: GetGuild(ulong)
   href: api/QQBot.WebSocket.QQBotShardedClient.html#QQBot_WebSocket_QQBotShardedClient_GetGuild_System_UInt64_
@@ -25239,6 +25590,22 @@ references:
   isSpec: "True"
   fullName: QQBot.WebSocket.QQBotSocketClient.DownloadUsersAsync
   nameWithType: QQBotSocketClient.DownloadUsersAsync
+- uid: QQBot.WebSocket.QQBotSocketClient.GenerateProfileUrlAsync(System.String,QQBot.RequestOptions)
+  name: GenerateProfileUrlAsync(string?, RequestOptions?)
+  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_GenerateProfileUrlAsync_System_String_QQBot_RequestOptions_
+  commentId: M:QQBot.WebSocket.QQBotSocketClient.GenerateProfileUrlAsync(System.String,QQBot.RequestOptions)
+  name.vb: GenerateProfileUrlAsync(String, RequestOptions)
+  fullName: QQBot.WebSocket.QQBotSocketClient.GenerateProfileUrlAsync(string?, QQBot.RequestOptions?)
+  fullName.vb: QQBot.WebSocket.QQBotSocketClient.GenerateProfileUrlAsync(String, QQBot.RequestOptions)
+  nameWithType: QQBotSocketClient.GenerateProfileUrlAsync(string?, RequestOptions?)
+  nameWithType.vb: QQBotSocketClient.GenerateProfileUrlAsync(String, RequestOptions)
+- uid: QQBot.WebSocket.QQBotSocketClient.GenerateProfileUrlAsync*
+  name: GenerateProfileUrlAsync
+  href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_GenerateProfileUrlAsync_
+  commentId: Overload:QQBot.WebSocket.QQBotSocketClient.GenerateProfileUrlAsync
+  isSpec: "True"
+  fullName: QQBot.WebSocket.QQBotSocketClient.GenerateProfileUrlAsync
+  nameWithType: QQBotSocketClient.GenerateProfileUrlAsync
 - uid: QQBot.WebSocket.QQBotSocketClient.GetGuild(System.UInt64)
   name: GetGuild(ulong)
   href: api/QQBot.WebSocket.QQBotSocketClient.html#QQBot_WebSocket_QQBotSocketClient_GetGuild_System_UInt64_
@@ -27013,6 +27380,28 @@ references:
   isSpec: "True"
   fullName: QQBot.WebSocket.SocketGuild.PublishAnnouncementAsync
   nameWithType: SocketGuild.PublishAnnouncementAsync
+- uid: QQBot.WebSocket.SocketGuild.PurgeUserCache
+  name: PurgeUserCache()
+  href: api/QQBot.WebSocket.SocketGuild.html#QQBot_WebSocket_SocketGuild_PurgeUserCache
+  commentId: M:QQBot.WebSocket.SocketGuild.PurgeUserCache
+  fullName: QQBot.WebSocket.SocketGuild.PurgeUserCache()
+  nameWithType: SocketGuild.PurgeUserCache()
+- uid: QQBot.WebSocket.SocketGuild.PurgeUserCache(System.Predicate{QQBot.WebSocket.SocketGuildMember})
+  name: PurgeUserCache(Predicate<SocketGuildMember>)
+  href: api/QQBot.WebSocket.SocketGuild.html#QQBot_WebSocket_SocketGuild_PurgeUserCache_System_Predicate_QQBot_WebSocket_SocketGuildMember__
+  commentId: M:QQBot.WebSocket.SocketGuild.PurgeUserCache(System.Predicate{QQBot.WebSocket.SocketGuildMember})
+  name.vb: PurgeUserCache(Predicate(Of SocketGuildMember))
+  fullName: QQBot.WebSocket.SocketGuild.PurgeUserCache(System.Predicate<QQBot.WebSocket.SocketGuildMember>)
+  fullName.vb: QQBot.WebSocket.SocketGuild.PurgeUserCache(System.Predicate(Of QQBot.WebSocket.SocketGuildMember))
+  nameWithType: SocketGuild.PurgeUserCache(Predicate<SocketGuildMember>)
+  nameWithType.vb: SocketGuild.PurgeUserCache(Predicate(Of SocketGuildMember))
+- uid: QQBot.WebSocket.SocketGuild.PurgeUserCache*
+  name: PurgeUserCache
+  href: api/QQBot.WebSocket.SocketGuild.html#QQBot_WebSocket_SocketGuild_PurgeUserCache_
+  commentId: Overload:QQBot.WebSocket.SocketGuild.PurgeUserCache
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketGuild.PurgeUserCache
+  nameWithType: SocketGuild.PurgeUserCache
 - uid: QQBot.WebSocket.SocketGuild.RecommendChannelsAsync(System.Collections.Generic.IEnumerable{QQBot.ChannelRecommendation},QQBot.RequestOptions)
   name: RecommendChannelsAsync(IEnumerable<ChannelRecommendation>, RequestOptions?)
   href: api/QQBot.WebSocket.SocketGuild.html#QQBot_WebSocket_SocketGuild_RecommendChannelsAsync_System_Collections_Generic_IEnumerable_QQBot_ChannelRecommendation__QQBot_RequestOptions_
