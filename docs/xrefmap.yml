@@ -18653,6 +18653,12 @@ references:
   commentId: F:QQBot.QQBotErrorCode.GetXUinFailed
   fullName: QQBot.QQBotErrorCode.GetXUinFailed
   nameWithType: QQBotErrorCode.GetXUinFailed
+- uid: QQBot.QQBotErrorCode.GroupMessageCmdEnterNotAllowed
+  name: GroupMessageCmdEnterNotAllowed
+  href: api/QQBot.QQBotErrorCode.html#QQBot_QQBotErrorCode_GroupMessageCmdEnterNotAllowed
+  commentId: F:QQBot.QQBotErrorCode.GroupMessageCmdEnterNotAllowed
+  fullName: QQBot.QQBotErrorCode.GroupMessageCmdEnterNotAllowed
+  nameWithType: QQBotErrorCode.GroupMessageCmdEnterNotAllowed
 - uid: QQBot.QQBotErrorCode.GuildIdConversionFailed
   name: GuildIdConversionFailed
   href: api/QQBot.QQBotErrorCode.html#QQBot_QQBotErrorCode_GuildIdConversionFailed
