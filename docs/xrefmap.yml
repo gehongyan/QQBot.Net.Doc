@@ -13278,6 +13278,48 @@ references:
   isSpec: "True"
   fullName: QQBot.ImageElementBuilder.WithUrl
   nameWithType: ImageElementBuilder.WithUrl
+- uid: QQBot.InteractionResponseCode
+  name: InteractionResponseCode
+  href: api/QQBot.InteractionResponseCode.html
+  commentId: T:QQBot.InteractionResponseCode
+  fullName: QQBot.InteractionResponseCode
+  nameWithType: InteractionResponseCode
+- uid: QQBot.InteractionResponseCode.AdministratorOnly
+  name: AdministratorOnly
+  href: api/QQBot.InteractionResponseCode.html#QQBot_InteractionResponseCode_AdministratorOnly
+  commentId: F:QQBot.InteractionResponseCode.AdministratorOnly
+  fullName: QQBot.InteractionResponseCode.AdministratorOnly
+  nameWithType: InteractionResponseCode.AdministratorOnly
+- uid: QQBot.InteractionResponseCode.Duplicate
+  name: Duplicate
+  href: api/QQBot.InteractionResponseCode.html#QQBot_InteractionResponseCode_Duplicate
+  commentId: F:QQBot.InteractionResponseCode.Duplicate
+  fullName: QQBot.InteractionResponseCode.Duplicate
+  nameWithType: InteractionResponseCode.Duplicate
+- uid: QQBot.InteractionResponseCode.Failed
+  name: Failed
+  href: api/QQBot.InteractionResponseCode.html#QQBot_InteractionResponseCode_Failed
+  commentId: F:QQBot.InteractionResponseCode.Failed
+  fullName: QQBot.InteractionResponseCode.Failed
+  nameWithType: InteractionResponseCode.Failed
+- uid: QQBot.InteractionResponseCode.PermissionDenied
+  name: PermissionDenied
+  href: api/QQBot.InteractionResponseCode.html#QQBot_InteractionResponseCode_PermissionDenied
+  commentId: F:QQBot.InteractionResponseCode.PermissionDenied
+  fullName: QQBot.InteractionResponseCode.PermissionDenied
+  nameWithType: InteractionResponseCode.PermissionDenied
+- uid: QQBot.InteractionResponseCode.Success
+  name: Success
+  href: api/QQBot.InteractionResponseCode.html#QQBot_InteractionResponseCode_Success
+  commentId: F:QQBot.InteractionResponseCode.Success
+  fullName: QQBot.InteractionResponseCode.Success
+  nameWithType: InteractionResponseCode.Success
+- uid: QQBot.InteractionResponseCode.TooFrequent
+  name: TooFrequent
+  href: api/QQBot.InteractionResponseCode.html#QQBot_InteractionResponseCode_TooFrequent
+  commentId: F:QQBot.InteractionResponseCode.TooFrequent
+  fullName: QQBot.InteractionResponseCode.TooFrequent
+  nameWithType: InteractionResponseCode.TooFrequent
 - uid: QQBot.KeyboardButton
   name: KeyboardButton
   href: api/QQBot.KeyboardButton.html
@@ -24828,6 +24870,12 @@ references:
   commentId: F:QQBot.WebSocket.BaseSocketClient.BaseConfig
   fullName: QQBot.WebSocket.BaseSocketClient.BaseConfig
   nameWithType: BaseSocketClient.BaseConfig
+- uid: QQBot.WebSocket.BaseSocketClient.ButtonExecuted
+  name: ButtonExecuted
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_ButtonExecuted
+  commentId: E:QQBot.WebSocket.BaseSocketClient.ButtonExecuted
+  fullName: QQBot.WebSocket.BaseSocketClient.ButtonExecuted
+  nameWithType: BaseSocketClient.ButtonExecuted
 - uid: QQBot.WebSocket.BaseSocketClient.ChannelCreated
   name: ChannelCreated
   href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_ChannelCreated
@@ -25014,6 +25062,25 @@ references:
   isSpec: "True"
   fullName: QQBot.WebSocket.BaseSocketClient.Guilds
   nameWithType: BaseSocketClient.Guilds
+- uid: QQBot.WebSocket.BaseSocketClient.InteractionCreated
+  name: InteractionCreated
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_InteractionCreated
+  commentId: E:QQBot.WebSocket.BaseSocketClient.InteractionCreated
+  fullName: QQBot.WebSocket.BaseSocketClient.InteractionCreated
+  nameWithType: BaseSocketClient.InteractionCreated
+- uid: QQBot.WebSocket.BaseSocketClient.InteractionService
+  name: InteractionService
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_InteractionService
+  commentId: P:QQBot.WebSocket.BaseSocketClient.InteractionService
+  fullName: QQBot.WebSocket.BaseSocketClient.InteractionService
+  nameWithType: BaseSocketClient.InteractionService
+- uid: QQBot.WebSocket.BaseSocketClient.InteractionService*
+  name: InteractionService
+  href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_InteractionService_
+  commentId: Overload:QQBot.WebSocket.BaseSocketClient.InteractionService
+  isSpec: "True"
+  fullName: QQBot.WebSocket.BaseSocketClient.InteractionService
+  nameWithType: BaseSocketClient.InteractionService
 - uid: QQBot.WebSocket.BaseSocketClient.JoinedGroup
   name: JoinedGroup
   href: api/QQBot.WebSocket.BaseSocketClient.html#QQBot_WebSocket_BaseSocketClient_JoinedGroup
@@ -25223,6 +25290,167 @@ references:
   isSpec: "True"
   fullName: QQBot.WebSocket.ISocketPrivateChannel.Recipients
   nameWithType: ISocketPrivateChannel.Recipients
+- uid: QQBot.WebSocket.InteractionChatType
+  name: InteractionChatType
+  href: api/QQBot.WebSocket.InteractionChatType.html
+  commentId: T:QQBot.WebSocket.InteractionChatType
+  fullName: QQBot.WebSocket.InteractionChatType
+  nameWithType: InteractionChatType
+- uid: QQBot.WebSocket.InteractionChatType.C2C
+  name: C2C
+  href: api/QQBot.WebSocket.InteractionChatType.html#QQBot_WebSocket_InteractionChatType_C2C
+  commentId: F:QQBot.WebSocket.InteractionChatType.C2C
+  fullName: QQBot.WebSocket.InteractionChatType.C2C
+  nameWithType: InteractionChatType.C2C
+- uid: QQBot.WebSocket.InteractionChatType.Group
+  name: Group
+  href: api/QQBot.WebSocket.InteractionChatType.html#QQBot_WebSocket_InteractionChatType_Group
+  commentId: F:QQBot.WebSocket.InteractionChatType.Group
+  fullName: QQBot.WebSocket.InteractionChatType.Group
+  nameWithType: InteractionChatType.Group
+- uid: QQBot.WebSocket.InteractionChatType.Guild
+  name: Guild
+  href: api/QQBot.WebSocket.InteractionChatType.html#QQBot_WebSocket_InteractionChatType_Guild
+  commentId: F:QQBot.WebSocket.InteractionChatType.Guild
+  fullName: QQBot.WebSocket.InteractionChatType.Guild
+  nameWithType: InteractionChatType.Guild
+- uid: QQBot.WebSocket.InteractionScene
+  name: InteractionScene
+  href: api/QQBot.WebSocket.InteractionScene.html
+  commentId: T:QQBot.WebSocket.InteractionScene
+  fullName: QQBot.WebSocket.InteractionScene
+  nameWithType: InteractionScene
+- uid: QQBot.WebSocket.InteractionScene.C2C
+  name: C2C
+  href: api/QQBot.WebSocket.InteractionScene.html#QQBot_WebSocket_InteractionScene_C2C
+  commentId: F:QQBot.WebSocket.InteractionScene.C2C
+  fullName: QQBot.WebSocket.InteractionScene.C2C
+  nameWithType: InteractionScene.C2C
+- uid: QQBot.WebSocket.InteractionScene.Group
+  name: Group
+  href: api/QQBot.WebSocket.InteractionScene.html#QQBot_WebSocket_InteractionScene_Group
+  commentId: F:QQBot.WebSocket.InteractionScene.Group
+  fullName: QQBot.WebSocket.InteractionScene.Group
+  nameWithType: InteractionScene.Group
+- uid: QQBot.WebSocket.InteractionScene.Guild
+  name: Guild
+  href: api/QQBot.WebSocket.InteractionScene.html#QQBot_WebSocket_InteractionScene_Guild
+  commentId: F:QQBot.WebSocket.InteractionScene.Guild
+  fullName: QQBot.WebSocket.InteractionScene.Guild
+  nameWithType: InteractionScene.Guild
+- uid: QQBot.WebSocket.InteractionScene.Unknown
+  name: Unknown
+  href: api/QQBot.WebSocket.InteractionScene.html#QQBot_WebSocket_InteractionScene_Unknown
+  commentId: F:QQBot.WebSocket.InteractionScene.Unknown
+  fullName: QQBot.WebSocket.InteractionScene.Unknown
+  nameWithType: InteractionScene.Unknown
+- uid: QQBot.WebSocket.InteractionService
+  name: InteractionService
+  href: api/QQBot.WebSocket.InteractionService.html
+  commentId: T:QQBot.WebSocket.InteractionService
+  fullName: QQBot.WebSocket.InteractionService
+  nameWithType: InteractionService
+- uid: QQBot.WebSocket.InteractionService.ExecuteAsync(QQBot.WebSocket.SocketInteraction)
+  name: ExecuteAsync(SocketInteraction)
+  href: api/QQBot.WebSocket.InteractionService.html#QQBot_WebSocket_InteractionService_ExecuteAsync_QQBot_WebSocket_SocketInteraction_
+  commentId: M:QQBot.WebSocket.InteractionService.ExecuteAsync(QQBot.WebSocket.SocketInteraction)
+  fullName: QQBot.WebSocket.InteractionService.ExecuteAsync(QQBot.WebSocket.SocketInteraction)
+  nameWithType: InteractionService.ExecuteAsync(SocketInteraction)
+- uid: QQBot.WebSocket.InteractionService.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/QQBot.WebSocket.InteractionService.html#QQBot_WebSocket_InteractionService_ExecuteAsync_
+  commentId: Overload:QQBot.WebSocket.InteractionService.ExecuteAsync
+  isSpec: "True"
+  fullName: QQBot.WebSocket.InteractionService.ExecuteAsync
+  nameWithType: InteractionService.ExecuteAsync
+- uid: QQBot.WebSocket.InteractionService.RegisterButtonDataHandler(System.String,System.Func{QQBot.WebSocket.SocketInteraction,System.Threading.Tasks.Task})
+  name: RegisterButtonDataHandler(string, Func<SocketInteraction, Task>)
+  href: api/QQBot.WebSocket.InteractionService.html#QQBot_WebSocket_InteractionService_RegisterButtonDataHandler_System_String_System_Func_QQBot_WebSocket_SocketInteraction_System_Threading_Tasks_Task__
+  commentId: M:QQBot.WebSocket.InteractionService.RegisterButtonDataHandler(System.String,System.Func{QQBot.WebSocket.SocketInteraction,System.Threading.Tasks.Task})
+  name.vb: RegisterButtonDataHandler(String, Func(Of SocketInteraction, Task))
+  fullName: QQBot.WebSocket.InteractionService.RegisterButtonDataHandler(string, System.Func<QQBot.WebSocket.SocketInteraction, System.Threading.Tasks.Task>)
+  fullName.vb: QQBot.WebSocket.InteractionService.RegisterButtonDataHandler(String, System.Func(Of QQBot.WebSocket.SocketInteraction, System.Threading.Tasks.Task))
+  nameWithType: InteractionService.RegisterButtonDataHandler(string, Func<SocketInteraction, Task>)
+  nameWithType.vb: InteractionService.RegisterButtonDataHandler(String, Func(Of SocketInteraction, Task))
+- uid: QQBot.WebSocket.InteractionService.RegisterButtonDataHandler*
+  name: RegisterButtonDataHandler
+  href: api/QQBot.WebSocket.InteractionService.html#QQBot_WebSocket_InteractionService_RegisterButtonDataHandler_
+  commentId: Overload:QQBot.WebSocket.InteractionService.RegisterButtonDataHandler
+  isSpec: "True"
+  fullName: QQBot.WebSocket.InteractionService.RegisterButtonDataHandler
+  nameWithType: InteractionService.RegisterButtonDataHandler
+- uid: QQBot.WebSocket.InteractionService.RegisterButtonHandler(System.String,System.Func{QQBot.WebSocket.SocketInteraction,System.Threading.Tasks.Task})
+  name: RegisterButtonHandler(string, Func<SocketInteraction, Task>)
+  href: api/QQBot.WebSocket.InteractionService.html#QQBot_WebSocket_InteractionService_RegisterButtonHandler_System_String_System_Func_QQBot_WebSocket_SocketInteraction_System_Threading_Tasks_Task__
+  commentId: M:QQBot.WebSocket.InteractionService.RegisterButtonHandler(System.String,System.Func{QQBot.WebSocket.SocketInteraction,System.Threading.Tasks.Task})
+  name.vb: RegisterButtonHandler(String, Func(Of SocketInteraction, Task))
+  fullName: QQBot.WebSocket.InteractionService.RegisterButtonHandler(string, System.Func<QQBot.WebSocket.SocketInteraction, System.Threading.Tasks.Task>)
+  fullName.vb: QQBot.WebSocket.InteractionService.RegisterButtonHandler(String, System.Func(Of QQBot.WebSocket.SocketInteraction, System.Threading.Tasks.Task))
+  nameWithType: InteractionService.RegisterButtonHandler(string, Func<SocketInteraction, Task>)
+  nameWithType.vb: InteractionService.RegisterButtonHandler(String, Func(Of SocketInteraction, Task))
+- uid: QQBot.WebSocket.InteractionService.RegisterButtonHandler*
+  name: RegisterButtonHandler
+  href: api/QQBot.WebSocket.InteractionService.html#QQBot_WebSocket_InteractionService_RegisterButtonHandler_
+  commentId: Overload:QQBot.WebSocket.InteractionService.RegisterButtonHandler
+  isSpec: "True"
+  fullName: QQBot.WebSocket.InteractionService.RegisterButtonHandler
+  nameWithType: InteractionService.RegisterButtonHandler
+- uid: QQBot.WebSocket.InteractionService.RemoveButtonDataHandler(System.String)
+  name: RemoveButtonDataHandler(string)
+  href: api/QQBot.WebSocket.InteractionService.html#QQBot_WebSocket_InteractionService_RemoveButtonDataHandler_System_String_
+  commentId: M:QQBot.WebSocket.InteractionService.RemoveButtonDataHandler(System.String)
+  name.vb: RemoveButtonDataHandler(String)
+  fullName: QQBot.WebSocket.InteractionService.RemoveButtonDataHandler(string)
+  fullName.vb: QQBot.WebSocket.InteractionService.RemoveButtonDataHandler(String)
+  nameWithType: InteractionService.RemoveButtonDataHandler(string)
+  nameWithType.vb: InteractionService.RemoveButtonDataHandler(String)
+- uid: QQBot.WebSocket.InteractionService.RemoveButtonDataHandler*
+  name: RemoveButtonDataHandler
+  href: api/QQBot.WebSocket.InteractionService.html#QQBot_WebSocket_InteractionService_RemoveButtonDataHandler_
+  commentId: Overload:QQBot.WebSocket.InteractionService.RemoveButtonDataHandler
+  isSpec: "True"
+  fullName: QQBot.WebSocket.InteractionService.RemoveButtonDataHandler
+  nameWithType: InteractionService.RemoveButtonDataHandler
+- uid: QQBot.WebSocket.InteractionService.RemoveButtonHandler(System.String)
+  name: RemoveButtonHandler(string)
+  href: api/QQBot.WebSocket.InteractionService.html#QQBot_WebSocket_InteractionService_RemoveButtonHandler_System_String_
+  commentId: M:QQBot.WebSocket.InteractionService.RemoveButtonHandler(System.String)
+  name.vb: RemoveButtonHandler(String)
+  fullName: QQBot.WebSocket.InteractionService.RemoveButtonHandler(string)
+  fullName.vb: QQBot.WebSocket.InteractionService.RemoveButtonHandler(String)
+  nameWithType: InteractionService.RemoveButtonHandler(string)
+  nameWithType.vb: InteractionService.RemoveButtonHandler(String)
+- uid: QQBot.WebSocket.InteractionService.RemoveButtonHandler*
+  name: RemoveButtonHandler
+  href: api/QQBot.WebSocket.InteractionService.html#QQBot_WebSocket_InteractionService_RemoveButtonHandler_
+  commentId: Overload:QQBot.WebSocket.InteractionService.RemoveButtonHandler
+  isSpec: "True"
+  fullName: QQBot.WebSocket.InteractionService.RemoveButtonHandler
+  nameWithType: InteractionService.RemoveButtonHandler
+- uid: QQBot.WebSocket.InteractionType
+  name: InteractionType
+  href: api/QQBot.WebSocket.InteractionType.html
+  commentId: T:QQBot.WebSocket.InteractionType
+  fullName: QQBot.WebSocket.InteractionType
+  nameWithType: InteractionType
+- uid: QQBot.WebSocket.InteractionType.MessageButton
+  name: MessageButton
+  href: api/QQBot.WebSocket.InteractionType.html#QQBot_WebSocket_InteractionType_MessageButton
+  commentId: F:QQBot.WebSocket.InteractionType.MessageButton
+  fullName: QQBot.WebSocket.InteractionType.MessageButton
+  nameWithType: InteractionType.MessageButton
+- uid: QQBot.WebSocket.InteractionType.PrivateChatMenu
+  name: PrivateChatMenu
+  href: api/QQBot.WebSocket.InteractionType.html#QQBot_WebSocket_InteractionType_PrivateChatMenu
+  commentId: F:QQBot.WebSocket.InteractionType.PrivateChatMenu
+  fullName: QQBot.WebSocket.InteractionType.PrivateChatMenu
+  nameWithType: InteractionType.PrivateChatMenu
+- uid: QQBot.WebSocket.InteractionType.Unknown
+  name: Unknown
+  href: api/QQBot.WebSocket.InteractionType.html#QQBot_WebSocket_InteractionType_Unknown
+  commentId: F:QQBot.WebSocket.InteractionType.Unknown
+  fullName: QQBot.WebSocket.InteractionType.Unknown
+  nameWithType: InteractionType.Unknown
 - uid: QQBot.WebSocket.QQBotShardedClient
   name: QQBotShardedClient
   href: api/QQBot.WebSocket.QQBotShardedClient.html
@@ -25797,6 +26025,19 @@ references:
   fullName.vb: QQBot.WebSocket.QQBotSocketConfig.New
   nameWithType: QQBotSocketConfig.QQBotSocketConfig
   nameWithType.vb: QQBotSocketConfig.New
+- uid: QQBot.WebSocket.QQBotSocketConfig.AutoAcknowledgeInteractions
+  name: AutoAcknowledgeInteractions
+  href: api/QQBot.WebSocket.QQBotSocketConfig.html#QQBot_WebSocket_QQBotSocketConfig_AutoAcknowledgeInteractions
+  commentId: P:QQBot.WebSocket.QQBotSocketConfig.AutoAcknowledgeInteractions
+  fullName: QQBot.WebSocket.QQBotSocketConfig.AutoAcknowledgeInteractions
+  nameWithType: QQBotSocketConfig.AutoAcknowledgeInteractions
+- uid: QQBot.WebSocket.QQBotSocketConfig.AutoAcknowledgeInteractions*
+  name: AutoAcknowledgeInteractions
+  href: api/QQBot.WebSocket.QQBotSocketConfig.html#QQBot_WebSocket_QQBotSocketConfig_AutoAcknowledgeInteractions_
+  commentId: Overload:QQBot.WebSocket.QQBotSocketConfig.AutoAcknowledgeInteractions
+  isSpec: "True"
+  fullName: QQBot.WebSocket.QQBotSocketConfig.AutoAcknowledgeInteractions
+  nameWithType: QQBotSocketConfig.AutoAcknowledgeInteractions
 - uid: QQBot.WebSocket.QQBotSocketConfig.ConnectionTimeout
   name: ConnectionTimeout
   href: api/QQBot.WebSocket.QQBotSocketConfig.html#QQBot_WebSocket_QQBotSocketConfig_ConnectionTimeout
@@ -25868,6 +26109,32 @@ references:
   isSpec: "True"
   fullName: QQBot.WebSocket.QQBotSocketConfig.IdentifyMaxConcurrency
   nameWithType: QQBotSocketConfig.IdentifyMaxConcurrency
+- uid: QQBot.WebSocket.QQBotSocketConfig.InteractionAutoAcknowledgeDelay
+  name: InteractionAutoAcknowledgeDelay
+  href: api/QQBot.WebSocket.QQBotSocketConfig.html#QQBot_WebSocket_QQBotSocketConfig_InteractionAutoAcknowledgeDelay
+  commentId: P:QQBot.WebSocket.QQBotSocketConfig.InteractionAutoAcknowledgeDelay
+  fullName: QQBot.WebSocket.QQBotSocketConfig.InteractionAutoAcknowledgeDelay
+  nameWithType: QQBotSocketConfig.InteractionAutoAcknowledgeDelay
+- uid: QQBot.WebSocket.QQBotSocketConfig.InteractionAutoAcknowledgeDelay*
+  name: InteractionAutoAcknowledgeDelay
+  href: api/QQBot.WebSocket.QQBotSocketConfig.html#QQBot_WebSocket_QQBotSocketConfig_InteractionAutoAcknowledgeDelay_
+  commentId: Overload:QQBot.WebSocket.QQBotSocketConfig.InteractionAutoAcknowledgeDelay
+  isSpec: "True"
+  fullName: QQBot.WebSocket.QQBotSocketConfig.InteractionAutoAcknowledgeDelay
+  nameWithType: QQBotSocketConfig.InteractionAutoAcknowledgeDelay
+- uid: QQBot.WebSocket.QQBotSocketConfig.InteractionService
+  name: InteractionService
+  href: api/QQBot.WebSocket.QQBotSocketConfig.html#QQBot_WebSocket_QQBotSocketConfig_InteractionService
+  commentId: P:QQBot.WebSocket.QQBotSocketConfig.InteractionService
+  fullName: QQBot.WebSocket.QQBotSocketConfig.InteractionService
+  nameWithType: QQBotSocketConfig.InteractionService
+- uid: QQBot.WebSocket.QQBotSocketConfig.InteractionService*
+  name: InteractionService
+  href: api/QQBot.WebSocket.QQBotSocketConfig.html#QQBot_WebSocket_QQBotSocketConfig_InteractionService_
+  commentId: Overload:QQBot.WebSocket.QQBotSocketConfig.InteractionService
+  isSpec: "True"
+  fullName: QQBot.WebSocket.QQBotSocketConfig.InteractionService
+  nameWithType: QQBotSocketConfig.InteractionService
 - uid: QQBot.WebSocket.QQBotSocketConfig.LargeNumberOfGuildsThreshold
   name: LargeNumberOfGuildsThreshold
   href: api/QQBot.WebSocket.QQBotSocketConfig.html#QQBot_WebSocket_QQBotSocketConfig_LargeNumberOfGuildsThreshold
@@ -28171,6 +28438,410 @@ references:
   isSpec: "True"
   fullName: QQBot.WebSocket.SocketGuildUser.Username
   nameWithType: SocketGuildUser.Username
+- uid: QQBot.WebSocket.SocketInteraction
+  name: SocketInteraction
+  href: api/QQBot.WebSocket.SocketInteraction.html
+  commentId: T:QQBot.WebSocket.SocketInteraction
+  fullName: QQBot.WebSocket.SocketInteraction
+  nameWithType: SocketInteraction
+- uid: QQBot.WebSocket.SocketInteraction.AcknowledgeAsync(QQBot.InteractionResponseCode,QQBot.RequestOptions)
+  name: AcknowledgeAsync(InteractionResponseCode, RequestOptions?)
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_AcknowledgeAsync_QQBot_InteractionResponseCode_QQBot_RequestOptions_
+  commentId: M:QQBot.WebSocket.SocketInteraction.AcknowledgeAsync(QQBot.InteractionResponseCode,QQBot.RequestOptions)
+  name.vb: AcknowledgeAsync(InteractionResponseCode, RequestOptions)
+  fullName: QQBot.WebSocket.SocketInteraction.AcknowledgeAsync(QQBot.InteractionResponseCode, QQBot.RequestOptions?)
+  fullName.vb: QQBot.WebSocket.SocketInteraction.AcknowledgeAsync(QQBot.InteractionResponseCode, QQBot.RequestOptions)
+  nameWithType: SocketInteraction.AcknowledgeAsync(InteractionResponseCode, RequestOptions?)
+  nameWithType.vb: SocketInteraction.AcknowledgeAsync(InteractionResponseCode, RequestOptions)
+- uid: QQBot.WebSocket.SocketInteraction.AcknowledgeAsync*
+  name: AcknowledgeAsync
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_AcknowledgeAsync_
+  commentId: Overload:QQBot.WebSocket.SocketInteraction.AcknowledgeAsync
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteraction.AcknowledgeAsync
+  nameWithType: SocketInteraction.AcknowledgeAsync
+- uid: QQBot.WebSocket.SocketInteraction.ButtonData
+  name: ButtonData
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_ButtonData
+  commentId: P:QQBot.WebSocket.SocketInteraction.ButtonData
+  fullName: QQBot.WebSocket.SocketInteraction.ButtonData
+  nameWithType: SocketInteraction.ButtonData
+- uid: QQBot.WebSocket.SocketInteraction.ButtonData*
+  name: ButtonData
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_ButtonData_
+  commentId: Overload:QQBot.WebSocket.SocketInteraction.ButtonData
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteraction.ButtonData
+  nameWithType: SocketInteraction.ButtonData
+- uid: QQBot.WebSocket.SocketInteraction.ButtonId
+  name: ButtonId
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_ButtonId
+  commentId: P:QQBot.WebSocket.SocketInteraction.ButtonId
+  fullName: QQBot.WebSocket.SocketInteraction.ButtonId
+  nameWithType: SocketInteraction.ButtonId
+- uid: QQBot.WebSocket.SocketInteraction.ButtonId*
+  name: ButtonId
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_ButtonId_
+  commentId: Overload:QQBot.WebSocket.SocketInteraction.ButtonId
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteraction.ButtonId
+  nameWithType: SocketInteraction.ButtonId
+- uid: QQBot.WebSocket.SocketInteraction.Channel
+  name: Channel
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_Channel
+  commentId: P:QQBot.WebSocket.SocketInteraction.Channel
+  fullName: QQBot.WebSocket.SocketInteraction.Channel
+  nameWithType: SocketInteraction.Channel
+- uid: QQBot.WebSocket.SocketInteraction.Channel*
+  name: Channel
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_Channel_
+  commentId: Overload:QQBot.WebSocket.SocketInteraction.Channel
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteraction.Channel
+  nameWithType: SocketInteraction.Channel
+- uid: QQBot.WebSocket.SocketInteraction.ChannelId
+  name: ChannelId
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_ChannelId
+  commentId: P:QQBot.WebSocket.SocketInteraction.ChannelId
+  fullName: QQBot.WebSocket.SocketInteraction.ChannelId
+  nameWithType: SocketInteraction.ChannelId
+- uid: QQBot.WebSocket.SocketInteraction.ChannelId*
+  name: ChannelId
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_ChannelId_
+  commentId: Overload:QQBot.WebSocket.SocketInteraction.ChannelId
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteraction.ChannelId
+  nameWithType: SocketInteraction.ChannelId
+- uid: QQBot.WebSocket.SocketInteraction.ChatType
+  name: ChatType
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_ChatType
+  commentId: P:QQBot.WebSocket.SocketInteraction.ChatType
+  fullName: QQBot.WebSocket.SocketInteraction.ChatType
+  nameWithType: SocketInteraction.ChatType
+- uid: QQBot.WebSocket.SocketInteraction.ChatType*
+  name: ChatType
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_ChatType_
+  commentId: Overload:QQBot.WebSocket.SocketInteraction.ChatType
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteraction.ChatType
+  nameWithType: SocketInteraction.ChatType
+- uid: QQBot.WebSocket.SocketInteraction.Data
+  name: Data
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_Data
+  commentId: P:QQBot.WebSocket.SocketInteraction.Data
+  fullName: QQBot.WebSocket.SocketInteraction.Data
+  nameWithType: SocketInteraction.Data
+- uid: QQBot.WebSocket.SocketInteraction.Data*
+  name: Data
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_Data_
+  commentId: Overload:QQBot.WebSocket.SocketInteraction.Data
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteraction.Data
+  nameWithType: SocketInteraction.Data
+- uid: QQBot.WebSocket.SocketInteraction.EventId
+  name: EventId
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_EventId
+  commentId: P:QQBot.WebSocket.SocketInteraction.EventId
+  fullName: QQBot.WebSocket.SocketInteraction.EventId
+  nameWithType: SocketInteraction.EventId
+- uid: QQBot.WebSocket.SocketInteraction.EventId*
+  name: EventId
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_EventId_
+  commentId: Overload:QQBot.WebSocket.SocketInteraction.EventId
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteraction.EventId
+  nameWithType: SocketInteraction.EventId
+- uid: QQBot.WebSocket.SocketInteraction.GroupMemberOpenId
+  name: GroupMemberOpenId
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_GroupMemberOpenId
+  commentId: P:QQBot.WebSocket.SocketInteraction.GroupMemberOpenId
+  fullName: QQBot.WebSocket.SocketInteraction.GroupMemberOpenId
+  nameWithType: SocketInteraction.GroupMemberOpenId
+- uid: QQBot.WebSocket.SocketInteraction.GroupMemberOpenId*
+  name: GroupMemberOpenId
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_GroupMemberOpenId_
+  commentId: Overload:QQBot.WebSocket.SocketInteraction.GroupMemberOpenId
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteraction.GroupMemberOpenId
+  nameWithType: SocketInteraction.GroupMemberOpenId
+- uid: QQBot.WebSocket.SocketInteraction.GroupOpenId
+  name: GroupOpenId
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_GroupOpenId
+  commentId: P:QQBot.WebSocket.SocketInteraction.GroupOpenId
+  fullName: QQBot.WebSocket.SocketInteraction.GroupOpenId
+  nameWithType: SocketInteraction.GroupOpenId
+- uid: QQBot.WebSocket.SocketInteraction.GroupOpenId*
+  name: GroupOpenId
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_GroupOpenId_
+  commentId: Overload:QQBot.WebSocket.SocketInteraction.GroupOpenId
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteraction.GroupOpenId
+  nameWithType: SocketInteraction.GroupOpenId
+- uid: QQBot.WebSocket.SocketInteraction.Guild
+  name: Guild
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_Guild
+  commentId: P:QQBot.WebSocket.SocketInteraction.Guild
+  fullName: QQBot.WebSocket.SocketInteraction.Guild
+  nameWithType: SocketInteraction.Guild
+- uid: QQBot.WebSocket.SocketInteraction.Guild*
+  name: Guild
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_Guild_
+  commentId: Overload:QQBot.WebSocket.SocketInteraction.Guild
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteraction.Guild
+  nameWithType: SocketInteraction.Guild
+- uid: QQBot.WebSocket.SocketInteraction.GuildId
+  name: GuildId
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_GuildId
+  commentId: P:QQBot.WebSocket.SocketInteraction.GuildId
+  fullName: QQBot.WebSocket.SocketInteraction.GuildId
+  nameWithType: SocketInteraction.GuildId
+- uid: QQBot.WebSocket.SocketInteraction.GuildId*
+  name: GuildId
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_GuildId_
+  commentId: Overload:QQBot.WebSocket.SocketInteraction.GuildId
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteraction.GuildId
+  nameWithType: SocketInteraction.GuildId
+- uid: QQBot.WebSocket.SocketInteraction.HasResponded
+  name: HasResponded
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_HasResponded
+  commentId: P:QQBot.WebSocket.SocketInteraction.HasResponded
+  fullName: QQBot.WebSocket.SocketInteraction.HasResponded
+  nameWithType: SocketInteraction.HasResponded
+- uid: QQBot.WebSocket.SocketInteraction.HasResponded*
+  name: HasResponded
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_HasResponded_
+  commentId: Overload:QQBot.WebSocket.SocketInteraction.HasResponded
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteraction.HasResponded
+  nameWithType: SocketInteraction.HasResponded
+- uid: QQBot.WebSocket.SocketInteraction.Message
+  name: Message
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_Message
+  commentId: P:QQBot.WebSocket.SocketInteraction.Message
+  fullName: QQBot.WebSocket.SocketInteraction.Message
+  nameWithType: SocketInteraction.Message
+- uid: QQBot.WebSocket.SocketInteraction.Message*
+  name: Message
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_Message_
+  commentId: Overload:QQBot.WebSocket.SocketInteraction.Message
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteraction.Message
+  nameWithType: SocketInteraction.Message
+- uid: QQBot.WebSocket.SocketInteraction.RawScene
+  name: RawScene
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_RawScene
+  commentId: P:QQBot.WebSocket.SocketInteraction.RawScene
+  fullName: QQBot.WebSocket.SocketInteraction.RawScene
+  nameWithType: SocketInteraction.RawScene
+- uid: QQBot.WebSocket.SocketInteraction.RawScene*
+  name: RawScene
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_RawScene_
+  commentId: Overload:QQBot.WebSocket.SocketInteraction.RawScene
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteraction.RawScene
+  nameWithType: SocketInteraction.RawScene
+- uid: QQBot.WebSocket.SocketInteraction.RespondAsync(System.String,QQBot.IMarkdown,System.Nullable{QQBot.FileAttachment},QQBot.Embed,QQBot.Ark,QQBot.IKeyboard,QQBot.MessageReference,QQBot.RequestOptions)
+  name: RespondAsync(string?, IMarkdown?, FileAttachment?, Embed?, Ark?, IKeyboard?, MessageReference?, RequestOptions?)
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_RespondAsync_System_String_QQBot_IMarkdown_System_Nullable_QQBot_FileAttachment__QQBot_Embed_QQBot_Ark_QQBot_IKeyboard_QQBot_MessageReference_QQBot_RequestOptions_
+  commentId: M:QQBot.WebSocket.SocketInteraction.RespondAsync(System.String,QQBot.IMarkdown,System.Nullable{QQBot.FileAttachment},QQBot.Embed,QQBot.Ark,QQBot.IKeyboard,QQBot.MessageReference,QQBot.RequestOptions)
+  name.vb: RespondAsync(String, IMarkdown, FileAttachment?, Embed, Ark, IKeyboard, MessageReference, RequestOptions)
+  fullName: QQBot.WebSocket.SocketInteraction.RespondAsync(string?, QQBot.IMarkdown?, QQBot.FileAttachment?, QQBot.Embed?, QQBot.Ark?, QQBot.IKeyboard?, QQBot.MessageReference?, QQBot.RequestOptions?)
+  fullName.vb: QQBot.WebSocket.SocketInteraction.RespondAsync(String, QQBot.IMarkdown, QQBot.FileAttachment?, QQBot.Embed, QQBot.Ark, QQBot.IKeyboard, QQBot.MessageReference, QQBot.RequestOptions)
+  nameWithType: SocketInteraction.RespondAsync(string?, IMarkdown?, FileAttachment?, Embed?, Ark?, IKeyboard?, MessageReference?, RequestOptions?)
+  nameWithType.vb: SocketInteraction.RespondAsync(String, IMarkdown, FileAttachment?, Embed, Ark, IKeyboard, MessageReference, RequestOptions)
+- uid: QQBot.WebSocket.SocketInteraction.RespondAsync*
+  name: RespondAsync
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_RespondAsync_
+  commentId: Overload:QQBot.WebSocket.SocketInteraction.RespondAsync
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteraction.RespondAsync
+  nameWithType: SocketInteraction.RespondAsync
+- uid: QQBot.WebSocket.SocketInteraction.Scene
+  name: Scene
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_Scene
+  commentId: P:QQBot.WebSocket.SocketInteraction.Scene
+  fullName: QQBot.WebSocket.SocketInteraction.Scene
+  nameWithType: SocketInteraction.Scene
+- uid: QQBot.WebSocket.SocketInteraction.Scene*
+  name: Scene
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_Scene_
+  commentId: Overload:QQBot.WebSocket.SocketInteraction.Scene
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteraction.Scene
+  nameWithType: SocketInteraction.Scene
+- uid: QQBot.WebSocket.SocketInteraction.SendMessageAsync(System.String,QQBot.IMarkdown,System.Nullable{QQBot.FileAttachment},QQBot.Embed,QQBot.Ark,QQBot.IKeyboard,QQBot.MessageReference,QQBot.RequestOptions)
+  name: SendMessageAsync(string?, IMarkdown?, FileAttachment?, Embed?, Ark?, IKeyboard?, MessageReference?, RequestOptions?)
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_SendMessageAsync_System_String_QQBot_IMarkdown_System_Nullable_QQBot_FileAttachment__QQBot_Embed_QQBot_Ark_QQBot_IKeyboard_QQBot_MessageReference_QQBot_RequestOptions_
+  commentId: M:QQBot.WebSocket.SocketInteraction.SendMessageAsync(System.String,QQBot.IMarkdown,System.Nullable{QQBot.FileAttachment},QQBot.Embed,QQBot.Ark,QQBot.IKeyboard,QQBot.MessageReference,QQBot.RequestOptions)
+  name.vb: SendMessageAsync(String, IMarkdown, FileAttachment?, Embed, Ark, IKeyboard, MessageReference, RequestOptions)
+  fullName: QQBot.WebSocket.SocketInteraction.SendMessageAsync(string?, QQBot.IMarkdown?, QQBot.FileAttachment?, QQBot.Embed?, QQBot.Ark?, QQBot.IKeyboard?, QQBot.MessageReference?, QQBot.RequestOptions?)
+  fullName.vb: QQBot.WebSocket.SocketInteraction.SendMessageAsync(String, QQBot.IMarkdown, QQBot.FileAttachment?, QQBot.Embed, QQBot.Ark, QQBot.IKeyboard, QQBot.MessageReference, QQBot.RequestOptions)
+  nameWithType: SocketInteraction.SendMessageAsync(string?, IMarkdown?, FileAttachment?, Embed?, Ark?, IKeyboard?, MessageReference?, RequestOptions?)
+  nameWithType.vb: SocketInteraction.SendMessageAsync(String, IMarkdown, FileAttachment?, Embed, Ark, IKeyboard, MessageReference, RequestOptions)
+- uid: QQBot.WebSocket.SocketInteraction.SendMessageAsync*
+  name: SendMessageAsync
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_SendMessageAsync_
+  commentId: Overload:QQBot.WebSocket.SocketInteraction.SendMessageAsync
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteraction.SendMessageAsync
+  nameWithType: SocketInteraction.SendMessageAsync
+- uid: QQBot.WebSocket.SocketInteraction.Timestamp
+  name: Timestamp
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_Timestamp
+  commentId: P:QQBot.WebSocket.SocketInteraction.Timestamp
+  fullName: QQBot.WebSocket.SocketInteraction.Timestamp
+  nameWithType: SocketInteraction.Timestamp
+- uid: QQBot.WebSocket.SocketInteraction.Timestamp*
+  name: Timestamp
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_Timestamp_
+  commentId: Overload:QQBot.WebSocket.SocketInteraction.Timestamp
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteraction.Timestamp
+  nameWithType: SocketInteraction.Timestamp
+- uid: QQBot.WebSocket.SocketInteraction.Type
+  name: Type
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_Type
+  commentId: P:QQBot.WebSocket.SocketInteraction.Type
+  fullName: QQBot.WebSocket.SocketInteraction.Type
+  nameWithType: SocketInteraction.Type
+- uid: QQBot.WebSocket.SocketInteraction.Type*
+  name: Type
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_Type_
+  commentId: Overload:QQBot.WebSocket.SocketInteraction.Type
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteraction.Type
+  nameWithType: SocketInteraction.Type
+- uid: QQBot.WebSocket.SocketInteraction.User
+  name: User
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_User
+  commentId: P:QQBot.WebSocket.SocketInteraction.User
+  fullName: QQBot.WebSocket.SocketInteraction.User
+  nameWithType: SocketInteraction.User
+- uid: QQBot.WebSocket.SocketInteraction.User*
+  name: User
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_User_
+  commentId: Overload:QQBot.WebSocket.SocketInteraction.User
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteraction.User
+  nameWithType: SocketInteraction.User
+- uid: QQBot.WebSocket.SocketInteraction.UserOpenId
+  name: UserOpenId
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_UserOpenId
+  commentId: P:QQBot.WebSocket.SocketInteraction.UserOpenId
+  fullName: QQBot.WebSocket.SocketInteraction.UserOpenId
+  nameWithType: SocketInteraction.UserOpenId
+- uid: QQBot.WebSocket.SocketInteraction.UserOpenId*
+  name: UserOpenId
+  href: api/QQBot.WebSocket.SocketInteraction.html#QQBot_WebSocket_SocketInteraction_UserOpenId_
+  commentId: Overload:QQBot.WebSocket.SocketInteraction.UserOpenId
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteraction.UserOpenId
+  nameWithType: SocketInteraction.UserOpenId
+- uid: QQBot.WebSocket.SocketInteractionData
+  name: SocketInteractionData
+  href: api/QQBot.WebSocket.SocketInteractionData.html
+  commentId: T:QQBot.WebSocket.SocketInteractionData
+  fullName: QQBot.WebSocket.SocketInteractionData
+  nameWithType: SocketInteractionData
+- uid: QQBot.WebSocket.SocketInteractionData.Resolved
+  name: Resolved
+  href: api/QQBot.WebSocket.SocketInteractionData.html#QQBot_WebSocket_SocketInteractionData_Resolved
+  commentId: P:QQBot.WebSocket.SocketInteractionData.Resolved
+  fullName: QQBot.WebSocket.SocketInteractionData.Resolved
+  nameWithType: SocketInteractionData.Resolved
+- uid: QQBot.WebSocket.SocketInteractionData.Resolved*
+  name: Resolved
+  href: api/QQBot.WebSocket.SocketInteractionData.html#QQBot_WebSocket_SocketInteractionData_Resolved_
+  commentId: Overload:QQBot.WebSocket.SocketInteractionData.Resolved
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteractionData.Resolved
+  nameWithType: SocketInteractionData.Resolved
+- uid: QQBot.WebSocket.SocketInteractionData.Type
+  name: Type
+  href: api/QQBot.WebSocket.SocketInteractionData.html#QQBot_WebSocket_SocketInteractionData_Type
+  commentId: P:QQBot.WebSocket.SocketInteractionData.Type
+  fullName: QQBot.WebSocket.SocketInteractionData.Type
+  nameWithType: SocketInteractionData.Type
+- uid: QQBot.WebSocket.SocketInteractionData.Type*
+  name: Type
+  href: api/QQBot.WebSocket.SocketInteractionData.html#QQBot_WebSocket_SocketInteractionData_Type_
+  commentId: Overload:QQBot.WebSocket.SocketInteractionData.Type
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteractionData.Type
+  nameWithType: SocketInteractionData.Type
+- uid: QQBot.WebSocket.SocketInteractionResolvedData
+  name: SocketInteractionResolvedData
+  href: api/QQBot.WebSocket.SocketInteractionResolvedData.html
+  commentId: T:QQBot.WebSocket.SocketInteractionResolvedData
+  fullName: QQBot.WebSocket.SocketInteractionResolvedData
+  nameWithType: SocketInteractionResolvedData
+- uid: QQBot.WebSocket.SocketInteractionResolvedData.ButtonData
+  name: ButtonData
+  href: api/QQBot.WebSocket.SocketInteractionResolvedData.html#QQBot_WebSocket_SocketInteractionResolvedData_ButtonData
+  commentId: P:QQBot.WebSocket.SocketInteractionResolvedData.ButtonData
+  fullName: QQBot.WebSocket.SocketInteractionResolvedData.ButtonData
+  nameWithType: SocketInteractionResolvedData.ButtonData
+- uid: QQBot.WebSocket.SocketInteractionResolvedData.ButtonData*
+  name: ButtonData
+  href: api/QQBot.WebSocket.SocketInteractionResolvedData.html#QQBot_WebSocket_SocketInteractionResolvedData_ButtonData_
+  commentId: Overload:QQBot.WebSocket.SocketInteractionResolvedData.ButtonData
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteractionResolvedData.ButtonData
+  nameWithType: SocketInteractionResolvedData.ButtonData
+- uid: QQBot.WebSocket.SocketInteractionResolvedData.ButtonId
+  name: ButtonId
+  href: api/QQBot.WebSocket.SocketInteractionResolvedData.html#QQBot_WebSocket_SocketInteractionResolvedData_ButtonId
+  commentId: P:QQBot.WebSocket.SocketInteractionResolvedData.ButtonId
+  fullName: QQBot.WebSocket.SocketInteractionResolvedData.ButtonId
+  nameWithType: SocketInteractionResolvedData.ButtonId
+- uid: QQBot.WebSocket.SocketInteractionResolvedData.ButtonId*
+  name: ButtonId
+  href: api/QQBot.WebSocket.SocketInteractionResolvedData.html#QQBot_WebSocket_SocketInteractionResolvedData_ButtonId_
+  commentId: Overload:QQBot.WebSocket.SocketInteractionResolvedData.ButtonId
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteractionResolvedData.ButtonId
+  nameWithType: SocketInteractionResolvedData.ButtonId
+- uid: QQBot.WebSocket.SocketInteractionResolvedData.FeatureId
+  name: FeatureId
+  href: api/QQBot.WebSocket.SocketInteractionResolvedData.html#QQBot_WebSocket_SocketInteractionResolvedData_FeatureId
+  commentId: P:QQBot.WebSocket.SocketInteractionResolvedData.FeatureId
+  fullName: QQBot.WebSocket.SocketInteractionResolvedData.FeatureId
+  nameWithType: SocketInteractionResolvedData.FeatureId
+- uid: QQBot.WebSocket.SocketInteractionResolvedData.FeatureId*
+  name: FeatureId
+  href: api/QQBot.WebSocket.SocketInteractionResolvedData.html#QQBot_WebSocket_SocketInteractionResolvedData_FeatureId_
+  commentId: Overload:QQBot.WebSocket.SocketInteractionResolvedData.FeatureId
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteractionResolvedData.FeatureId
+  nameWithType: SocketInteractionResolvedData.FeatureId
+- uid: QQBot.WebSocket.SocketInteractionResolvedData.MessageId
+  name: MessageId
+  href: api/QQBot.WebSocket.SocketInteractionResolvedData.html#QQBot_WebSocket_SocketInteractionResolvedData_MessageId
+  commentId: P:QQBot.WebSocket.SocketInteractionResolvedData.MessageId
+  fullName: QQBot.WebSocket.SocketInteractionResolvedData.MessageId
+  nameWithType: SocketInteractionResolvedData.MessageId
+- uid: QQBot.WebSocket.SocketInteractionResolvedData.MessageId*
+  name: MessageId
+  href: api/QQBot.WebSocket.SocketInteractionResolvedData.html#QQBot_WebSocket_SocketInteractionResolvedData_MessageId_
+  commentId: Overload:QQBot.WebSocket.SocketInteractionResolvedData.MessageId
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteractionResolvedData.MessageId
+  nameWithType: SocketInteractionResolvedData.MessageId
+- uid: QQBot.WebSocket.SocketInteractionResolvedData.UserId
+  name: UserId
+  href: api/QQBot.WebSocket.SocketInteractionResolvedData.html#QQBot_WebSocket_SocketInteractionResolvedData_UserId
+  commentId: P:QQBot.WebSocket.SocketInteractionResolvedData.UserId
+  fullName: QQBot.WebSocket.SocketInteractionResolvedData.UserId
+  nameWithType: SocketInteractionResolvedData.UserId
+- uid: QQBot.WebSocket.SocketInteractionResolvedData.UserId*
+  name: UserId
+  href: api/QQBot.WebSocket.SocketInteractionResolvedData.html#QQBot_WebSocket_SocketInteractionResolvedData_UserId_
+  commentId: Overload:QQBot.WebSocket.SocketInteractionResolvedData.UserId
+  isSpec: "True"
+  fullName: QQBot.WebSocket.SocketInteractionResolvedData.UserId
+  nameWithType: SocketInteractionResolvedData.UserId
 - uid: QQBot.WebSocket.SocketLiveStreamChannel
   name: SocketLiveStreamChannel
   href: api/QQBot.WebSocket.SocketLiveStreamChannel.html

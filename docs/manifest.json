@@ -2199,6 +2199,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.InteractionResponseCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.InteractionResponseCode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.InteractionResponseCode",
+      "Summary": "<p sourcefile=\"api/QQBot.InteractionResponseCode.yml\" sourcestartlinenumber=\"1\">表示对互动事件的处理结果。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/QQBot.KeyboardButton.yml",
       "output": {
         ".html": {
@@ -3893,6 +3907,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.InteractionChatType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.InteractionChatType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.InteractionChatType",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.InteractionChatType.yml\" sourcestartlinenumber=\"1\">表示互动发生的聊天类型。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.InteractionScene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.InteractionScene.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.InteractionScene",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.InteractionScene.yml\" sourcestartlinenumber=\"1\">表示互动发生的场景。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.InteractionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.InteractionService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.InteractionService",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.InteractionService.yml\" sourcestartlinenumber=\"1\">提供互动事件的路由服务。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.InteractionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.InteractionType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.InteractionType",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.InteractionType.yml\" sourcestartlinenumber=\"1\">表示互动类型。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/QQBot.WebSocket.QQBotShardedClient.yml",
       "output": {
         ".html": {
@@ -4100,6 +4170,48 @@
       "IsMRef": true,
       "Title": "QQBot.WebSocket.SocketGuildUser",
       "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketGuildUser.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的频道上下文中的用户。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketInteraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketInteraction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketInteraction",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketInteraction.yml\" sourcestartlinenumber=\"1\">表示由 QQ Bot 网关接收的互动事件。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketInteractionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketInteractionData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketInteractionData",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketInteractionData.yml\" sourcestartlinenumber=\"1\">表示互动事件携带的数据。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketInteractionResolvedData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketInteractionResolvedData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketInteractionResolvedData",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketInteractionResolvedData.yml\" sourcestartlinenumber=\"1\">表示互动事件中已解析的数据。</p>\n"
     },
     {
       "type": "ManagedReference",
