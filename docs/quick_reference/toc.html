@@ -1,0 +1,569 @@
+
+<div id="sidetoggle">
+  <div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
+        <input type="text" id="toc_filter_input" placeholder="Filter by title" onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+
+          <ul class="nav level1">
+                <li>
+                    <a href="index.html" name="" title="快速参考指南">快速参考指南</a>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a>登录与启动</a>
+
+                    <ul class="nav level2">
+                          <li>
+                              <a href="startup/rest.html" name="" title="Rest 客户端">Rest 客户端</a>
+                          </li>
+                          <li>
+                              <a href="startup/websocket.html" name="" title="WebSocket 客户端">WebSocket 客户端</a>
+                          </li>
+                          <li>
+                              <a href="startup/webhook.html" name="" title="Webhook 服务端">Webhook 服务端</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a>服务端接口</a>
+
+                    <ul class="nav level2">
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a>消息收发</a>
+
+                              <ul class="nav level3">
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a>单聊消息</a>
+
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="message/c2c/send-message.html" name="" title="发送单聊消息">发送单聊消息</a>
+                                              </li>
+                                              <li>
+                                                  <a href="message/c2c/send-stream-message.html" name="" title="流式发送单聊消息">流式发送单聊消息</a>
+                                              </li>
+                                              <li>
+                                                  <a href="message/c2c/recall-message.html" name="" title="撤回单聊消息">撤回单聊消息</a>
+                                              </li>
+                                              <li>
+                                                  <span class="expand-stub"></span>
+                                                  <a>事件</a>
+
+                                                  <ul class="nav level5">
+                                                        <li>
+                                                            <a href="message/c2c/event-message-create.html" name="" title="单聊消息事件">单聊消息事件</a>
+                                                        </li>
+                                                  </ul>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a>群聊消息</a>
+
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="message/group/send-message.html" name="" title="发送群聊消息">发送群聊消息</a>
+                                              </li>
+                                              <li>
+                                                  <a href="message/group/recall-message.html" name="" title="撤回群聊消息">撤回群聊消息</a>
+                                              </li>
+                                              <li>
+                                                  <span class="expand-stub"></span>
+                                                  <a>事件</a>
+
+                                                  <ul class="nav level5">
+                                                        <li>
+                                                            <a href="message/group/event-message-create.html" name="" title="群消息（全量模式）">群消息（全量模式）</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="message/group/event-at-message-create.html" name="" title="群@机器人消息">群@机器人消息</a>
+                                                        </li>
+                                                  </ul>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a>频道消息</a>
+
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="message/channel/send-message.html" name="" title="发送子频道消息">发送子频道消息</a>
+                                              </li>
+                                              <li>
+                                                  <a href="message/channel/format.html" name="" title="内嵌格式">内嵌格式</a>
+                                              </li>
+                                              <li>
+                                                  <a href="message/channel/recall-message.html" name="" title="撤回子频道消息">撤回子频道消息</a>
+                                              </li>
+                                              <li>
+                                                  <a href="message/channel/direct-message.html" name="" title="频道私信">频道私信</a>
+                                              </li>
+                                              <li>
+                                                  <a href="message/channel/reaction.html" name="" title="表情表态">表情表态</a>
+                                              </li>
+                                              <li>
+                                                  <a href="message/channel/event.html" name="" title="频道消息事件">频道消息事件</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a>消息类型</a>
+
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="message/type/markdown.html" name="" title="Markdown 消息">Markdown 消息</a>
+                                              </li>
+                                              <li>
+                                                  <a href="message/type/ark.html" name="" title="Ark 消息">Ark 消息</a>
+                                              </li>
+                                              <li>
+                                                  <a href="message/type/embed.html" name="" title="Embed 消息">Embed 消息</a>
+                                              </li>
+                                              <li>
+                                                  <a href="message/type/rich-media.html" name="" title="富媒体上传">富媒体上传</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a>消息交互</a>
+
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <span class="expand-stub"></span>
+                                                  <a>按钮互动</a>
+
+                                                  <ul class="nav level5">
+                                                        <li>
+                                                            <a href="message/interaction/button-event.html" name="" title="互动事件">互动事件</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="message/interaction/button-response.html" name="" title="互动事件响应">互动事件响应</a>
+                                                        </li>
+                                                  </ul>
+                                              </li>
+                                              <li>
+                                                  <a href="message/interaction/text.html" name="" title="文本交互">文本交互</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a>机器人</a>
+
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="bot/get-bot.html" name="" title="获取机器人详情">获取机器人详情</a>
+                                    </li>
+                                    <li>
+                                        <a href="bot/get-guilds.html" name="" title="获取机器人频道列表">获取机器人频道列表</a>
+                                    </li>
+                                    <li>
+                                        <a href="bot/generate-share-link.html" name="" title="生成分享链接">生成分享链接</a>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a>自定义菜单与指令面板</a>
+
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="bot/menu-panel/get-menu.html" name="" title="查询全局自定义菜单">查询全局自定义菜单</a>
+                                              </li>
+                                              <li>
+                                                  <a href="bot/menu-panel/update-menu.html" name="" title="修改全局自定义菜单">修改全局自定义菜单</a>
+                                              </li>
+                                              <li>
+                                                  <a href="bot/menu-panel/get-panels.html" name="" title="查询指令面板列表">查询指令面板列表</a>
+                                              </li>
+                                              <li>
+                                                  <a href="bot/menu-panel/create-panel.html" name="" title="创建指令面板">创建指令面板</a>
+                                              </li>
+                                              <li>
+                                                  <a href="bot/menu-panel/get-panel.html" name="" title="查询指令面板详情">查询指令面板详情</a>
+                                              </li>
+                                              <li>
+                                                  <a href="bot/menu-panel/update-panel.html" name="" title="修改指令面板">修改指令面板</a>
+                                              </li>
+                                              <li>
+                                                  <a href="bot/menu-panel/delete-panel.html" name="" title="删除指令面板">删除指令面板</a>
+                                              </li>
+                                              <li>
+                                                  <a href="bot/menu-panel/update-panel-target.html" name="" title="修改指令面板关联对象">修改指令面板关联对象</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a>事件</a>
+
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="bot/event/friend-add.html" name="" title="用户添加好友">用户添加好友</a>
+                                              </li>
+                                              <li>
+                                                  <a href="bot/event/friend-delete.html" name="" title="用户删除好友">用户删除好友</a>
+                                              </li>
+                                              <li>
+                                                  <a href="bot/event/c2c-msg-receive.html" name="" title="单聊消息接收开启">单聊消息接收开启</a>
+                                              </li>
+                                              <li>
+                                                  <a href="bot/event/c2c-msg-reject.html" name="" title="单聊消息接收关闭">单聊消息接收关闭</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a>群聊管理</a>
+
+                              <ul class="nav level3">
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a>接口</a>
+
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="group/get-info.html" name="" title="获取群基本信息">获取群基本信息</a>
+                                              </li>
+                                              <li>
+                                                  <a href="group/get-bot-state.html" name="" title="获取机器人群内状态">获取机器人群内状态</a>
+                                              </li>
+                                              <li>
+                                                  <a href="group/get-join-requests.html" name="" title="入群申请列表拉取">入群申请列表拉取</a>
+                                              </li>
+                                              <li>
+                                                  <a href="group/approve-join-request.html" name="" title="入群申请审批">入群申请审批</a>
+                                              </li>
+                                              <li>
+                                                  <a href="group/get-restrict-chat.html" name="" title="查询群禁言状态">查询群禁言状态</a>
+                                              </li>
+                                              <li>
+                                                  <a href="group/set-restrict-chat.html" name="" title="设置群成员禁言">设置群成员禁言</a>
+                                              </li>
+                                              <li>
+                                                  <span class="expand-stub"></span>
+                                                  <a>入群自动审批</a>
+
+                                                  <ul class="nav level5">
+                                                        <li>
+                                                            <a href="group/join-approval/get-strategies.html" name="" title="查询入群自动审批策略列表">查询入群自动审批策略列表</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="group/join-approval/create-strategy.html" name="" title="创建入群自动审批策略">创建入群自动审批策略</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="group/join-approval/update-strategy.html" name="" title="修改入群自动审批策略">修改入群自动审批策略</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="group/join-approval/delete-strategy.html" name="" title="删除入群自动审批策略">删除入群自动审批策略</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="group/join-approval/execute-strategy.html" name="" title="执行入群自动审批策略">执行入群自动审批策略</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="group/join-approval/update-whitelist.html" name="" title="修改入群自动审批策略的白名单号码">修改入群自动审批策略的白名单号码</a>
+                                                        </li>
+                                                  </ul>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a>群成员管理</a>
+
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="group/member/get-members.html" name="" title="获取群成员列表">获取群成员列表</a>
+                                              </li>
+                                              <li>
+                                                  <a href="group/member/get-member.html" name="" title="获取群成员信息">获取群成员信息</a>
+                                              </li>
+                                              <li>
+                                                  <a href="group/member/batch-remove.html" name="" title="群成员批量移除">群成员批量移除</a>
+                                              </li>
+                                              <li>
+                                                  <a href="group/member/get-blacklist.html" name="" title="群黑名单查询">群黑名单查询</a>
+                                              </li>
+                                              <li>
+                                                  <a href="group/member/set-blacklist.html" name="" title="群黑名单操作">群黑名单操作</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a>事件</a>
+
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="group/event/add-robot.html" name="" title="机器人加入群聊">机器人加入群聊</a>
+                                              </li>
+                                              <li>
+                                                  <a href="group/event/del-robot.html" name="" title="机器人退出群聊">机器人退出群聊</a>
+                                              </li>
+                                              <li>
+                                                  <a href="group/event/msg-receive.html" name="" title="群聊消息接收开启">群聊消息接收开启</a>
+                                              </li>
+                                              <li>
+                                                  <a href="group/event/msg-reject.html" name="" title="群聊消息接收关闭">群聊消息接收关闭</a>
+                                              </li>
+                                              <li>
+                                                  <a href="group/event/member-add.html" name="" title="群成员加入">群成员加入</a>
+                                              </li>
+                                              <li>
+                                                  <a href="group/event/member-remove.html" name="" title="群成员退出">群成员退出</a>
+                                              </li>
+                                              <li>
+                                                  <a href="group/event/join-request.html" name="" title="用户申请加群事件">用户申请加群事件</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a>频道管理</a>
+
+                              <ul class="nav level3">
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a>事件</a>
+
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="guild/event/guild-create.html" name="" title="频道创建">频道创建</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/event/guild-update.html" name="" title="频道更新">频道更新</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/event/guild-delete.html" name="" title="频道解散">频道解散</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/event/channel-create.html" name="" title="子频道创建">子频道创建</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/event/channel-update.html" name="" title="子频道更新">子频道更新</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/event/channel-delete.html" name="" title="子频道删除">子频道删除</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a>频道管理</a>
+
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="guild/get-guild.html" name="" title="获取频道详情">获取频道详情</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/get-channels.html" name="" title="获取子频道列表">获取子频道列表</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/create-channel.html" name="" title="创建子频道">创建子频道</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/get-channel.html" name="" title="获取子频道详情">获取子频道详情</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/modify-channel.html" name="" title="修改子频道">修改子频道</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/delete-channel.html" name="" title="删除子频道">删除子频道</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a>频道成员</a>
+
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="guild/member/get-online-nums.html" name="" title="获取子频道在线成员数">获取子频道在线成员数</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/member/get-members.html" name="" title="获取频道成员列表">获取频道成员列表</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/member/get-role-members.html" name="" title="获取频道身份组成员列表">获取频道身份组成员列表</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/member/get-member.html" name="" title="获取频道成员详情">获取频道成员详情</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/member/delete-member.html" name="" title="删除频道成员">删除频道成员</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/member/event-guild-member.html" name="" title="频道成员事件">频道成员事件</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/member/event-audio-live-member.html" name="" title="音视频/直播子频道成员进出事件">音视频/直播子频道成员进出事件</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a>身份组与权限管理</a>
+
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="guild/role/get-roles.html" name="" title="获取频道身份组列表">获取频道身份组列表</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/role/create-role.html" name="" title="创建频道身份组">创建频道身份组</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/role/modify-role.html" name="" title="修改频道身份组">修改频道身份组</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/role/delete-role.html" name="" title="删除频道身份组">删除频道身份组</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/role/add-role-member.html" name="" title="创建频道身份组成员">创建频道身份组成员</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/role/remove-role-member.html" name="" title="删除频道身份组成员">删除频道身份组成员</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/role/get-channel-user-permissions.html" name="" title="获取子频道用户权限">获取子频道用户权限</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/role/modify-channel-user-permissions.html" name="" title="修改子频道用户权限">修改子频道用户权限</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/role/get-channel-role-permissions.html" name="" title="获取子频道身份组权限">获取子频道身份组权限</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/role/modify-channel-role-permissions.html" name="" title="修改子频道身份组权限">修改子频道身份组权限</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a>接口授权管理</a>
+
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="guild/api-permission/get-permissions.html" name="" title="获取机器人在频道可用权限列表">获取机器人在频道可用权限列表</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/api-permission/demand-permission.html" name="" title="发送机器人在频道接口权限的授权链接">发送机器人在频道接口权限的授权链接</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a>发言管理</a>
+
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="guild/speak/get-message-setting.html" name="" title="获取频道消息频率的设置详情">获取频道消息频率的设置详情</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/speak/mute-all.html" name="" title="频道全员禁言">频道全员禁言</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/speak/mute-member.html" name="" title="频道指定成员禁言">频道指定成员禁言</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/speak/mute-members.html" name="" title="频道批量成员禁言">频道批量成员禁言</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a>内容管理</a>
+
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="guild/content/create-announcement.html" name="" title="创建频道公告">创建频道公告</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/content/delete-announcement.html" name="" title="删除频道公告">删除频道公告</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/content/add-pin.html" name="" title="添加精华消息">添加精华消息</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/content/delete-pin.html" name="" title="删除精华消息">删除精华消息</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/content/get-pin.html" name="" title="获取精华消息">获取精华消息</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/content/get-schedules.html" name="" title="获取频道日程列表">获取频道日程列表</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/content/get-schedule.html" name="" title="获取日程详情">获取日程详情</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/content/create-schedule.html" name="" title="创建日程">创建日程</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/content/modify-schedule.html" name="" title="修改日程">修改日程</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/content/delete-schedule.html" name="" title="删除日程">删除日程</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/content/audio-control.html" name="" title="音频控制">音频控制</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/content/bot-on-mic.html" name="" title="机器人上麦">机器人上麦</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/content/bot-off-mic.html" name="" title="机器人下麦">机器人下麦</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/content/get-threads.html" name="" title="获取帖子列表">获取帖子列表</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/content/get-thread.html" name="" title="获取帖子详情">获取帖子详情</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/content/create-thread.html" name="" title="发表帖子">发表帖子</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/content/delete-thread.html" name="" title="删除帖子">删除帖子</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a>小程序相关</a>
+
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="guild/miniapp/open-data.html" name="" title="开放数据加密">开放数据加密</a>
+                                              </li>
+                                              <li>
+                                                  <a href="guild/miniapp/get-info.html" name="" title="获取频道和当前人信息">获取频道和当前人信息</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                              </ul>
+                          </li>
+                    </ul>
+                </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>

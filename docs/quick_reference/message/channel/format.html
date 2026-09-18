@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>内嵌格式 | QQBot.Net 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="内嵌格式 | QQBot.Net 文档 ">
+      
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/QQBot.Net/blob/master/docs/quick_reference/message/channel/format.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../logo.svg" alt="QQBot.Net 文档">
+            QQBot.Net 文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Guides.QuickReference.Message.Channel.Format">
+<h1 id="内嵌格式">内嵌格式</h1>
+
+<p>QQBot.Net 提供 <a class="xref" href="../../../api/QQBot.Format.html">Format</a> 与 <a class="xref" href="../../../api/QQBot.MentionUtils.html">MentionUtils</a> 两个工具类，用于构造与处理消息中的
+内嵌格式（Markdown 文本样式、提及、图片、命令、表情等）。</p>
+<h3 id="文本样式"><a href="https://bot.q.qq.com/wiki/develop/api-v2/server-inter/channel/message/format.html">文本样式</a></h3>
+<pre><code class="lang-csharp">string text = &quot;示例文本&quot;;
+
+Format.Bold(text);          // **示例文本**
+Format.Italics(text);       // *示例文本*
+Format.BoldItalics(text);   // ***示例文本***
+Format.Strikethrough(text); // ~~示例文本~~
+Format.H1(&quot;标题&quot;);           // # 标题
+Format.H2(&quot;小标题&quot;);         // ## 标题
+Format.BlockQuote(&quot;引用&quot;);   // &gt; 引用（多行会逐行加 &gt;）
+Format.HorizontalRule();    // 分割线 ***
+Format.NewLine(2);          // 多行换行
+// 各样式方法的 sanitize 参数（默认 true）会先转义与该样式冲突的字符
+</code></pre>
+<h3 id="链接与图片"><a href="https://bot.q.qq.com/wiki/develop/api-v2/server-inter/channel/message/format.html">链接与图片</a></h3>
+<pre><code class="lang-csharp">Format.Url(&quot;https://bot.q.qq.com&quot;);                 // &lt;url&gt;
+Format.Url(&quot;https://bot.q.qq.com&quot;, &quot;文本&quot;);          // [文本](url)
+Format.Url(new Uri(&quot;https://bot.q.qq.com&quot;), &quot;文本&quot;); // Uri 重载
+
+Format.Image(&quot;https://example.com/i.png&quot;);                       // ![](url)
+Format.Image(&quot;https://example.com/i.png&quot;, &quot;替代文本&quot;);            // ![替代文本](url)
+Format.Image(new Uri(&quot;https://example.com/i.png&quot;), &quot;替代文本&quot;);   // Uri 重载
+// 也可从图片类型的 FileAttachment 构造：Format.Image(attachment)
+</code></pre>
+<h3 id="列表"><a href="https://bot.q.qq.com/wiki/develop/api-v2/server-inter/channel/message/format.html">列表</a></h3>
+<pre><code class="lang-csharp">Format.OrderedList(new[] { &quot;第一项&quot;, &quot;第二项&quot; });   // 1. / 2.
+Format.UnorderedList(new[] { &quot;甲&quot;, &quot;乙&quot; });         // - 甲 / - 乙
+// 两者均可传 indentLevel 控制缩进级别
+</code></pre>
+<h3 id="命令与表情"><a href="https://bot.q.qq.com/wiki/develop/api-v2/server-inter/channel/message/format.html">命令与表情</a></h3>
+<pre><code class="lang-csharp">Format.Command(&quot;/help&quot;);                       // 点击后直接发送的命令
+Format.Command(&quot;/help&quot;, &quot;帮助&quot;, reference: true); // 带显示文本与引用
+Format.Emote(Emotes.System.Angry);             // 系统表情
+Format.Emote(4);                               // 按表情 ID
+</code></pre>
+<h3 id="转义与反转义"><a href="https://bot.q.qq.com/wiki/develop/api-v2/server-inter/channel/message/format.html">转义与反转义</a></h3>
+<pre><code class="lang-csharp">Format.Sanitize(text);     // 在敏感字符前插入零宽空格，使内嵌格式失效（可传自定义敏感字符）
+Format.Escape(text);       // 将 &amp; &lt; &gt; 转义为 &amp;amp; &amp;lt; &amp;gt;（保留显示形式）
+Format.Unescape(text);     // Escape 的逆操作，使内嵌格式生效
+</code></pre>
+<h3 id="提及"><a href="https://bot.q.qq.com/wiki/develop/api-v2/server-inter/channel/message/format.html">提及</a></h3>
+<pre><code class="lang-csharp">IUser user = null;
+ITextChannel channel = null;
+
+MentionUtils.MentionUser(user);       // &lt;qqbot-at-user id=&quot;..&quot; /&gt;
+MentionUtils.MentionUser(&quot;user_id&quot;);  // 按用户 ID
+MentionUtils.MentionChannel(channel); // &lt;#id&gt;
+MentionUtils.MentionChannel(123ul);   // 按子频道 ID
+MentionUtils.MentionEveryone;         // &lt;qqbot-at-everyone /&gt;
+</code></pre>
+<h3 id="解析提及"><a href="https://bot.q.qq.com/wiki/develop/api-v2/server-inter/channel/message/format.html">解析提及</a></h3>
+<pre><code class="lang-csharp">ulong userId = MentionUtils.ParseUser(&quot;&lt;qqbot-at-user id=\&quot;123\&quot; /&gt;&quot;);
+bool okUser = MentionUtils.TryParseUser(&quot;&lt;@!123&gt;&quot;, out ulong parsedUserId);
+ulong channelId = MentionUtils.ParseChannel(&quot;&lt;#123&gt;&quot;);
+bool okChannel = MentionUtils.TryParseChannel(&quot;&lt;#123&gt;&quot;, out ulong parsedChannelId);
+</code></pre>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/gehongyan/QQBot.Net/blob/master/docs/quick_reference/message/channel/format.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          QQBot.Net (c) 2024-2026
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

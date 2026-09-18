@@ -89,7 +89,7 @@
 
 
   <h1 id="QQBot_IGroupChannel" data-uid="QQBot.IGroupChannel" class="text-break">
-Interface IGroupChannel  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L6"><i class="bi bi-code-slash"></i></a>
+Interface IGroupChannel  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Interface IGroupChannel  <a class="header-action link-secondary" title="View sou
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IGroupChannel : IMessageChannel, IChannel, IEntity&lt;string&gt;, IEntity&lt;Guid&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IGroupChannel : IMessageChannel, IMediaUploadChannel, IChannel, IEntity&lt;string&gt;, IEntity&lt;Guid&gt;</code></pre>
   </div>
 
 
@@ -119,6 +119,9 @@ Interface IGroupChannel  <a class="header-action link-secondary" title="View sou
     </div>
     <div>
       <a class="xref" href="QQBot.IMessageChannel.html#QQBot_IMessageChannel_GetMessageAsync_System_String_QQBot_CacheMode_QQBot_RequestOptions_">IMessageChannel.GetMessageAsync(string, CacheMode, RequestOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IMediaUploadChannel.html#QQBot_IMediaUploadChannel_UploadMediaAsync_QQBot_MediaUploadSource_System_IProgress_QQBot_MediaUploadProgress__QQBot_MediaUploadOptions_QQBot_RequestOptions_">IMediaUploadChannel.UploadMediaAsync(MediaUploadSource, IProgress&lt;MediaUploadProgress&gt;, MediaUploadOptions, RequestOptions)</a>
     </div>
     <div>
       <a class="xref" href="QQBot.IChannel.html#QQBot_IChannel_GetUserAsync_System_String_QQBot_CacheMode_QQBot_RequestOptions_">IChannel.GetUserAsync(string, CacheMode, RequestOptions)</a>
@@ -145,7 +148,7 @@ Interface IGroupChannel  <a class="header-action link-secondary" title="View sou
 
   <h3 id="QQBot_IGroupChannel_Id" data-uid="QQBot.IGroupChannel.Id">
   Id
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此群组子频道的唯一标识符。</p>
@@ -173,11 +176,984 @@ Interface IGroupChannel  <a class="header-action link-secondary" title="View sou
 
 
 
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="QQBot_IGroupChannel_AddToBlacklistAsync_" data-uid="QQBot.IGroupChannel.AddToBlacklistAsync*"></a>
+
+  <h3 id="QQBot_IGroupChannel_AddToBlacklistAsync_System_Collections_Generic_IEnumerable_QQBot_IGroupMember__QQBot_RequestOptions_" data-uid="QQBot.IGroupChannel.AddToBlacklistAsync(System.Collections.Generic.IEnumerable{QQBot.IGroupMember},QQBot.RequestOptions)">
+  AddToBlacklistAsync(IEnumerable&lt;IGroupMember&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定成员加入此群的黑名单。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IReadOnlyCollection&lt;Guid&gt;&gt; AddToBlacklistAsync(IEnumerable&lt;IGroupMember&gt; members, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>members</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="QQBot.IGroupMember.html">IGroupMember</a>&gt;</dt>
+    <dd><p>要加入黑名单的成员集合。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a>&gt;&gt;</dt>
+    <dd><p>一个表示异步操作的任务。任务的结果包含操作失败的成员标识符集合；若为空表示全部成功。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_IGroupChannel_AddToBlacklistAsync_System_Collections_Generic_IEnumerable_QQBot_IGroupMember__QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>单次最多操作 20 个成员，且仅当目标成员不在群中时才能加入黑名单。</p>
+</div>
+
+
+
+
+  <a id="QQBot_IGroupChannel_AddToBlacklistAsync_" data-uid="QQBot.IGroupChannel.AddToBlacklistAsync*"></a>
+
+  <h3 id="QQBot_IGroupChannel_AddToBlacklistAsync_System_Collections_Generic_IEnumerable_System_Guid__QQBot_RequestOptions_" data-uid="QQBot.IGroupChannel.AddToBlacklistAsync(System.Collections.Generic.IEnumerable{System.Guid},QQBot.RequestOptions)">
+  AddToBlacklistAsync(IEnumerable&lt;Guid&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L195"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定成员加入此群的黑名单。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IReadOnlyCollection&lt;Guid&gt;&gt; AddToBlacklistAsync(IEnumerable&lt;Guid&gt; memberIds, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>memberIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a>&gt;</dt>
+    <dd><p>要加入黑名单的成员的标识符集合。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a>&gt;&gt;</dt>
+    <dd><p>一个表示异步操作的任务。任务的结果包含操作失败的成员标识符集合；若为空表示全部成功。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_IGroupChannel_AddToBlacklistAsync_System_Collections_Generic_IEnumerable_System_Guid__QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>单次最多操作 20 个成员，且仅当目标成员不在群中时才能加入黑名单。</p>
+</div>
+
+
+
+
+  <a id="QQBot_IGroupChannel_ApproveJoinRequestAsync_" data-uid="QQBot.IGroupChannel.ApproveJoinRequestAsync*"></a>
+
+  <h3 id="QQBot_IGroupChannel_ApproveJoinRequestAsync_QQBot_GroupJoinRequest_QQBot_RequestOptions_" data-uid="QQBot.IGroupChannel.ApproveJoinRequestAsync(QQBot.GroupJoinRequest,QQBot.RequestOptions)">
+  ApproveJoinRequestAsync(GroupJoinRequest, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>通过一条入群申请。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task ApproveJoinRequestAsync(GroupJoinRequest request, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="QQBot.GroupJoinRequest.html">GroupJoinRequest</a></dt>
+    <dd><p>要通过的入群申请。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步审批操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IGroupChannel_ApproveJoinRequestAsync_" data-uid="QQBot.IGroupChannel.ApproveJoinRequestAsync*"></a>
+
+  <h3 id="QQBot_IGroupChannel_ApproveJoinRequestAsync_System_Guid_System_String_QQBot_RequestOptions_" data-uid="QQBot.IGroupChannel.ApproveJoinRequestAsync(System.Guid,System.String,QQBot.RequestOptions)">
+  ApproveJoinRequestAsync(Guid, string?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>通过一条入群申请。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task ApproveJoinRequestAsync(Guid memberId, string? joinRequestId = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>memberId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd><p>申请人的用户标识符。</p>
+</dd>
+    <dt><code>joinRequestId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>申请的唯一标识符；若已知则一并回传。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步审批操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IGroupChannel_DeclineJoinRequestAsync_" data-uid="QQBot.IGroupChannel.DeclineJoinRequestAsync*"></a>
+
+  <h3 id="QQBot_IGroupChannel_DeclineJoinRequestAsync_QQBot_GroupJoinRequest_System_String_System_Boolean_QQBot_RequestOptions_" data-uid="QQBot.IGroupChannel.DeclineJoinRequestAsync(QQBot.GroupJoinRequest,System.String,System.Boolean,QQBot.RequestOptions)">
+  DeclineJoinRequestAsync(GroupJoinRequest, string?, bool, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>拒绝一条入群申请。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task DeclineJoinRequestAsync(GroupJoinRequest request, string? reason = null, bool addToBlacklist = false, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="QQBot.GroupJoinRequest.html">GroupJoinRequest</a></dt>
+    <dd><p>要拒绝的入群申请。</p>
+</dd>
+    <dt><code>reason</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>拒绝理由。</p>
+</dd>
+    <dt><code>addToBlacklist</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否在拒绝的同时将申请人加入群黑名单。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步审批操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IGroupChannel_DeclineJoinRequestAsync_" data-uid="QQBot.IGroupChannel.DeclineJoinRequestAsync*"></a>
+
+  <h3 id="QQBot_IGroupChannel_DeclineJoinRequestAsync_System_Guid_System_String_System_String_System_Boolean_QQBot_RequestOptions_" data-uid="QQBot.IGroupChannel.DeclineJoinRequestAsync(System.Guid,System.String,System.String,System.Boolean,QQBot.RequestOptions)">
+  DeclineJoinRequestAsync(Guid, string?, string?, bool, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>拒绝一条入群申请。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task DeclineJoinRequestAsync(Guid memberId, string? joinRequestId = null, string? reason = null, bool addToBlacklist = false, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>memberId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd><p>申请人的用户标识符。</p>
+</dd>
+    <dt><code>joinRequestId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>申请的唯一标识符；若已知则一并回传。</p>
+</dd>
+    <dt><code>reason</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>拒绝理由。</p>
+</dd>
+    <dt><code>addToBlacklist</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否在拒绝的同时将申请人加入群黑名单。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步审批操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IGroupChannel_DeleteMessageAsync_" data-uid="QQBot.IGroupChannel.DeleteMessageAsync*"></a>
+
+  <h3 id="QQBot_IGroupChannel_DeleteMessageAsync_QQBot_IUserMessage_QQBot_RequestOptions_" data-uid="QQBot.IGroupChannel.DeleteMessageAsync(QQBot.IUserMessage,QQBot.RequestOptions)">
+  DeleteMessageAsync(IUserMessage, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>撤回此群组子频道内的消息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task DeleteMessageAsync(IUserMessage message, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>message</code> <a class="xref" href="QQBot.IUserMessage.html">IUserMessage</a></dt>
+    <dd><p>要撤回的消息。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步撤回操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IGroupChannel_DeleteMessageAsync_" data-uid="QQBot.IGroupChannel.DeleteMessageAsync*"></a>
+
+  <h3 id="QQBot_IGroupChannel_DeleteMessageAsync_System_String_QQBot_RequestOptions_" data-uid="QQBot.IGroupChannel.DeleteMessageAsync(System.String,QQBot.RequestOptions)">
+  DeleteMessageAsync(string, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>撤回此群组子频道内的消息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task DeleteMessageAsync(string messageId, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>messageId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要撤回的消息 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步撤回操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IGroupChannel_GetBlacklistAsync_" data-uid="QQBot.IGroupChannel.GetBlacklistAsync*"></a>
+
+  <h3 id="QQBot_IGroupChannel_GetBlacklistAsync_QQBot_RequestOptions_" data-uid="QQBot.IGroupChannel.GetBlacklistAsync(QQBot.RequestOptions)">
+  GetBlacklistAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L184"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此群的黑名单，以分页形式返回。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IAsyncEnumerable&lt;IReadOnlyCollection&lt;GroupBlacklistUser&gt;&gt; GetBlacklistAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iasyncenumerable-1">IAsyncEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="QQBot.GroupBlacklistUser.html">GroupBlacklistUser</a>&gt;&gt;</dt>
+    <dd><p>一个表示异步操作的可枚举集合，包含此群黑名单中的用户。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IGroupChannel_GetBotStateAsync_" data-uid="QQBot.IGroupChannel.GetBotStateAsync*"></a>
+
+  <h3 id="QQBot_IGroupChannel_GetBotStateAsync_QQBot_RequestOptions_" data-uid="QQBot.IGroupChannel.GetBotStateAsync(QQBot.RequestOptions)">
+  GetBotStateAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前机器人在此群内的状态。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;GroupBotState&gt; GetBotStateAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.GroupBotState.html">GroupBotState</a>&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果包含当前机器人在此群内的状态。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IGroupChannel_GetInfoAsync_" data-uid="QQBot.IGroupChannel.GetInfoAsync*"></a>
+
+  <h3 id="QQBot_IGroupChannel_GetInfoAsync_QQBot_RequestOptions_" data-uid="QQBot.IGroupChannel.GetInfoAsync(QQBot.RequestOptions)">
+  GetInfoAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此群的基本信息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;GroupInfo&gt; GetInfoAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.GroupInfo.html">GroupInfo</a>&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果包含此群的基本信息。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IGroupChannel_GetJoinRequestsAsync_" data-uid="QQBot.IGroupChannel.GetJoinRequestsAsync*"></a>
+
+  <h3 id="QQBot_IGroupChannel_GetJoinRequestsAsync_QQBot_RequestOptions_" data-uid="QQBot.IGroupChannel.GetJoinRequestsAsync(QQBot.RequestOptions)">
+  GetJoinRequestsAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此群的入群申请，以分页形式返回。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IAsyncEnumerable&lt;IReadOnlyCollection&lt;GroupJoinRequest&gt;&gt; GetJoinRequestsAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iasyncenumerable-1">IAsyncEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="QQBot.GroupJoinRequest.html">GroupJoinRequest</a>&gt;&gt;</dt>
+    <dd><p>一个表示异步操作的可枚举集合，包含此群的入群申请。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_IGroupChannel_GetJoinRequestsAsync_QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>此方法以分页的形式获取此群的入群申请。机器人需拥有群管理员身份。</p>
+</div>
+
+
+
+
+  <a id="QQBot_IGroupChannel_GetMemberAsync_" data-uid="QQBot.IGroupChannel.GetMemberAsync*"></a>
+
+  <h3 id="QQBot_IGroupChannel_GetMemberAsync_System_Guid_QQBot_RequestOptions_" data-uid="QQBot.IGroupChannel.GetMemberAsync(System.Guid,QQBot.RequestOptions)">
+  GetMemberAsync(Guid, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此群内指定的成员。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IGroupMember?&gt; GetMemberAsync(Guid id, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd><p>要获取的成员的 ID。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.IGroupMember.html">IGroupMember</a>&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果包含与指定的 <code class="paramref">id</code> 关联的成员；若未找到，则为 <code>null</code>。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_IGroupChannel_GetMembersAsync_" data-uid="QQBot.IGroupChannel.GetMembersAsync*"></a>
+
+  <h3 id="QQBot_IGroupChannel_GetMembersAsync_QQBot_RequestOptions_" data-uid="QQBot.IGroupChannel.GetMembersAsync(QQBot.RequestOptions)">
+  GetMembersAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此群内的所有成员。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IAsyncEnumerable&lt;IReadOnlyCollection&lt;IGroupMember&gt;&gt; GetMembersAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iasyncenumerable-1">IAsyncEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="QQBot.IGroupMember.html">IGroupMember</a>&gt;&gt;</dt>
+    <dd><p>一个表示异步操作的可枚举集合，包含此群内的所有成员。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_IGroupChannel_GetMembersAsync_QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>此方法以分页的形式获取此群内的所有成员。</p>
+</div>
+
+
+
+
+  <a id="QQBot_IGroupChannel_GetMuteSettingAsync_" data-uid="QQBot.IGroupChannel.GetMuteSettingAsync*"></a>
+
+  <h3 id="QQBot_IGroupChannel_GetMuteSettingAsync_QQBot_RequestOptions_" data-uid="QQBot.IGroupChannel.GetMuteSettingAsync(QQBot.RequestOptions)">
+  GetMuteSettingAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此群的禁言状态。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;GroupMuteSetting&gt; GetMuteSettingAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.GroupMuteSetting.html">GroupMuteSetting</a>&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果包含此群的禁言状态。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_IGroupChannel_GetMuteSettingAsync_QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>返回全员禁言规则（包含定时与周期规则）以及当前处于禁言状态的成员列表。机器人需拥有群管理员身份。</p>
+</div>
+
+
+
+
+  <a id="QQBot_IGroupChannel_MuteMemberAsync_" data-uid="QQBot.IGroupChannel.MuteMemberAsync*"></a>
+
+  <h3 id="QQBot_IGroupChannel_MuteMemberAsync_System_Guid_System_DateTimeOffset_QQBot_RequestOptions_" data-uid="QQBot.IGroupChannel.MuteMemberAsync(System.Guid,System.DateTimeOffset,QQBot.RequestOptions)">
+  MuteMemberAsync(Guid, DateTimeOffset, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>禁言此群内的指定成员。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task MuteMemberAsync(Guid memberId, DateTimeOffset expiresAt, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>memberId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd><p>要禁言的成员的标识符。</p>
+</dd>
+    <dt><code>expiresAt</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a></dt>
+    <dd><p>禁言到期时间。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步禁言操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_IGroupChannel_MuteMemberAsync_System_Guid_System_DateTimeOffset_QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>机器人需拥有群管理员身份，最大禁言时长为 30 天，且仅可禁言普通成员。</p>
+</div>
+
+
+
+
+  <a id="QQBot_IGroupChannel_MuteMemberAsync_" data-uid="QQBot.IGroupChannel.MuteMemberAsync*"></a>
+
+  <h3 id="QQBot_IGroupChannel_MuteMemberAsync_System_Guid_System_TimeSpan_QQBot_RequestOptions_" data-uid="QQBot.IGroupChannel.MuteMemberAsync(System.Guid,System.TimeSpan,QQBot.RequestOptions)">
+  MuteMemberAsync(Guid, TimeSpan, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>禁言此群内的指定成员。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task MuteMemberAsync(Guid memberId, TimeSpan duration, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>memberId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd><p>要禁言的成员的标识符。</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd><p>自当前时间起的禁言时长。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步禁言操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_IGroupChannel_MuteMemberAsync_System_Guid_System_TimeSpan_QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>机器人需拥有群管理员身份，最大禁言时长为 30 天，且仅可禁言普通成员。</p>
+</div>
+
+
+
+
+  <a id="QQBot_IGroupChannel_RemoveFromBlacklistAsync_" data-uid="QQBot.IGroupChannel.RemoveFromBlacklistAsync*"></a>
+
+  <h3 id="QQBot_IGroupChannel_RemoveFromBlacklistAsync_System_Collections_Generic_IEnumerable_QQBot_IGroupMember__QQBot_RequestOptions_" data-uid="QQBot.IGroupChannel.RemoveFromBlacklistAsync(System.Collections.Generic.IEnumerable{QQBot.IGroupMember},QQBot.RequestOptions)">
+  RemoveFromBlacklistAsync(IEnumerable&lt;IGroupMember&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L228"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定成员移出此群的黑名单。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IReadOnlyCollection&lt;Guid&gt;&gt; RemoveFromBlacklistAsync(IEnumerable&lt;IGroupMember&gt; members, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>members</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="QQBot.IGroupMember.html">IGroupMember</a>&gt;</dt>
+    <dd><p>要移出黑名单的成员集合。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a>&gt;&gt;</dt>
+    <dd><p>一个表示异步操作的任务。任务的结果包含操作失败的成员标识符集合；若为空表示全部成功。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_IGroupChannel_RemoveFromBlacklistAsync_System_Collections_Generic_IEnumerable_QQBot_IGroupMember__QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>单次最多操作 20 个成员。</p>
+</div>
+
+
+
+
+  <a id="QQBot_IGroupChannel_RemoveFromBlacklistAsync_" data-uid="QQBot.IGroupChannel.RemoveFromBlacklistAsync*"></a>
+
+  <h3 id="QQBot_IGroupChannel_RemoveFromBlacklistAsync_System_Collections_Generic_IEnumerable_System_Guid__QQBot_RequestOptions_" data-uid="QQBot.IGroupChannel.RemoveFromBlacklistAsync(System.Collections.Generic.IEnumerable{System.Guid},QQBot.RequestOptions)">
+  RemoveFromBlacklistAsync(IEnumerable&lt;Guid&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L217"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定成员移出此群的黑名单。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IReadOnlyCollection&lt;Guid&gt;&gt; RemoveFromBlacklistAsync(IEnumerable&lt;Guid&gt; memberIds, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>memberIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a>&gt;</dt>
+    <dd><p>要移出黑名单的成员的标识符集合。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a>&gt;&gt;</dt>
+    <dd><p>一个表示异步操作的任务。任务的结果包含操作失败的成员标识符集合；若为空表示全部成功。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_IGroupChannel_RemoveFromBlacklistAsync_System_Collections_Generic_IEnumerable_System_Guid__QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>单次最多操作 20 个成员。</p>
+</div>
+
+
+
+
+  <a id="QQBot_IGroupChannel_RemoveMembersAsync_" data-uid="QQBot.IGroupChannel.RemoveMembersAsync*"></a>
+
+  <h3 id="QQBot_IGroupChannel_RemoveMembersAsync_System_Collections_Generic_IEnumerable_QQBot_IGroupMember__System_Boolean_QQBot_RequestOptions_" data-uid="QQBot.IGroupChannel.RemoveMembersAsync(System.Collections.Generic.IEnumerable{QQBot.IGroupMember},System.Boolean,QQBot.RequestOptions)">
+  RemoveMembersAsync(IEnumerable&lt;IGroupMember&gt;, bool, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>批量移除此群内的成员。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;GroupRemoveMembersResult&gt; RemoveMembersAsync(IEnumerable&lt;IGroupMember&gt; members, bool addToBlacklist = false, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>members</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="QQBot.IGroupMember.html">IGroupMember</a>&gt;</dt>
+    <dd><p>要移除的成员集合。</p>
+</dd>
+    <dt><code>addToBlacklist</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否在移除的同时将成员加入群黑名单。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.GroupRemoveMembersResult.html">GroupRemoveMembersResult</a>&gt;</dt>
+    <dd><p>一个表示异步移除操作的任务。任务的结果包含移除操作的结果。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_IGroupChannel_RemoveMembersAsync_System_Collections_Generic_IEnumerable_QQBot_IGroupMember__System_Boolean_QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>单次最多移除 20 个成员。机器人需拥有群管理员身份。</p>
+</div>
+
+
+
+
+  <a id="QQBot_IGroupChannel_RemoveMembersAsync_" data-uid="QQBot.IGroupChannel.RemoveMembersAsync*"></a>
+
+  <h3 id="QQBot_IGroupChannel_RemoveMembersAsync_System_Collections_Generic_IEnumerable_System_Guid__System_Boolean_QQBot_RequestOptions_" data-uid="QQBot.IGroupChannel.RemoveMembersAsync(System.Collections.Generic.IEnumerable{System.Guid},System.Boolean,QQBot.RequestOptions)">
+  RemoveMembersAsync(IEnumerable&lt;Guid&gt;, bool, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>批量移除此群内的成员。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;GroupRemoveMembersResult&gt; RemoveMembersAsync(IEnumerable&lt;Guid&gt; memberIds, bool addToBlacklist = false, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>memberIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a>&gt;</dt>
+    <dd><p>要移除的成员的标识符集合。</p>
+</dd>
+    <dt><code>addToBlacklist</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>是否在移除的同时将成员加入群黑名单。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.GroupRemoveMembersResult.html">GroupRemoveMembersResult</a>&gt;</dt>
+    <dd><p>一个表示异步移除操作的任务。任务的结果包含移除操作的结果。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_IGroupChannel_RemoveMembersAsync_System_Collections_Generic_IEnumerable_System_Guid__System_Boolean_QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>单次最多移除 20 个成员。机器人需拥有群管理员身份。</p>
+</div>
+
+
+
+
+  <a id="QQBot_IGroupChannel_UnmuteMemberAsync_" data-uid="QQBot.IGroupChannel.UnmuteMemberAsync*"></a>
+
+  <h3 id="QQBot_IGroupChannel_UnmuteMemberAsync_System_Guid_QQBot_RequestOptions_" data-uid="QQBot.IGroupChannel.UnmuteMemberAsync(System.Guid,QQBot.RequestOptions)">
+  UnmuteMemberAsync(Guid, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>解除此群内指定成员的禁言。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task UnmuteMemberAsync(Guid memberId, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>memberId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd><p>要解除禁言的成员的标识符。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步解除禁言操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L6" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IGroupChannel.cs/#L6" class="edit-link">Edit this page</a>
         </div>
 
 
@@ -193,7 +1169,7 @@ Interface IGroupChannel  <a class="header-action link-secondary" title="View sou
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          QQBot.Net (c) 2024
+          QQBot.Net (c) 2024-2026
         </div>
       </div>
     </footer>

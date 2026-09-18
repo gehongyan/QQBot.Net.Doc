@@ -89,7 +89,7 @@
 
 
   <h1 id="QQBot_IUserChannel" data-uid="QQBot.IUserChannel" class="text-break">
-Interface IUserChannel  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/Entities/Channels/IUserChannel.cs/#L9"><i class="bi bi-code-slash"></i></a>
+Interface IUserChannel  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IUserChannel.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,7 +102,7 @@ Interface IUserChannel  <a class="header-action link-secondary" title="View sour
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IUserChannel : IMessageChannel, IPrivateChannel, IChannel, IEntity&lt;string&gt;, IEntity&lt;Guid&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IUserChannel : IMessageChannel, IPrivateChannel, IMediaUploadChannel, IChannel, IEntity&lt;string&gt;, IEntity&lt;Guid&gt;</code></pre>
   </div>
 
 
@@ -122,6 +122,9 @@ Interface IUserChannel  <a class="header-action link-secondary" title="View sour
     </div>
     <div>
       <a class="xref" href="QQBot.IPrivateChannel.html#QQBot_IPrivateChannel_Recipients">IPrivateChannel.Recipients</a>
+    </div>
+    <div>
+      <a class="xref" href="QQBot.IMediaUploadChannel.html#QQBot_IMediaUploadChannel_UploadMediaAsync_QQBot_MediaUploadSource_System_IProgress_QQBot_MediaUploadProgress__QQBot_MediaUploadOptions_QQBot_RequestOptions_">IMediaUploadChannel.UploadMediaAsync(MediaUploadSource, IProgress&lt;MediaUploadProgress&gt;, MediaUploadOptions, RequestOptions)</a>
     </div>
     <div>
       <a class="xref" href="QQBot.IChannel.html#QQBot_IChannel_GetUserAsync_System_String_QQBot_CacheMode_QQBot_RequestOptions_">IChannel.GetUserAsync(string, CacheMode, RequestOptions)</a>
@@ -151,7 +154,7 @@ Interface IUserChannel  <a class="header-action link-secondary" title="View sour
 
   <h3 id="QQBot_IUserChannel_Id" data-uid="QQBot.IUserChannel.Id">
   Id
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/Entities/Channels/IUserChannel.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IUserChannel.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此用户单聊子频道的唯一标识符。</p>
@@ -179,11 +182,326 @@ Interface IUserChannel  <a class="header-action link-secondary" title="View sour
 
 
 
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="QQBot_IUserChannel_SendStreamMessageChunkAsync_" data-uid="QQBot.IUserChannel.SendStreamMessageChunkAsync*"></a>
+
+  <h3 id="QQBot_IUserChannel_SendStreamMessageChunkAsync_QQBot_StreamMessageChunk_QQBot_IUserMessage_QQBot_RequestOptions_" data-uid="QQBot.IUserChannel.SendStreamMessageChunkAsync(QQBot.StreamMessageChunk,QQBot.IUserMessage,QQBot.RequestOptions)">
+  SendStreamMessageChunkAsync(StreamMessageChunk, IUserMessage?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IUserChannel.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>发送一个流式消息分片。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;StreamMessageChunkResult&gt; SendStreamMessageChunkAsync(StreamMessageChunk chunk, IUserMessage? passiveSource = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>chunk</code> <a class="xref" href="QQBot.StreamMessageChunk.html">StreamMessageChunk</a></dt>
+    <dd><p>要发送的流式消息分片。</p>
+</dd>
+    <dt><code>passiveSource</code> <a class="xref" href="QQBot.IUserMessage.html">IUserMessage</a></dt>
+    <dd><p>可选的被动回复消息来源。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.StreamMessageChunkResult.html">StreamMessageChunkResult</a>&gt;</dt>
+    <dd><p>分片发送结果。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_IUserChannel_SendStreamMessageChunkAsync_QQBot_StreamMessageChunk_QQBot_IUserMessage_QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>此方法仅适用于 QQ 单聊，并保留分片序号、输入模式和完成状态的完整控制权。多数场景应使用
+<a class="xref" href="QQBot.IUserChannel.html#QQBot_IUserChannel_StartStreamMessageAsync_System_String_QQBot_StreamMessageContentType_QQBot_IUserMessage_QQBot_RequestOptions_">StartStreamMessageAsync(string, StreamMessageContentType, IUserMessage?, RequestOptions?)</a> 创建由 QQBot.Net 管理的流式消息会话。</p>
+</div>
+
+
+
+
+  <a id="QQBot_IUserChannel_SendWakeupMessageAsync_" data-uid="QQBot.IUserChannel.SendWakeupMessageAsync*"></a>
+
+  <h3 id="QQBot_IUserChannel_SendWakeupMessageAsync_System_String_QQBot_IMarkdown_System_Nullable_QQBot_FileAttachment__QQBot_Embed_QQBot_Ark_QQBot_IKeyboard_QQBot_MessageReference_QQBot_RequestOptions_" data-uid="QQBot.IUserChannel.SendWakeupMessageAsync(System.String,QQBot.IMarkdown,System.Nullable{QQBot.FileAttachment},QQBot.Embed,QQBot.Ark,QQBot.IKeyboard,QQBot.MessageReference,QQBot.RequestOptions)">
+  SendWakeupMessageAsync(string?, IMarkdown?, FileAttachment?, Embed?, Ark?, IKeyboard?, MessageReference?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IUserChannel.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>向此单聊发送一条互动召回消息。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IUserMessage&gt; SendWakeupMessageAsync(string? content = null, IMarkdown? markdown = null, FileAttachment? attachment = null, Embed? embed = null, Ark? ark = null, IKeyboard? keyboard = null, MessageReference? messageReference = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>content</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要发送的消息内容。</p>
+</dd>
+    <dt><code>markdown</code> <a class="xref" href="QQBot.IMarkdown.html">IMarkdown</a></dt>
+    <dd><p>要发送的 Markdown 消息内容。</p>
+</dd>
+    <dt><code>attachment</code> <a class="xref" href="QQBot.FileAttachment.html">FileAttachment</a>?</dt>
+    <dd><p>要发送的文件附件。</p>
+</dd>
+    <dt><code>embed</code> <a class="xref" href="QQBot.Embed.html">Embed</a></dt>
+    <dd><p>要发送的嵌入式消息内容。</p>
+</dd>
+    <dt><code>ark</code> <a class="xref" href="QQBot.Ark.html">Ark</a></dt>
+    <dd><p>要发送的模板消息内容。</p>
+</dd>
+    <dt><code>keyboard</code> <a class="xref" href="QQBot.IKeyboard.html">IKeyboard</a></dt>
+    <dd><p>要发送的按钮。</p>
+</dd>
+    <dt><code>messageReference</code> <a class="xref" href="QQBot.MessageReference.html">MessageReference</a></dt>
+    <dd><p>消息引用，用于回复消息。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.IUserMessage.html">IUserMessage</a>&gt;</dt>
+    <dd><p>一个表示异步发送操作的任务。任务的结果包含所发送消息的可延迟加载的消息对象。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_IUserChannel_SendWakeupMessageAsync_System_String_QQBot_IMarkdown_System_Nullable_QQBot_FileAttachment__QQBot_Embed_QQBot_Ark_QQBot_IKeyboard_QQBot_MessageReference_QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>此方法仅适用于 QQ 单聊互动召回，不能作为对用户消息或事件的被动回复发送。
+QQ 平台在用户主动与机器人互动后的未来 30 天内，按当天、1–3 天、3–7 天、7–30 天四个窗口各允许一条召回消息；
+SDK 不缓存或预判该额度，平台拒绝时会抛出 <a class="xref" href="QQBot.Net.HttpException.html">HttpException</a>。</p>
+</div>
+
+
+
+
+  <a id="QQBot_IUserChannel_SendWakeupStreamMessageChunkAsync_" data-uid="QQBot.IUserChannel.SendWakeupStreamMessageChunkAsync*"></a>
+
+  <h3 id="QQBot_IUserChannel_SendWakeupStreamMessageChunkAsync_QQBot_StreamMessageChunk_QQBot_RequestOptions_" data-uid="QQBot.IUserChannel.SendWakeupStreamMessageChunkAsync(QQBot.StreamMessageChunk,QQBot.RequestOptions)">
+  SendWakeupStreamMessageChunkAsync(StreamMessageChunk, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IUserChannel.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>发送一个单聊互动召回流式消息分片。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;StreamMessageChunkResult&gt; SendWakeupStreamMessageChunkAsync(StreamMessageChunk chunk, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>chunk</code> <a class="xref" href="QQBot.StreamMessageChunk.html">StreamMessageChunk</a></dt>
+    <dd><p>要发送的流式消息分片。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.StreamMessageChunkResult.html">StreamMessageChunkResult</a>&gt;</dt>
+    <dd><p>分片发送结果。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_IUserChannel_SendWakeupStreamMessageChunkAsync_QQBot_StreamMessageChunk_QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>此方法仅适用于 QQ 单聊互动召回，不能作为对用户消息或事件的被动回复发送。平台的互动召回额度
+和时间窗口限制与 <a class="xref" href="QQBot.IUserChannel.html#QQBot_IUserChannel_SendWakeupMessageAsync_System_String_QQBot_IMarkdown_System_Nullable_QQBot_FileAttachment__QQBot_Embed_QQBot_Ark_QQBot_IKeyboard_QQBot_MessageReference_QQBot_RequestOptions_">SendWakeupMessageAsync(string?, IMarkdown?, FileAttachment?, Embed?, Ark?, IKeyboard?, MessageReference?, RequestOptions?)</a> 相同；QQBot.Net 不预判平台额度。</p>
+</div>
+
+
+
+
+  <a id="QQBot_IUserChannel_StartStreamMessageAsync_" data-uid="QQBot.IUserChannel.StartStreamMessageAsync*"></a>
+
+  <h3 id="QQBot_IUserChannel_StartStreamMessageAsync_System_String_QQBot_StreamMessageContentType_QQBot_IUserMessage_QQBot_RequestOptions_" data-uid="QQBot.IUserChannel.StartStreamMessageAsync(System.String,QQBot.StreamMessageContentType,QQBot.IUserMessage,QQBot.RequestOptions)">
+  StartStreamMessageAsync(string, StreamMessageContentType, IUserMessage?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IUserChannel.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>开始一个由 QQBot.Net 管理的流式消息会话。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IUserMessageStream&gt; StartStreamMessageAsync(string initialContent, StreamMessageContentType contentType = StreamMessageContentType.Text, IUserMessage? passiveSource = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initialContent</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>首个内容分片。</p>
+</dd>
+    <dt><code>contentType</code> <a class="xref" href="QQBot.StreamMessageContentType.html">StreamMessageContentType</a></dt>
+    <dd><p>内容格式。</p>
+</dd>
+    <dt><code>passiveSource</code> <a class="xref" href="QQBot.IUserMessage.html">IUserMessage</a></dt>
+    <dd><p>可选的被动回复消息来源。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.IUserMessageStream.html">IUserMessageStream</a>&gt;</dt>
+    <dd><p>已开始的流式消息会话。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_IUserChannel_StartStreamMessageAsync_System_String_QQBot_StreamMessageContentType_QQBot_IUserMessage_QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>此方法仅适用于 QQ 单聊。返回的会话会自动维护分片序号和流式消息标识符；使用
+<a class="xref" href="QQBot.IUserMessageStream.html#QQBot_IUserMessageStream_AppendAsync_System_String_QQBot_RequestOptions_">AppendAsync(string, RequestOptions?)</a> 追加内容，并使用
+<a class="xref" href="QQBot.IUserMessageStream.html#QQBot_IUserMessageStream_CompleteAsync_System_String_QQBot_RequestOptions_">CompleteAsync(string, RequestOptions?)</a> 显式结束消息。</p>
+</div>
+
+
+
+
+  <a id="QQBot_IUserChannel_StartWakeupStreamMessageAsync_" data-uid="QQBot.IUserChannel.StartWakeupStreamMessageAsync*"></a>
+
+  <h3 id="QQBot_IUserChannel_StartWakeupStreamMessageAsync_System_String_QQBot_StreamMessageContentType_QQBot_RequestOptions_" data-uid="QQBot.IUserChannel.StartWakeupStreamMessageAsync(System.String,QQBot.StreamMessageContentType,QQBot.RequestOptions)">
+  StartWakeupStreamMessageAsync(string, StreamMessageContentType, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IUserChannel.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>开始一个单聊互动召回流式消息会话。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IUserMessageStream&gt; StartWakeupStreamMessageAsync(string initialContent, StreamMessageContentType contentType = StreamMessageContentType.Text, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>initialContent</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>首个内容分片。</p>
+</dd>
+    <dt><code>contentType</code> <a class="xref" href="QQBot.StreamMessageContentType.html">StreamMessageContentType</a></dt>
+    <dd><p>内容格式。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.IUserMessageStream.html">IUserMessageStream</a>&gt;</dt>
+    <dd><p>已开始的流式消息会话。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_IUserChannel_StartWakeupStreamMessageAsync_System_String_QQBot_StreamMessageContentType_QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>此方法仅适用于 QQ 单聊互动召回，不能作为对用户消息或事件的被动回复发送。平台的互动召回额度
+和时间窗口限制与 <a class="xref" href="QQBot.IUserChannel.html#QQBot_IUserChannel_SendWakeupMessageAsync_System_String_QQBot_IMarkdown_System_Nullable_QQBot_FileAttachment__QQBot_Embed_QQBot_Ark_QQBot_IKeyboard_QQBot_MessageReference_QQBot_RequestOptions_">SendWakeupMessageAsync(string?, IMarkdown?, FileAttachment?, Embed?, Ark?, IKeyboard?, MessageReference?, RequestOptions?)</a> 相同；QQBot.Net 不预判平台额度。</p>
+</div>
+
+
+
+
+  <a id="QQBot_IUserChannel_TriggerTypingAsync_" data-uid="QQBot.IUserChannel.TriggerTypingAsync*"></a>
+
+  <h3 id="QQBot_IUserChannel_TriggerTypingAsync_System_Nullable_System_TimeSpan__QQBot_IUserMessage_QQBot_RequestOptions_" data-uid="QQBot.IUserChannel.TriggerTypingAsync(System.Nullable{System.TimeSpan},QQBot.IUserMessage,QQBot.RequestOptions)">
+  TriggerTypingAsync(TimeSpan?, IUserMessage?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IUserChannel.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>显示机器人正在输入的状态。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task TriggerTypingAsync(TimeSpan? duration = null, IUserMessage? passiveSource = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a>?</dt>
+    <dd><p>输入中状态的持续时间；为 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> 时使用 60 秒。非整秒持续时间会向上取整到下一整秒。</p>
+</dd>
+    <dt><code>passiveSource</code> <a class="xref" href="QQBot.IUserMessage.html">IUserMessage</a></dt>
+    <dd><p>可选的被动回复消息来源。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步发送操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_IUserChannel_TriggerTypingAsync_System_Nullable_System_TimeSpan__QQBot_IUserMessage_QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>此方法仅适用于 QQ 单聊。未指定持续时间时，状态默认持续 60 秒；有效范围为大于零且不超过 60 秒。
+可选地提供触发输入状态的用户消息，以便作为该消息的被动回复发送。</p>
+</div>
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/Entities/Channels/IUserChannel.cs/#L9" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Channels/IUserChannel.cs/#L9" class="edit-link">Edit this page</a>
         </div>
 
 
@@ -199,7 +517,7 @@ Interface IUserChannel  <a class="header-action link-secondary" title="View sour
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          QQBot.Net (c) 2024
+          QQBot.Net (c) 2024-2026
         </div>
       </div>
     </footer>

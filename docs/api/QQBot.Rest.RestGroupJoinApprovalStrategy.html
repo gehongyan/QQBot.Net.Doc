@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class RestGroupJoinApprovalStrategy | QQBot.Net 文档 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class RestGroupJoinApprovalStrategy | QQBot.Net 文档 ">
+      
+      <meta name="description" content="表示一个基于 REST 的入群自动审批策略。">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/gehongyan/QQBot.Net/new/master/apiSpec/new?filename=QQBot_Rest_RestGroupJoinApprovalStrategy.md&amp;value=---%0Auid%3A%20QQBot.Rest.RestGroupJoinApprovalStrategy%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="QQBot.Net 文档">
+            QQBot.Net 文档
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy">
+
+
+
+  <h1 id="QQBot_Rest_RestGroupJoinApprovalStrategy" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy" class="text-break">
+Class RestGroupJoinApprovalStrategy  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/Entities/Guilds/RestGroupJoinApprovalStrategy.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="QQBot.html">QQBot</a>.<a class="xref" href="QQBot.Rest.html">Rest</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>QQBot.Net.Rest.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>表示一个基于 REST 的入群自动审批策略。</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class RestGroupJoinApprovalStrategy : RestEntity&lt;string&gt;, IGroupJoinApprovalStrategy, IEntity&lt;string&gt;, IDeletable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="QQBot.Rest.RestEntity-1.html">RestEntity</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</div>
+      <div><span class="xref">RestGroupJoinApprovalStrategy</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="QQBot.IGroupJoinApprovalStrategy.html">IGroupJoinApprovalStrategy</a></div>
+      <div><a class="xref" href="QQBot.IEntity-1.html">IEntity</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</div>
+      <div><a class="xref" href="QQBot.IDeletable.html">IDeletable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="QQBot.Rest.RestEntity-1.html#QQBot_Rest_RestEntity_1_Id">RestEntity&lt;string&gt;.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="QQBot_Rest_RestGroupJoinApprovalStrategy_CreatedAt_" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.CreatedAt*"></a>
+
+  <h3 id="QQBot_Rest_RestGroupJoinApprovalStrategy_CreatedAt" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.CreatedAt">
+  CreatedAt
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/Entities/Guilds/RestGroupJoinApprovalStrategy.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此策略的创建时间。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset CreatedAt { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_Rest_RestGroupJoinApprovalStrategy_ExpiresAt_" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.ExpiresAt*"></a>
+
+  <h3 id="QQBot_Rest_RestGroupJoinApprovalStrategy_ExpiresAt" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.ExpiresAt">
+  ExpiresAt
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/Entities/Guilds/RestGroupJoinApprovalStrategy.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此策略的过期时间。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset ExpiresAt { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_Rest_RestGroupJoinApprovalStrategy_GroupIds_" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.GroupIds*"></a>
+
+  <h3 id="QQBot_Rest_RestGroupJoinApprovalStrategy_GroupIds" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.GroupIds">
+  GroupIds
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/Entities/Guilds/RestGroupJoinApprovalStrategy.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此策略关联的群的标识符列表。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;Guid&gt; GroupIds { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="QQBot_Rest_RestGroupJoinApprovalStrategy_GroupIds_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>此列表与 <a class="xref" href="QQBot.IGroupJoinApprovalStrategy.html#QQBot_IGroupJoinApprovalStrategy_GroupNumbers">GroupNumbers</a> 互斥：仅当创建策略时使用群标识符关联时才会返回，否则为空集合。</p>
+</div>
+
+
+
+
+  <a id="QQBot_Rest_RestGroupJoinApprovalStrategy_GroupNumbers_" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.GroupNumbers*"></a>
+
+  <h3 id="QQBot_Rest_RestGroupJoinApprovalStrategy_GroupNumbers" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.GroupNumbers">
+  GroupNumbers
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/Entities/Guilds/RestGroupJoinApprovalStrategy.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此策略关联的 QQ 群号列表。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyCollection&lt;ulong&gt; GroupNumbers { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="QQBot_Rest_RestGroupJoinApprovalStrategy_GroupNumbers_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>此列表与 <a class="xref" href="QQBot.IGroupJoinApprovalStrategy.html#QQBot_IGroupJoinApprovalStrategy_GroupIds">GroupIds</a> 互斥：仅当创建策略时使用 QQ 群号关联时才会返回，否则为空集合。</p>
+</div>
+
+
+
+
+  <a id="QQBot_Rest_RestGroupJoinApprovalStrategy_IsEnabled_" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.IsEnabled*"></a>
+
+  <h3 id="QQBot_Rest_RestGroupJoinApprovalStrategy_IsEnabled" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.IsEnabled">
+  IsEnabled
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/Entities/Guilds/RestGroupJoinApprovalStrategy.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此策略是否启用。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEnabled { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_Rest_RestGroupJoinApprovalStrategy_Remark_" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.Remark*"></a>
+
+  <h3 id="QQBot_Rest_RestGroupJoinApprovalStrategy_Remark" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.Remark">
+  Remark
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/Entities/Guilds/RestGroupJoinApprovalStrategy.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此策略的备注。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Remark { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_Rest_RestGroupJoinApprovalStrategy_UpdatedAt_" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.UpdatedAt*"></a>
+
+  <h3 id="QQBot_Rest_RestGroupJoinApprovalStrategy_UpdatedAt" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.UpdatedAt">
+  UpdatedAt
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/Entities/Guilds/RestGroupJoinApprovalStrategy.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此策略的最近更新时间。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset UpdatedAt { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="QQBot_Rest_RestGroupJoinApprovalStrategy_WhitelistUserCount_" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.WhitelistUserCount*"></a>
+
+  <h3 id="QQBot_Rest_RestGroupJoinApprovalStrategy_WhitelistUserCount" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.WhitelistUserCount">
+  WhitelistUserCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/Entities/Guilds/RestGroupJoinApprovalStrategy.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取此策略白名单中的号码数量（估算，可能存在少量误差）。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int WhitelistUserCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="QQBot_Rest_RestGroupJoinApprovalStrategy_AddWhitelistAsync_" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.AddWhitelistAsync*"></a>
+
+  <h3 id="QQBot_Rest_RestGroupJoinApprovalStrategy_AddWhitelistAsync_System_Collections_Generic_IEnumerable_System_String__QQBot_RequestOptions_" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.AddWhitelistAsync(System.Collections.Generic.IEnumerable{System.String},QQBot.RequestOptions)">
+  AddWhitelistAsync(IEnumerable&lt;string&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/Entities/Guilds/RestGroupJoinApprovalStrategy.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定 QQ 号码加入此策略的白名单。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task AddWhitelistAsync(IEnumerable&lt;string&gt; qqNumbers, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>qqNumbers</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>要加入白名单的 QQ 号码列表。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_Rest_RestGroupJoinApprovalStrategy_AddWhitelistAsync_System_Collections_Generic_IEnumerable_System_String__QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>单次最多操作 10000 个号码，号码总数上限为 10 万。</p>
+</div>
+
+
+
+
+  <a id="QQBot_Rest_RestGroupJoinApprovalStrategy_DeleteAsync_" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.DeleteAsync*"></a>
+
+  <h3 id="QQBot_Rest_RestGroupJoinApprovalStrategy_DeleteAsync_QQBot_RequestOptions_" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.DeleteAsync(QQBot.RequestOptions)">
+  DeleteAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/Entities/Guilds/RestGroupJoinApprovalStrategy.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>删除此对实体象及其所有子实体对象。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_Rest_RestGroupJoinApprovalStrategy_ExecuteAsync_" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.ExecuteAsync*"></a>
+
+  <h3 id="QQBot_Rest_RestGroupJoinApprovalStrategy_ExecuteAsync_QQBot_RequestOptions_" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.ExecuteAsync(QQBot.RequestOptions)">
+  ExecuteAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/Entities/Guilds/RestGroupJoinApprovalStrategy.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>执行此策略。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ExecuteAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步执行操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_Rest_RestGroupJoinApprovalStrategy_ExecuteAsync_QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>对策略关联的全部群发起全量扫描，命中白名单号码的入群申请将被自动审批通过。此操作为异步执行，约 10 分钟完成。</p>
+</div>
+
+
+
+
+  <a id="QQBot_Rest_RestGroupJoinApprovalStrategy_ModifyAsync_" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.ModifyAsync*"></a>
+
+  <h3 id="QQBot_Rest_RestGroupJoinApprovalStrategy_ModifyAsync_System_Action_QQBot_ModifyGroupJoinApprovalStrategyProperties__QQBot_RequestOptions_" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.ModifyAsync(System.Action{QQBot.ModifyGroupJoinApprovalStrategyProperties},QQBot.RequestOptions)">
+  ModifyAsync(Action&lt;ModifyGroupJoinApprovalStrategyProperties&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/Entities/Guilds/RestGroupJoinApprovalStrategy.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>修改此策略。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ModifyAsync(Action&lt;ModifyGroupJoinApprovalStrategyProperties&gt; func, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.ModifyGroupJoinApprovalStrategyProperties.html">ModifyGroupJoinApprovalStrategyProperties</a>&gt;</dt>
+    <dd><p>一个包含修改策略属性的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步修改操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_Rest_RestGroupJoinApprovalStrategy_RemoveWhitelistAsync_" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.RemoveWhitelistAsync*"></a>
+
+  <h3 id="QQBot_Rest_RestGroupJoinApprovalStrategy_RemoveWhitelistAsync_System_Collections_Generic_IEnumerable_System_String__QQBot_RequestOptions_" data-uid="QQBot.Rest.RestGroupJoinApprovalStrategy.RemoveWhitelistAsync(System.Collections.Generic.IEnumerable{System.String},QQBot.RequestOptions)">
+  RemoveWhitelistAsync(IEnumerable&lt;string&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/Entities/Guilds/RestGroupJoinApprovalStrategy.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>将指定 QQ 号码移出此策略的白名单。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task RemoveWhitelistAsync(IEnumerable&lt;string&gt; qqNumbers, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>qqNumbers</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>要移出白名单的 QQ 号码列表。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>一个表示异步操作的任务。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_Rest_RestGroupJoinApprovalStrategy_RemoveWhitelistAsync_System_Collections_Generic_IEnumerable_System_String__QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>单次最多操作 10000 个号码。</p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/Entities/Guilds/RestGroupJoinApprovalStrategy.cs/#L10" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          QQBot.Net (c) 2024-2026
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

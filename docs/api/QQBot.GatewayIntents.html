@@ -90,7 +90,7 @@
 
 
   <h1 id="QQBot_GatewayIntents" data-uid="QQBot.GatewayIntents" class="text-break">
-Enum GatewayIntents  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/GatewayIntents.cs/#L6"><i class="bi bi-code-slash"></i></a>
+Enum GatewayIntents  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/GatewayIntents.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -122,7 +122,7 @@ public enum GatewayIntents</code></pre>
   
   <dd><p>此网关意图包括所有事件</p>
 </dd>
-    <dt id="QQBot_GatewayIntents_AllPublicDomain"><code>AllPublicDomain = Guilds | GuildMembers | GuildMessageReactions | DirectMessages | OpenForumsEvent | AudioOrLiveChannelMember | GroupAndC2CEvent | Interaction | MessageAudit | AudioAction | PublicGuildMessages</code></dt>
+    <dt id="QQBot_GatewayIntents_AllPublicDomain"><code>AllPublicDomain = Guilds | GuildMembers | GuildMessageReactions | DirectMessages | OpenForumsEvent | AudioOrLiveChannelMember | GroupMember | GroupAndC2CEvent | Interaction | MessageAudit | AudioAction | PublicGuildMessages</code></dt>
   
   <dd><p>此网关意图包括所有公域机器人可以订阅的事件</p>
 </dd>
@@ -148,7 +148,11 @@ public enum GatewayIntents</code></pre>
   
   <dd><p>此网关意图包括 <code>C2C_MESSAGE_CREATE</code>, <code>FRIEND_ADD</code>, <code>FRIEND_DEL</code>, <code>C2C_MSG_REJECT</code>,
 <code>C2C_MSG_RECEIVE</code>, <code>GROUP_AT_MESSAGE_CREATE</code>, <code>GROUP_ADD_ROBOT</code>, <code>GROUP_DEL_ROBOT</code>,
-<code>GROUP_MSG_REJECT</code>, <code>GROUP_MSG_RECEIVE</code></p>
+<code>GROUP_MSG_REJECT</code>, <code>GROUP_MSG_RECEIVE</code>, <code>SUBSCRIBE_MESSAGE_STATUS</code></p>
+</dd>
+    <dt id="QQBot_GatewayIntents_GroupMember"><code>GroupMember = 16777216</code></dt>
+  
+  <dd><p>此网关意图包括 <code>GROUP_MEMBER_ADD</code>, <code>GROUP_MEMBER_REMOVE</code></p>
 </dd>
     <dt id="QQBot_GatewayIntents_GuildMembers"><code>GuildMembers = 2</code></dt>
   
@@ -196,7 +200,7 @@ public enum GatewayIntents</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/GatewayIntents.cs/#L6" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/GatewayIntents.cs/#L6" class="edit-link">Edit this page</a>
         </div>
 
 
@@ -212,7 +216,7 @@ public enum GatewayIntents</code></pre>
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          QQBot.Net (c) 2024
+          QQBot.Net (c) 2024-2026
         </div>
       </div>
     </footer>

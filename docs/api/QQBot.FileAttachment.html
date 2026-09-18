@@ -89,7 +89,7 @@
 
 
   <h1 id="QQBot_FileAttachment" data-uid="QQBot.FileAttachment" class="text-break">
-Struct FileAttachment  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L6"><i class="bi bi-code-slash"></i></a>
+Struct FileAttachment  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -153,7 +153,7 @@ Struct FileAttachment  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_FileAttachment__ctor_System_IO_Stream_System_String_QQBot_AttachmentType_" data-uid="QQBot.FileAttachment.#ctor(System.IO.Stream,System.String,QQBot.AttachmentType)">
   FileAttachment(Stream, string?, AttachmentType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>通过流创建附件。</p>
@@ -192,7 +192,7 @@ Struct FileAttachment  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_FileAttachment__ctor_System_Nullable_QQBot_MediaFileInfo__System_Nullable_QQBot_MediaFileInfo__System_String_" data-uid="QQBot.FileAttachment.#ctor(System.Nullable{QQBot.MediaFileInfo},System.Nullable{QQBot.MediaFileInfo},System.String)">
   FileAttachment(MediaFileInfo?, MediaFileInfo?, string?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L154"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>通过富媒体文件信息创建附件。</p>
@@ -229,9 +229,48 @@ Struct FileAttachment  <a class="header-action link-secondary" title="View sourc
 
   <a id="QQBot_FileAttachment__ctor_" data-uid="QQBot.FileAttachment.#ctor*"></a>
 
+  <h3 id="QQBot_FileAttachment__ctor_System_ReadOnlyMemory_System_Byte__System_String_QQBot_AttachmentType_" data-uid="QQBot.FileAttachment.#ctor(System.ReadOnlyMemory{System.Byte},System.String,QQBot.AttachmentType)">
+  FileAttachment(ReadOnlyMemory&lt;byte&gt;, string?, AttachmentType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>通过内存数据创建附件。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FileAttachment(ReadOnlyMemory&lt;byte&gt; memory, string? filename = null, AttachmentType type = AttachmentType.Image)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>memory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.readonlymemory-1">ReadOnlyMemory</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>&gt;</dt>
+    <dd><p>创建附件所使用的内存数据。</p>
+</dd>
+    <dt><code>filename</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>文件名。</p>
+</dd>
+    <dt><code>type</code> <a class="xref" href="QQBot.AttachmentType.html">AttachmentType</a></dt>
+    <dd><p>附件的类型。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_FileAttachment__ctor_" data-uid="QQBot.FileAttachment.#ctor*"></a>
+
   <h3 id="QQBot_FileAttachment__ctor_System_String_System_String_QQBot_AttachmentType_" data-uid="QQBot.FileAttachment.#ctor(System.String,System.String,QQBot.AttachmentType)">
   FileAttachment(string, string?, AttachmentType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L92"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>通过文件路径创建附件。</p>
@@ -280,7 +319,7 @@ Struct FileAttachment  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_FileAttachment__ctor_System_Uri_System_String_QQBot_AttachmentType_" data-uid="QQBot.FileAttachment.#ctor(System.Uri,System.String,QQBot.AttachmentType)">
   FileAttachment(Uri, string?, AttachmentType)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L113"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>通过 URL 创建附件。</p>
@@ -329,7 +368,7 @@ Struct FileAttachment  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_FileAttachment_FilePath" data-uid="QQBot.FileAttachment.FilePath">
   FilePath
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此附件的文件路径。</p>
@@ -361,7 +400,7 @@ Struct FileAttachment  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_FileAttachment_Filename" data-uid="QQBot.FileAttachment.Filename">
   Filename
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此附件的文件名。</p>
@@ -393,7 +432,7 @@ Struct FileAttachment  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_FileAttachment_GroupMediaFileInfo" data-uid="QQBot.FileAttachment.GroupMediaFileInfo">
   GroupMediaFileInfo
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取用于群聊的富媒体文件信息。</p>
@@ -421,11 +460,43 @@ Struct FileAttachment  <a class="header-action link-secondary" title="View sourc
 
 
 
+  <a id="QQBot_FileAttachment_Memory_" data-uid="QQBot.FileAttachment.Memory*"></a>
+
+  <h3 id="QQBot_FileAttachment_Memory" data-uid="QQBot.FileAttachment.Memory">
+  Memory
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取包含文件内容的内存数据。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly ReadOnlyMemory&lt;byte&gt; Memory { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.readonlymemory-1">ReadOnlyMemory</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="QQBot_FileAttachment_Mode_" data-uid="QQBot.FileAttachment.Mode*"></a>
 
   <h3 id="QQBot_FileAttachment_Mode" data-uid="QQBot.FileAttachment.Mode">
   Mode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取创建此文件附件的方式。</p>
@@ -457,7 +528,7 @@ Struct FileAttachment  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_FileAttachment_Stream" data-uid="QQBot.FileAttachment.Stream">
   Stream
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取包含文件内容的流。</p>
@@ -489,7 +560,7 @@ Struct FileAttachment  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_FileAttachment_Type" data-uid="QQBot.FileAttachment.Type">
   Type
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此附件的类型。</p>
@@ -521,7 +592,7 @@ Struct FileAttachment  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_FileAttachment_Uri" data-uid="QQBot.FileAttachment.Uri">
   Uri
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取指向文件的 URL。</p>
@@ -553,7 +624,7 @@ Struct FileAttachment  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_FileAttachment_UserMediaFileInfo" data-uid="QQBot.FileAttachment.UserMediaFileInfo">
   UserMediaFileInfo
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取用于单聊的富媒体文件信息。</p>
@@ -589,7 +660,7 @@ Struct FileAttachment  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_FileAttachment_Dispose" data-uid="QQBot.FileAttachment.Dispose">
   Dispose()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L181"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
@@ -616,7 +687,7 @@ Struct FileAttachment  <a class="header-action link-secondary" title="View sourc
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L6" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Core/Entities/Messages/Attachment/FileAttachment.cs/#L6" class="edit-link">Edit this page</a>
         </div>
 
 
@@ -632,7 +703,7 @@ Struct FileAttachment  <a class="header-action link-secondary" title="View sourc
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          QQBot.Net (c) 2024
+          QQBot.Net (c) 2024-2026
         </div>
       </div>
     </footer>

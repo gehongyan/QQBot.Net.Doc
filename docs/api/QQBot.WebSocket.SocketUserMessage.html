@@ -89,7 +89,7 @@
 
 
   <h1 id="QQBot_WebSocket_SocketUserMessage" data-uid="QQBot.WebSocket.SocketUserMessage" class="text-break">
-Class SocketUserMessage  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.WebSocket/Entities/Messages/SocketUserMessage.cs/#L11"><i class="bi bi-code-slash"></i></a>
+Class SocketUserMessage  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.WebSocket/Entities/Messages/SocketUserMessage.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -218,6 +218,47 @@ Class SocketUserMessage  <a class="header-action link-secondary" title="View sou
 
 
 
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="QQBot_WebSocket_SocketUserMessage_ReplyReference_" data-uid="QQBot.WebSocket.SocketUserMessage.ReplyReference*"></a>
+
+  <h3 id="QQBot_WebSocket_SocketUserMessage_ReplyReference" data-uid="QQBot.WebSocket.SocketUserMessage.ReplyReference">
+  ReplyReference
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.WebSocket/Entities/Messages/SocketUserMessage.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取可用于引用此消息的消息引用。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MessageReference? ReplyReference { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="QQBot.MessageReference.html">MessageReference</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="QQBot_WebSocket_SocketUserMessage_ReplyReference_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>此引用仅在 QQ 单聊或群聊发送响应提供时可用，可直接作为后续发送消息的
+<a class="xref" href="QQBot.IMessageChannel.html#QQBot_IMessageChannel_SendMessageAsync_System_String_QQBot_IMarkdown_System_Nullable_QQBot_FileAttachment__QQBot_Embed_QQBot_Ark_QQBot_IKeyboard_QQBot_MessageReference_QQBot_IUserMessage_QQBot_RequestOptions_">SendMessageAsync(string?, IMarkdown?, FileAttachment?, Embed?, Ark?, IKeyboard?, MessageReference?, IUserMessage?, RequestOptions?)</a> 的消息引用参数。平台未提供该信息、
+频道消息、频道私信和从网关接收的消息均可能返回 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>。</p>
+</div>
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -226,7 +267,7 @@ Class SocketUserMessage  <a class="header-action link-secondary" title="View sou
 
   <h3 id="QQBot_WebSocket_SocketUserMessage_DeleteAsync_System_Nullable_System_Boolean__QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketUserMessage.DeleteAsync(System.Nullable{System.Boolean},QQBot.RequestOptions)">
   DeleteAsync(bool?, RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.WebSocket/Entities/Messages/SocketUserMessage.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.WebSocket/Entities/Messages/SocketUserMessage.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>删除此对实体象及其所有子实体对象。</p>
@@ -267,7 +308,7 @@ Class SocketUserMessage  <a class="header-action link-secondary" title="View sou
 
   <h3 id="QQBot_WebSocket_SocketUserMessage_PinAsync_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketUserMessage.PinAsync(QQBot.RequestOptions)">
   PinAsync(RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.WebSocket/Entities/Messages/SocketUserMessage.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.WebSocket/Entities/Messages/SocketUserMessage.cs/#L50"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>置顶消息。</p>
@@ -306,7 +347,7 @@ Class SocketUserMessage  <a class="header-action link-secondary" title="View sou
 
   <h3 id="QQBot_WebSocket_SocketUserMessage_UnpinAsync_QQBot_RequestOptions_" data-uid="QQBot.WebSocket.SocketUserMessage.UnpinAsync(QQBot.RequestOptions)">
   UnpinAsync(RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.WebSocket/Entities/Messages/SocketUserMessage.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.WebSocket/Entities/Messages/SocketUserMessage.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>取消置顶消息。</p>
@@ -345,7 +386,7 @@ Class SocketUserMessage  <a class="header-action link-secondary" title="View sou
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.WebSocket/Entities/Messages/SocketUserMessage.cs/#L11" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.WebSocket/Entities/Messages/SocketUserMessage.cs/#L11" class="edit-link">Edit this page</a>
         </div>
 
 
@@ -361,7 +402,7 @@ Class SocketUserMessage  <a class="header-action link-secondary" title="View sou
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          QQBot.Net (c) 2024
+          QQBot.Net (c) 2024-2026
         </div>
       </div>
     </footer>

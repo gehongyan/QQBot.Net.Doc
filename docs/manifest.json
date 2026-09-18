@@ -1,6 +1,6 @@
 {
   "sitemap": {
-    "baseUrl": "https://www.qqbotnet.dev/"
+    "baseUrl": "https://qqbotnet.dev/"
   },
   "source_base_path": "/home/runner/work/QQBot.Net/QQBot.Net/docs",
   "xrefmap": "xrefmap.yml",
@@ -194,6 +194,20 @@
       "IsMRef": true,
       "Title": "QQBot.BotGateway",
       "Summary": "<p sourcefile=\"api/QQBot.BotGateway.yml\" sourcestartlinenumber=\"1\">Stores the gateway information related to the current bot.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.BotMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.BotMenu.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.BotMenu",
+      "Summary": "<p sourcefile=\"api/QQBot.BotMenu.yml\" sourcestartlinenumber=\"1\">表示机器人的全局自定义菜单。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -418,6 +432,76 @@
       "IsMRef": true,
       "Title": "QQBot.Color",
       "Summary": "<p sourcefile=\"api/QQBot.Color.yml\" sourcestartlinenumber=\"1\">表示 QQBot 中使用的颜色。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.CommandPanelItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.CommandPanelItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.CommandPanelItem",
+      "Summary": "<p sourcefile=\"api/QQBot.CommandPanelItem.yml\" sourcestartlinenumber=\"1\">表示指令面板中的一个元素。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.CommandPanelItemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.CommandPanelItemType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.CommandPanelItemType",
+      "Summary": "<p sourcefile=\"api/QQBot.CommandPanelItemType.yml\" sourcestartlinenumber=\"1\">表示指令面板元素的类型。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.CommandPanelProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.CommandPanelProperties.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.CommandPanelProperties",
+      "Summary": "<p sourcefile=\"api/QQBot.CommandPanelProperties.yml\" sourcestartlinenumber=\"1\">提供用于创建或修改指令面板的可选属性。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.CommandPanelScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.CommandPanelScope.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.CommandPanelScope",
+      "Summary": "<p sourcefile=\"api/QQBot.CommandPanelScope.yml\" sourcestartlinenumber=\"1\">表示指令面板的生效场景。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.CommandPanelTargetType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.CommandPanelTargetType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.CommandPanelTargetType",
+      "Summary": "<p sourcefile=\"api/QQBot.CommandPanelTargetType.yml\" sourcestartlinenumber=\"1\">表示指令面板的作用范围。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1513,6 +1597,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.ForumAuditResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.ForumAuditResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ForumAuditResult",
+      "Summary": "<p sourcefile=\"api/QQBot.ForumAuditResult.yml\" sourcestartlinenumber=\"1\">表示论坛发表内容的审核结果。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.ForumAuditType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.ForumAuditType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ForumAuditType",
+      "Summary": "<p sourcefile=\"api/QQBot.ForumAuditType.yml\" sourcestartlinenumber=\"1\">表示论坛发表内容审核所针对的对象类型。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/QQBot.GatewayIntents.yml",
       "output": {
         ".html": {
@@ -1524,6 +1636,272 @@
       "IsMRef": true,
       "Title": "QQBot.GatewayIntents",
       "Summary": "<p sourcefile=\"api/QQBot.GatewayIntents.yml\" sourcestartlinenumber=\"1\">表示网关意图</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.GroupBlacklistUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.GroupBlacklistUser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.GroupBlacklistUser",
+      "Summary": "<p sourcefile=\"api/QQBot.GroupBlacklistUser.yml\" sourcestartlinenumber=\"1\">表示一个 QQ 群黑名单中的用户。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.GroupBotState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.GroupBotState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.GroupBotState",
+      "Summary": "<p sourcefile=\"api/QQBot.GroupBotState.yml\" sourcestartlinenumber=\"1\">表示机器人在指定 QQ 群内的状态信息。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.GroupGlobalMuteMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.GroupGlobalMuteMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.GroupGlobalMuteMode",
+      "Summary": "<p sourcefile=\"api/QQBot.GroupGlobalMuteMode.yml\" sourcestartlinenumber=\"1\">表示群的全员禁言模式。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.GroupGlobalMuteRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.GroupGlobalMuteRule.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.GroupGlobalMuteRule",
+      "Summary": "<p sourcefile=\"api/QQBot.GroupGlobalMuteRule.yml\" sourcestartlinenumber=\"1\">表示群的全员禁言规则。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.GroupInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.GroupInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.GroupInfo",
+      "Summary": "<p sourcefile=\"api/QQBot.GroupInfo.yml\" sourcestartlinenumber=\"1\">表示一个 QQ 群的基本信息。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.GroupJoinApprovalStrategyGroupAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.GroupJoinApprovalStrategyGroupAction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.GroupJoinApprovalStrategyGroupAction",
+      "Summary": "<p sourcefile=\"api/QQBot.GroupJoinApprovalStrategyGroupAction.yml\" sourcestartlinenumber=\"1\">表示对入群自动审批策略所关联群的一次增删操作。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.GroupJoinApprovalStrategyProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.GroupJoinApprovalStrategyProperties.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.GroupJoinApprovalStrategyProperties",
+      "Summary": "<p sourcefile=\"api/QQBot.GroupJoinApprovalStrategyProperties.yml\" sourcestartlinenumber=\"1\">提供用于创建入群自动审批策略的属性。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.GroupJoinRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.GroupJoinRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.GroupJoinRequest",
+      "Summary": "<p sourcefile=\"api/QQBot.GroupJoinRequest.yml\" sourcestartlinenumber=\"1\">表示一条 QQ 群入群申请。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.GroupJoinReviewQuestion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.GroupJoinReviewQuestion.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.GroupJoinReviewQuestion",
+      "Summary": "<p sourcefile=\"api/QQBot.GroupJoinReviewQuestion.yml\" sourcestartlinenumber=\"1\">表示入群申请中管理员设置的一条审核问答。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.GroupJoinSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.GroupJoinSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.GroupJoinSource",
+      "Summary": "<p sourcefile=\"api/QQBot.GroupJoinSource.yml\" sourcestartlinenumber=\"1\">表示入群申请的来源。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.GroupJoinVerifyInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.GroupJoinVerifyInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.GroupJoinVerifyInfo",
+      "Summary": "<p sourcefile=\"api/QQBot.GroupJoinVerifyInfo.yml\" sourcestartlinenumber=\"1\">表示入群申请人的入群验证信息。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.GroupJoinVerifyMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.GroupJoinVerifyMethod.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.GroupJoinVerifyMethod",
+      "Summary": "<p sourcefile=\"api/QQBot.GroupJoinVerifyMethod.yml\" sourcestartlinenumber=\"1\">表示入群申请的验证方式。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.GroupMemberMuteState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.GroupMemberMuteState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.GroupMemberMuteState",
+      "Summary": "<p sourcefile=\"api/QQBot.GroupMemberMuteState.yml\" sourcestartlinenumber=\"1\">表示一个当前处于禁言状态的群成员。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.GroupMemberRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.GroupMemberRole.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.GroupMemberRole",
+      "Summary": "<p sourcefile=\"api/QQBot.GroupMemberRole.yml\" sourcestartlinenumber=\"1\">表示群成员在群内的角色。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.GroupMessageReceiveSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.GroupMessageReceiveSetting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.GroupMessageReceiveSetting",
+      "Summary": "<p sourcefile=\"api/QQBot.GroupMessageReceiveSetting.yml\" sourcestartlinenumber=\"1\">表示机器人在群内接收消息的设置。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.GroupMuteRecurringRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.GroupMuteRecurringRule.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.GroupMuteRecurringRule",
+      "Summary": "<p sourcefile=\"api/QQBot.GroupMuteRecurringRule.yml\" sourcestartlinenumber=\"1\">表示一条群全员周期禁言规则。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.GroupMuteScheduleRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.GroupMuteScheduleRule.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.GroupMuteScheduleRule",
+      "Summary": "<p sourcefile=\"api/QQBot.GroupMuteScheduleRule.yml\" sourcestartlinenumber=\"1\">表示一条群全员定时禁言规则。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.GroupMuteSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.GroupMuteSetting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.GroupMuteSetting",
+      "Summary": "<p sourcefile=\"api/QQBot.GroupMuteSetting.yml\" sourcestartlinenumber=\"1\">表示群的禁言状态，包含全员禁言规则与当前被禁言的成员列表。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.GroupRemoveMembersResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.GroupRemoveMembersResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.GroupRemoveMembersResult",
+      "Summary": "<p sourcefile=\"api/QQBot.GroupRemoveMembersResult.yml\" sourcestartlinenumber=\"1\">表示批量移除群成员的结果。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1622,6 +2000,20 @@
       "IsMRef": true,
       "Title": "QQBot.IChannel",
       "Summary": "<p sourcefile=\"api/QQBot.IChannel.yml\" sourcestartlinenumber=\"1\">表示一个子频道。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.ICommandPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.ICommandPanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ICommandPanel",
+      "Summary": "<p sourcefile=\"api/QQBot.ICommandPanel.yml\" sourcestartlinenumber=\"1\">表示一个指令面板。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1748,6 +2140,34 @@
       "IsMRef": true,
       "Title": "QQBot.IGroupChannel",
       "Summary": "<p sourcefile=\"api/QQBot.IGroupChannel.yml\" sourcestartlinenumber=\"1\">表示一个群组子频道，即 QQ 群。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IGroupJoinApprovalStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IGroupJoinApprovalStrategy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IGroupJoinApprovalStrategy",
+      "Summary": "<p sourcefile=\"api/QQBot.IGroupJoinApprovalStrategy.yml\" sourcestartlinenumber=\"1\">表示一个入群自动审批策略。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IGroupMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IGroupMember.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IGroupMember",
+      "Summary": "<p sourcefile=\"api/QQBot.IGroupMember.yml\" sourcestartlinenumber=\"1\">表示一个 QQ 群内的成员。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1888,6 +2308,20 @@
       "IsMRef": true,
       "Title": "QQBot.IMarkdownBuilder",
       "Summary": "<p sourcefile=\"api/QQBot.IMarkdownBuilder.yml\" sourcestartlinenumber=\"1\">表示一个通用的 Markdown 内容构建器</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IMediaUploadChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IMediaUploadChannel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IMediaUploadChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.IMediaUploadChannel.yml\" sourcestartlinenumber=\"1\">表示支持上传富媒体文件的消息子频道。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2157,6 +2591,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.IUserMessageStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.IUserMessageStream.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.IUserMessageStream",
+      "Summary": "<p sourcefile=\"api/QQBot.IUserMessageStream.yml\" sourcestartlinenumber=\"1\">表示由 QQBot.Net 管理的单聊流式消息会话。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/QQBot.IVoiceChannel.yml",
       "output": {
         ".html": {
@@ -2294,6 +2742,34 @@
       "IsMRef": true,
       "Title": "QQBot.KeyboardContentBuilder",
       "Summary": "<p sourcefile=\"api/QQBot.KeyboardContentBuilder.yml\" sourcestartlinenumber=\"1\">表示一个自定义键盘按钮的构建器。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.KeyboardModal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.KeyboardModal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.KeyboardModal",
+      "Summary": "<p sourcefile=\"api/QQBot.KeyboardModal.yml\" sourcestartlinenumber=\"1\">表示在执行键盘按钮操作前显示的二次确认提示。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.KeyboardModalBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.KeyboardModalBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.KeyboardModalBuilder",
+      "Summary": "<p sourcefile=\"api/QQBot.KeyboardModalBuilder.yml\" sourcestartlinenumber=\"1\">表示一个用于创建 <xref href=\"QQBot.KeyboardModal\" data-throw-if-not-resolved=\"false\"></xref> 实例的构建器。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2437,6 +2913,62 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.MediaUploadOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.MediaUploadOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.MediaUploadOptions",
+      "Summary": "<p sourcefile=\"api/QQBot.MediaUploadOptions.yml\" sourcestartlinenumber=\"1\">配置自动分片上传行为。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.MediaUploadProgress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.MediaUploadProgress.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.MediaUploadProgress",
+      "Summary": "<p sourcefile=\"api/QQBot.MediaUploadProgress.yml\" sourcestartlinenumber=\"1\">表示自动分片上传的已确认进度。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.MediaUploadResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.MediaUploadResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.MediaUploadResult",
+      "Summary": "<p sourcefile=\"api/QQBot.MediaUploadResult.yml\" sourcestartlinenumber=\"1\">表示富媒体上传完成后的开发者可用结果。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.MediaUploadSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.MediaUploadSource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.MediaUploadSource",
+      "Summary": "<p sourcefile=\"api/QQBot.MediaUploadSource.yml\" sourcestartlinenumber=\"1\">表示富媒体上传的数据源。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/QQBot.MentionUtils.yml",
       "output": {
         ".html": {
@@ -2448,6 +2980,62 @@
       "IsMRef": true,
       "Title": "QQBot.MentionUtils",
       "Summary": "<p sourcefile=\"api/QQBot.MentionUtils.yml\" sourcestartlinenumber=\"1\">提供一组用于生成与解析提及标签的辅助方法。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.MenuItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.MenuItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.MenuItem",
+      "Summary": "<p sourcefile=\"api/QQBot.MenuItem.yml\" sourcestartlinenumber=\"1\">表示机器人全局自定义菜单中的一个一级菜单项。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.MenuItemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.MenuItemType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.MenuItemType",
+      "Summary": "<p sourcefile=\"api/QQBot.MenuItemType.yml\" sourcestartlinenumber=\"1\">表示机器人全局自定义菜单中一级菜单项的类型。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.MenuSwitch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.MenuSwitch.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.MenuSwitch",
+      "Summary": "<p sourcefile=\"api/QQBot.MenuSwitch.yml\" sourcestartlinenumber=\"1\">表示菜单开关项的配置。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.MessageAuditResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.MessageAuditResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.MessageAuditResult",
+      "Summary": "<p sourcefile=\"api/QQBot.MessageAuditResult.yml\" sourcestartlinenumber=\"1\">表示消息审核的结果。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2574,6 +3162,20 @@
       "IsMRef": true,
       "Title": "QQBot.ModifyForumChannelProperties",
       "Summary": "<p sourcefile=\"api/QQBot.ModifyForumChannelProperties.yml\" sourcestartlinenumber=\"1\">提供用于修改 <xref href=\"QQBot.IForumChannel\" data-throw-if-not-resolved=\"false\"></xref> 的属性。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.ModifyGroupJoinApprovalStrategyProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.ModifyGroupJoinApprovalStrategyProperties.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ModifyGroupJoinApprovalStrategyProperties",
+      "Summary": "<p sourcefile=\"api/QQBot.ModifyGroupJoinApprovalStrategyProperties.yml\" sourcestartlinenumber=\"1\">提供用于修改入群自动审批策略的属性。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2969,6 +3571,132 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.Webhooks.AspNet.DefaultAspNetWebhookProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.Webhooks.AspNet.DefaultAspNetWebhookProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.Webhooks.AspNet.DefaultAspNetWebhookProvider",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.Webhooks.AspNet.DefaultAspNetWebhookProvider.yml\" sourcestartlinenumber=\"1\">提供默认 ASP.NET Webhook 传输客户端。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.Webhooks.AspNet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.Webhooks.AspNet.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.Webhooks.AspNet",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.Webhooks.HttpListener.DefaultHttpListenerWebhookProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.Webhooks.HttpListener.DefaultHttpListenerWebhookProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.Webhooks.HttpListener.DefaultHttpListenerWebhookProvider",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.Webhooks.HttpListener.DefaultHttpListenerWebhookProvider.yml\" sourcestartlinenumber=\"1\">提供默认 HttpListener Webhook 传输客户端。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.Webhooks.HttpListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.Webhooks.HttpListener.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.Webhooks.HttpListener",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.Webhooks.IWebhookClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.Webhooks.IWebhookClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.Webhooks.IWebhookClient",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.Webhooks.IWebhookClient.yml\" sourcestartlinenumber=\"1\">表示一个通用的 QQ Bot Webhook 传输客户端。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.Webhooks.WebhookProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.Webhooks.WebhookProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.Webhooks.WebhookProvider",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.Webhooks.WebhookProvider.yml\" sourcestartlinenumber=\"1\">表示一个提供新的 <xref href=\"QQBot.Net.Webhooks.IWebhookClient\" data-throw-if-not-resolved=\"false\"></xref> 实例的委托。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.Webhooks.WebhookRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.Webhooks.WebhookRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.Webhooks.WebhookRequest",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.Webhooks.WebhookRequest.yml\" sourcestartlinenumber=\"1\">表示一个 QQ Bot Webhook 请求。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.Webhooks.WebhookResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.Webhooks.WebhookResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.Webhooks.WebhookResponse",
+      "Summary": "<p sourcefile=\"api/QQBot.Net.Webhooks.WebhookResponse.yml\" sourcestartlinenumber=\"1\">表示一个 QQ Bot Webhook 响应。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Net.Webhooks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Net.Webhooks.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Net.Webhooks",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/QQBot.Net.yml",
       "output": {
         ".html": {
@@ -3137,6 +3865,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.ReactionTargetType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.ReactionTargetType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.ReactionTargetType",
+      "Summary": "<p sourcefile=\"api/QQBot.ReactionTargetType.yml\" sourcestartlinenumber=\"1\">表示表情表态所针对的目标对象的类型。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/QQBot.RemindType.yml",
       "output": {
         ".html": {
@@ -3263,6 +4005,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Rest.RestCommandPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Rest.RestCommandPanel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestCommandPanel",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestCommandPanel.yml\" sourcestartlinenumber=\"1\">表示一个基于 REST 的指令面板。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Rest.RestDMChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Rest.RestDMChannel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestDMChannel",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestDMChannel.yml\" sourcestartlinenumber=\"1\">表示一个基于 REST 的子频道用户私聊子频道。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/QQBot.Rest.RestEntity-1.yml",
       "output": {
         ".html": {
@@ -3288,6 +4058,34 @@
       "IsMRef": true,
       "Title": "QQBot.Rest.RestForumChannel",
       "Summary": "<p sourcefile=\"api/QQBot.Rest.RestForumChannel.yml\" sourcestartlinenumber=\"1\">表示频道中的一个基于 REST 的论坛子频道。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Rest.RestGroupJoinApprovalStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Rest.RestGroupJoinApprovalStrategy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestGroupJoinApprovalStrategy",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestGroupJoinApprovalStrategy.yml\" sourcestartlinenumber=\"1\">表示一个基于 REST 的入群自动审批策略。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Rest.RestGroupMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Rest.RestGroupMember.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Rest.RestGroupMember",
+      "Summary": "<p sourcefile=\"api/QQBot.Rest.RestGroupMember.yml\" sourcestartlinenumber=\"1\">表示一个基于 REST 的 QQ 群成员。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3624,6 +4422,132 @@
       "IsMRef": true,
       "Title": "QQBot.SpeakPermission",
       "Summary": "<p sourcefile=\"api/QQBot.SpeakPermission.yml\" sourcestartlinenumber=\"1\">表示子频道发言权限。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.StreamMessageChunk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.StreamMessageChunk.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.StreamMessageChunk",
+      "Summary": "<p sourcefile=\"api/QQBot.StreamMessageChunk.yml\" sourcestartlinenumber=\"1\">表示要发送的一个流式消息分片。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.StreamMessageChunkResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.StreamMessageChunkResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.StreamMessageChunkResult",
+      "Summary": "<p sourcefile=\"api/QQBot.StreamMessageChunkResult.yml\" sourcestartlinenumber=\"1\">表示流式消息分片发送后的结果。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.StreamMessageContentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.StreamMessageContentType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.StreamMessageContentType",
+      "Summary": "<p sourcefile=\"api/QQBot.StreamMessageContentType.yml\" sourcestartlinenumber=\"1\">指定流式消息内容的格式。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.StreamMessageInputMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.StreamMessageInputMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.StreamMessageInputMode",
+      "Summary": "<p sourcefile=\"api/QQBot.StreamMessageInputMode.yml\" sourcestartlinenumber=\"1\">指定流式消息分片的输入模式。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.StreamMessageInputState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.StreamMessageInputState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.StreamMessageInputState",
+      "Summary": "<p sourcefile=\"api/QQBot.StreamMessageInputState.yml\" sourcestartlinenumber=\"1\">指定流式消息分片的输入状态。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.SubMenuItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.SubMenuItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.SubMenuItem",
+      "Summary": "<p sourcefile=\"api/QQBot.SubMenuItem.yml\" sourcestartlinenumber=\"1\">表示机器人全局自定义菜单中的一个二级菜单项。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.SubMenuItemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.SubMenuItemType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.SubMenuItemType",
+      "Summary": "<p sourcefile=\"api/QQBot.SubMenuItemType.yml\" sourcestartlinenumber=\"1\">表示机器人全局自定义菜单中二级菜单项的类型。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.SubscribeMessageAuthorization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.SubscribeMessageAuthorization.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.SubscribeMessageAuthorization",
+      "Summary": "<p sourcefile=\"api/QQBot.SubscribeMessageAuthorization.yml\" sourcestartlinenumber=\"1\">表示用户或群对机器人订阅消息模板的授权操作。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.SubscribeMessageTemplateResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.SubscribeMessageTemplateResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.SubscribeMessageTemplateResult",
+      "Summary": "<p sourcefile=\"api/QQBot.SubscribeMessageTemplateResult.yml\" sourcestartlinenumber=\"1\">表示一条订阅消息模板的授权状态变更结果。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4033,6 +4957,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketAudioAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketAudioAction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketAudioAction",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketAudioAction.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的音频动作。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/QQBot.WebSocket.SocketCategoryChannel.yml",
       "output": {
         ".html": {
@@ -4086,6 +5024,20 @@
       "IsMRef": true,
       "Title": "QQBot.WebSocket.SocketEntity<TId>",
       "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketEntity-1.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的具有唯一标识符的实体。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketForumAuditResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketForumAuditResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketForumAuditResult",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketForumAuditResult.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的论坛发表内容审核结果。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4243,6 +5195,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketMessageAudit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketMessageAudit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketMessageAudit",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketMessageAudit.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的消息审核结果。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketOpenForumEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketOpenForumEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketOpenForumEvent",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketOpenForumEvent.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的开放论坛事件。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/QQBot.WebSocket.SocketPost.yml",
       "output": {
         ".html": {
@@ -4254,6 +5234,20 @@
       "IsMRef": true,
       "Title": "QQBot.WebSocket.SocketPost",
       "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketPost.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的论坛主题评论。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.WebSocket.SocketReaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.WebSocket.SocketReaction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.WebSocket.SocketReaction",
+      "Summary": "<p sourcefile=\"api/QQBot.WebSocket.SocketReaction.yml\" sourcestartlinenumber=\"1\">表示一个基于网关的表情表态动作。</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -4439,6 +5433,146 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Webhook.AspNet.QQBotAspNetWebhookClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Webhook.AspNet.QQBotAspNetWebhookClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Webhook.AspNet.QQBotAspNetWebhookClient",
+      "Summary": "<p sourcefile=\"api/QQBot.Webhook.AspNet.QQBotAspNetWebhookClient.yml\" sourcestartlinenumber=\"1\">表示一个由 ASP.NET Generic Host 托管的 QQ Bot Webhook 客户端。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Webhook.AspNet.QQBotAspNetWebhookConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Webhook.AspNet.QQBotAspNetWebhookConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Webhook.AspNet.QQBotAspNetWebhookConfig",
+      "Summary": "<p sourcefile=\"api/QQBot.Webhook.AspNet.QQBotAspNetWebhookConfig.yml\" sourcestartlinenumber=\"1\">表示 QQ Bot ASP.NET Webhook 客户端配置。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Webhook.AspNet.QQBotWebhookClientExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Webhook.AspNet.QQBotWebhookClientExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Webhook.AspNet.QQBotWebhookClientExtensions",
+      "Summary": "<p sourcefile=\"api/QQBot.Webhook.AspNet.QQBotWebhookClientExtensions.yml\" sourcestartlinenumber=\"1\">提供 QQ Bot ASP.NET Webhook 的原生依赖注入和端点扩展。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Webhook.AspNet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Webhook.AspNet.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Webhook.AspNet",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Webhook.HttpListener.QQBotHttpListenerWebhookClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Webhook.HttpListener.QQBotHttpListenerWebhookClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Webhook.HttpListener.QQBotHttpListenerWebhookClient",
+      "Summary": "<p sourcefile=\"api/QQBot.Webhook.HttpListener.QQBotHttpListenerWebhookClient.yml\" sourcestartlinenumber=\"1\">表示一个使用 <xref href=\"System.Net.HttpListener\" data-throw-if-not-resolved=\"false\"></xref> 的 QQ Bot Webhook 客户端。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Webhook.HttpListener.QQBotHttpListenerWebhookConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Webhook.HttpListener.QQBotHttpListenerWebhookConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Webhook.HttpListener.QQBotHttpListenerWebhookConfig",
+      "Summary": "<p sourcefile=\"api/QQBot.Webhook.HttpListener.QQBotHttpListenerWebhookConfig.yml\" sourcestartlinenumber=\"1\">表示 QQ Bot HttpListener Webhook 客户端配置。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Webhook.HttpListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Webhook.HttpListener.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Webhook.HttpListener",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Webhook.QQBotWebhookClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Webhook.QQBotWebhookClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Webhook.QQBotWebhookClient",
+      "Summary": "<p sourcefile=\"api/QQBot.Webhook.QQBotWebhookClient.yml\" sourcestartlinenumber=\"1\">表示一个基于 Webhook 网关的 QQ Bot 客户端。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Webhook.QQBotWebhookConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Webhook.QQBotWebhookConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Webhook.QQBotWebhookConfig",
+      "Summary": "<p sourcefile=\"api/QQBot.Webhook.QQBotWebhookConfig.yml\" sourcestartlinenumber=\"1\">表示一个用于 <xref href=\"QQBot.Webhook.QQBotWebhookClient\" data-throw-if-not-resolved=\"false\"></xref> 的配置类。</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/QQBot.Webhook.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/QQBot.Webhook.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "QQBot.Webhook",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/QQBot.yml",
       "output": {
         ".html": {
@@ -4559,6 +5693,1199 @@
       "output": {
         ".html": {
           "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/bot/event/c2c-msg-receive.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/bot/event/c2c-msg-receive.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/bot/event/c2c-msg-reject.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/bot/event/c2c-msg-reject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/bot/event/friend-add.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/bot/event/friend-add.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/bot/event/friend-delete.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/bot/event/friend-delete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/bot/generate-share-link.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/bot/generate-share-link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/bot/get-bot.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/bot/get-bot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/bot/get-guilds.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/bot/get-guilds.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/bot/menu-panel/create-panel.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/bot/menu-panel/create-panel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/bot/menu-panel/delete-panel.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/bot/menu-panel/delete-panel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/bot/menu-panel/get-menu.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/bot/menu-panel/get-menu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/bot/menu-panel/get-panel.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/bot/menu-panel/get-panel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/bot/menu-panel/get-panels.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/bot/menu-panel/get-panels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/bot/menu-panel/update-menu.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/bot/menu-panel/update-menu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/bot/menu-panel/update-panel-target.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/bot/menu-panel/update-panel-target.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/bot/menu-panel/update-panel.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/bot/menu-panel/update-panel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/approve-join-request.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/approve-join-request.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/event/add-robot.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/event/add-robot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/event/del-robot.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/event/del-robot.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/event/join-request.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/event/join-request.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/event/member-add.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/event/member-add.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/event/member-remove.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/event/member-remove.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/event/msg-receive.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/event/msg-receive.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/event/msg-reject.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/event/msg-reject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/get-bot-state.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/get-bot-state.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/get-info.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/get-info.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/get-join-requests.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/get-join-requests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/get-restrict-chat.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/get-restrict-chat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/join-approval/create-strategy.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/join-approval/create-strategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/join-approval/delete-strategy.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/join-approval/delete-strategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/join-approval/execute-strategy.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/join-approval/execute-strategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/join-approval/get-strategies.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/join-approval/get-strategies.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/join-approval/update-strategy.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/join-approval/update-strategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/join-approval/update-whitelist.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/join-approval/update-whitelist.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/member/batch-remove.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/member/batch-remove.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/member/get-blacklist.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/member/get-blacklist.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/member/get-member.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/member/get-member.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/member/get-members.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/member/get-members.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/member/set-blacklist.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/member/set-blacklist.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/group/set-restrict-chat.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/group/set-restrict-chat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/api-permission/demand-permission.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/api-permission/demand-permission.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/api-permission/get-permissions.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/api-permission/get-permissions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/content/add-pin.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/content/add-pin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/content/audio-control.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/content/audio-control.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/content/bot-off-mic.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/content/bot-off-mic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/content/bot-on-mic.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/content/bot-on-mic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/content/create-announcement.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/content/create-announcement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/content/create-schedule.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/content/create-schedule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/content/create-thread.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/content/create-thread.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/content/delete-announcement.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/content/delete-announcement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/content/delete-pin.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/content/delete-pin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/content/delete-schedule.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/content/delete-schedule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/content/delete-thread.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/content/delete-thread.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/content/get-pin.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/content/get-pin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/content/get-schedule.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/content/get-schedule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/content/get-schedules.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/content/get-schedules.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/content/get-thread.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/content/get-thread.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/content/get-threads.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/content/get-threads.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/content/modify-schedule.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/content/modify-schedule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/create-channel.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/create-channel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/delete-channel.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/delete-channel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/event/channel-create.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/event/channel-create.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/event/channel-delete.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/event/channel-delete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/event/channel-update.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/event/channel-update.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/event/guild-create.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/event/guild-create.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/event/guild-delete.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/event/guild-delete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/event/guild-update.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/event/guild-update.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/get-channel.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/get-channel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/get-channels.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/get-channels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/get-guild.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/get-guild.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/member/delete-member.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/member/delete-member.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/member/event-audio-live-member.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/member/event-audio-live-member.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/member/event-guild-member.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/member/event-guild-member.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/member/get-member.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/member/get-member.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/member/get-members.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/member/get-members.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/member/get-online-nums.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/member/get-online-nums.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/member/get-role-members.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/member/get-role-members.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/miniapp/get-info.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/miniapp/get-info.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/miniapp/open-data.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/miniapp/open-data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/modify-channel.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/modify-channel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/role/add-role-member.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/role/add-role-member.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/role/create-role.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/role/create-role.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/role/delete-role.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/role/delete-role.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/role/get-channel-role-permissions.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/role/get-channel-role-permissions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/role/get-channel-user-permissions.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/role/get-channel-user-permissions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/role/get-roles.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/role/get-roles.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/role/modify-channel-role-permissions.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/role/modify-channel-role-permissions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/role/modify-channel-user-permissions.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/role/modify-channel-user-permissions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/role/modify-role.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/role/modify-role.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/role/remove-role-member.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/role/remove-role-member.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/speak/get-message-setting.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/speak/get-message-setting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/speak/mute-all.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/speak/mute-all.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/speak/mute-member.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/speak/mute-member.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/guild/speak/mute-members.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/guild/speak/mute-members.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/message/c2c/event-message-create.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/message/c2c/event-message-create.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/message/c2c/recall-message.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/message/c2c/recall-message.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/message/c2c/send-message.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/message/c2c/send-message.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/message/c2c/send-stream-message.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/message/c2c/send-stream-message.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/message/channel/direct-message.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/message/channel/direct-message.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/message/channel/event.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/message/channel/event.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/message/channel/format.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/message/channel/format.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/message/channel/reaction.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/message/channel/reaction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/message/channel/recall-message.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/message/channel/recall-message.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/message/channel/send-message.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/message/channel/send-message.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/message/group/event-at-message-create.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/message/group/event-at-message-create.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/message/group/event-message-create.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/message/group/event-message-create.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/message/group/recall-message.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/message/group/recall-message.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/message/group/send-message.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/message/group/send-message.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/message/interaction/button-event.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/message/interaction/button-event.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/message/interaction/button-response.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/message/interaction/button-response.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/message/interaction/text.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/message/interaction/text.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/message/type/ark.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/message/type/ark.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/message/type/embed.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/message/type/embed.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/message/type/markdown.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/message/type/markdown.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/message/type/rich-media.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/message/type/rich-media.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/startup/rest.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/startup/rest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/startup/webhook.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/startup/webhook.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick_reference/startup/websocket.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/startup/websocket.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "quick_reference/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "quick_reference/toc.html"
+        },
+        ".json": {
+          "relative_path": "quick_reference/toc.json"
         }
       },
       "version": ""

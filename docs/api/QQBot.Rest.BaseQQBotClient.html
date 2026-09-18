@@ -89,7 +89,7 @@
 
 
   <h1 id="QQBot_Rest_BaseQQBotClient" data-uid="QQBot.Rest.BaseQQBotClient" class="text-break">
-Class BaseQQBotClient  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L8"><i class="bi bi-code-slash"></i></a>
+Class BaseQQBotClient  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -171,7 +171,7 @@ Class BaseQQBotClient  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_Rest_BaseQQBotClient_ConnectionState" data-uid="QQBot.Rest.BaseQQBotClient.ConnectionState">
   ConnectionState
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L216"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取当前连接的状态。</p>
@@ -203,7 +203,7 @@ Class BaseQQBotClient  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_Rest_BaseQQBotClient_CurrentUser" data-uid="QQBot.Rest.BaseQQBotClient.CurrentUser">
   CurrentUser
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L81"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取登录到此客户端的当前用户；如果未登录，则为 <code>null</code>。</p>
@@ -235,7 +235,7 @@ Class BaseQQBotClient  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_Rest_BaseQQBotClient_LoginState" data-uid="QQBot.Rest.BaseQQBotClient.LoginState">
   LoginState
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L86"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取此客户端的登录状态。</p>
@@ -267,7 +267,7 @@ Class BaseQQBotClient  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_Rest_BaseQQBotClient_TokenType" data-uid="QQBot.Rest.BaseQQBotClient.TokenType">
   TokenType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L89"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取已登录用户的令牌类型。</p>
@@ -299,11 +299,213 @@ Class BaseQQBotClient  <a class="header-action link-secondary" title="View sourc
 </h2>
 
 
+  <a id="QQBot_Rest_BaseQQBotClient_CreateCommandPanelAsync_" data-uid="QQBot.Rest.BaseQQBotClient.CreateCommandPanelAsync*"></a>
+
+  <h3 id="QQBot_Rest_BaseQQBotClient_CreateCommandPanelAsync_QQBot_CommandPanelScope_System_Collections_Generic_IEnumerable_QQBot_CommandPanelItem__System_Action_QQBot_CommandPanelProperties__QQBot_RequestOptions_" data-uid="QQBot.Rest.BaseQQBotClient.CreateCommandPanelAsync(QQBot.CommandPanelScope,System.Collections.Generic.IEnumerable{QQBot.CommandPanelItem},System.Action{QQBot.CommandPanelProperties},QQBot.RequestOptions)">
+  CreateCommandPanelAsync(CommandPanelScope, IEnumerable&lt;CommandPanelItem&gt;, Action&lt;CommandPanelProperties&gt;?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L311"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>创建一个对指定场景下所有用户或群生效的指令面板。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RestCommandPanel&gt; CreateCommandPanelAsync(CommandPanelScope scope, IEnumerable&lt;CommandPanelItem&gt; items, Action&lt;CommandPanelProperties&gt;? func = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>scope</code> <a class="xref" href="QQBot.CommandPanelScope.html">CommandPanelScope</a></dt>
+    <dd><p>面板的生效场景。</p>
+</dd>
+    <dt><code>items</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="QQBot.CommandPanelItem.html">CommandPanelItem</a>&gt;</dt>
+    <dd><p>面板的元素列表，最多 20 个。</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.CommandPanelProperties.html">CommandPanelProperties</a>&gt;</dt>
+    <dd><p>一个包含面板额外配置的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.Rest.RestCommandPanel.html">RestCommandPanel</a>&gt;</dt>
+    <dd><p>一个表示异步创建操作的任务。任务的结果包含新创建的指令面板。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_Rest_BaseQQBotClient_CreateCommandPanelAsync_QQBot_CommandPanelScope_System_Collections_Generic_IEnumerable_QQBot_CommandPanelItem__System_Action_QQBot_CommandPanelProperties__QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>一个机器人最多创建 20 个指令面板。</p>
+</div>
+
+
+
+
+  <a id="QQBot_Rest_BaseQQBotClient_CreateCommandPanelAsync_" data-uid="QQBot.Rest.BaseQQBotClient.CreateCommandPanelAsync*"></a>
+
+  <h3 id="QQBot_Rest_BaseQQBotClient_CreateCommandPanelAsync_QQBot_CommandPanelScope_System_Collections_Generic_IEnumerable_System_Guid__System_Collections_Generic_IEnumerable_QQBot_CommandPanelItem__System_Action_QQBot_CommandPanelProperties__QQBot_RequestOptions_" data-uid="QQBot.Rest.BaseQQBotClient.CreateCommandPanelAsync(QQBot.CommandPanelScope,System.Collections.Generic.IEnumerable{System.Guid},System.Collections.Generic.IEnumerable{QQBot.CommandPanelItem},System.Action{QQBot.CommandPanelProperties},QQBot.RequestOptions)">
+  CreateCommandPanelAsync(CommandPanelScope, IEnumerable&lt;Guid&gt;, IEnumerable&lt;CommandPanelItem&gt;, Action&lt;CommandPanelProperties&gt;?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L316"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>创建一个仅对指定用户或群生效的指令面板。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RestCommandPanel&gt; CreateCommandPanelAsync(CommandPanelScope scope, IEnumerable&lt;Guid&gt; targetIds, IEnumerable&lt;CommandPanelItem&gt; items, Action&lt;CommandPanelProperties&gt;? func = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>scope</code> <a class="xref" href="QQBot.CommandPanelScope.html">CommandPanelScope</a></dt>
+    <dd><p>面板的生效场景，仅支持 C2C 或 Group。</p>
+</dd>
+    <dt><code>targetIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a>&gt;</dt>
+    <dd><p>面板生效的用户或群的标识符集合，单次最多 20 个。</p>
+</dd>
+    <dt><code>items</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="QQBot.CommandPanelItem.html">CommandPanelItem</a>&gt;</dt>
+    <dd><p>面板的元素列表，最多 20 个。</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.CommandPanelProperties.html">CommandPanelProperties</a>&gt;</dt>
+    <dd><p>一个包含面板额外配置的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.Rest.RestCommandPanel.html">RestCommandPanel</a>&gt;</dt>
+    <dd><p>一个表示异步创建操作的任务。任务的结果包含新创建的指令面板。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_Rest_BaseQQBotClient_CreateCommandPanelAsync_QQBot_CommandPanelScope_System_Collections_Generic_IEnumerable_System_Guid__System_Collections_Generic_IEnumerable_QQBot_CommandPanelItem__System_Action_QQBot_CommandPanelProperties__QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>仅 <a class="xref" href="QQBot.CommandPanelScope.html#QQBot_CommandPanelScope_C2C">C2C</a> 与 <a class="xref" href="QQBot.CommandPanelScope.html#QQBot_CommandPanelScope_Group">Group</a> 场景支持按指定对象生效。
+一个机器人最多创建 20 个指令面板。</p>
+</div>
+
+
+
+
+  <a id="QQBot_Rest_BaseQQBotClient_CreateJoinApprovalStrategyAsync_" data-uid="QQBot.Rest.BaseQQBotClient.CreateJoinApprovalStrategyAsync*"></a>
+
+  <h3 id="QQBot_Rest_BaseQQBotClient_CreateJoinApprovalStrategyAsync_System_Collections_Generic_IEnumerable_System_Guid__System_Action_QQBot_GroupJoinApprovalStrategyProperties__QQBot_RequestOptions_" data-uid="QQBot.Rest.BaseQQBotClient.CreateJoinApprovalStrategyAsync(System.Collections.Generic.IEnumerable{System.Guid},System.Action{QQBot.GroupJoinApprovalStrategyProperties},QQBot.RequestOptions)">
+  CreateJoinApprovalStrategyAsync(IEnumerable&lt;Guid&gt;, Action&lt;GroupJoinApprovalStrategyProperties&gt;?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L261"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>创建一个关联指定群的入群自动审批策略。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RestGroupJoinApprovalStrategy&gt; CreateJoinApprovalStrategyAsync(IEnumerable&lt;Guid&gt; groupIds, Action&lt;GroupJoinApprovalStrategyProperties&gt;? func = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>groupIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a>&gt;</dt>
+    <dd><p>要关联的群的标识符列表（最多 100 个）。</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.GroupJoinApprovalStrategyProperties.html">GroupJoinApprovalStrategyProperties</a>&gt;</dt>
+    <dd><p>一个包含新策略额外配置的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.Rest.RestGroupJoinApprovalStrategy.html">RestGroupJoinApprovalStrategy</a>&gt;</dt>
+    <dd><p>一个表示异步创建操作的任务。任务的结果包含新创建的策略。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_Rest_BaseQQBotClient_CreateJoinApprovalStrategyAsync_System_Collections_Generic_IEnumerable_System_Guid__System_Action_QQBot_GroupJoinApprovalStrategyProperties__QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>一个机器人最多创建 20 个策略。</p>
+</div>
+
+
+
+
+  <a id="QQBot_Rest_BaseQQBotClient_CreateJoinApprovalStrategyAsync_" data-uid="QQBot.Rest.BaseQQBotClient.CreateJoinApprovalStrategyAsync*"></a>
+
+  <h3 id="QQBot_Rest_BaseQQBotClient_CreateJoinApprovalStrategyAsync_System_Collections_Generic_IEnumerable_System_UInt64__System_Action_QQBot_GroupJoinApprovalStrategyProperties__QQBot_RequestOptions_" data-uid="QQBot.Rest.BaseQQBotClient.CreateJoinApprovalStrategyAsync(System.Collections.Generic.IEnumerable{System.UInt64},System.Action{QQBot.GroupJoinApprovalStrategyProperties},QQBot.RequestOptions)">
+  CreateJoinApprovalStrategyAsync(IEnumerable&lt;ulong&gt;, Action&lt;GroupJoinApprovalStrategyProperties&gt;?, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L266"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>创建一个关联指定 QQ 群号的入群自动审批策略。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RestGroupJoinApprovalStrategy&gt; CreateJoinApprovalStrategyAsync(IEnumerable&lt;ulong&gt; groupNumbers, Action&lt;GroupJoinApprovalStrategyProperties&gt;? func = null, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>groupNumbers</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</dt>
+    <dd><p>要关联的 QQ 群号列表（最多 100 个）。</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="QQBot.GroupJoinApprovalStrategyProperties.html">GroupJoinApprovalStrategyProperties</a>&gt;</dt>
+    <dd><p>一个包含新策略额外配置的委托。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.Rest.RestGroupJoinApprovalStrategy.html">RestGroupJoinApprovalStrategy</a>&gt;</dt>
+    <dd><p>一个表示异步创建操作的任务。任务的结果包含新创建的策略。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_Rest_BaseQQBotClient_CreateJoinApprovalStrategyAsync_System_Collections_Generic_IEnumerable_System_UInt64__System_Action_QQBot_GroupJoinApprovalStrategyProperties__QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>一个机器人最多创建 20 个策略。</p>
+</div>
+
+
+
+
   <a id="QQBot_Rest_BaseQQBotClient_Dispose_" data-uid="QQBot.Rest.BaseQQBotClient.Dispose*"></a>
 
   <h3 id="QQBot_Rest_BaseQQBotClient_Dispose" data-uid="QQBot.Rest.BaseQQBotClient.Dispose">
   Dispose()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L126"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.</p>
@@ -330,7 +532,7 @@ Class BaseQQBotClient  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_Rest_BaseQQBotClient_GetBotGatewayAsync_QQBot_RequestOptions_" data-uid="QQBot.Rest.BaseQQBotClient.GetBotGatewayAsync(QQBot.RequestOptions)">
   GetBotGatewayAsync(RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L219"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L219"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取与机器人相关的网关信息。</p>
@@ -369,7 +571,7 @@ Class BaseQQBotClient  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_Rest_BaseQQBotClient_GetBotShardedGatewayAsync_QQBot_RequestOptions_" data-uid="QQBot.Rest.BaseQQBotClient.GetBotShardedGatewayAsync(QQBot.RequestOptions)">
   GetBotShardedGatewayAsync(RequestOptions?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L223"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L223"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>获取与机器人相关带分片信息的网关信息。</p>
@@ -404,11 +606,176 @@ Class BaseQQBotClient  <a class="header-action link-secondary" title="View sourc
 
 
 
+  <a id="QQBot_Rest_BaseQQBotClient_GetCommandPanelAsync_" data-uid="QQBot.Rest.BaseQQBotClient.GetCommandPanelAsync*"></a>
+
+  <h3 id="QQBot_Rest_BaseQQBotClient_GetCommandPanelAsync_System_String_QQBot_RequestOptions_" data-uid="QQBot.Rest.BaseQQBotClient.GetCommandPanelAsync(System.String,QQBot.RequestOptions)">
+  GetCommandPanelAsync(string, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L307"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取指定的指令面板。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RestCommandPanel&gt; GetCommandPanelAsync(string panelId, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>panelId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>要获取的面板的标识符。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.Rest.RestCommandPanel.html">RestCommandPanel</a>&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果包含指定的指令面板。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_Rest_BaseQQBotClient_GetCommandPanelsAsync_" data-uid="QQBot.Rest.BaseQQBotClient.GetCommandPanelsAsync*"></a>
+
+  <h3 id="QQBot_Rest_BaseQQBotClient_GetCommandPanelsAsync_QQBot_CommandPanelScope_QQBot_RequestOptions_" data-uid="QQBot.Rest.BaseQQBotClient.GetCommandPanelsAsync(QQBot.CommandPanelScope,QQBot.RequestOptions)">
+  GetCommandPanelsAsync(CommandPanelScope, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L302"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取指定场景下当前生效的指令面板，以分页形式返回。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncEnumerable&lt;IReadOnlyCollection&lt;RestCommandPanel&gt;&gt; GetCommandPanelsAsync(CommandPanelScope scope, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>scope</code> <a class="xref" href="QQBot.CommandPanelScope.html">CommandPanelScope</a></dt>
+    <dd><p>要筛选的生效场景。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iasyncenumerable-1">IAsyncEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="QQBot.Rest.RestCommandPanel.html">RestCommandPanel</a>&gt;&gt;</dt>
+    <dd><p>一个表示异步操作的可枚举集合，包含指定场景下的指令面板。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_Rest_BaseQQBotClient_GetJoinApprovalStrategiesAsync_" data-uid="QQBot.Rest.BaseQQBotClient.GetJoinApprovalStrategiesAsync*"></a>
+
+  <h3 id="QQBot_Rest_BaseQQBotClient_GetJoinApprovalStrategiesAsync_QQBot_RequestOptions_" data-uid="QQBot.Rest.BaseQQBotClient.GetJoinApprovalStrategiesAsync(QQBot.RequestOptions)">
+  GetJoinApprovalStrategiesAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L256"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前机器人生效中的入群自动审批策略，以分页形式返回。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncEnumerable&lt;IReadOnlyCollection&lt;RestGroupJoinApprovalStrategy&gt;&gt; GetJoinApprovalStrategiesAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iasyncenumerable-1">IAsyncEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection-1">IReadOnlyCollection</a>&lt;<a class="xref" href="QQBot.Rest.RestGroupJoinApprovalStrategy.html">RestGroupJoinApprovalStrategy</a>&gt;&gt;</dt>
+    <dd><p>一个表示异步操作的可枚举集合，包含当前机器人生效中的入群自动审批策略。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="QQBot_Rest_BaseQQBotClient_GetMenuAsync_" data-uid="QQBot.Rest.BaseQQBotClient.GetMenuAsync*"></a>
+
+  <h3 id="QQBot_Rest_BaseQQBotClient_GetMenuAsync_QQBot_RequestOptions_" data-uid="QQBot.Rest.BaseQQBotClient.GetMenuAsync(QQBot.RequestOptions)">
+  GetMenuAsync(RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L290"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>获取当前机器人已设置的全局自定义菜单。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;BotMenu&gt; GetMenuAsync(RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.BotMenu.html">BotMenu</a>&gt;</dt>
+    <dd><p>一个表示异步获取操作的任务。任务的结果包含当前的全局自定义菜单。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_Rest_BaseQQBotClient_GetMenuAsync_QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>若尚未设置过菜单，返回的 <a class="xref" href="QQBot.BotMenu.html#QQBot_BotMenu_Items">Items</a> 为空集合。</p>
+</div>
+
+
+
+
   <a id="QQBot_Rest_BaseQQBotClient_LoginAsync_" data-uid="QQBot.Rest.BaseQQBotClient.LoginAsync*"></a>
 
   <h3 id="QQBot_Rest_BaseQQBotClient_LoginAsync_System_Int32_QQBot_TokenType_System_String_System_Boolean_" data-uid="QQBot.Rest.BaseQQBotClient.LoginAsync(System.Int32,QQBot.TokenType,System.String,System.Boolean)">
   LoginAsync(int, TokenType, string, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L129"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>登录到 QQ API。</p>
@@ -460,7 +827,7 @@ Class BaseQQBotClient  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_Rest_BaseQQBotClient_LogoutAsync" data-uid="QQBot.Rest.BaseQQBotClient.LogoutAsync">
   LogoutAsync()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L188"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L188"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>从 QQ API 退出登录。</p>
@@ -492,6 +859,51 @@ Class BaseQQBotClient  <a class="header-action link-secondary" title="View sourc
 
 
 
+  <a id="QQBot_Rest_BaseQQBotClient_ModifyMenuAsync_" data-uid="QQBot.Rest.BaseQQBotClient.ModifyMenuAsync*"></a>
+
+  <h3 id="QQBot_Rest_BaseQQBotClient_ModifyMenuAsync_System_Collections_Generic_IEnumerable_QQBot_MenuItem__QQBot_RequestOptions_" data-uid="QQBot.Rest.BaseQQBotClient.ModifyMenuAsync(System.Collections.Generic.IEnumerable{QQBot.MenuItem},QQBot.RequestOptions)">
+  ModifyMenuAsync(IEnumerable&lt;MenuItem&gt;, RequestOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L294"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>修改当前机器人的全局自定义菜单。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;BotMenu&gt; ModifyMenuAsync(IEnumerable&lt;MenuItem&gt; items, RequestOptions? options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>items</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="QQBot.MenuItem.html">MenuItem</a>&gt;</dt>
+    <dd><p>要设置的菜单项列表，最多 10 个。</p>
+</dd>
+    <dt><code>options</code> <a class="xref" href="QQBot.RequestOptions.html">RequestOptions</a></dt>
+    <dd><p>发送请求时要使用的选项。</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="QQBot.BotMenu.html">BotMenu</a>&gt;</dt>
+    <dd><p>一个表示异步修改操作的任务。任务的结果包含修改后的全局自定义菜单。</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="QQBot_Rest_BaseQQBotClient_ModifyMenuAsync_System_Collections_Generic_IEnumerable_QQBot_MenuItem__QQBot_RequestOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>传入的菜单项将覆盖原有的完整菜单配置。全局自定义菜单仅在 QQ 单聊（C2C）场景生效。</p>
+</div>
+
+
+
+
   <h2 class="section" id="events">Events
 </h2>
 
@@ -499,7 +911,7 @@ Class BaseQQBotClient  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_Rest_BaseQQBotClient_Log" data-uid="QQBot.Rest.BaseQQBotClient.Log">
   Log
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>当生成一条日志消息时引发。</p>
@@ -534,7 +946,7 @@ Class BaseQQBotClient  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_Rest_BaseQQBotClient_LoggedIn" data-uid="QQBot.Rest.BaseQQBotClient.LoggedIn">
   LoggedIn
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>当客户端登录成功时引发。</p>
@@ -565,7 +977,7 @@ Class BaseQQBotClient  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_Rest_BaseQQBotClient_LoggedOut" data-uid="QQBot.Rest.BaseQQBotClient.LoggedOut">
   LoggedOut
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>当客户端退出登录时引发。</p>
@@ -596,7 +1008,7 @@ Class BaseQQBotClient  <a class="header-action link-secondary" title="View sourc
 
   <h3 id="QQBot_Rest_BaseQQBotClient_SentRequest" data-uid="QQBot.Rest.BaseQQBotClient.SentRequest">
   SentRequest
-  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>当向 API 发送 REST 请求时引发。</p>
@@ -632,7 +1044,7 @@ Class BaseQQBotClient  <a class="header-action link-secondary" title="View sourc
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/gehongyan/QQBot.Net/blob/v0.1.5/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L8" class="edit-link">Edit this page</a>
+          <a href="https://github.com/gehongyan/QQBot.Net/blob/v0.2.0/src/QQBot.Net.Rest/BaseQQBotClient.cs/#L8" class="edit-link">Edit this page</a>
         </div>
 
 
@@ -648,7 +1060,7 @@ Class BaseQQBotClient  <a class="header-action link-secondary" title="View sourc
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          QQBot.Net (c) 2024
+          QQBot.Net (c) 2024-2026
         </div>
       </div>
     </footer>

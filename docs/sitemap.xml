@@ -1,1940 +1,3134 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.AccessEnvironment.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.AccessEnvironment.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.AlphaColor.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.AlphaColor.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.AnnouncementType.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.AnnouncementType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ApplicationPermission.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ApplicationPermission.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Ark.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Ark.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ArkBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ArkBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ArkMultiDictionaryParameter.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ArkMultiDictionaryParameter.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ArkMultiDictionaryParameterBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ArkMultiDictionaryParameterBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ArkSingleParameter.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ArkSingleParameter.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ArkSingleParameterBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ArkSingleParameterBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.AsyncEnumerableExtensions.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.AsyncEnumerableExtensions.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.AttachmentType.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.AttachmentType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.BotGateway.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.BotGateway.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.BotShardedGateway.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.BotMenu.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ButtonAction.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.BotShardedGateway.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ButtonActionAnchor.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ButtonAction.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ButtonPermission.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ButtonActionAnchor.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ButtonStyle.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ButtonPermission.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.CacheMode.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ButtonStyle.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Cacheable-2.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.CacheMode.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Cacheable-4.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Cacheable-2.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ChannelApplication.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Cacheable-4.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ChannelExtensions.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ChannelApplication.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ChannelPermission.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ChannelExtensions.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ChannelPermissions.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ChannelPermission.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ChannelRecommendation.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ChannelPermissions.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ChannelSubType.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ChannelRecommendation.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ChannelType.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ChannelSubType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Color.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ChannelType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.AliasAttribute.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Color.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.Builders.CommandBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.CommandPanelItem.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.Builders.ModuleBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.CommandPanelItemType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.Builders.ParameterBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.CommandPanelProperties.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.Builders.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.CommandPanelScope.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.CommandAttribute.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.CommandPanelTargetType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.CommandContext.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.AliasAttribute.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.CommandError.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.Builders.CommandBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.CommandException.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.Builders.ModuleBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.CommandInfo.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.Builders.ParameterBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.CommandMatch.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.Builders.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.CommandService.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.CommandAttribute.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.CommandServiceConfig.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.CommandContext.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.CommandServiceExtensions.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.CommandError.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.ContextType.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.CommandException.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.DontAutoLoadAttribute.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.CommandInfo.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.DontInjectAttribute.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.CommandMatch.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.ExecuteResult.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.CommandService.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.GroupAttribute.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.CommandServiceConfig.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.ICommandContext.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.CommandServiceExtensions.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.IEnumerableExtensions.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.ContextType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.IModuleBase.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.DontAutoLoadAttribute.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.IResult.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.DontInjectAttribute.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.MatchResult.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.ExecuteResult.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.MessageExtensions.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.GroupAttribute.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.MessageTypeReader-1.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.ICommandContext.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.ModuleBase-1.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.IEnumerableExtensions.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.ModuleBase.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.IModuleBase.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.ModuleInfo.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.IResult.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.MultiMatchHandling.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.MatchResult.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.NameAttribute.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.MessageExtensions.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.NamedArgumentTypeAttribute.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.MessageTypeReader-1.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.OverrideTypeReaderAttribute.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.ModuleBase-1.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.ParameterInfo.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.ModuleBase.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.ParameterPreconditionAttribute.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.ModuleInfo.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.ParseResult.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.MultiMatchHandling.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.PreconditionAttribute.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.NameAttribute.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.PreconditionGroupResult.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.NamedArgumentTypeAttribute.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.PreconditionResult.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.OverrideTypeReaderAttribute.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.PriorityAttribute.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.ParameterInfo.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.RemainderAttribute.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.ParameterPreconditionAttribute.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.RemarksAttribute.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.ParseResult.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.RequireContextAttribute.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.PreconditionAttribute.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.RunMode.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.PreconditionGroupResult.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.RuntimeResult.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.PreconditionResult.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.SearchResult.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.PriorityAttribute.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.SocketCommandContext.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.RemainderAttribute.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.SummaryAttribute.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.RemarksAttribute.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.TypeReader.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.RequireContextAttribute.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.TypeReaderResult.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.RunMode.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.TypeReaderValue.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.RuntimeResult.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Commands.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.SearchResult.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ConnectionState.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.SocketCommandContext.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.CreateApplicationChannelProperties.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.SummaryAttribute.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.CreateAttachmentMode.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.TypeReader.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.CreateCategoryChannelProperties.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.TypeReaderResult.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.CreateForumChannelProperties.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.TypeReaderValue.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.CreateGuildChannelProperties.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Commands.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.CreateLiveStreamChannelProperties.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ConnectionState.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.CreateScheduleChannelProperties.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.CreateApplicationChannelProperties.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.CreateTextChannelProperties.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.CreateAttachmentMode.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.CreateVoiceChannelProperties.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.CreateCategoryChannelProperties.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Direction.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.CreateForumChannelProperties.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ElementType.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.CreateGuildChannelProperties.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Embed.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.CreateLiveStreamChannelProperties.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.EmbedBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.CreateScheduleChannelProperties.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.EmbedField.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.CreateTextChannelProperties.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.EmbedFieldBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.CreateVoiceChannelProperties.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.EmbedThumbnail.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Direction.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.EmojiType.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ElementType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Emote.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Embed.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Emotes.Emoji.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.EmbedBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Emotes.System.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.EmbedField.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Emotes.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.EmbedFieldBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.EmptyElement.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.EmbedThumbnail.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.EmptyElementBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.EmojiType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.FileAttachment.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Emote.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Format.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Emotes.Emoji.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.GatewayIntents.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Emotes.System.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IApplicationChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Emotes.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IArk.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.EmptyElement.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IArkParameter.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.EmptyElementBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IArkParameterBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.FileAttachment.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IAttachment.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Format.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ICategoryChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ForumAuditResult.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ForumAuditType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IDMChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.GatewayIntents.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IDeletable.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.GroupBlacklistUser.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IElement.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.GroupBotState.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IElementBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.GroupGlobalMuteMode.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IEmbed.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.GroupGlobalMuteRule.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IEmote.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.GroupInfo.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IEntity-1.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.GroupJoinApprovalStrategyGroupAction.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IForumChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.GroupJoinApprovalStrategyProperties.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IGroupChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.GroupJoinRequest.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IGuild.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.GroupJoinReviewQuestion.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IGuildChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.GroupJoinSource.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IGuildMember.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.GroupJoinVerifyInfo.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IGuildSchedule.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.GroupJoinVerifyMethod.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IGuildUser.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.GroupMemberMuteState.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IKeyboard.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.GroupMemberRole.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IKeyboardBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.GroupMessageReceiveSetting.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ILiveStreamChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.GroupMuteRecurringRule.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IMarkdown.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.GroupMuteScheduleRule.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IMarkdownBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.GroupMuteSetting.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IMentionable.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.GroupRemoveMembersResult.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IMessage.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IApplicationChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IMessageChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IArk.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.INestedChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IArkParameter.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IPost.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IArkParameterBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IPrivateChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IAttachment.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IQQBotClient.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ICategoryChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IRateLimitInfo.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IReply.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ICommandPanel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IRole.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IDMChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IScheduleChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IDeletable.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ISelfUser.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IElement.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ITag.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IElementBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ITextChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IEmbed.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IThread.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IEmote.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IUpdateable.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IEntity-1.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IUser.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IForumChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IUserChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IGroupChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IUserMessage.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IGroupJoinApprovalStrategy.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.IVoiceChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IGroupMember.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ImageElement.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IGuild.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ImageElementBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IGuildChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.InteractionResponseCode.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IGuildMember.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.KeyboardButton.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IGuildSchedule.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.KeyboardButtonBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IGuildUser.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.KeyboardButtonRow.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IKeyboard.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.KeyboardButtonRowBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IKeyboardBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.KeyboardContent.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ILiveStreamChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.KeyboardContentBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IMarkdown.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.KeyboardTemplate.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IMarkdownBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.KeyboardTemplateBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IMediaUploadChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.LogMessage.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IMentionable.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.LogSeverity.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IMessage.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.LoginState.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IMessageChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.MarkdownTemplate.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.INestedChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.MarkdownTemplateBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IPost.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.MarkdownText.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IPrivateChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.MarkdownTextBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IQQBotClient.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.MediaFileInfo.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IRateLimitInfo.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.MentionUtils.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IReply.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.MessageExtensions.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IRole.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.MessageReference.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IScheduleChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.MessageSequenceGenerationParameters.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ISelfUser.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.MessageSetting.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ITag.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.MessageSource.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ITextChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.MessageType.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IThread.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ModifyApplicationChannelProperties.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IUpdateable.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ModifyCategoryChannelProperties.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IUser.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ModifyForumChannelProperties.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IUserChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ModifyGuildChannelProperties.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IUserMessage.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ModifyGuildScheduleProperties.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IUserMessageStream.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ModifyLiveStreamChannelProperties.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.IVoiceChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ModifyScheduleChannelProperties.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ImageElement.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ModifyTextChannelProperties.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ImageElementBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ModifyVoiceChannelProperties.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.InteractionResponseCode.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.BucketId.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.KeyboardButton.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.HttpException.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.KeyboardButtonBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.IRequest.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.KeyboardButtonRow.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.Queue.BaseMessageQueue.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.KeyboardButtonRowBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.Queue.IMessageQueue.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.KeyboardContent.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.Queue.MessageQueueProvider.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.KeyboardContentBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.Queue.SynchronousImmediate.SynchronousImmediateMessageQueue.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.KeyboardModal.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.Queue.SynchronousImmediate.SynchronousImmediateMessageQueueProvider.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.KeyboardModalBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.Queue.SynchronousImmediate.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.KeyboardTemplate.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.Queue.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.KeyboardTemplateBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.RateLimitInfo.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.LogMessage.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.RateLimitedException.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.LogSeverity.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.Rest.DefaultRestClientProvider.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.LoginState.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.Rest.IRestClient.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.MarkdownTemplate.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.Rest.RestClientProvider.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.MarkdownTemplateBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.Rest.RestResponse.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.MarkdownText.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.Rest.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.MarkdownTextBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.WebSocketClosedException.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.MediaFileInfo.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.WebSockets.DefaultWebSocketProvider.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.MediaUploadOptions.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.WebSockets.IWebSocketClient.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.MediaUploadProgress.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.WebSockets.WebSocketProvider.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.MediaUploadResult.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.WebSockets.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.MediaUploadSource.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Net.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.MentionUtils.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.OverwritePermissions.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.MenuItem.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Paragraph.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.MenuItemType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ParagraphBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.MenuSwitch.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.PermValue.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.MessageAuditResult.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.PrivateType.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.MessageExtensions.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.QQBotConfig.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.MessageReference.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.QQBotDebugger.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.MessageSequenceGenerationParameters.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.QQBotDebuggerMessageSource.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.MessageSetting.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.QQBotError.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.MessageSource.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.QQBotErrorCode.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.MessageType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.QQBotJsonError.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ModifyApplicationChannelProperties.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.RemindType.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ModifyCategoryChannelProperties.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.RequestOptions.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ModifyForumChannelProperties.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.Attachment.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ModifyGroupJoinApprovalStrategyProperties.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.BaseQQBotClient.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ModifyGuildChannelProperties.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.QQBotRestClient.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ModifyGuildScheduleProperties.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.QQBotRestConfig.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ModifyLiveStreamChannelProperties.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.RestApplicationChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ModifyScheduleChannelProperties.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.RestCategoryChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ModifyTextChannelProperties.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.RestChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ModifyVoiceChannelProperties.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.RestEntity-1.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.BucketId.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.RestForumChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.HttpException.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.RestGuild.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.IRequest.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.RestGuildChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.Queue.BaseMessageQueue.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.RestGuildMember.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.Queue.IMessageQueue.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.RestGuildSchedule.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.Queue.MessageQueueProvider.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.RestGuildUser.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.Queue.SynchronousImmediate.SynchronousImmediateMessageQueue.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.RestLiveStreamChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.Queue.SynchronousImmediate.SynchronousImmediateMessageQueueProvider.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.RestMessage.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.Queue.SynchronousImmediate.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.RestRole.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.Queue.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.RestScheduleChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.RateLimitInfo.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.RestSelfUser.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.RateLimitedException.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.RestTextChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.Rest.DefaultRestClientProvider.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.RestThread.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.Rest.IRestClient.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.RestUser.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.Rest.RestClientProvider.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.RestUserMessage.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.Rest.RestResponse.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.RestVoiceChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.Rest.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Rest.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.WebSocketClosedException.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.RetryMode.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.WebSockets.DefaultWebSocketProvider.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.RichText.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.WebSockets.IWebSocketClient.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.RichTextBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.WebSockets.WebSocketProvider.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.RichTextExtensions.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.WebSockets.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.RoleProperties.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.Webhooks.AspNet.DefaultAspNetWebhookProvider.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.RoleType.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.Webhooks.AspNet.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.SessionStartLimit.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.Webhooks.HttpListener.DefaultHttpListenerWebhookProvider.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.SpeakPermission.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.Webhooks.HttpListener.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.Tag-2.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.Webhooks.IWebhookClient.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.TagHandling.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.Webhooks.WebhookProvider.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.TagType.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.Webhooks.WebhookRequest.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.TextAlignment.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.Webhooks.WebhookResponse.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.TextElement.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.Webhooks.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.TextElementBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Net.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.TextStyle.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.OverwritePermissions.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.ThreadTextType.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Paragraph.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.TokenType.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ParagraphBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.TokenUtils.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.PermValue.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.UrlElement.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.PrivateType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.UrlElementBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.QQBotConfig.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.UrlUtils.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.QQBotDebugger.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.UserChannelSource.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.QQBotDebuggerMessageSource.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.VideoElement.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.QQBotError.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.VideoElementBuilder.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.QQBotErrorCode.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.BaseSocketClient.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.QQBotJsonError.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.GatewayReconnectException.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.ReactionTargetType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.ISocketMessageChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.RemindType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.ISocketPrivateChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.RequestOptions.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.InteractionChatType.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.Attachment.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.InteractionScene.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.BaseQQBotClient.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.InteractionService.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.QQBotRestClient.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.InteractionType.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.QQBotRestConfig.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.QQBotShardedClient.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestApplicationChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.QQBotSocketClient.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestCategoryChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.QQBotSocketConfig.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.QQBotSocketRestClient.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestCommandPanel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketApplicationChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestDMChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketCategoryChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestEntity-1.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestForumChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketDMChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestGroupJoinApprovalStrategy.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketEntity-1.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestGroupMember.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketForumChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestGuild.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketGroupChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestGuildChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketGuild.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestGuildMember.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketGuildChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestGuildSchedule.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketGuildMember.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestGuildUser.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketGuildUser.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestLiveStreamChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketInteraction.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestMessage.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketInteractionData.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestRole.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketInteractionResolvedData.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestScheduleChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketLiveStreamChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestSelfUser.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketMessage.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestTextChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketPost.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestThread.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketReply.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestUser.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketRole.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestUserMessage.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketScheduleChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.RestVoiceChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketSelfUser.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.Rest.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketTextChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.RetryMode.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketThread.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.RichText.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketUser.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.RichTextBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketUserChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.RichTextExtensions.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketUserMessage.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.RoleProperties.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.SocketVoiceChannel.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.RoleType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.StartupCacheFetchData.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.SessionStartLimit.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.StartupCacheFetchMode.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.SpeakPermission.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.WebSocket.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.StreamMessageChunk.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/QQBot.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.StreamMessageChunkResult.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/api/index.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.StreamMessageContentType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/changelog/changelog.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.StreamMessageInputMode.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/demos/demos-community.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.StreamMessageInputState.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/demos/demos.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.SubMenuItem.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/guides/introduction/intro.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.SubMenuItemType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.qqbotnet.dev/index.html</loc>
-    <lastmod>2026-07-16T11:38:22+00:00</lastmod>
+    <loc>https://qqbotnet.dev/api/QQBot.SubscribeMessageAuthorization.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.SubscribeMessageTemplateResult.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.Tag-2.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.TagHandling.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.TagType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.TextAlignment.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.TextElement.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.TextElementBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.TextStyle.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.ThreadTextType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.TokenType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.TokenUtils.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.UrlElement.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.UrlElementBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.UrlUtils.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.UserChannelSource.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.VideoElement.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.VideoElementBuilder.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.BaseSocketClient.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.GatewayReconnectException.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.ISocketMessageChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.ISocketPrivateChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.InteractionChatType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.InteractionScene.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.InteractionService.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.InteractionType.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.QQBotShardedClient.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.QQBotSocketClient.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.QQBotSocketConfig.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.QQBotSocketRestClient.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketApplicationChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketAudioAction.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketCategoryChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketDMChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketEntity-1.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketForumAuditResult.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketForumChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketGroupChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketGuild.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketGuildChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketGuildMember.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketGuildUser.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketInteraction.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketInteractionData.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketInteractionResolvedData.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketLiveStreamChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketMessage.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketMessageAudit.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketOpenForumEvent.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketPost.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketReaction.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketReply.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketRole.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketScheduleChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketSelfUser.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketTextChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketThread.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketUser.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketUserChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketUserMessage.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.SocketVoiceChannel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.StartupCacheFetchData.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.StartupCacheFetchMode.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.WebSocket.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.Webhook.AspNet.QQBotAspNetWebhookClient.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.Webhook.AspNet.QQBotAspNetWebhookConfig.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.Webhook.AspNet.QQBotWebhookClientExtensions.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.Webhook.AspNet.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.Webhook.HttpListener.QQBotHttpListenerWebhookClient.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.Webhook.HttpListener.QQBotHttpListenerWebhookConfig.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.Webhook.HttpListener.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.Webhook.QQBotWebhookClient.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.Webhook.QQBotWebhookConfig.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.Webhook.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/QQBot.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/api/index.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/changelog/changelog.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/demos/demos-community.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/demos/demos.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/guides/introduction/intro.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/index.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/bot/event/c2c-msg-receive.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/bot/event/c2c-msg-reject.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/bot/event/friend-add.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/bot/event/friend-delete.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/bot/generate-share-link.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/bot/get-bot.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/bot/get-guilds.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/bot/menu-panel/create-panel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/bot/menu-panel/delete-panel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/bot/menu-panel/get-menu.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/bot/menu-panel/get-panel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/bot/menu-panel/get-panels.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/bot/menu-panel/update-menu.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/bot/menu-panel/update-panel-target.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/bot/menu-panel/update-panel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/approve-join-request.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/event/add-robot.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/event/del-robot.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/event/join-request.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/event/member-add.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/event/member-remove.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/event/msg-receive.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/event/msg-reject.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/get-bot-state.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/get-info.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/get-join-requests.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/get-restrict-chat.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/join-approval/create-strategy.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/join-approval/delete-strategy.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/join-approval/execute-strategy.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/join-approval/get-strategies.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/join-approval/update-strategy.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/join-approval/update-whitelist.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/member/batch-remove.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/member/get-blacklist.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/member/get-member.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/member/get-members.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/member/set-blacklist.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/group/set-restrict-chat.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/api-permission/demand-permission.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/api-permission/get-permissions.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/content/add-pin.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/content/audio-control.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/content/bot-off-mic.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/content/bot-on-mic.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/content/create-announcement.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/content/create-schedule.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/content/create-thread.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/content/delete-announcement.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/content/delete-pin.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/content/delete-schedule.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/content/delete-thread.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/content/get-pin.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/content/get-schedule.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/content/get-schedules.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/content/get-thread.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/content/get-threads.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/content/modify-schedule.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/create-channel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/delete-channel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/event/channel-create.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/event/channel-delete.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/event/channel-update.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/event/guild-create.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/event/guild-delete.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/event/guild-update.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/get-channel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/get-channels.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/get-guild.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/member/delete-member.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/member/event-audio-live-member.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/member/event-guild-member.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/member/get-member.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/member/get-members.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/member/get-online-nums.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/member/get-role-members.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/miniapp/get-info.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/miniapp/open-data.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/modify-channel.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/role/add-role-member.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/role/create-role.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/role/delete-role.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/role/get-channel-role-permissions.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/role/get-channel-user-permissions.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/role/get-roles.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/role/modify-channel-role-permissions.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/role/modify-channel-user-permissions.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/role/modify-role.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/role/remove-role-member.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/speak/get-message-setting.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/speak/mute-all.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/speak/mute-member.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/guild/speak/mute-members.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/index.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/message/c2c/event-message-create.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/message/c2c/recall-message.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/message/c2c/send-message.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/message/c2c/send-stream-message.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/message/channel/direct-message.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/message/channel/event.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/message/channel/format.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/message/channel/reaction.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/message/channel/recall-message.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/message/channel/send-message.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/message/group/event-at-message-create.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/message/group/event-message-create.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/message/group/recall-message.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/message/group/send-message.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/message/interaction/button-event.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/message/interaction/button-response.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/message/interaction/text.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/message/type/ark.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/message/type/embed.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/message/type/markdown.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/message/type/rich-media.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/startup/rest.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/startup/webhook.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://qqbotnet.dev/quick_reference/startup/websocket.html</loc>
+    <lastmod>2026-09-18T12:44:39+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
